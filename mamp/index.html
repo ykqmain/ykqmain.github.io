@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+
+  <html class="dark page-post">
+
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>Mac的Apache+MySQL+PHP配置 | iAnna</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="Mac,Apache,服务器,MySQL,数据库,PHP,Web," />
+  
+
+  <meta name="description" content="Apache配置 macOS Sierra 10.12   Server version: Apache/2.4.23 (Unix)  Mac自带Apache，可通过httpd -v查看版本号。 配置文件：/private/etc/apache2/httpd.conf 默认部署包: /Library/WebServer/Documents  修改默认部署路径为了方便操作，需要指向特定的文件夹，通过">
+<meta name="keywords" content="Mac,Apache,服务器,MySQL,数据库,PHP,Web">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mac的Apache+MySQL+PHP配置">
+<meta property="og:url" content="http://blog.ykqmain.com/mamp/index.html">
+<meta property="og:site_name" content="iAnna">
+<meta property="og:description" content="Apache配置 macOS Sierra 10.12   Server version: Apache/2.4.23 (Unix)  Mac自带Apache，可通过httpd -v查看版本号。 配置文件：/private/etc/apache2/httpd.conf 默认部署包: /Library/WebServer/Documents  修改默认部署路径为了方便操作，需要指向特定的文件夹，通过">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-11-07T11:51:41.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mac的Apache+MySQL+PHP配置">
+<meta name="twitter:description" content="Apache配置 macOS Sierra 10.12   Server version: Apache/2.4.23 (Unix)  Mac自带Apache，可通过httpd -v查看版本号。 配置文件：/private/etc/apache2/httpd.conf 默认部署包: /Library/WebServer/Documents  修改默认部署路径为了方便操作，需要指向特定的文件夹，通过">
+
+  
+
+  
+    <link rel="icon" href="/favicon.ico">
+  
+
+  <link href="/css/styles.css?v=c114cbe6" rel="stylesheet">
+
+
+  
+    <link rel="stylesheet" href="/css/personal-style.css">
+  
+
+  
+
+  
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?e099b1fb950aeffc10d29d55d4f65d59";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+	(function(){
+	    var bp = document.createElement('script');
+	    var curProtocol = window.location.protocol.split(':')[0];
+	    if (curProtocol === 'https') {
+	        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+	    }
+	    else {
+	        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	    }
+	    var s = document.getElementsByTagName("script")[0];
+	    s.parentNode.insertBefore(bp, s);
+	})();
+  </script>
+
+
+
+  
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">更多</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">更多</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/archives/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/category/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            分类
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/tag/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            标签
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/link/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            友链
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/about/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            关于
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/search/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            搜索
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/atom.xml"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            RSS
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-Mac的Apache+MySQL+PHP配置" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">Mac的Apache+MySQL+PHP配置</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2016.10.10</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>Yang</span>
+        </span>
+      
+
+      
+  <span class="article-category">
+    <i class="icon-list"></i>
+    <a class="article-category-link" href="/categories/网络/">网络</a>
+  </span>
+
+
+
+      
+        <span>
+          <i class="icon-comment"></i>
+          <a href="http://blog.ykqmain.com/mamp/#disqus_thread"></a>
+        </span>
+      
+
+      
+      <i class="fa fa-eye"></i> 
+        <span id="busuanzi_container_page_pv">
+           &nbsp热度 <span id="busuanzi_value_page_pv">
+           <i class="fa fa-spinner fa-spin"></i></span>℃
+        </span>
+      
+
+      
+      
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <h2 id="Apache配置"><a href="#Apache配置" class="headerlink" title="Apache配置"></a>Apache配置</h2><blockquote>
+<p>macOS Sierra 10.12</p>
+</blockquote>
+<blockquote>
+<p>Server version: Apache/2.4.23 (Unix)</p>
+</blockquote>
+<p>Mac自带Apache，可通过<code>httpd -v</code>查看版本号。</p>
+<p>配置文件：<code>/private/etc/apache2/httpd.conf</code></p>
+<p>默认部署包: <code>/Library/WebServer/Documents</code></p>
+<p><br></p>
+<h3 id="修改默认部署路径"><a href="#修改默认部署路径" class="headerlink" title="修改默认部署路径"></a>修改默认部署路径</h3><p>为了方便操作，需要指向特定的文件夹，通过修改<code>httpd.conf</code>来实现。</p>
+<p>用编辑器打开<code>httpd.conf</code>，查找(cmd+F) <code>DocumentRoot</code>,将</p>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute"><span class="nomarkup">DocumentRoot</span></span> <span class="string">"/Library/WebServer/Documents"</span></span><br><span class="line"><span class="section">&lt;Directory "/Library/WebServer/Documents"&gt;</span></span><br></pre></td></tr></table></figure>
+<p>里面的<strong>路径</strong>修改为想要设置的路径。</p>
+<p><br></p>
+<h3 id="修改默认端口"><a href="#修改默认端口" class="headerlink" title="修改默认端口"></a>修改默认端口</h3><p>有时候80端口被占用了，就需要换个端口。</p>
+<p>用编辑器打开<code>httpd.conf</code>，查找(cmd+F) <code>80</code>，将其改为想要设置的端口，比如 81</p>
+<p><br></p>
+<h3 id="设置虚拟主机"><a href="#设置虚拟主机" class="headerlink" title="设置虚拟主机"></a>设置虚拟主机</h3><p>用编辑器打开<code>httpd.conf</code>，查找<code>#Include /private/etc/apache2/extra/httpd-vhosts.conf</code>，删掉 <code>#</code></p>
+<p>虚拟机配置路径：<code>/private/etc/apache2/extra/httpd-vhosts.conf</code></p>
+<p>修改<code>httpd-vhost.conf</code>文件，该文件默认开启了两个作为例子的虚拟主机：</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&lt;VirtualHost *:<span class="number">80</span>&gt;</span><br><span class="line">    ServerAdmin webmaster@dummy-host<span class="selector-class">.example</span><span class="selector-class">.com</span></span><br><span class="line">    DocumentRoot <span class="string">"/usr/docs/dummy-host.example.com"</span></span><br><span class="line">    ServerName dummy-host<span class="selector-class">.example</span><span class="selector-class">.com</span></span><br><span class="line">    ServerAlias www<span class="selector-class">.dummy-host</span><span class="selector-class">.example</span><span class="selector-class">.com</span></span><br><span class="line">    ErrorLog <span class="string">"/private/var/log/apache2/dummy-host.example.com-error_log"</span></span><br><span class="line">    CustomLog <span class="string">"/private/var/log/apache2/dummy-host.example.com-access_log"</span> common</span><br><span class="line">&lt;/VirtualHost&gt;</span><br><span class="line"></span><br><span class="line">&lt;VirtualHost *:<span class="number">80</span>&gt;</span><br><span class="line">    ServerAdmin webmaster@dummy-host2<span class="selector-class">.example</span><span class="selector-class">.com</span></span><br><span class="line">    DocumentRoot <span class="string">"/usr/docs/dummy-host2.example.com"</span></span><br><span class="line">    ServerName dummy-host2<span class="selector-class">.example</span><span class="selector-class">.com</span></span><br><span class="line">    ErrorLog <span class="string">"/private/var/log/apache2/dummy-host2.example.com-error_log"</span></span><br><span class="line">    CustomLog <span class="string">"/private/var/log/apache2/dummy-host2.example.com-access_log"</span> common</span><br><span class="line">&lt;/VirtualHost&gt;</span><br></pre></td></tr></table></figure>
+<p>便于以后参考，用<code>#</code>注释它们</p>
+<p>如果不注释或删除它们，可能会出现：</p>
+<figure class="highlight vhdl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Forbidden</span><br><span class="line">You don<span class="symbol">'t</span> have permission <span class="keyword">to</span> <span class="keyword">access</span> /index.php <span class="keyword">on</span> this server</span><br></pre></td></tr></table></figure>
+<p><br></p>
+<p><strong>在<code>httpd-vhost.conf</code>文件末尾增加如下配置：</strong></p>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">&lt;VirtualHost *:81&gt;</span></span><br><span class="line">    <span class="attribute"><span class="nomarkup">DocumentRoot</span></span> <span class="string">"/Users/yang/Developer/Code/Web/apacheDocuments"</span></span><br><span class="line">    <span class="attribute"><span class="nomarkup">ServerName</span></span> localhost</span><br><span class="line">    <span class="attribute">ErrorLog</span> <span class="string">"/private/var/log/apache2/sites-error_log"</span></span><br><span class="line">    <span class="attribute">CustomLog</span> <span class="string">"/private/var/log/apache2/sites-access_log"</span> common</span><br><span class="line">    <span class="section">&lt;Directory /&gt;</span></span><br><span class="line">                <span class="attribute"><span class="nomarkup">Options</span></span> Indexes FollowSymLinks MultiViews</span><br><span class="line">                <span class="attribute">AllowOverride</span> None</span><br><span class="line">                <span class="attribute"><span class="nomarkup">Order</span></span> deny,allow</span><br><span class="line">                <span class="attribute"><span class="nomarkup">Allow</span></span> from <span class="literal">all</span></span><br><span class="line">      <span class="section">&lt;/Directory&gt;</span></span><br><span class="line"><span class="section">&lt;/VirtualHost&gt;</span></span><br></pre></td></tr></table></figure>
+<p>注意：</p>
+<ul>
+<li><strong>端口号</strong>、<strong>DocumentRoot路径</strong> 必须与 <code>httpd.conf</code> 一致</li>
+<li>日志可选</li>
+</ul>
+<p><br></p>
+<h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><p>在自定义的<code>DocumentRoot路径</code>下新建一个<code>index.html</code>文件，</p>
+<p>打开终端，输入<code>sudo apachectl start</code> 启动Apache.</p>
+<ul>
+<li><code>sudo apachectl restart</code> 重启</li>
+<li><code>sudo apachectl stop</code> 停止</li>
+</ul>
+<p>打开浏览器，输入<code>http://127.0.0.1:81</code> 或者 <code>http://localhost:81</code>访问相关内容。</p>
+<p><br></p>
+<h2 id="开启PHP"><a href="#开启PHP" class="headerlink" title="开启PHP"></a>开启PHP</h2><blockquote>
+<p>PHP 5.6.27 (cli)</p>
+</blockquote>
+<p>Mac自带PHP，通过 <code>php -version</code> 查看版本</p>
+<p>取消<code>httpd.conf</code>中注释 <code>LoadModule php5_module libexec/apache2/libphp5.so</code></p>
+<p>在index.php中写入 <code>&lt;?php phpinfo(); ?&gt;</code> 测试。</p>
+<h3 id="phpMyAdmin配置"><a href="#phpMyAdmin配置" class="headerlink" title="phpMyAdmin配置"></a>phpMyAdmin配置</h3><ol>
+<li><p>下载<a href="https://www.phpmyadmin.net" target="_blank" rel="noopener">phpMyAdmin</a>，解压到<code>Documents</code>目录下。</p>
+</li>
+<li><p>文件夹名改名为<code>phpadmin</code>，将<code>phpadmin</code>下的<code>config.sample.inc.php</code>文件名改为<code>config.inc.php</code>。</p>
+</li>
+<li><p>配置config文件。</p>
+</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">$cfg['blowfish_secret'] = ''; /<span class="bullet">* YOU MUST FILL IN THIS FOR COOKIE AUTH! *</span>/</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * Servers configuration</span><br><span class="line"> */</span><br><span class="line">$i = 0;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * First server</span><br><span class="line"> */</span><br><span class="line">$i++;</span><br><span class="line">/<span class="bullet">* Authentication type *</span>/</span><br><span class="line"><span class="section"># $cfg['Servers'][$i]['auth_type'] = 'cookie';</span></span><br><span class="line">/<span class="bullet">* Server parameters *</span>/</span><br><span class="line">$cfg[<span class="string">'Servers'</span>][<span class="symbol">$i</span>][<span class="string">'host'</span>] = '127.0.0.1';</span><br><span class="line">$cfg[<span class="string">'Servers'</span>][<span class="symbol">$i</span>][<span class="string">'connect_type'</span>] = 'tcp';</span><br><span class="line">$cfg[<span class="string">'Servers'</span>][<span class="symbol">$i</span>][<span class="string">'compress'</span>] = false;</span><br><span class="line">$cfg[<span class="string">'Servers'</span>][<span class="symbol">$i</span>][<span class="string">'AllowNoPassword'</span>] = true;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * phpMyAdmin configuration storage settings.</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line">/<span class="bullet">* User used to manipulate with storage *</span>/</span><br><span class="line">$cfg[<span class="string">'Servers'</span>][<span class="symbol">$i</span>][<span class="string">'controlhost'</span>] = '127.0.0.1';</span><br><span class="line">$cfg[<span class="string">'Servers'</span>][<span class="symbol">$i</span>][<span class="string">'controlport'</span>] = '3306';</span><br><span class="line">$cfg[<span class="string">'Servers'</span>][<span class="symbol">$i</span>][<span class="string">'controluser'</span>] = '';  #数据库用户名</span><br><span class="line">$cfg[<span class="string">'Servers'</span>][<span class="symbol">$i</span>][<span class="string">'controlpass'</span>] = '';  #数据库密码</span><br></pre></td></tr></table></figure>
+<p><br><br></p>
+<h3 id="mac自带php配置"><a href="#mac自带php配置" class="headerlink" title="mac自带php配置"></a>mac自带php配置</h3><p><code>sudo cp /private/etc/php.ini.default /private/etc/php.ini</code></p>
+<ul>
+<li>启用图像扩展函数库 在<code>php.ini</code>文件中找到<code>;extension=php_gd2.dll</code>,去掉分号 <code>;</code>，然后重启 apache</li>
+</ul>
+<p><br><br></p>
+<h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><h3 id="连接mysql"><a href="#连接mysql" class="headerlink" title="连接mysql"></a>连接mysql</h3><p>在<code>php.ini</code>文件中找到<code>;extension=php_mysql.dll</code>,去掉分号 <code>;</code>，然后重启 apache</p>
+<p>在PHP中，mysql_connect()函数用来建立和mysql的连接，格式为：</p>
+<p><code>resource mysql_connect([string server [,string username [, string password [, bool new_link [, int client_flags]]]]])</code></p>
+<p>如果成功则返回一个mysql连接标识，失败则返回FALSE。</p>
+<ul>
+<li>server 用于指定要连接的mysql服务器，可以包括端口，如 ‘127.0.0.1’ (建议用127而不是localhost)</li>
+<li>username 用户名</li>
+<li>password 密码</li>
+<li>new_link 是否要建立新的连接</li>
+</ul>
+<p><code>mysql_connect()</code> 通常只需要前三个参数即可，</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$link = mysql_connect(<span class="string">"127.0.0.1:3306"</span>,<span class="string">"root"</span>,<span class="string">"密码"</span>)</span></span><br><span class="line"><span class="php">    <span class="keyword">or</span> <span class="keyword">die</span>(<span class="string">"连接数据库失败"</span>.mysql_error());</span></span><br><span class="line"><span class="php"><span class="keyword">echo</span> <span class="string">"&lt;p&gt;数据库连接成功！&lt;/p&gt;\n"</span>;</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p><br><br></p>
+<h3 id="选择数据库"><a href="#选择数据库" class="headerlink" title="选择数据库"></a>选择数据库</h3><p><code>bool mysql_select_db(string database_name, int [link_identifier]);</code></p>
+<ul>
+<li>database_name 数据库名称</li>
+<li>link_identifier 指定由mysql_connect()函数返回的连接标识</li>
+</ul>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$id = mysql_connect(<span class="string">"127.0.0.1:3306"</span>,<span class="string">"root"</span>,<span class="string">"密码"</span>);</span></span><br><span class="line"><span class="php">$ok = mysql_select_db(<span class="string">"database_name"</span>,$id);</span></span><br><span class="line"><span class="php"><span class="keyword">if</span>($ok) &#123;</span></span><br><span class="line"><span class="php">    <span class="keyword">echo</span> <span class="string">"&lt;p&gt;数据库选择成功！&lt;/p&gt;\n"</span></span></span><br><span class="line"><span class="php">&#125;</span></span><br><span class="line"><span class="php">esle &#123;</span></span><br><span class="line"><span class="php">    <span class="keyword">echo</span> <span class="string">"&lt;p&gt;数据库选择失败，请确定数据库是否存在。&lt;/p&gt;\n"</span></span></span><br><span class="line"><span class="php">&#125;</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p><br><br></p>
+<h3 id="对数据库进行操作"><a href="#对数据库进行操作" class="headerlink" title="对数据库进行操作"></a>对数据库进行操作</h3><p>向服务器发送指令，使用<code>mysql_query()</code>函数，</p>
+<p><code>resource mysql_query(string $query [, resource $link_identifier])</code></p>
+<p>向指定的连接标识符link_identifier所关联的服务器中的当前活动的数据库发送一条内容为 query 的查询。</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$id = mysql_connect(<span class="string">"127.0.0.1:3306"</span>,<span class="string">"root"</span>,<span class="string">"密码"</span>);</span></span><br><span class="line"><span class="php">$ok = mysql_select_db(<span class="string">"database_name"</span>,$id);</span></span><br><span class="line"><span class="php"><span class="keyword">if</span>($ok) &#123;</span></span><br><span class="line"><span class="php">    $result = mysql_query(<span class="string">'SELECT * from student'</span>);</span></span><br><span class="line"><span class="php">    <span class="keyword">if</span>(!$result) &#123;</span></span><br><span class="line"><span class="php">        <span class="keyword">Die</span>(<span class="string">'无效查询'</span>.mysql_error());</span></span><br><span class="line"><span class="php">    &#125;</span></span><br><span class="line"><span class="php">    <span class="keyword">else</span> &#123;</span></span><br><span class="line"><span class="php">        <span class="keyword">echo</span> <span class="string">"成功执行SQL语句"</span>;</span></span><br><span class="line"><span class="php">    &#125;</span></span><br><span class="line"><span class="php">&#125;</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p><br></p>
+<p><strong>最后程序结束用mysql_close()函数来关闭数据库连接。</strong></p>
+<p><br><br></p>
+<p>开始学习PHP了…… &nbsp;&nbsp; _(:3」∠)_</p>
+<p><br><br></p>
+
+    
+  </div>
+</article>
+
+
+   
+
+   
+  <div class="box-prev-next clearfix">
+    <a class="show pull-left" href="/apple/">
+        <i class="icon icon-angle-left"></i>
+    </a>
+    <a class="show pull-right" href="/2016/">
+        <i class="icon icon-angle-right"></i>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">关闭</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/archives/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/category/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              分类
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/tag/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              标签
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/link/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              友链
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/about/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              关于
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/search/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              搜索
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/atom.xml"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              RSS
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-post">
+    
+  <section class="disqus-comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </section>
+
+  <script>
+    var disqus_shortname = 'ykqmain';
+    
+    var disqus_url = 'http://blog.ykqmain.com/mamp/';
+    
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+  <script id="dsq-count-scr" src="//ykqmain.disqus.com/count.js" async></script>
+
+
+
+    
+
+
+
+
+    
+
+    
+	
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235683', function() {
+      // load success
+    });
+  }
+</script>
+
+</body>
+</html>
