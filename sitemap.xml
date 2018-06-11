@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.ykqmain.com/link/index.html</loc>
+    
+    <lastmod>2018-06-11T13:51:17.360Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.ykqmain.com/about/index.html</loc>
+    
+    <lastmod>2018-06-11T13:51:08.310Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.ykqmain.com/liqi/</loc>
     
     <lastmod>2018-06-09T03:22:18.615Z</lastmod>
@@ -145,20 +159,6 @@
     <loc>http://blog.ykqmain.com/2016/</loc>
     
     <lastmod>2017-11-07T11:40:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.ykqmain.com/link/index.html</loc>
-    
-    <lastmod>2016-04-28T13:30:43.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.ykqmain.com/about/index.html</loc>
-    
-    <lastmod>2016-04-28T13:30:29.000Z</lastmod>
     
   </url>
   
