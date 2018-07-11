@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="用了很多博客工具，最后选择了hexo，去除多余的功能，借助Markdown写作，专注内容。  hexo环境搭建 安装Git  安装Node.Js Node.Js官网  安装Hexo">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-05-03T04:46:27.000Z">
+<meta property="og:updated_time" content="2018-07-11T06:16:26.728Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo搭建博客">
 <meta name="twitter:description" content="用了很多博客工具，最后选择了hexo，去除多余的功能，借助Markdown写作，专注内容。  hexo环境搭建 安装Git  安装Node.Js Node.Js官网  安装Hexo">
@@ -243,10 +243,10 @@
 <li><p>打开终端，输入<code>npm install hexo-cli -g</code>，静静等待安装完毕。</p>
 </li>
 <li><p>创建Hexo目录</p>
-<p>找一个方便的地方创建一个文件夹，假设命名为<code>blog</code></p>
+<p>找一个方便的地方创建一个文件夹，假设命名为<code>Blog</code></p>
 <p> (<em>注:你以后的博客操作都在这个文件夹内，尽量全英文路径，避免不必要的问题，建议你创建这个文件夹的快捷方式到桌面，方便操作</em>)</p>
 </li>
-<li><p>用<code>cd</code> 命令进入 刚刚创建的<code>blog</code> 目录，输入 <code>hexo init</code></p>
+<li><p>用<code>cd</code> 命令进入 刚刚创建的<code>Blog</code> 目录，输入 <code>hexo init</code></p>
 </li>
 <li><p>等待完成后输入 <code>npm install</code></p>
 </li>
@@ -375,8 +375,7 @@
 <li><p>仓库的<code>Branch protection for master</code>问题</p>
 </li>
 </ol>
-<p><br></p>
-<p>Hexo报错，<code>(node:2416) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.</code></p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><br></h2><p>Hexo报错，<code>(node:2416) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.</code></p>
 <p>因为node.js从8.0开始就已经弃用了前面提到的fs.SyncWriteStream方法，</p>
 <p>在Hexo博客目录下，输入：<code>npm install hexo-fs --save</code></p>
 <p><strong>【注】</strong> 如果GitHub开启了两步验证，则需要生成一个<code>personal access token</code>来代替密码，具体参考 <a href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/" target="_blank" rel="noopener">Creating a personal access token for the command line</a></p>
