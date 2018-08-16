@@ -468,15 +468,15 @@
       <category term="计算机" scheme="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
-    
-      <category term="iPhone" scheme="http://blog.ykqmain.com/tags/iPhone/"/>
-    
       <category term="Apple" scheme="http://blog.ykqmain.com/tags/Apple/"/>
+    
+      <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="macOS" scheme="http://blog.ykqmain.com/tags/macOS/"/>
     
       <category term="OS X" scheme="http://blog.ykqmain.com/tags/OS-X/"/>
+    
+      <category term="iPhone" scheme="http://blog.ykqmain.com/tags/iPhone/"/>
     
       <category term="iOS" scheme="http://blog.ykqmain.com/tags/iOS/"/>
     
@@ -693,9 +693,9 @@
       <category term="计算机" scheme="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
-    
       <category term="Apple" scheme="http://blog.ykqmain.com/tags/Apple/"/>
+    
+      <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="macOS" scheme="http://blog.ykqmain.com/tags/macOS/"/>
     
