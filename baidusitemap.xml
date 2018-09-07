@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.ykqmain.com/zhuzi/</loc>
-    <lastmod>2018-09-07T09:51:37.692Z</lastmod>
+    <lastmod>2018-09-07T09:56:34.158Z</lastmod>
     <data>
         <display>
         <title>观「诸子」有感</title>
@@ -346,9 +346,9 @@
         <title>Nginx安装</title>
         <pubTime>2016-06-07T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>服务器</tag>
+         
+        <tag>Linux</tag>
          
         <tag>Nginx</tag>
          
@@ -446,13 +446,13 @@
         <title>The First Web Page</title>
         <pubTime>2015-11-20T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>Apache</tag>
          
         <tag>服务器</tag>
          
         <tag>Web</tag>
+         
+        <tag>Linux</tag>
          
          
            
@@ -556,11 +556,11 @@
         <title>Hadoop完全分布式搭建</title>
         <pubTime>2017-06-26T16:00:00.000Z</pubTime>
         
+        <tag>Linux</tag>
+         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
-         
-        <tag>Linux</tag>
          
         <tag>CentOS</tag>
          
@@ -612,11 +612,11 @@
         <title>基于Hadoop的简单云盘</title>
         <pubTime>2017-07-01T16:00:00.000Z</pubTime>
         
+        <tag>Linux</tag>
+         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
-         
-        <tag>Linux</tag>
          
         <tag>CentOS</tag>
          
