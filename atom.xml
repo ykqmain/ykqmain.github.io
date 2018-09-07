@@ -584,9 +584,9 @@
       <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
-    
       <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="Nginx" scheme="http://blog.ykqmain.com/tags/Nginx/"/>
     
@@ -806,13 +806,13 @@
       <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
-    
       <category term="Apache" scheme="http://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="Web" scheme="http://blog.ykqmain.com/tags/Web/"/>
+    
+      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
     
   </entry>
   
