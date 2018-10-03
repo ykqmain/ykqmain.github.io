@@ -552,15 +552,15 @@
       <category term="计算机" scheme="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Apple" scheme="http://blog.ykqmain.com/tags/Apple/"/>
-    
       <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
+    
+      <category term="iPhone" scheme="http://blog.ykqmain.com/tags/iPhone/"/>
+    
+      <category term="Apple" scheme="http://blog.ykqmain.com/tags/Apple/"/>
     
       <category term="macOS" scheme="http://blog.ykqmain.com/tags/macOS/"/>
     
       <category term="OS X" scheme="http://blog.ykqmain.com/tags/OS-X/"/>
-    
-      <category term="iPhone" scheme="http://blog.ykqmain.com/tags/iPhone/"/>
     
       <category term="iOS" scheme="http://blog.ykqmain.com/tags/iOS/"/>
     
@@ -629,9 +629,9 @@
       <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
-    
       <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="Nginx" scheme="http://blog.ykqmain.com/tags/Nginx/"/>
     
@@ -717,9 +717,9 @@
     
       <category term="热血" scheme="http://blog.ykqmain.com/tags/%E7%83%AD%E8%A1%80/"/>
     
-      <category term="日本" scheme="http://blog.ykqmain.com/tags/%E6%97%A5%E6%9C%AC/"/>
-    
       <category term="童年" scheme="http://blog.ykqmain.com/tags/%E7%AB%A5%E5%B9%B4/"/>
+    
+      <category term="日本" scheme="http://blog.ykqmain.com/tags/%E6%97%A5%E6%9C%AC/"/>
     
       <category term="卡牌" scheme="http://blog.ykqmain.com/tags/%E5%8D%A1%E7%89%8C/"/>
     
@@ -777,9 +777,9 @@
       <category term="计算机" scheme="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Apple" scheme="http://blog.ykqmain.com/tags/Apple/"/>
-    
       <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
+    
+      <category term="Apple" scheme="http://blog.ykqmain.com/tags/Apple/"/>
     
       <category term="macOS" scheme="http://blog.ykqmain.com/tags/macOS/"/>
     
@@ -851,13 +851,13 @@
       <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
-    
       <category term="Apache" scheme="http://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="Web" scheme="http://blog.ykqmain.com/tags/Web/"/>
+    
+      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
     
   </entry>
   
