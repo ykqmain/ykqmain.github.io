@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://blog.ykqmain.com/nasm/</loc>
+    <lastmod>2018-10-07T02:07:27.275Z</lastmod>
+    <data>
+        <display>
+        <title>NASM汇编的"hello, world"</title>
+        <pubTime>2016-05-16T16:00:00.000Z</pubTime>
+        
+        <tag>汇编</tag>
+         
+        <tag>Assembly</tag>
+         
+        <tag>NASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程" url="http://blog.ykqmain.com/categories/%E7%BC%96%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.ykqmain.com/liqi/</loc>
     <lastmod>2018-10-06T23:58:59.599Z</lastmod>
     <data>
@@ -552,30 +576,6 @@
            
              
               <breadCrumb title="动画" url="http://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.ykqmain.com/nasm/</loc>
-    <lastmod>2017-11-07T11:50:45.000Z</lastmod>
-    <data>
-        <display>
-        <title>NASM汇编的"hello, world"</title>
-        <pubTime>2016-05-16T16:00:00.000Z</pubTime>
-        
-        <tag>汇编</tag>
-         
-        <tag>Assembly</tag>
-         
-        <tag>NASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="编程" url="http://blog.ykqmain.com/categories/%E7%BC%96%E7%A8%8B/"/>
           
         </display>
     </data>
