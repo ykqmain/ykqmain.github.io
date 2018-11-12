@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.ykqmain.com/"/>
-  <updated>2018-11-12T08:58:36.155Z</updated>
+  <updated>2018-11-12T09:19:03.024Z</updated>
   <id>http://blog.ykqmain.com/</id>
   
   <author>
@@ -21,19 +21,21 @@
     <link href="http://blog.ykqmain.com/lishi/"/>
     <id>http://blog.ykqmain.com/lishi/</id>
     <published>2018-11-11T16:00:00.000Z</published>
-    <updated>2018-11-12T08:58:36.155Z</updated>
+    <updated>2018-11-12T09:19:03.024Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>大江东去，浪淘尽，千古风流人物。</p></blockquote><p>是时候记录我的历史见解和感想了，</p><figure class="third"><br>    <img src="http://blog-1253481725.picgz.myqcloud.com/lishi/zgz1.jpg" width="200"><img src="http://blog-1253481725.picgz.myqcloud.com/lishi/zgz2.jpg" width="200"><img src="http://blog-1253481725.picgz.myqcloud.com/lishi/zgz3.jpg" width="200ss"><br></figure><p><br><br></p>]]></content>
+    <content type="html"><![CDATA[<p>写下这个题目后，有太多话想要倾诉，却不知从何时何处开始，一时失言，脑中空白。</p><p>引用一句诗词来开篇，</p><blockquote><p>大江东去，浪淘尽，千古风流人物。</p></blockquote><p><br></p><p>人生的记录这个东西，是需要一定的契机、激情以及充足的时间的，到现在才谈及这个话题，倒是令我自己有点惊讶，毕竟要问我最感兴趣的方面，「中国古代史」是唯一的答案，没有之一。</p><p>具体来说，就是从 <em>西周到南宋</em> 的这一段时间，兴趣之最当属 <strong>春秋战国</strong>(前770年～前221年)、<strong>三国时期</strong>(广义的，184年～280年) 以及 <strong>李唐</strong>(618年～907年)。</p><hr><figure class="third"><br>    <img src="http://blog-1253481725.picgz.myqcloud.com/lishi/zgz1.jpg" width="200"><img src="http://blog-1253481725.picgz.myqcloud.com/lishi/zgz2.jpg" width="200"><img src="http://blog-1253481725.picgz.myqcloud.com/lishi/zgz3.jpg" width="200ss"><br></figure><p><br><br><br><br></p><p><strong>未完待续</strong></p><p><br><br></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;blockquote&gt;
+        &lt;p&gt;写下这个题目后，有太多话想要倾诉，却不知从何时何处开始，一时失言，脑中空白。&lt;/p&gt;
+&lt;p&gt;引用一句诗词来开篇，&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;大江东去，浪淘尽，千古风流人物。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;是时候记录我的历史见解和感想了，&lt;/p&gt;
-&lt;figure class=&quot;third&quot;&gt;&lt;br&gt;    &lt;img src=&quot;http://blog-1253481725.pi
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;人生的记录这个东西，
       
     
     </summary>
@@ -61,7 +63,7 @@
     
       <category term="汉唐" scheme="http://blog.ykqmain.com/tags/%E6%B1%89%E5%94%90/"/>
     
-      <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
+      <category term="感叹" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E5%8F%B9/"/>
     
   </entry>
   
@@ -88,11 +90,11 @@
       <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
+      <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
+    
       <category term="中国" scheme="http://blog.ykqmain.com/tags/%E4%B8%AD%E5%9B%BD/"/>
     
       <category term="思想" scheme="http://blog.ykqmain.com/tags/%E6%80%9D%E6%83%B3/"/>
-    
-      <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
       <category term="诸子百家" scheme="http://blog.ykqmain.com/tags/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/"/>
     
@@ -136,13 +138,13 @@
     
       <category term="动画" scheme="http://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
-      <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
-    
       <category term="国产" scheme="http://blog.ykqmain.com/tags/%E5%9B%BD%E4%BA%A7/"/>
     
       <category term="经典" scheme="http://blog.ykqmain.com/tags/%E7%BB%8F%E5%85%B8/"/>
     
       <category term="励志" scheme="http://blog.ykqmain.com/tags/%E5%8A%B1%E5%BF%97/"/>
+    
+      <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
   </entry>
   
@@ -177,11 +179,11 @@
     
       <category term="冒险" scheme="http://blog.ykqmain.com/tags/%E5%86%92%E9%99%A9/"/>
     
+      <category term="国产" scheme="http://blog.ykqmain.com/tags/%E5%9B%BD%E4%BA%A7/"/>
+    
       <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
       <category term="童年" scheme="http://blog.ykqmain.com/tags/%E7%AB%A5%E5%B9%B4/"/>
-    
-      <category term="国产" scheme="http://blog.ykqmain.com/tags/%E5%9B%BD%E4%BA%A7/"/>
     
       <category term="武侠" scheme="http://blog.ykqmain.com/tags/%E6%AD%A6%E4%BE%A0/"/>
     
@@ -519,13 +521,13 @@
     
       <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="数据库" scheme="http://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-      <category term="MySQL" scheme="http://blog.ykqmain.com/tags/MySQL/"/>
-    
       <category term="Apache" scheme="http://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="MySQL" scheme="http://blog.ykqmain.com/tags/MySQL/"/>
+    
+      <category term="数据库" scheme="http://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
       <category term="PHP" scheme="http://blog.ykqmain.com/tags/PHP/"/>
     
@@ -691,9 +693,9 @@
     
       <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="数据库" scheme="http://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
       <category term="MySQL" scheme="http://blog.ykqmain.com/tags/MySQL/"/>
+    
+      <category term="数据库" scheme="http://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
