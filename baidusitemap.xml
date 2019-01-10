@@ -4,8 +4,40 @@
 
     
   <url>
+    <loc>http://blog.ykqmain.com/py/</loc>
+    <lastmod>2019-01-10T14:04:54.116Z</lastmod>
+    <data>
+        <display>
+        <title>My Python Note</title>
+        <pubTime>2019-01-09T16:00:00.000Z</pubTime>
+        
+        <tag>Web</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>Python3</tag>
+         
+        <tag>Flask</tag>
+         
+        <tag>Django</tag>
+         
+        <tag>爬虫</tag>
+         
+        <tag>数据挖掘</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程" url="http://blog.ykqmain.com/categories/%E7%BC%96%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.ykqmain.com/hello/</loc>
-    <lastmod>2019-01-10T13:49:07.265Z</lastmod>
+    <lastmod>2019-01-10T13:55:46.460Z</lastmod>
     <data>
         <display>
         <title>Timeline</title>
