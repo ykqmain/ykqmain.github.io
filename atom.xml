@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.ykqmain.com/"/>
-  <updated>2019-01-10T14:21:43.429Z</updated>
+  <updated>2019-01-10T14:24:30.179Z</updated>
   <id>http://blog.ykqmain.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://blog.ykqmain.com/py/"/>
     <id>http://blog.ykqmain.com/py/</id>
     <published>2019-01-09T16:00:00.000Z</published>
-    <updated>2019-01-10T14:21:43.429Z</updated>
+    <updated>2019-01-10T14:24:30.179Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><table><thead><tr><th>对象类型</th><th>关键字</th><th>分类</th><th>是否可变</th></tr></thead><tbody><tr><td>数字</td><td>int float</td><td>数值</td><td>否</td></tr><tr><td>字符串</td><td>str</td><td><font color="#dd0000">序列</font><br></td><td>否</td></tr><tr><td>列表</td><td>list</td><td><font color="#dd0000">序列</font><br></td><td>是</td></tr><tr><td>字典</td><td>dict</td><td>映射</td><td>是</td></tr><tr><td>元组</td><td>tuple</td><td><font color="#dd0000">序列</font><br></td><td>否</td></tr><tr><td>集合</td><td>set</td><td>集合</td><td>是</td></tr><tr><td>文件</td><td>open</td><td>扩展</td><td>N/A</td></tr><tr><td>——</td><td>——</td><td>——</td><td>——</td></tr><tr><td>frozenset</td><td></td><td>集合</td><td>否</td></tr><tr><td>bytearray</td><td></td><td>序列</td><td>是</td></tr></tbody></table><p><br><br></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><table><thead><tr><th>对象类型</th><th>关键字</th><th>分类</th><th>是否可变</th></tr></thead><tbody><tr><td>数字</td><td>int  float</td><td>数值</td><td>否</td></tr><tr><td>字符串</td><td>str</td><td><font color="#dd0000">序列</font><br></td><td>否</td></tr><tr><td>列表</td><td>list</td><td><font color="#dd0000">序列</font><br></td><td>是</td></tr><tr><td>字典</td><td>dict</td><td>映射</td><td>是</td></tr><tr><td>元组</td><td>tuple</td><td><font color="#dd0000">序列</font><br></td><td>否</td></tr><tr><td>集合</td><td>set</td><td>集合</td><td>是</td></tr><tr><td>文件</td><td>open</td><td>扩展</td><td>N/A</td></tr><tr><td>——</td><td>——</td><td>——</td><td>——</td></tr><tr><td>frozenset</td><td></td><td>集合</td><td>否</td></tr><tr><td>bytearray</td><td></td><td>序列</td><td>是</td></tr></tbody></table><p><br><br></p>]]></content>
     
     <summary type="html">
     
