@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="123456Python版本：Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) [Clang 6.0 (clang-600.0.57)] on darwin测试平台：macOS 10.14.2   程序 &amp;gt; 模块 &amp;gt; 语句 &amp;gt; 表达式 &amp;gt; 对象   数据类型   对象类型 关键字 实例 分类 是否可变 备注">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-13T14:00:34.034Z">
+<meta property="og:updated_time" content="2019-01-13T14:11:35.260Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Python Note">
 <meta name="twitter:description" content="123456Python版本：Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) [Clang 6.0 (clang-600.0.57)] on darwin测试平台：macOS 10.14.2   程序 &amp;gt; 模块 &amp;gt; 语句 &amp;gt; 表达式 &amp;gt; 对象   数据类型   对象类型 关键字 实例 分类 是否可变 备注">
@@ -538,7 +538,31 @@
 </li>
 </ol>
 <p><br><br></p>
-<h2 id="模块"><a href="#模块" class="headerlink" title="模块"></a>模块</h2><p><br><br></p>
+<h2 id="模块"><a href="#模块" class="headerlink" title="模块"></a>模块</h2><ul>
+<li><code>import module</code></li>
+<li><code>from module import x</code></li>
+</ul>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> imp <span class="keyword">import</span> reload</span><br><span class="line">reload(<span class="keyword">module</span>)</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p><code>__init__.py</code>，包的目录下</p>
+<ul>
+<li>包的初始化</li>
+<li>模块使用的声明</li>
+<li>模块命名空间的初始化</li>
+<li><code>__all__</code>列表规定目录以from*语句形式导入时，需要导出什么。</li>
+</ul>
+</li>
+<li><p>模块搜索路径 <code>sys.path</code></p>
+<ul>
+<li>主目录</li>
+<li>PYTHONPATH目录（如果设置了的话）</li>
+<li>标准库目录</li>
+<li>任何.pth文件中的内容（如果存在的话）</li>
+<li>第三方扩展应用的 site-packages 目录</li>
+</ul>
+</li>
+</ul>
+<p><br><br></p>
 <h2 id="类"><a href="#类" class="headerlink" title="类"></a>类</h2><p><br><br></p>
 
     
