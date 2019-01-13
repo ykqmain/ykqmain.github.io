@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="123456Python版本：Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) [Clang 6.0 (clang-600.0.57)] on darwin测试平台：macOS 10.14.2   程序 &amp;gt; 模块 &amp;gt; 语句 &amp;gt; 表达式 &amp;gt; 对象     对象类型 关键字 实例 分类 是否可变 备注     数字">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-13T12:16:18.137Z">
+<meta property="og:updated_time" content="2019-01-13T12:19:46.590Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Python Note">
 <meta name="twitter:description" content="123456Python版本：Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) [Clang 6.0 (clang-600.0.57)] on darwin测试平台：macOS 10.14.2   程序 &amp;gt; 模块 &amp;gt; 语句 &amp;gt; 表达式 &amp;gt; 对象     对象类型 关键字 实例 分类 是否可变 备注     数字">
@@ -320,65 +320,6 @@
 <li>运行赋值语句<code>b = a</code>之后，b和a共享一个引用，改变a之后，b不会改变，仍然引用原始的对象。</li>
 <li>给变量赋新值，并不是替换原始的对象，而已让这个变量去引用另一个对象。</li>
 <li>不可变性指，对象创建之后，不能原位置改变。</li>
-</ul>
-<p><br><br></p>
-<h2 id="数字"><a href="#数字" class="headerlink" title="数字"></a>数字</h2><ul>
-<li><strong>运算符</strong></li>
-</ul>
-<p><br><br></p>
-<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><ul>
-<li><p>一个有序的字符集合。</p>
-</li>
-<li><p><strong>字符串操作：</strong></p>
-<ul>
-<li>拼接，<code>+</code></li>
-<li>重复，<code>*</code></li>
-<li>替换，<code>.replace(&#39;旧&#39;, &#39;新&#39;)</code></li>
-<li>长度，<code>len()</code></li>
-<li>索引，<code>s[i]</code></li>
-<li>分片，<code>[i:j:k]</code><ul>
-<li>包含i，不包含j，k为步长，每隔k索引一次</li>
-<li>j=-1为倒数第1项，k=-1为反转顺序</li>
-<li><code>s[:]</code>实现对s的顶层复制。</li>
-</ul>
-</li>
-<li>格式化，<ul>
-<li><code>&#39;...%s...&#39; % (values)</code><ul>
-<li><code>% (键名) 标签 宽度.精度 类型码</code><ul>
-<li>键名，可以与右侧匹配</li>
-<li>标签，左对齐(-)，数值符号(+)，零填充(0)，正数前的空白和负数前的-号(空格)</li>
-<li>类型码<ul>
-<li>%s 字符串</li>
-<li>%d 十进制数字</li>
-<li>%f 十进制浮点数</li>
-<li>%e 带有指数的浮点数</li>
-<li>%o 八进制整数</li>
-<li>%x 十六进制整数</li>
-<li>%% 百分号(%)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><code>&#39;...{}...&#39;.format(values)</code><ul>
-<li><code>{ [可选的数字或关键字][.name或[索引]] : [对齐方式][标签][#][补0][宽度][,千分分隔][.精度][类型码] }</code><ul>
-<li>对齐方式，左对齐(&lt;)，右对齐(&gt;)，居中(^)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>内容测试，<code>.isdigit()</code></li>
-<li>尾部测试，<code>.endswith(&#39;&#39;)</code></li>
-<li>移除右侧空白，<code>.rstrip()</code></li>
-<li>分隔，<code>.split(&#39;,&#39;)</code></li>
-<li>分隔符连接，<code>.join(strlist)</code></li>
-<li>原始字符串，<code>s = r&#39; &#39;</code></li>
-<li>块字符串，<code>&#39;&#39;&#39;多行文本或文档字符串&#39;&#39;&#39;</code></li>
-</ul>
-</li>
 </ul>
 <p><br><br></p>
 
