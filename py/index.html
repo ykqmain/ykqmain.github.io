@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="123456Python版本：Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) [Clang 6.0 (clang-600.0.57)] on darwin测试平台：macOS 10.14.2   程序 &amp;gt; 模块 &amp;gt; 语句 &amp;gt; 表达式 &amp;gt; 对象   数据类型   对象类型 关键字 实例 分类 是否可变 备注">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-13T13:30:12.891Z">
+<meta property="og:updated_time" content="2019-01-13T13:57:51.970Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Python Note">
 <meta name="twitter:description" content="123456Python版本：Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) [Clang 6.0 (clang-600.0.57)] on darwin测试平台：macOS 10.14.2   程序 &amp;gt; 模块 &amp;gt; 语句 &amp;gt; 表达式 &amp;gt; 对象   数据类型   对象类型 关键字 实例 分类 是否可变 备注">
@@ -465,14 +465,78 @@
 </li>
 <li><p>推导</p>
 <ul>
-<li><code>L = [x for x in object if test]</code></li>
+<li><code>L = [expression for x in iterable if test]</code></li>
 </ul>
 </li>
 </ol>
 </li>
 </ol>
 <p><br><br></p>
-<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><p><br><br></p>
+<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><ol>
+<li>def语句</li>
+</ol>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">name</span><span class="params">(a, b, ... n)</span></span><span class="symbol">:</span></span><br><span class="line">    statements</span><br><span class="line">    <span class="keyword">return</span> value</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li><p>函数的参数</p>
+<ul>
+<li>参数是通过赋值传递的</li>
+<li>不变参数传入了“值”，就像创建了一个副本</li>
+<li>可变参数传入了“指针”，能在函数内部做原位置的改变</li>
+<li>避免修改可变参数，可以调用时复制对象，分片，或者.copy()</li>
+<li>参数的匹配模式<ul>
+<li>位置次序</li>
+<li>关键字参数，name=value</li>
+<li>默认值参数，name=value</li>
+<li>可变长参数，(iterable)<code>*</code>(收集到元组)，(dict)<code>**</code>(收集到字典)</li>
+<li>可变长参数解包，<code>*</code></li>
+<li>keyword-only参数</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>函数的高级话题</p>
+<ul>
+<li>递归</li>
+<li>函数的对象：属性和注解</li>
+<li><code>map()</code></li>
+<li><code>filter()</code></li>
+<li><code>reduce()</code></li>
+</ul>
+</li>
+<li><p>匿名函数：lambda</p>
+<ul>
+<li>eg: <code>lambda a, b, c: a+b+c</code></li>
+<li>lambda是一个表达式，而不是语句，返回一个值</li>
+<li>lambda的主体是一个单独的表达式，而不是一个代码块。因此lambda通常比def功能小</li>
+<li>lambda完全是可选的，总能用def替代它们</li>
+</ul>
+</li>
+<li><p>生成器函数</p>
+<ul>
+<li>使用常规的def编写，使用<code>yield</code>语句一次返回一个结果，在每次结果产生之间挂起和恢复它们的状态</li>
+<li>支持迭代</li>
+<li>生成器函数也可以有return语句，不过总是出现在def语句块的末尾，用于终止值的生成</li>
+</ul>
+</li>
+<li><p>生成器表达式</p>
+<ul>
+<li>包括在圆括号的列表推导表达式，运行时，返回一个新的生成器对象</li>
+<li>支持迭代</li>
+<li>生成器是单遍迭代对象</li>
+<li>不要过度使用生成器</li>
+</ul>
+</li>
+<li><p>作用域</p>
+<ul>
+<li>LEGB规则，局部 &lt; 外层 &lt; 全局 &lt; 内置</li>
+<li><code>global X</code>，全局</li>
+<li><code>nonlocal name1, name2, ...</code>，非本地的，“中间”，外层</li>
+<li>local，本地的，局部</li>
+<li>工厂函数，闭包</li>
+</ul>
+</li>
+</ol>
+<p><br><br></p>
 <h2 id="模块"><a href="#模块" class="headerlink" title="模块"></a>模块</h2><p><br><br></p>
 <h2 id="类"><a href="#类" class="headerlink" title="类"></a>类</h2><p><br><br></p>
 
