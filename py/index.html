@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="123456Python版本：Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) [Clang 6.0 (clang-600.0.57)] on darwin测试平台：macOS 10.14.2   程序 &amp;gt; 模块 &amp;gt; 语句 &amp;gt; 表达式 &amp;gt; 对象   数据类型   对象类型 关键字 实例 分类 是否可变 备注">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-13T14:11:35.260Z">
+<meta property="og:updated_time" content="2019-01-13T14:19:12.345Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Python Note">
 <meta name="twitter:description" content="123456Python版本：Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) [Clang 6.0 (clang-600.0.57)] on darwin测试平台：macOS 10.14.2   程序 &amp;gt; 模块 &amp;gt; 语句 &amp;gt; 表达式 &amp;gt; 对象   数据类型   对象类型 关键字 实例 分类 是否可变 备注">
@@ -561,6 +561,26 @@
 <li>第三方扩展应用的 site-packages 目录</li>
 </ul>
 </li>
+<li><p>包的相对导入</p>
+<ul>
+<li><code>from . import x</code></li>
+<li>主模块中不能使用相对导入</li>
+</ul>
+</li>
+<li><p>命名空间包</p>
+<ul>
+<li>允许包横跨多个目录，且不要求<code>__init__.py</code>初始化文件，Python3.3+</li>
+</ul>
+</li>
+<li><p><code>if __name__ == &#39;__main__&#39;:</code></p>
+<ul>
+<li>检测自己的<code>__name__</code>来确定它是在执行还是导入</li>
+<li>以<code>__name__</code>进行单元测试</li>
+</ul>
+</li>
+<li><p><code>import modulename as name</code></p>
+</li>
+<li><code>from modulename import x as name</code></li>
 </ul>
 <p><br><br></p>
 <h2 id="类"><a href="#类" class="headerlink" title="类"></a>类</h2><p><br><br></p>
