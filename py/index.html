@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="123456Python版本：Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) [Clang 6.0 (clang-600.0.57)] on darwin测试平台：macOS 10.14.2   程序 &amp;gt; 模块 &amp;gt; 语句 &amp;gt; 表达式 &amp;gt; 对象   数据类型   对象类型 关键字 实例 分类 是否可变 备注">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-13T14:19:12.345Z">
+<meta property="og:updated_time" content="2019-01-13T14:26:30.506Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Python Note">
 <meta name="twitter:description" content="123456Python版本：Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) [Clang 6.0 (clang-600.0.57)] on darwin测试平台：macOS 10.14.2   程序 &amp;gt; 模块 &amp;gt; 语句 &amp;gt; 表达式 &amp;gt; 对象   数据类型   对象类型 关键字 实例 分类 是否可变 备注">
@@ -423,6 +423,7 @@
 <li>if语句</li>
 </ol>
 <figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> test<span class="number">1</span>:</span><br><span class="line">    stateme<span class="symbol">nts1</span></span><br><span class="line">elif test<span class="number">2</span>:</span><br><span class="line">    stateme<span class="symbol">nts2</span></span><br><span class="line">else:</span><br><span class="line">    stateme<span class="symbol">nts3</span></span><br></pre></td></tr></table></figure>
+<p><br></p>
 <ol start="2">
 <li>真值和布尔测试</li>
 </ol>
@@ -542,8 +543,13 @@
 <li><code>import module</code></li>
 <li><code>from module import x</code></li>
 </ul>
-<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> imp <span class="keyword">import</span> reload</span><br><span class="line">reload(<span class="keyword">module</span>)</span><br></pre></td></tr></table></figure>
+<ol>
+<li><p>包的相对导入</p>
 <ul>
+<li><code>from . import x</code></li>
+<li>主模块中不能使用相对导入</li>
+</ul>
+</li>
 <li><p><code>__init__.py</code>，包的目录下</p>
 <ul>
 <li>包的初始化</li>
@@ -561,12 +567,6 @@
 <li>第三方扩展应用的 site-packages 目录</li>
 </ul>
 </li>
-<li><p>包的相对导入</p>
-<ul>
-<li><code>from . import x</code></li>
-<li>主模块中不能使用相对导入</li>
-</ul>
-</li>
 <li><p>命名空间包</p>
 <ul>
 <li>允许包横跨多个目录，且不要求<code>__init__.py</code>初始化文件，Python3.3+</li>
@@ -575,11 +575,16 @@
 <li><p><code>if __name__ == &#39;__main__&#39;:</code></p>
 <ul>
 <li>检测自己的<code>__name__</code>来确定它是在执行还是导入</li>
-<li>以<code>__name__</code>进行单元测试</li>
+<li>以<code>__name__</code>进行单元测试<br><br></li>
 </ul>
 </li>
-<li><p><code>import modulename as name</code></p>
-</li>
+</ol>
+<ul>
+<li><code>from imp import reload</code></li>
+<li><code>reload(module)</code></li>
+</ul>
+<ul>
+<li><code>import modulename as name</code></li>
 <li><code>from modulename import x as name</code></li>
 </ul>
 <p><br><br></p>
