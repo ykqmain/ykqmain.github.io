@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.ykqmain.com/py/</loc>
+    <loc>http://blog.ykqmain.com/hexo/</loc>
     
-    <lastmod>2019-01-13T14:26:30.506Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.ykqmain.com/hello/</loc>
-    
-    <lastmod>2019-01-10T13:55:46.460Z</lastmod>
+    <lastmod>2019-01-15T12:51:11.944Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blog.ykqmain.com/liqi/</loc>
     
-    <lastmod>2019-01-10T05:27:47.740Z</lastmod>
+    <lastmod>2019-01-15T12:50:58.026Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.ykqmain.com/py/</loc>
+    
+    <lastmod>2019-01-13T14:26:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.ykqmain.com/hello/</loc>
+    
+    <lastmod>2019-01-10T13:55:46.000Z</lastmod>
     
   </url>
   
@@ -103,13 +110,6 @@
     <loc>http://blog.ykqmain.com/honglan/</loc>
     
     <lastmod>2018-07-23T02:26:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.ykqmain.com/hexo/</loc>
-    
-    <lastmod>2018-07-13T06:00:56.000Z</lastmod>
     
   </url>
   
