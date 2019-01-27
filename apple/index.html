@@ -15,18 +15,18 @@
     <meta name="keywords" content="Apple,Mac,macOS,OS X,iPhone,iOS,skill," />
   
 
-  <meta name="description" content="再过几天 macOS Sierra 正式版就要来了，我已经迫不及待地想体验它了。😁  Update: 以后再也不体验 beta版 或 GM版 了，正式版 出来后还是得重装一次 _(:3」∠)_   这可能是我MBP的最后一个系统了，重装一下治疗自己的强迫症。 先记录一下Mac重装系统的方法，安装系统一般都有许多种办法，在Mac上，我比较喜欢 终端制作U盘启动盘。 重装Mac系统 准备工作  备份">
+  <meta name="description" content="重装Mac系统 准备工作  备份!  准备一个16G以上的U盘（会被格式化）  从App Store下载新系统，下载成功后，退出自动安装。确保安装文件在“应用程序”文件夹（Applications）    格式化 U盘  打开“磁盘工具”  名称 填写 U (该名称之后会用到)  格式 选择 Mac OS 扩展 (日志式)  分区 选择 GUID 分区表    制作启动盘  打开“终端”  sud">
 <meta name="keywords" content="Apple,Mac,macOS,OS X,iPhone,iOS,skill">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Apple相关">
 <meta property="og:url" content="http://blog.ykqmain.com/apple/index.html">
 <meta property="og:site_name" content="iAnna">
-<meta property="og:description" content="再过几天 macOS Sierra 正式版就要来了，我已经迫不及待地想体验它了。😁  Update: 以后再也不体验 beta版 或 GM版 了，正式版 出来后还是得重装一次 _(:3」∠)_   这可能是我MBP的最后一个系统了，重装一下治疗自己的强迫症。 先记录一下Mac重装系统的方法，安装系统一般都有许多种办法，在Mac上，我比较喜欢 终端制作U盘启动盘。 重装Mac系统 准备工作  备份">
+<meta property="og:description" content="重装Mac系统 准备工作  备份!  准备一个16G以上的U盘（会被格式化）  从App Store下载新系统，下载成功后，退出自动安装。确保安装文件在“应用程序”文件夹（Applications）    格式化 U盘  打开“磁盘工具”  名称 填写 U (该名称之后会用到)  格式 选择 Mac OS 扩展 (日志式)  分区 选择 GUID 分区表    制作启动盘  打开“终端”  sud">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-07-30T07:05:09.000Z">
+<meta property="og:updated_time" content="2019-01-27T07:36:33.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Apple相关">
-<meta name="twitter:description" content="再过几天 macOS Sierra 正式版就要来了，我已经迫不及待地想体验它了。😁  Update: 以后再也不体验 beta版 或 GM版 了，正式版 出来后还是得重装一次 _(:3」∠)_   这可能是我MBP的最后一个系统了，重装一下治疗自己的强迫症。 先记录一下Mac重装系统的方法，安装系统一般都有许多种办法，在Mac上，我比较喜欢 终端制作U盘启动盘。 重装Mac系统 准备工作  备份">
+<meta name="twitter:description" content="重装Mac系统 准备工作  备份!  准备一个16G以上的U盘（会被格式化）  从App Store下载新系统，下载成功后，退出自动安装。确保安装文件在“应用程序”文件夹（Applications）    格式化 U盘  打开“磁盘工具”  名称 填写 U (该名称之后会用到)  格式 选择 Mac OS 扩展 (日志式)  分区 选择 GUID 分区表    制作启动盘  打开“终端”  sud">
 
   
 
@@ -224,18 +224,12 @@
 
   <div class="article-content">
     
-      <p>再过几天 <strong>macOS Sierra</strong> 正式版就要来了，我已经迫不及待地想体验它了。😁</p>
-<blockquote>
-<p><strong>Update:</strong> <em>以后再也不体验 beta版 或 GM版 了，正式版 出来后还是得重装一次 _(:3」∠)_ </em></p>
-</blockquote>
-<p>这可能是我MBP的最后一个系统了，重装一下治疗自己的强迫症。<br><br></p>
-<p>先记录一下Mac重装系统的方法，安装系统一般都有许多种办法，在Mac上，我比较喜欢 <strong>终端制作U盘启动盘</strong>。<br><br></p>
-<h2 id="重装Mac系统"><a href="#重装Mac系统" class="headerlink" title="重装Mac系统"></a>重装Mac系统</h2><ol>
+      <h2 id="重装Mac系统"><a href="#重装Mac系统" class="headerlink" title="重装Mac系统"></a>重装Mac系统</h2><ol>
 <li><p><strong><em>准备工作</em></strong></p>
 <ol>
 <li><p><strong>备份!</strong></p>
 </li>
-<li><p>准备一个8G以上的U盘（会被格式化）</p>
+<li><p>准备一个16G以上的U盘（会被格式化）</p>
 </li>
 <li><p>从App Store下载新系统，下载成功后，退出自动安装。确保安装文件在“应用程序”文件夹（Applications）<br><br></p>
 </li>
@@ -257,8 +251,12 @@
 <ol>
 <li><p>打开“终端”</p>
 </li>
-<li><p><code>sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/U --applicationpath /Applications/Install\ macOS\ High\ Sierra.app --nointeraction</code></p>
-<p>（替换 “系统” 为 安装文件名，空格之间用 \ 连接，比如 <code>Install\ macOS\ High\ Sierra.app</code>，用“文件/设备拖入法”也比较方便，总之，要注意路径、文件名、U盘名都正确）</p>
+<li><p><code>sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/U</code></p>
+<ul>
+<li>相应地替换为<code>U</code></li>
+<li>空格之间用 <code>\</code> 连接</li>
+<li>用“文件/设备拖入法”也比较方便</li>
+</ul>
 </li>
 <li><p>确定后，输入管理员密码，等待 (半小时也有可能 _(:3」∠)_ )。陆续看到以下信息</p>
 <figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Erasing Disk: <span class="number">0</span>%<span class="params">...</span> <span class="number">10</span>%<span class="params">...</span> <span class="number">20</span>%<span class="params">...</span> <span class="number">30</span>%<span class="params">...</span><span class="number">100</span>%<span class="params">...</span></span><br><span class="line">Copying installer files <span class="keyword">to</span> disk<span class="params">...</span></span><br><span class="line">Copy complete.</span><br><span class="line">Making disk bootable<span class="params">...</span></span><br><span class="line">Copying boot files<span class="params">...</span></span><br><span class="line">Copy complete.</span><br><span class="line">Done.</span><br></pre></td></tr></table></figure>
