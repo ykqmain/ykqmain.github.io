@@ -4,6 +4,100 @@
 
     
   <url>
+    <loc>http://blog.ykqmain.com/flask/</loc>
+    <lastmod>2019-01-28T12:27:10.173Z</lastmod>
+    <data>
+        <display>
+        <title>Flask实践</title>
+        <pubTime>2019-01-23T16:00:00.000Z</pubTime>
+        
+        <tag>Flask</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>Web</tag>
+         
+        <tag>http</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>企业微信</tag>
+         
+         
+           
+             
+              <breadCrumb title="网络" url="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.ykqmain.com/clouddisk/</loc>
+    <lastmod>2019-01-28T12:20:48.540Z</lastmod>
+    <data>
+        <display>
+        <title>基于Hadoop的简单云盘</title>
+        <pubTime>2017-07-01T16:00:00.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>大数据</tag>
+         
+        <tag>Hadoop</tag>
+         
+        <tag>CentOS</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Tomcat</tag>
+         
+        <tag>Eclipse</tag>
+         
+         
+           
+             
+              <breadCrumb title="网络" url="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.ykqmain.com/apple/</loc>
+    <lastmod>2019-01-28T12:20:26.441Z</lastmod>
+    <data>
+        <display>
+        <title>Apple相关</title>
+        <pubTime>2016-09-03T16:00:00.000Z</pubTime>
+        
+        <tag>Apple</tag>
+         
+        <tag>Mac</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>OS X</tag>
+         
+        <tag>iPhone</tag>
+         
+        <tag>iOS</tag>
+         
+        <tag>skill</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.ykqmain.com/liqi/</loc>
     <lastmod>2019-01-27T13:16:49.725Z</lastmod>
     <data>
@@ -60,38 +154,6 @@
 
     
   <url>
-    <loc>http://blog.ykqmain.com/apple/</loc>
-    <lastmod>2019-01-27T07:36:33.000Z</lastmod>
-    <data>
-        <display>
-        <title>Apple相关</title>
-        <pubTime>2016-09-03T16:00:00.000Z</pubTime>
-        
-        <tag>Apple</tag>
-         
-        <tag>Mac</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>OS X</tag>
-         
-        <tag>iPhone</tag>
-         
-        <tag>iOS</tag>
-         
-        <tag>skill</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机" url="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.ykqmain.com/graduate/</loc>
     <lastmod>2019-01-18T10:05:45.000Z</lastmod>
     <data>
@@ -125,13 +187,13 @@
         <title>My Python Note</title>
         <pubTime>2019-01-09T16:00:00.000Z</pubTime>
         
-        <tag>Web</tag>
+        <tag>Flask</tag>
          
         <tag>Python</tag>
          
-        <tag>Python3</tag>
+        <tag>Web</tag>
          
-        <tag>Flask</tag>
+        <tag>Python3</tag>
          
         <tag>Django</tag>
          
@@ -304,9 +366,9 @@
         <title>国产动画思念集</title>
         <pubTime>2018-07-23T16:00:00.000Z</pubTime>
         
-        <tag>回忆</tag>
-         
         <tag>动画</tag>
+         
+        <tag>回忆</tag>
          
         <tag>感想</tag>
          
@@ -356,9 +418,9 @@
         <title>因为一个人，喜欢一部剧</title>
         <pubTime>2017-04-09T16:00:00.000Z</pubTime>
         
-        <tag>回忆</tag>
-         
         <tag>动画</tag>
+         
+        <tag>回忆</tag>
          
         <tag>婧玉</tag>
          
@@ -380,11 +442,11 @@
         <title>虹猫蓝兔——致童年，望归来</title>
         <pubTime>2018-07-21T16:00:00.000Z</pubTime>
         
-        <tag>回忆</tag>
-         
         <tag>动画</tag>
          
         <tag>冒险</tag>
+         
+        <tag>回忆</tag>
          
         <tag>童年</tag>
          
@@ -444,9 +506,9 @@
         <title>Nginx安装</title>
         <pubTime>2016-06-07T16:00:00.000Z</pubTime>
         
-        <tag>服务器</tag>
-         
         <tag>Linux</tag>
+         
+        <tag>服务器</tag>
          
         <tag>Nginx</tag>
          
@@ -468,9 +530,9 @@
         <title>一首歌能带来什么回忆</title>
         <pubTime>2017-04-30T16:00:00.000Z</pubTime>
         
-        <tag>回忆</tag>
-         
         <tag>动画</tag>
+         
+        <tag>回忆</tag>
          
         <tag>歌曲</tag>
          
@@ -544,13 +606,13 @@
         <title>The First Web Page</title>
         <pubTime>2015-11-20T16:00:00.000Z</pubTime>
         
-        <tag>Apache</tag>
-         
-        <tag>服务器</tag>
-         
         <tag>Web</tag>
          
         <tag>Linux</tag>
+         
+        <tag>Apache</tag>
+         
+        <tag>服务器</tag>
          
          
            
@@ -572,6 +634,8 @@
         
         <tag>Mac</tag>
          
+        <tag>Web</tag>
+         
         <tag>Apache</tag>
          
         <tag>服务器</tag>
@@ -581,8 +645,6 @@
         <tag>数据库</tag>
          
         <tag>PHP</tag>
-         
-        <tag>Web</tag>
          
          
            
@@ -672,38 +734,6 @@
            
              
               <breadCrumb title="动画" url="http://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.ykqmain.com/clouddisk/</loc>
-    <lastmod>2017-11-07T11:41:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>基于Hadoop的简单云盘</title>
-        <pubTime>2017-07-01T16:00:00.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>大数据</tag>
-         
-        <tag>Hadoop</tag>
-         
-        <tag>CentOS</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Tomcat</tag>
-         
-        <tag>Eclipse</tag>
-         
-         
-           
-             
-              <breadCrumb title="网络" url="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
           
         </display>
     </data>
