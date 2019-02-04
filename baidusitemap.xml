@@ -4,8 +4,38 @@
 
     
   <url>
+    <loc>http://blog.ykqmain.com/flask/</loc>
+    <lastmod>2019-02-04T07:13:56.221Z</lastmod>
+    <data>
+        <display>
+        <title>Flask实践</title>
+        <pubTime>2019-01-23T16:00:00.000Z</pubTime>
+        
+        <tag>Web</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>Flask</tag>
+         
+        <tag>http</tag>
+         
+        <tag>企业微信</tag>
+         
+         
+           
+             
+              <breadCrumb title="网络" url="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2019-02-03T05:50:26.426Z</lastmod>
+    <lastmod>2019-02-04T07:07:41.519Z</lastmod>
     <data>
         <display>
         <title>利器</title>
@@ -34,36 +64,6 @@
 
     
   <url>
-    <loc>http://blog.ykqmain.com/flask/</loc>
-    <lastmod>2019-01-30T12:58:41.344Z</lastmod>
-    <data>
-        <display>
-        <title>Flask实践</title>
-        <pubTime>2019-01-23T16:00:00.000Z</pubTime>
-        
-        <tag>Web</tag>
-         
-        <tag>Linux</tag>
-         
-        <tag>Flask</tag>
-         
-        <tag>Python</tag>
-         
-        <tag>http</tag>
-         
-        <tag>企业微信</tag>
-         
-         
-           
-             
-              <breadCrumb title="网络" url="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.ykqmain.com/py/</loc>
     <lastmod>2019-01-28T12:30:59.938Z</lastmod>
     <data>
@@ -73,11 +73,11 @@
         
         <tag>Web</tag>
          
-        <tag>Flask</tag>
-         
         <tag>Python</tag>
          
         <tag>Python3</tag>
+         
+        <tag>Flask</tag>
          
         <tag>Django</tag>
          
@@ -219,9 +219,9 @@
         <title>Timeline</title>
         <pubTime>2015-11-19T16:00:00.000Z</pubTime>
         
-        <tag>Timeline</tag>
-         
         <tag>blog</tag>
+         
+        <tag>Timeline</tag>
          
         <tag>回忆</tag>
          
