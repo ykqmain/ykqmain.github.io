@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.ykqmain.com/nasm/</loc>
+    
+    <lastmod>2019-03-12T13:06:55.688Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.ykqmain.com/twgx/</loc>
     
-    <lastmod>2019-03-12T13:04:42.430Z</lastmod>
+    <lastmod>2019-03-12T13:05:32.133Z</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>http://blog.ykqmain.com/flask/</loc>
     
     <lastmod>2019-02-04T07:19:16.775Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.ykqmain.com/py/</loc>
-    
-    <lastmod>2019-01-28T12:30:59.938Z</lastmod>
     
   </url>
   
@@ -75,13 +75,6 @@
     <loc>http://blog.ykqmain.com/lishi/</loc>
     
     <lastmod>2018-11-20T00:54:43.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.ykqmain.com/nasm/</loc>
-    
-    <lastmod>2018-10-07T02:07:27.000Z</lastmod>
     
   </url>
   
