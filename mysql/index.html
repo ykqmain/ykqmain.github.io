@@ -23,24 +23,24 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="最近学的mysql的基础知识，想结合实际需求做点东西，练练手，这样才能学得扎实。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/1.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/2.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/3.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/4.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/5.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/6.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/7.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/8.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/9.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/10.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/11.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/12.png">
-<meta property="og:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/13.png">
-<meta property="og:updated_time" content="2017-11-07T12:01:58.000Z">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/1.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/2.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/3.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/4.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/5.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/6.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/7.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/8.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/9.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/10.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/11.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/12.png">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/13.png">
+<meta property="og:updated_time" content="2019-03-21T13:21:47.459Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MySQL小记——附iOS游戏推荐">
 <meta name="twitter:description" content="最近学的mysql的基础知识，想结合实际需求做点东西，练练手，这样才能学得扎实。">
-<meta name="twitter:image" content="http://blog-1253481725.picgz.myqcloud.com/mysql/1.png">
+<meta name="twitter:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/1.png">
 
   
 
@@ -317,7 +317,7 @@
 <hr>
 <p><br></p>
 <p>首先记录iOS游戏，在App Store购买记录中翻了半天，做成如下表格(省略了后面部分)：</p>
-<p><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/1.png" alt=""></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/1.png" alt=""></p>
 <p>一个游戏的基本信息写在第一行。</p>
 <p>登陆数据库之后，</p>
 <p><br></p>
@@ -331,9 +331,9 @@
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> ios_game</span><br><span class="line">    (</span><br><span class="line">        game_id <span class="built_in">INT</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> AUTO_INCREMENT, #主键<span class="keyword">ID</span>自动增加</span><br><span class="line">        <span class="keyword">name</span> <span class="built_in">VARCHAR</span>(<span class="number">100</span>),                   #游戏名称</span><br><span class="line">        developer <span class="built_in">VARCHAR</span>(<span class="number">100</span>),              #开发商</span><br><span class="line">        <span class="keyword">type</span> <span class="built_in">VARCHAR</span>(<span class="number">50</span>),                    #游戏类型</span><br><span class="line">        ptime <span class="keyword">YEAR</span>,                          #我玩的日期</span><br><span class="line">        chinese <span class="built_in">CHAR</span>(<span class="number">1</span>),                     #是否支持中文</span><br><span class="line">        price <span class="built_in">INT</span>,                           #我买的时候的价格，App <span class="keyword">Store</span>有降价，我经常买<span class="number">1</span>元<span class="number">6</span>元的</span><br><span class="line">        In_App_Purchase <span class="built_in">CHAR</span>(<span class="number">1</span>),             #是否有内购</span><br><span class="line">        ad <span class="built_in">CHAR</span>(<span class="number">1</span>),                          #是否有广告</span><br><span class="line">        grade <span class="built_in">VARCHAR</span>(<span class="number">1</span>),                    #我对它的评分，<span class="number">5</span>分最高</span><br><span class="line">        note <span class="built_in">TEXT</span>,                           #备注</span><br><span class="line">        PRIMARY <span class="keyword">KEY</span> (game_id)                #设置主键</span><br><span class="line">    );</span><br></pre></td></tr></table></figure>
 <p><br></p>
 <p>终端显示：</p>
-<p><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/2.png" alt=""></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/2.png" alt=""></p>
 <p><br><br><br></p>
-<h4 id="3-可以通过-desc-ios-game-查看表的结构。"><a href="#3-可以通过-desc-ios-game-查看表的结构。" class="headerlink" title="3.可以通过 desc ios_game; 查看表的结构。"></a>3.可以通过 <code>desc ios_game;</code> 查看表的结构。</h4><p><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/3.png" alt=""></p>
+<h4 id="3-可以通过-desc-ios-game-查看表的结构。"><a href="#3-可以通过-desc-ios-game-查看表的结构。" class="headerlink" title="3.可以通过 desc ios_game; 查看表的结构。"></a>3.可以通过 <code>desc ios_game;</code> 查看表的结构。</h4><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/3.png" alt=""></p>
 <p><br><br><br></p>
 <h4 id="4-插入信息"><a href="#4-插入信息" class="headerlink" title="4.插入信息"></a>4.插入信息</h4><p>插入一条信息：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> ios_game</span><br><span class="line">(<span class="keyword">name</span>,developer,<span class="keyword">type</span>,ptime,chinese,price,In_App_Purchase,ad,grade,note)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">'Angry Birds'</span>,<span class="string">'Rovio'</span>,<span class="string">'休闲'</span>,<span class="number">2015</span>,<span class="string">'Y'</span>,<span class="number">6</span>,<span class="string">'Y'</span>,<span class="string">'Y'</span>,<span class="string">'4'</span>,<span class="string">'经典游戏'</span>);</span><br></pre></td></tr></table></figure>
@@ -342,23 +342,23 @@
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> ios_game</span><br><span class="line">(<span class="keyword">name</span>,developer,<span class="keyword">type</span>,ptime,chinese,price,In_App_Purchase,ad,grade,note)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">'Angry Birds Rio'</span>,<span class="string">'Rovio'</span>,<span class="string">'休闲'</span>,<span class="number">2015</span>,<span class="string">'N'</span>,<span class="number">0</span>,<span class="string">'Y'</span>,<span class="string">'Y'</span>,<span class="string">'3'</span>,<span class="string">'《里约大冒险》特别版'</span>),</span><br><span class="line">(<span class="string">'Angry Birds Space'</span>,<span class="string">'Rovio'</span>,<span class="string">'休闲'</span>,<span class="number">2015</span>,<span class="string">'N'</span>,<span class="number">1</span>,<span class="string">'Y'</span>,<span class="string">'Y'</span>,<span class="string">'4'</span>,<span class="string">'太空版，有轨迹'</span>),</span><br><span class="line">(<span class="string">'Angry Birds Star Wars'</span>,<span class="string">'Rovio'</span>,<span class="string">'休闲'</span>,<span class="number">2015</span>,<span class="string">'N'</span>,<span class="number">1</span>,<span class="string">'Y'</span>,<span class="string">'Y'</span>,<span class="string">'3'</span>,<span class="string">'《星球大战》特别版'</span>),</span><br><span class="line">(<span class="string">'Angry Birds Seasons'</span>,<span class="string">'Rovio'</span>,<span class="string">'休闲'</span>,<span class="number">2015</span>,<span class="string">'N'</span>,<span class="number">6</span>,<span class="string">'Y'</span>,<span class="string">'Y'</span>,<span class="string">'5'</span>,<span class="string">'季节版，我认为最好玩的一个版本，以节日为主题，更新频繁'</span>);</span><br></pre></td></tr></table></figure>
 <p>只需要在<code>VALUES</code>后面将行用 <strong>逗号</strong> 分开即可,最后一行用 <strong>分号</strong>.</p>
 <p><br></p>
-<p><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/4.png" alt=""><br><br><br><br></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/4.png" alt=""><br><br><br><br></p>
 <h4 id="5-查询信息"><a href="#5-查询信息" class="headerlink" title="5.查询信息"></a>5.查询信息</h4><p>需要查询来确定一下。</p>
 <p>使用<code>SELECT</code>语句查询：<code>SELECT * FROM ios_game;</code></p>
-<p><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/5.png" alt=""></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/5.png" alt=""></p>
 <p><br><br><br></p>
 <h4 id="6-批量导入"><a href="#6-批量导入" class="headerlink" title="6.批量导入"></a>6.批量导入</h4><p>用<code>INSERT</code>语句插入，只是用于少量数据的情况，对于更多的数据，最好采用导入的方式。比如用Excel之类的软件，先写好数据，然后存为<code>.csv</code>文件，稍作处理后导入mysql，</p>
 <p>我用了Numbers做了如下表格，</p>
-<p><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/6.png" alt=""></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/6.png" alt=""></p>
 <p><em>因为暂时没有想到如何处理id自动增加会覆盖数据的问题，我直接把表格的第一项id设置为6(因为mysql里面已经存在5条数据了)</em></p>
 <p>导出为<code>.csv</code>文件后，删掉第一行的name，developer等无用信息，</p>
-<p><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/7.png" alt=""></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/7.png" alt=""></p>
 <p>我将导出的<code>.csv</code>文件命名为 <code>1.csv</code>，导入命令为：</p>
 <p><code>load data local infile &#39;/Users/Yang/Desktop/1.csv&#39; into table ios_game  fields terminated by &#39;,&#39;  optionally enclosed by &#39;&quot;&#39; escaped by &#39;&quot;&#39; lines terminated by &#39;\r\n&#39;;</code></p>
 <p>其中两点需要修改，一是<strong><code>.csv</code>的路径</strong>，二是<strong>表的名称</strong>。</p>
 <p><br><br></p>
 <h4 id="7-检查"><a href="#7-检查" class="headerlink" title="7.检查"></a>7.检查</h4><p>导入之后，查询检查，</p>
-<p><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/8.png" alt=""><br><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/9.png" alt=""><br><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/10.png" alt=""></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/8.png" alt=""><br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/9.png" alt=""><br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/10.png" alt=""></p>
 <p>因为时间有限，仅仅选取了一些游戏而已。</p>
 <p><br><br></p>
 <h4 id="8-多表"><a href="#8-多表" class="headerlink" title="8.多表"></a>8.多表</h4><p>我玩过的游戏不只有iOS，还应该有Win或者Mac等等……</p>
@@ -368,10 +368,10 @@
 <p>插入游戏信息<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> win_game</span><br><span class="line">(<span class="keyword">name</span>,developer,<span class="keyword">type</span>,ptime,chinese,price,In_App_Purchase,ad,grade,note)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">'命令与征服：红色警戒3'</span>,<span class="string">'EA'</span>,<span class="string">'RTS'</span>,<span class="number">2012</span>,<span class="string">'Y'</span>,<span class="literal">NULL</span>,<span class="string">'N'</span>,<span class="string">'N'</span>,<span class="string">'5'</span>,<span class="string">'经典'</span>),</span><br><span class="line">(<span class="string">'LOL'</span>,<span class="string">'Riot Games'</span>,<span class="string">'MOBA'</span>,<span class="number">2015</span>,<span class="string">'Y'</span>,<span class="number">0</span>,<span class="string">'Y'</span>,<span class="string">'N'</span>,<span class="string">'4'</span>,<span class="string">'手残不适合，因为用Mac一年没玩了'</span>);</span><br></pre></td></tr></table></figure></p>
 <p><br></p>
 <p>最后查询，<code>SELECT * FROM win_game;</code></p>
-<p><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/11.png" alt=""></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/11.png" alt=""></p>
 <p><br><br><br></p>
 <h4 id="9-总结"><a href="#9-总结" class="headerlink" title="9.总结"></a>9.总结</h4><p>数据库应该是逐渐完善的，用<code>show tables;</code>显示数据库中的所有表格。</p>
-<p><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/12.png" alt=""></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/12.png" alt=""></p>
 <p>暂时就是这样，以后再逐渐完善，更加规范（起码满足<strong>3NF</strong>），希望今天创建的这个数据库可以完成它的使命————帮我记录我所玩过的所有游戏的基本信息 → _ →</p>
 <p><br></p>
 <hr>
@@ -381,7 +381,7 @@
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> ios_game</span><br><span class="line"><span class="keyword">WHERE</span> grade &gt; <span class="string">'4'</span>;</span><br></pre></td></tr></table></figure>
 <p><br></p>
 <p><strong>游戏推荐</strong> (｡•ˇ‸ˇ•｡)</p>
-<p><img src="http://blog-1253481725.picgz.myqcloud.com/mysql/13.png" alt=""></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/13.png" alt=""></p>
 <p><br></p>
 <p><strong>Enjoy it : )</strong></p>
 <p><br><br></p>
