@@ -23,12 +23,12 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="准备工作环境： 123456789本机：macOS 虚拟机(VirtualBox)：CentOS 6.9复制三个CentOS一个作为主节点(Master)，两个从节点(Slave)三台虚拟机器名分别为：master, slave1, slave2 Hadoop 2.7.3JDK 1.8 Vim常用操作： 12345678910111213esc    从编辑模式切换到命令模式a      切换到编">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/hadoop/wordcount.png!m">
-<meta property="og:updated_time" content="2019-03-22T12:35:59.579Z">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/hadoop/wordcount.png!shuiyin">
+<meta property="og:updated_time" content="2019-03-22T13:03:46.929Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hadoop完全分布式搭建">
 <meta name="twitter:description" content="准备工作环境： 123456789本机：macOS 虚拟机(VirtualBox)：CentOS 6.9复制三个CentOS一个作为主节点(Master)，两个从节点(Slave)三台虚拟机器名分别为：master, slave1, slave2 Hadoop 2.7.3JDK 1.8 Vim常用操作： 12345678910111213esc    从编辑模式切换到命令模式a      切换到编">
-<meta name="twitter:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/hadoop/wordcount.png!m">
+<meta name="twitter:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/hadoop/wordcount.png!shuiyin">
 
   
 
@@ -406,7 +406,7 @@
 <li><p>运行如下命令向hadoop提交单词统计任务<br><code>hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar wordcount /data/input /data/output/result</code></p>
 </li>
 <li><p>查看result，结果在result下面的part-r-00000中<br><code>hdfs dfs -cat /data/output/result/part-r-00000</code></p>
-<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/hadoop/wordcount.png!m" alt=""></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/hadoop/wordcount.png!shuiyin" alt=""></p>
 <p>成功运行，则搭建完成。</p>
 <p>停止运行，<code>sh /usr/hadoop/sbin/stop-all.sh</code></p>
 </li>
