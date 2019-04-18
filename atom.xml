@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.ykqmain.com/"/>
-  <updated>2019-04-18T14:30:00.396Z</updated>
+  <updated>2019-04-18T15:18:15.779Z</updated>
   <id>http://blog.ykqmain.com/</id>
   
   <author>
@@ -17,31 +17,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://blog.ykqmain.com/cjumraa1a0000qjs6c98ekyw7/"/>
-    <id>http://blog.ykqmain.com/cjumraa1a0000qjs6c98ekyw7/</id>
-    <published>2019-04-18T14:28:50.330Z</published>
-    <updated>2019-04-18T14:30:00.396Z</updated>
+    <title>Debian从0到1</title>
+    <link href="http://blog.ykqmain.com/linux/"/>
+    <id>http://blog.ykqmain.com/linux/</id>
+    <published>2019-04-17T16:00:00.000Z</published>
+    <updated>2019-04-18T15:18:15.779Z</updated>
     
-    <content type="html"><![CDATA[<p>id: linux</p><p>title: Debian从0到1</p><p>date: 2019-04-18</p><p>categories: 网络</p><p>tags:</p><ul><li>Linux</li><li>Debian</li><li>服务器</li><li>Apache</li><li>Nginx</li><li>MySQL</li><li>Python</li><li>Java</li><li>Git</li><li>Django</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>最近活动买了个阿里云玩玩，大一的时候折腾过Ubuntu桌面版和Windows双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。</p><p>本文想从头记录Debian的折腾过程，年轻在于折腾。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;id: linux&lt;/p&gt;
-&lt;p&gt;title: Debian从0到1&lt;/p&gt;
-&lt;p&gt;date: 2019-04-18&lt;/p&gt;
-&lt;p&gt;categories: 网络&lt;/p&gt;
-&lt;p&gt;tags:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Linux&lt;/li&gt;
-&lt;li&gt;Debian&lt;/li&gt;
-&lt;li
+        &lt;p&gt;最近活动买了个阿里云玩玩，大一的时候折腾过Ubuntu桌面版和Windows双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。&lt;/p&gt;
+&lt;p&gt;本文想从头记录Debian的折腾过程，年轻在于折腾。&lt;/p&gt;
+
       
     
     </summary>
     
+      <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
+    
+      <category term="Debian" scheme="http://blog.ykqmain.com/tags/Debian/"/>
+    
+      <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="Apache" scheme="http://blog.ykqmain.com/tags/Apache/"/>
+    
+      <category term="Nginx" scheme="http://blog.ykqmain.com/tags/Nginx/"/>
+    
+      <category term="MySQL" scheme="http://blog.ykqmain.com/tags/MySQL/"/>
+    
+      <category term="Python" scheme="http://blog.ykqmain.com/tags/Python/"/>
+    
+      <category term="Java" scheme="http://blog.ykqmain.com/tags/Java/"/>
+    
+      <category term="Git" scheme="http://blog.ykqmain.com/tags/Git/"/>
+    
+      <category term="Django" scheme="http://blog.ykqmain.com/tags/Django/"/>
     
   </entry>
   
@@ -109,13 +125,13 @@
       <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Web" scheme="http://blog.ykqmain.com/tags/Web/"/>
-    
       <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="Flask" scheme="http://blog.ykqmain.com/tags/Flask/"/>
-    
       <category term="Python" scheme="http://blog.ykqmain.com/tags/Python/"/>
+    
+      <category term="Web" scheme="http://blog.ykqmain.com/tags/Web/"/>
+    
+      <category term="Flask" scheme="http://blog.ykqmain.com/tags/Flask/"/>
     
       <category term="http" scheme="http://blog.ykqmain.com/tags/http/"/>
     
@@ -245,11 +261,11 @@
     
       <category term="回忆" scheme="http://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
+      <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
+    
       <category term="励志" scheme="http://blog.ykqmain.com/tags/%E5%8A%B1%E5%BF%97/"/>
     
       <category term="经典" scheme="http://blog.ykqmain.com/tags/%E7%BB%8F%E5%85%B8/"/>
-    
-      <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
       <category term="国产" scheme="http://blog.ykqmain.com/tags/%E5%9B%BD%E4%BA%A7/"/>
     
@@ -353,13 +369,13 @@
     
       <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
     
+      <category term="Java" scheme="http://blog.ykqmain.com/tags/Java/"/>
+    
       <category term="大数据" scheme="http://blog.ykqmain.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
       <category term="Hadoop" scheme="http://blog.ykqmain.com/tags/Hadoop/"/>
     
       <category term="CentOS" scheme="http://blog.ykqmain.com/tags/CentOS/"/>
-    
-      <category term="Java" scheme="http://blog.ykqmain.com/tags/Java/"/>
     
       <category term="Tomcat" scheme="http://blog.ykqmain.com/tags/Tomcat/"/>
     
@@ -391,13 +407,13 @@
     
       <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
     
+      <category term="Java" scheme="http://blog.ykqmain.com/tags/Java/"/>
+    
       <category term="大数据" scheme="http://blog.ykqmain.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
       <category term="Hadoop" scheme="http://blog.ykqmain.com/tags/Hadoop/"/>
     
       <category term="CentOS" scheme="http://blog.ykqmain.com/tags/CentOS/"/>
-    
-      <category term="Java" scheme="http://blog.ykqmain.com/tags/Java/"/>
     
   </entry>
   
@@ -599,9 +615,9 @@
     
       <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="Apache" scheme="http://blog.ykqmain.com/tags/Apache/"/>
-    
       <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="Apache" scheme="http://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="MySQL" scheme="http://blog.ykqmain.com/tags/MySQL/"/>
     
@@ -714,9 +730,9 @@
       <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
       <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
+    
+      <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="Nginx" scheme="http://blog.ykqmain.com/tags/Nginx/"/>
     
@@ -936,13 +952,13 @@
       <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Apache" scheme="http://blog.ykqmain.com/tags/Apache/"/>
+      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-      <category term="Web" scheme="http://blog.ykqmain.com/tags/Web/"/>
+      <category term="Apache" scheme="http://blog.ykqmain.com/tags/Apache/"/>
     
-      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
+      <category term="Web" scheme="http://blog.ykqmain.com/tags/Web/"/>
     
   </entry>
   
