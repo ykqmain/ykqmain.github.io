@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.ykqmain.com/"/>
-  <updated>2019-03-12T13:14:13.966Z</updated>
+  <updated>2019-04-18T14:30:00.396Z</updated>
   <id>http://blog.ykqmain.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.ykqmain.com/cjumraa1a0000qjs6c98ekyw7/"/>
+    <id>http://blog.ykqmain.com/cjumraa1a0000qjs6c98ekyw7/</id>
+    <published>2019-04-18T14:28:50.330Z</published>
+    <updated>2019-04-18T14:30:00.396Z</updated>
+    
+    <content type="html"><![CDATA[<p>id: linux</p><p>title: Debian从0到1</p><p>date: 2019-04-18</p><p>categories: 网络</p><p>tags:</p><ul><li>Linux</li><li>Debian</li><li>服务器</li><li>Apache</li><li>Nginx</li><li>MySQL</li><li>Python</li><li>Java</li><li>Git</li><li>Django</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;id: linux&lt;/p&gt;
+&lt;p&gt;title: Debian从0到1&lt;/p&gt;
+&lt;p&gt;date: 2019-04-18&lt;/p&gt;
+&lt;p&gt;categories: 网络&lt;/p&gt;
+&lt;p&gt;tags:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Linux&lt;/li&gt;
+&lt;li&gt;Debian&lt;/li&gt;
+&lt;li
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>滕王阁序</title>
