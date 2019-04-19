@@ -4,8 +4,46 @@
 
     
   <url>
+    <loc>http://blog.ykqmain.com/linux/</loc>
+    <lastmod>2019-04-19T15:52:06.604Z</lastmod>
+    <data>
+        <display>
+        <title>Debian从0到1</title>
+        <pubTime>2019-04-17T16:00:00.000Z</pubTime>
+        
+        <tag>Apache</tag>
+         
+        <tag>服务器</tag>
+         
+        <tag>MySQL</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>Nginx</tag>
+         
+        <tag>Debian</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Git</tag>
+         
+        <tag>Django</tag>
+         
+         
+           
+             
+              <breadCrumb title="网络" url="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2019-04-19T13:49:21.073Z</lastmod>
+    <lastmod>2019-04-19T13:51:19.127Z</lastmod>
     <data>
         <display>
         <title>利器</title>
@@ -27,44 +65,6 @@
            
              
               <breadCrumb title="计算机" url="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.ykqmain.com/linux/</loc>
-    <lastmod>2019-04-18T15:18:15.779Z</lastmod>
-    <data>
-        <display>
-        <title>Debian从0到1</title>
-        <pubTime>2019-04-17T16:00:00.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Debian</tag>
-         
-        <tag>服务器</tag>
-         
-        <tag>Apache</tag>
-         
-        <tag>Nginx</tag>
-         
-        <tag>MySQL</tag>
-         
-        <tag>Python</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Git</tag>
-         
-        <tag>Django</tag>
-         
-         
-           
-             
-              <breadCrumb title="网络" url="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
           
         </display>
     </data>
@@ -584,11 +584,11 @@
         <title>Flask实践</title>
         <pubTime>2019-01-23T16:00:00.000Z</pubTime>
         
+        <tag>Web</tag>
+         
         <tag>Linux</tag>
          
         <tag>Python</tag>
-         
-        <tag>Web</tag>
          
         <tag>Flask</tag>
          
@@ -706,9 +706,9 @@
         <title>Nginx安装</title>
         <pubTime>2016-06-07T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>服务器</tag>
+         
+        <tag>Linux</tag>
          
         <tag>Nginx</tag>
          
@@ -730,13 +730,13 @@
         <title>The First Web Page</title>
         <pubTime>2015-11-20T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
+        <tag>Apache</tag>
          
         <tag>服务器</tag>
          
-        <tag>Apache</tag>
-         
         <tag>Web</tag>
+         
+        <tag>Linux</tag>
          
          
            
@@ -758,9 +758,9 @@
         
         <tag>Mac</tag>
          
-        <tag>服务器</tag>
-         
         <tag>Apache</tag>
+         
+        <tag>服务器</tag>
          
         <tag>MySQL</tag>
          
