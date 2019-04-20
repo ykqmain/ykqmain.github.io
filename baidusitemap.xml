@@ -4,38 +4,8 @@
 
     
   <url>
-    <loc>http://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2019-04-19T18:48:13.086Z</lastmod>
-    <data>
-        <display>
-        <title>利器</title>
-        <pubTime>2016-01-03T16:00:00.000Z</pubTime>
-        
-        <tag>Apple</tag>
-         
-        <tag>Mac</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>工具</tag>
-         
-        <tag>Software</tag>
-         
-        <tag>App</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机" url="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.ykqmain.com/linux/</loc>
-    <lastmod>2019-04-19T15:59:19.052Z</lastmod>
+    <lastmod>2019-04-20T06:46:54.432Z</lastmod>
     <data>
         <display>
         <title>Debian从0到1</title>
@@ -65,6 +35,36 @@
            
              
               <breadCrumb title="网络" url="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.ykqmain.com/liqi/</loc>
+    <lastmod>2019-04-19T18:48:13.086Z</lastmod>
+    <data>
+        <display>
+        <title>利器</title>
+        <pubTime>2016-01-03T16:00:00.000Z</pubTime>
+        
+        <tag>Apple</tag>
+         
+        <tag>Mac</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>工具</tag>
+         
+        <tag>Software</tag>
+         
+        <tag>App</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
           
         </display>
     </data>
