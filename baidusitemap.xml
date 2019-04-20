@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.ykqmain.com/linux/</loc>
-    <lastmod>2019-04-20T06:46:54.432Z</lastmod>
+    <lastmod>2019-04-20T08:40:51.889Z</lastmod>
     <data>
         <display>
         <title>Debian从0到1</title>
@@ -30,6 +30,8 @@
         <tag>Git</tag>
          
         <tag>Django</tag>
+         
+        <tag>MariaDB</tag>
          
          
            
