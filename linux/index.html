@@ -12,18 +12,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Debian,Python,Java,Git,Django,MariaDB," />
+    <meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Debian,MariaDB,Python,Java,Git,Django," />
   
 
   <meta name="description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
-<meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Debian,Python,Java,Git,Django,MariaDB">
+<meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Debian,MariaDB,Python,Java,Git,Django">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Debian从0到1">
 <meta property="og:url" content="http://blog.ykqmain.com/linux/index.html">
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-20T08:40:51.889Z">
+<meta property="og:updated_time" content="2019-04-20T08:43:35.352Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Debian从0到1">
 <meta name="twitter:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
@@ -550,18 +550,20 @@
 </li>
 <li><p>登录</p>
 <ul>
-<li><code>mysql -u root -p</code></li>
+<li><code>mysql -u root -p</code><br><br></li>
 </ul>
 </li>
 </ol>
 </li>
 <li><p>其他</p>
 <p> 后端不太想用PHP，Debian自带Python3和perl。</p>
-<p> <strong>至此，一个基础的Linux环境就弄好了，可以告一段落，再看后面怎么折腾。</strong></p>
+<p> <strong>至此，一个基础的Linux环境就弄好了，可以暂告一段落，再看后面怎么折腾。</strong></p>
 <p> <strong>注：</strong> perl运行准备</p>
-<pre><code>* `echo &quot;export LC_ALL=C&quot; &gt;&gt; /root/.bashrc`
-* `source /root/.bashrc `
-</code></pre></li>
+<ul>
+<li><code>echo &quot;export LC_ALL=C&quot; &gt;&gt; /root/.bashrc</code></li>
+<li><code>source /root/.bashrc</code></li>
+</ul>
+</li>
 </ol>
 <p><br></p>
 <h2 id="搭建GitLab"><a href="#搭建GitLab" class="headerlink" title="搭建GitLab"></a>搭建GitLab</h2><p><br><br></p>
