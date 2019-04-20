@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-20T08:43:35.352Z">
+<meta property="og:updated_time" content="2019-04-20T15:43:33.540Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Debian从0到1">
 <meta name="twitter:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
@@ -318,7 +318,7 @@
 </li>
 <li><p>重启sshd服务，<code>systemctl restart sshd.service</code></p>
 </li>
-<li><p>阿里云还有坑，它自带一个<code>安全组规则</code>，ssh更改端口之后，必须在那里也开启<code>相应的入方向tcp端口</code>，我开启了用于ssh的1024端口，顺便配置了用于http的86端口，和https的443端口。</p>
+<li><p>阿里云还有坑，它自带一个<code>安全组规则</code>，ssh更改端口之后，必须在那里也开启<code>相应的入方向tcp端口</code>，我开启了用于ssh的1024端口，顺便配置了用于http的80端口，和https的443端口。</p>
 </li>
 <li><p>重启机器后再测试能不能免密登录，<code>reboot</code></p>
 </li>
@@ -446,7 +446,7 @@
 </ul>
 </li>
 </ol>
-<p>与阿里云安全组规则对应，我开启了<code>22/tcp 1024/tcp 86/tcp 443/tcp</code>四个端口，每次配置之后，运行<code>firewall-cmd --reload</code> 重新加载FirewallD使其生效。</p>
+<p>与阿里云安全组规则对应，我开启了<code>22/tcp 1024/tcp 80/tcp 443/tcp</code>四个端口，每次配置之后，运行<code>firewall-cmd --reload</code> 重新加载FirewallD使其生效。</p>
 <p><br></p>
 <h2 id="Systemd"><a href="#Systemd" class="headerlink" title="Systemd"></a>Systemd</h2><p>不知道从何时开始，发现Systemd真的很方便用于系统服务管理。</p>
 <ol>
@@ -466,10 +466,11 @@
 <li><code>systemctl list-units</code> 列出所有运行中单元</li>
 <li><p><code>systemctl --failed</code> 列出所有失败单元</p>
 </li>
-<li><p><code>systemctl list-unit-files --type=service</code> 列出所有服务（包括启用的和禁用的）    </p>
+<li><p><code>systemctl list-unit-files --type=service</code> 列出所有服务（包括启用的和禁用的）  </p>
 </li>
-<li><code>systemctl is-enabled nginx.service</code> 检查某个单元是否启用</li>
-<li><code>systemctl status firewalld.service</code> 检查某个单元或服务是否运行</li>
+<li><code>systemctl is-active nginx.service</code> 查看服务是否运行</li>
+<li><code>systemctl is-enabled nginx</code> 查看服务是否设置为开机启动（不带后缀默认就是<code>.service</code>单元，其他的单元比如<code>.mount .sockets .device .target</code>都必须指定类型）</li>
+<li><code>systemctl status firewalld.service</code> 检查某个单元或服务状态</li>
 </ul>
 </li>
 <li><p>管理</p>
@@ -525,10 +526,11 @@
 <ul>
 <li><code>whereis nginx</code> 查看位置</li>
 <li><code>/etc/nginx/nginx.conf</code> 配置文件</li>
-<li><code>/etc/nginx/sites-enabled/</code>，修改<code>default</code>文件，更改端口为<code>86</code></li>
+<li><code>/etc/nginx/sites-enabled/</code>，配置<code>default</code>文件</li>
 <li><code>systemctl start nginx</code> 启动nginx</li>
 <li><code>systemctl enable nginx</code> 开机自启</li>
 <li><code>systemctl status nginx</code> 查看状态</li>
+<li><code>systemctl restart nginx</code> 重启Nginx</li>
 </ul>
 </li>
 <li><p>检查<br> 在浏览器输入<code>IP:port</code>访问网址，有<code>Welcome to nginx!</code>则成功。<br><br></p>
@@ -557,7 +559,7 @@
 </li>
 <li><p>其他</p>
 <p> 后端不太想用PHP，Debian自带Python3和perl。</p>
-<p> <strong>至此，一个基础的Linux环境就弄好了，可以暂告一段落，再看后面怎么折腾。</strong></p>
+<p> <strong>至此，一个基础的Linux环境就弄好了。由此来看，也许Red Hat系和Debian系真的就是<code>yum</code>和<code>apt-get</code>的差别了。可以暂告一段落，再看后面怎么折腾。</strong></p>
 <p> <strong>注：</strong> perl运行准备</p>
 <ul>
 <li><code>echo &quot;export LC_ALL=C&quot; &gt;&gt; /root/.bashrc</code></li>
