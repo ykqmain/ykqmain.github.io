@@ -12,18 +12,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Debian,MariaDB,Python,Java,Git,Django," />
+    <meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Java,Debian,MariaDB,Python,Git,Django," />
   
 
   <meta name="description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
-<meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Debian,MariaDB,Python,Java,Git,Django">
+<meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Java,Debian,MariaDB,Python,Git,Django">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Debian从0到1">
 <meta property="og:url" content="http://blog.ykqmain.com/linux/index.html">
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-21T12:22:19.526Z">
+<meta property="og:updated_time" content="2019-04-22T11:58:32.504Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Debian从0到1">
 <meta name="twitter:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
@@ -417,7 +417,6 @@
 <li><code>systemctl enable firewalld</code> 开机启动</li>
 <li><code>firewall-cmd --state</code> 运行状态</li>
 <li><code>systemctl status firewalld</code> 查看FirewallD守护进程的状态</li>
-<li><code>firewall-cmd --reload</code> 重新加载 FirewallD 配置</li>
 </ul>
 </li>
 <li><p>使用</p>
@@ -432,6 +431,7 @@
 <li><code>firewall-cmd --add-service=http --permanent</code> 启用http服务</li>
 <li><code>firewall-cmd --add-port=1024/tcp --permanent</code> 启用tcp端口1024</li>
 <li><code>firewall-cmd --add-port=5000-5200/udp --permanent</code> 启用udp端口一个地址段</li>
+<li><code>firewall-cmd --reload</code> 重新加载 FirewallD 配置</li>
 <li>禁用服务或端口，将add改为<code>remove</code></li>
 </ul>
 </li>
