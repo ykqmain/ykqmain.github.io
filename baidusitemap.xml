@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>http://blog.ykqmain.com/flask/</loc>
+    <lastmod>2019-05-08T07:03:48.181Z</lastmod>
+    <data>
+        <display>
+        <title>Flask实践</title>
+        <pubTime>2019-01-23T16:00:00.000Z</pubTime>
+        
+        <tag>Web</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>Flask</tag>
+         
+        <tag>http</tag>
+         
+        <tag>企业微信</tag>
+         
+         
+           
+             
+              <breadCrumb title="网络" url="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.ykqmain.com/liqi/</loc>
     <lastmod>2019-05-07T09:10:39.289Z</lastmod>
     <data>
@@ -572,36 +602,6 @@
            
              
               <breadCrumb title="计算机" url="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.ykqmain.com/flask/</loc>
-    <lastmod>2019-02-04T07:19:16.775Z</lastmod>
-    <data>
-        <display>
-        <title>Flask实践</title>
-        <pubTime>2019-01-23T16:00:00.000Z</pubTime>
-        
-        <tag>Web</tag>
-         
-        <tag>Linux</tag>
-         
-        <tag>Python</tag>
-         
-        <tag>Flask</tag>
-         
-        <tag>http</tag>
-         
-        <tag>企业微信</tag>
-         
-         
-           
-             
-              <breadCrumb title="网络" url="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
           
         </display>
     </data>
