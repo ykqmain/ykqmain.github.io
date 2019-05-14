@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+
+  <html class="dark page-post">
+
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>Nginx安装 | iAnna</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="服务器,Linux,Nginx," />
+  
+
+  <meta name="description" content="系统平台：Centos 6 x86 全程需要注意路径问题  Nginx 安装 安装编译工具及库文件  yum -y install make zlib zlib-devel gcc-c++ libtool  openssl openssl-devel  安装 PCRE  PCRE 作用是让 Ngnix 支持 Rewrite 功能。  下载 PCRE 安装包: wget http://downloa">
+<meta name="keywords" content="服务器,Linux,Nginx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Nginx安装">
+<meta property="og:url" content="http://blog.ykqmain.com/nginx/index.html">
+<meta property="og:site_name" content="iAnna">
+<meta property="og:description" content="系统平台：Centos 6 x86 全程需要注意路径问题  Nginx 安装 安装编译工具及库文件  yum -y install make zlib zlib-devel gcc-c++ libtool  openssl openssl-devel  安装 PCRE  PCRE 作用是让 Ngnix 支持 Rewrite 功能。  下载 PCRE 安装包: wget http://downloa">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-12-14T02:05:46.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Nginx安装">
+<meta name="twitter:description" content="系统平台：Centos 6 x86 全程需要注意路径问题  Nginx 安装 安装编译工具及库文件  yum -y install make zlib zlib-devel gcc-c++ libtool  openssl openssl-devel  安装 PCRE  PCRE 作用是让 Ngnix 支持 Rewrite 功能。  下载 PCRE 安装包: wget http://downloa">
+
+  
+
+  
+    <link rel="icon" href="/favicon.ico">
+  
+
+  <link href="/css/styles.css?v=c114cben" rel="stylesheet">
+
+
+  
+    <link rel="stylesheet" href="/css/personal-style.css">
+  
+
+  
+
+  
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?e099b1fb950aeffc10d29d55d4f65d59";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+	(function(){
+	    var bp = document.createElement('script');
+	    var curProtocol = window.location.protocol.split(':')[0];
+	    if (curProtocol === 'https') {
+	        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+	    }
+	    else {
+	        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	    }
+	    var s = document.getElementsByTagName("script")[0];
+	    s.parentNode.insertBefore(bp, s);
+	})();
+  </script>
+
+
+
+  
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+
+</head>
+
+<body>
+
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">地图</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">地图</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/archives/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/category/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            分类
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/tag/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            标签
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/link/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            友链
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/about/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            关于
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/search/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            搜索
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/atom.xml"
+            rel="noopener noreferrer"
+            target="_blank"
+            >
+            RSS
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-Nginx安装" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">Nginx安装</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2016.06.08</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>秋风木叶</span>
+        </span>
+      
+
+      
+  <span class="article-category">
+    <i class="icon-list"></i>
+    <a class="article-category-link" href="/categories/网络/">网络</a>
+  </span>
+
+
+
+      
+
+      
+      <i class="fa fa-eye"></i> 
+        <span id="busuanzi_container_page_pv">
+           &nbsp热度 <span id="busuanzi_value_page_pv">
+           <i class="fa fa-spinner fa-spin"></i></span>℃
+        </span>
+      
+      
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <p><strong>系统平台：Centos 6 x86</strong></p>
+<p><strong>全程需要注意路径问题</strong></p>
+<p><br></p>
+<h2 id="Nginx-安装"><a href="#Nginx-安装" class="headerlink" title="Nginx 安装"></a>Nginx 安装</h2><ol>
+<li><p>安装编译工具及库文件</p>
+<p> <code>yum -y install make zlib zlib-devel gcc-c++ libtool  openssl openssl-devel</code><br><br></p>
+</li>
+<li><p>安装 PCRE</p>
+<p> PCRE 作用是让 Ngnix 支持 Rewrite 功能。</p>
+<ol>
+<li><p>下载 PCRE 安装包:</p>
+<p><code>wget http://downloads.sourceforge.net/project/pcre/pcre/8.35/pcre-8.35.tar.gz</code></p>
+</li>
+<li><p>解压安装包:</p>
+<p><code>tar zxvf pcre-8.35.tar.gz</code></p>
+</li>
+<li><p>进入安装包目录</p>
+<p><code>cd pcre-8.35</code></p>
+</li>
+<li><p>编译安装 </p>
+<p><code>./configure</code></p>
+<p><code>make &amp;&amp; make install</code><br><br></p>
+</li>
+</ol>
+</li>
+<li><p>安装 Nginx</p>
+<ol>
+<li><p>下载Nginx</p>
+<p>一直退出到主目录 <code>cd ..</code></p>
+<p><code>wget http://nginx.org/download/nginx-1.12.2.tar.gz</code></p>
+</li>
+<li><p>解压安装包</p>
+<p><code>tar zxvf nginx-1.12.2.tar.gz</code></p>
+</li>
+<li><p>进入安装包目录</p>
+<p><code>cd nginx-1.12.2</code></p>
+</li>
+<li><p>编译安装</p>
+<p><code>./configure --prefix=/web/nginx --with-http_stub_status_module --with-http_ssl_module --with-pcre=/root/pcre-8.35</code></p>
+<p><code>make</code></p>
+<p><code>make install</code></p>
+</li>
+</ol>
+</li>
+</ol>
+<p><br><br></p>
+<h2 id="Nginx-配置"><a href="#Nginx-配置" class="headerlink" title="Nginx 配置"></a>Nginx 配置</h2><p>配置文件<code>nginx.conf</code>，在<code>/web/nginx/conf/</code>里面，</p>
+<p>主要配置这里：</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">server</span> &#123;</span><br><span class="line">        <span class="attribute">listen</span>       <span class="number">80</span>;</span><br><span class="line">        <span class="attribute">server_name</span>  ykqmain.com;</span><br><span class="line">        <span class="attribute">index</span> index.html index.htm index.php;</span><br><span class="line">        <span class="attribute">charset</span> utf-<span class="number">8</span>;</span><br><span class="line">        <span class="attribute">root</span> /安装的路径/nginx/html;</span><br><span class="line">        </span><br><span class="line">        <span class="attribute">if</span> (<span class="variable">$host</span> != ykqmain.com) &#123;</span><br><span class="line">        <span class="attribute">rewrite</span><span class="regexp"> ^/(.*)$</span> http://ykqmain.com/<span class="variable">$1</span> <span class="literal">permanent</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="comment">#access_log  logs/host.access.log  main;</span></span><br><span class="line"></span><br><span class="line">        <span class="attribute">location</span> / &#123;</span><br><span class="line">            <span class="attribute">root</span>   html;</span><br><span class="line">            <span class="attribute">index</span>  index.html index.htm;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+<p>(<em>我这里还配置了301转发，将带WWW的转到不带WWW的网址。</em>)</p>
+<p>检查配置文件<code>ngnix.conf</code>的正确性命令：<code>/web/nginx/sbin/nginx -t</code></p>
+<p>启动 Nginx: <code>/web/nginx/sbin/nginx</code></p>
+<p><strong>访问站点测试是否成功</strong></p>
+<p><br><br></p>
+<h2 id="Nginx-开机自启"><a href="#Nginx-开机自启" class="headerlink" title="Nginx 开机自启"></a>Nginx 开机自启</h2><ol>
+<li><p>首先，在linux系统的<code>/etc/init.d/</code>目录下创建nginx文件</p>
+<p> <code>vim /etc/init.d/nginx</code><br><br></p>
+</li>
+<li><p>添加</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># nginx - this script starts and stops the nginx daemon</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># chkconfig:   - 85 15</span></span><br><span class="line"><span class="comment"># description:  NGINX is an HTTP(S) server, HTTP(S) reverse \</span></span><br><span class="line"><span class="comment">#               proxy and IMAP/POP3 proxy server</span></span><br><span class="line"><span class="comment"># processname: nginx</span></span><br><span class="line"><span class="comment"># config:      /etc/nginx/nginx.conf</span></span><br><span class="line"><span class="comment"># config:      /etc/sysconfig/nginx</span></span><br><span class="line"><span class="comment"># pidfile:     /var/run/nginx.pid</span></span><br><span class="line"><span class="comment"># Source function library.</span></span><br><span class="line">. /etc/rc.d/init.d/<span class="built_in">functions</span></span><br><span class="line"><span class="comment"># Source networking configuration.</span></span><br><span class="line">. /etc/sysconfig/network</span><br><span class="line"><span class="comment"># Check that networking is up.</span></span><br><span class="line">[ <span class="string">"<span class="variable">$NETWORKING</span>"</span> = <span class="string">"no"</span> ] &amp;&amp; <span class="built_in">exit</span> 0</span><br><span class="line">nginx=<span class="string">"/web/nginx/sbin/nginx"</span></span><br><span class="line">prog=$(basename <span class="variable">$nginx</span>)</span><br><span class="line">NGINX_CONF_FILE=<span class="string">"/web/nginx/conf/nginx.conf"</span></span><br><span class="line">[ -f /etc/sysconfig/nginx ] &amp;&amp; . /etc/sysconfig/nginx</span><br><span class="line">lockfile=/var/lock/subsys/nginx</span><br><span class="line"><span class="function"><span class="title">make_dirs</span></span>() &#123;</span><br><span class="line">   <span class="comment"># make required directories</span></span><br><span class="line">   user=`<span class="variable">$nginx</span> -V 2&gt;&amp;1 | grep <span class="string">"configure arguments:"</span> | sed <span class="string">'s/[^*]*--user=\([^ ]*\).*/\1/g'</span> -`</span><br><span class="line">   <span class="keyword">if</span> [ -z <span class="string">"`grep <span class="variable">$user</span> /etc/passwd`"</span> ]; <span class="keyword">then</span></span><br><span class="line">       useradd -M -s /bin/nologin <span class="variable">$user</span></span><br><span class="line">   <span class="keyword">fi</span></span><br><span class="line">   options=`<span class="variable">$nginx</span> -V 2&gt;&amp;1 | grep <span class="string">'configure arguments:'</span>`</span><br><span class="line">   <span class="keyword">for</span> opt <span class="keyword">in</span> <span class="variable">$options</span>; <span class="keyword">do</span></span><br><span class="line">       <span class="keyword">if</span> [ `<span class="built_in">echo</span> <span class="variable">$opt</span> | grep <span class="string">'.*-temp-path'</span>` ]; <span class="keyword">then</span></span><br><span class="line">           value=`<span class="built_in">echo</span> <span class="variable">$opt</span> | cut -d <span class="string">"="</span> -f 2`</span><br><span class="line">           <span class="keyword">if</span> [ ! -d <span class="string">"<span class="variable">$value</span>"</span> ]; <span class="keyword">then</span></span><br><span class="line">               <span class="comment"># echo "creating" $value</span></span><br><span class="line">               mkdir -p <span class="variable">$value</span> &amp;&amp; chown -R <span class="variable">$user</span> <span class="variable">$value</span></span><br><span class="line">           <span class="keyword">fi</span></span><br><span class="line">       <span class="keyword">fi</span></span><br><span class="line">   <span class="keyword">done</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="title">start</span></span>() &#123;</span><br><span class="line">    [ -x <span class="variable">$nginx</span> ] || <span class="built_in">exit</span> 5</span><br><span class="line">    [ -f <span class="variable">$NGINX_CONF_FILE</span> ] || <span class="built_in">exit</span> 6</span><br><span class="line">    make_dirs</span><br><span class="line">    <span class="built_in">echo</span> -n $<span class="string">"Starting <span class="variable">$prog</span>: "</span></span><br><span class="line">    daemon <span class="variable">$nginx</span> -c <span class="variable">$NGINX_CONF_FILE</span></span><br><span class="line">    retval=$?</span><br><span class="line">    <span class="built_in">echo</span></span><br><span class="line">    [ <span class="variable">$retval</span> -eq 0 ] &amp;&amp; touch <span class="variable">$lockfile</span></span><br><span class="line">    <span class="built_in">return</span> <span class="variable">$retval</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="title">stop</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> -n $<span class="string">"Stopping <span class="variable">$prog</span>: "</span></span><br><span class="line">    killproc <span class="variable">$prog</span> -QUIT</span><br><span class="line">    retval=$?</span><br><span class="line">    <span class="built_in">echo</span></span><br><span class="line">    [ <span class="variable">$retval</span> -eq 0 ] &amp;&amp; rm -f <span class="variable">$lockfile</span></span><br><span class="line">    <span class="built_in">return</span> <span class="variable">$retval</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="title">restart</span></span>() &#123;</span><br><span class="line">    configtest || <span class="built_in">return</span> $?</span><br><span class="line">    stop</span><br><span class="line">    sleep 1</span><br><span class="line">    start</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="title">reload</span></span>() &#123;</span><br><span class="line">    configtest || <span class="built_in">return</span> $?</span><br><span class="line">    <span class="built_in">echo</span> -n $<span class="string">"Reloading <span class="variable">$prog</span>: "</span></span><br><span class="line">    killproc <span class="variable">$nginx</span> -HUP</span><br><span class="line">    RETVAL=$?</span><br><span class="line">    <span class="built_in">echo</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="title">force_reload</span></span>() &#123;</span><br><span class="line">    restart</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="title">configtest</span></span>() &#123;</span><br><span class="line">  <span class="variable">$nginx</span> -t -c <span class="variable">$NGINX_CONF_FILE</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="title">rh_status</span></span>() &#123;</span><br><span class="line">    status <span class="variable">$prog</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="title">rh_status_q</span></span>() &#123;</span><br><span class="line">    rh_status &gt;/dev/null 2&gt;&amp;1</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">case</span> <span class="string">"<span class="variable">$1</span>"</span> <span class="keyword">in</span></span><br><span class="line">    start)</span><br><span class="line">        rh_status_q &amp;&amp; <span class="built_in">exit</span> 0</span><br><span class="line">        <span class="variable">$1</span></span><br><span class="line">        ;;</span><br><span class="line">    stop)</span><br><span class="line">        rh_status_q || <span class="built_in">exit</span> 0</span><br><span class="line">        <span class="variable">$1</span></span><br><span class="line">        ;;</span><br><span class="line">    restart|configtest)</span><br><span class="line">        <span class="variable">$1</span></span><br><span class="line">        ;;</span><br><span class="line">    reload)</span><br><span class="line">        rh_status_q || <span class="built_in">exit</span> 7</span><br><span class="line">        <span class="variable">$1</span></span><br><span class="line">        ;;</span><br><span class="line">    force-reload)</span><br><span class="line">        force_reload</span><br><span class="line">        ;;</span><br><span class="line">    status)</span><br><span class="line">        rh_status</span><br><span class="line">        ;;</span><br><span class="line">    condrestart|try-restart)</span><br><span class="line">        rh_status_q || <span class="built_in">exit</span> 0</span><br><span class="line">            ;;</span><br><span class="line">    *)</span><br><span class="line">        <span class="built_in">echo</span> $<span class="string">"Usage: <span class="variable">$0</span> &#123;start|stop|status|restart|condrestart|try-restart|reload|force-reload|configtest&#125;"</span></span><br><span class="line">        <span class="built_in">exit</span> 2</span><br><span class="line"><span class="keyword">esac</span></span><br></pre></td></tr></table></figure>
+<p> 需要根据安装路径修改下面这两项配置：</p>
+<p> <code>nginx=&quot;/web/nginx/sbin/nginx&quot;</code> 修改成nginx执行程序的路径。<br> <code>NGINX_CONF_FILE=&quot;/web/nginx/conf/nginx.conf&quot;</code> 修改成配置文件的路径。<br><br></p>
+</li>
+<li><p>保存脚本文件后设置文件的执行权限</p>
+<p> <code>chmod a+x /etc/init.d/nginx</code><br><br></p>
+</li>
+<li><p>使用chkconfig进行管理</p>
+<p> <code>chkconfig --add /etc/init.d/nginx</code></p>
+<p> 加完这个之后，就可以使用service对nginx进行启动，重启等操作了。</p>
+<p> <code>service nginx start</code></p>
+<p> <code>service nginx stop</code></p>
+<p> <code>service nginx restart</code><br><br></p>
+</li>
+<li><p>设置开机启动：</p>
+<p> <code>chkconfig nginx on</code></p>
+</li>
+</ol>
+<p><br></p>
+<p><strong>Enjoy it!</strong> </p>
+<p>//参考：</p>
+<ul>
+<li><p><a href="http://www.runoob.com/linux/nginx-install-setup.html" target="_blank" rel="noopener">Nginx 安装配置</a></p>
+</li>
+<li><p><a href="http://unun.in/linux/225.html" target="_blank" rel="noopener">nginx开机启动</a></p>
+</li>
+</ul>
+<p><br><br></p>
+
+    
+  </div>
+
+</article>
+
+
+   
+
+   
+  <div class="box-prev-next clearfix">
+    <a class="show pull-left" href="/nasm/">
+        <i class="icon icon-angle-left"></i>
+    </a>
+    <a class="show pull-right" href="/young/">
+        <i class="icon icon-angle-right"></i>
+    </a>
+  </div>
+
+
+
+
+
+   
+      <div class="git"></div>
+   
+</div>
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">关闭</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/archives/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/category/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              分类
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/tag/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              标签
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/link/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              友链
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/about/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              关于
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/search/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              搜索
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/atom.xml"
+              rel="noopener noreferrer"
+              target="_blank"
+              >
+              RSS
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-post">
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235683', function() {
+      // load success
+    });
+  }
+</script>
+
+</body>
+</html>
