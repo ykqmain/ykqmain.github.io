@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="用了很多博客工具，最后选择了hexo，去除多余的功能，借助Markdown写作，专注内容。  hexo环境搭建 安装Git  安装Node.Js Node.Js官网  安装Hexo">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-27T12:39:46.158Z">
+<meta property="og:updated_time" content="2019-05-17T03:28:27.412Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo搭建博客">
 <meta name="twitter:description" content="用了很多博客工具，最后选择了hexo，去除多余的功能，借助Markdown写作，专注内容。  hexo环境搭建 安装Git  安装Node.Js Node.Js官网  安装Hexo">
@@ -344,9 +344,9 @@
 <h3 id="部署博客"><a href="#部署博客" class="headerlink" title="部署博客"></a>部署博客</h3><p>每次写完博客把文件扔到<code>_posts</code>文件夹里面，就该部署了，很容易的四条命令。</p>
 <p>首先打开终端（cmd），cd到<code>blog</code> 文件夹（<em>注意：cd到 <code>blog</code> 即可</em>）</p>
 <ul>
+<li><code>hexo clean</code>  清理缓存</li>
 <li><code>hexo g</code>  在本地生成静态页面</li>
 <li><code>hexo s</code> 本地预览（默认端口4000，复制 <code>http://0.0.0.0:4000</code> （或<code>http://localhost:4000</code>）到浏览器可以预览效果， <code>Ctrl + c</code> 关闭server）</li>
-<li><code>hexo clean</code>  清理缓存</li>
 </ul>
 <p>到这里你还可以修改，最后一步</p>
 <ul>
@@ -354,8 +354,8 @@
 </ul>
 <p><strong>注意：</strong></p>
 <ul>
-<li>每次<code>hexo d</code> 之前，必须 <code>hexo g</code> 。这两个是写完博客之后必须用的命令。</li>
-<li>每次 <code>hexo s</code> 之前，也必须  <code>hexo g</code> 。这两个命令可以合并为<code>hexo d -g</code>。</li>
+<li>每次<code>hexo d</code> 之前，必须 <code>hexo g</code> 。这两个是写完博客之后必须用的命令，这两个命令可以合并为<code>hexo d -g</code>。</li>
+<li>每次 <code>hexo s</code> 之前，也必须  <code>hexo g</code> 。</li>
 <li><code>hexo clean</code> 和 <code>hexo s</code> 是可选命令。</li>
 </ul>
 <p><br></p>
