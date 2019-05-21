@@ -5,9 +5,9 @@
   <subtitle>Life &amp; Technology</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blog.ykqmain.com/"/>
+  <link href="https://blog.ykqmain.com/"/>
   <updated>2019-04-22T11:58:32.504Z</updated>
-  <id>http://blog.ykqmain.com/</id>
+  <id>https://blog.ykqmain.com/</id>
   
   <author>
     <name>秋风木叶</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Debian从0到1</title>
-    <link href="http://blog.ykqmain.com/linux/"/>
-    <id>http://blog.ykqmain.com/linux/</id>
+    <link href="https://blog.ykqmain.com/linux/"/>
+    <id>https://blog.ykqmain.com/linux/</id>
     <published>2019-04-17T16:00:00.000Z</published>
     <updated>2019-04-22T11:58:32.504Z</updated>
     
@@ -35,37 +35,37 @@
     
     </summary>
     
-      <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+      <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Apache" scheme="http://blog.ykqmain.com/tags/Apache/"/>
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
-      <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-      <category term="MySQL" scheme="http://blog.ykqmain.com/tags/MySQL/"/>
+      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
-      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="Nginx" scheme="http://blog.ykqmain.com/tags/Nginx/"/>
+      <category term="Nginx" scheme="https://blog.ykqmain.com/tags/Nginx/"/>
     
-      <category term="Java" scheme="http://blog.ykqmain.com/tags/Java/"/>
+      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
-      <category term="Debian" scheme="http://blog.ykqmain.com/tags/Debian/"/>
+      <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
     
-      <category term="MariaDB" scheme="http://blog.ykqmain.com/tags/MariaDB/"/>
+      <category term="MariaDB" scheme="https://blog.ykqmain.com/tags/MariaDB/"/>
     
-      <category term="Python" scheme="http://blog.ykqmain.com/tags/Python/"/>
+      <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
     
-      <category term="Git" scheme="http://blog.ykqmain.com/tags/Git/"/>
+      <category term="Git" scheme="https://blog.ykqmain.com/tags/Git/"/>
     
-      <category term="Django" scheme="http://blog.ykqmain.com/tags/Django/"/>
+      <category term="Django" scheme="https://blog.ykqmain.com/tags/Django/"/>
     
   </entry>
   
   <entry>
     <title>滕王阁序</title>
-    <link href="http://blog.ykqmain.com/twgx/"/>
-    <id>http://blog.ykqmain.com/twgx/</id>
+    <link href="https://blog.ykqmain.com/twgx/"/>
+    <id>https://blog.ykqmain.com/twgx/</id>
     <published>2019-03-11T16:00:00.000Z</published>
     <updated>2019-03-12T13:14:13.966Z</updated>
     
@@ -84,31 +84,31 @@
     
     </summary>
     
-      <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="唐" scheme="http://blog.ykqmain.com/tags/%E5%94%90/"/>
+      <category term="唐" scheme="https://blog.ykqmain.com/tags/%E5%94%90/"/>
     
-      <category term="辞赋" scheme="http://blog.ykqmain.com/tags/%E8%BE%9E%E8%B5%8B/"/>
+      <category term="辞赋" scheme="https://blog.ykqmain.com/tags/%E8%BE%9E%E8%B5%8B/"/>
     
-      <category term="骈文" scheme="http://blog.ykqmain.com/tags/%E9%AA%88%E6%96%87/"/>
+      <category term="骈文" scheme="https://blog.ykqmain.com/tags/%E9%AA%88%E6%96%87/"/>
     
-      <category term="美景" scheme="http://blog.ykqmain.com/tags/%E7%BE%8E%E6%99%AF/"/>
+      <category term="美景" scheme="https://blog.ykqmain.com/tags/%E7%BE%8E%E6%99%AF/"/>
     
-      <category term="抒情" scheme="http://blog.ykqmain.com/tags/%E6%8A%92%E6%83%85/"/>
+      <category term="抒情" scheme="https://blog.ykqmain.com/tags/%E6%8A%92%E6%83%85/"/>
     
-      <category term="怀古" scheme="http://blog.ykqmain.com/tags/%E6%80%80%E5%8F%A4/"/>
+      <category term="怀古" scheme="https://blog.ykqmain.com/tags/%E6%80%80%E5%8F%A4/"/>
     
-      <category term="励志" scheme="http://blog.ykqmain.com/tags/%E5%8A%B1%E5%BF%97/"/>
+      <category term="励志" scheme="https://blog.ykqmain.com/tags/%E5%8A%B1%E5%BF%97/"/>
     
-      <category term="经典" scheme="http://blog.ykqmain.com/tags/%E7%BB%8F%E5%85%B8/"/>
+      <category term="经典" scheme="https://blog.ykqmain.com/tags/%E7%BB%8F%E5%85%B8/"/>
     
   </entry>
   
   <entry>
     <title>Flask实践</title>
-    <link href="http://blog.ykqmain.com/flask/"/>
-    <id>http://blog.ykqmain.com/flask/</id>
+    <link href="https://blog.ykqmain.com/flask/"/>
+    <id>https://blog.ykqmain.com/flask/</id>
     <published>2019-01-23T16:00:00.000Z</published>
     <updated>2019-05-08T07:03:48.181Z</updated>
     
@@ -123,27 +123,27 @@
     
     </summary>
     
-      <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+      <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Web" scheme="http://blog.ykqmain.com/tags/Web/"/>
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
-      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="Python" scheme="http://blog.ykqmain.com/tags/Python/"/>
+      <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
     
-      <category term="Flask" scheme="http://blog.ykqmain.com/tags/Flask/"/>
+      <category term="Flask" scheme="https://blog.ykqmain.com/tags/Flask/"/>
     
-      <category term="http" scheme="http://blog.ykqmain.com/tags/http/"/>
+      <category term="http" scheme="https://blog.ykqmain.com/tags/http/"/>
     
-      <category term="企业微信" scheme="http://blog.ykqmain.com/tags/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1/"/>
+      <category term="企业微信" scheme="https://blog.ykqmain.com/tags/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1/"/>
     
   </entry>
   
   <entry>
     <title>人生如梦</title>
-    <link href="http://blog.ykqmain.com/lishi/"/>
-    <id>http://blog.ykqmain.com/lishi/</id>
+    <link href="https://blog.ykqmain.com/lishi/"/>
+    <id>https://blog.ykqmain.com/lishi/</id>
     <published>2018-11-11T16:00:00.000Z</published>
     <updated>2019-03-22T12:36:10.636Z</updated>
     
@@ -164,37 +164,37 @@
     
     </summary>
     
-      <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="思想" scheme="http://blog.ykqmain.com/tags/%E6%80%9D%E6%83%B3/"/>
+      <category term="思想" scheme="https://blog.ykqmain.com/tags/%E6%80%9D%E6%83%B3/"/>
     
-      <category term="中国" scheme="http://blog.ykqmain.com/tags/%E4%B8%AD%E5%9B%BD/"/>
+      <category term="中国" scheme="https://blog.ykqmain.com/tags/%E4%B8%AD%E5%9B%BD/"/>
     
-      <category term="历史" scheme="http://blog.ykqmain.com/tags/%E5%8E%86%E5%8F%B2/"/>
+      <category term="历史" scheme="https://blog.ykqmain.com/tags/%E5%8E%86%E5%8F%B2/"/>
     
-      <category term="文学" scheme="http://blog.ykqmain.com/tags/%E6%96%87%E5%AD%A6/"/>
+      <category term="文学" scheme="https://blog.ykqmain.com/tags/%E6%96%87%E5%AD%A6/"/>
     
-      <category term="古代史" scheme="http://blog.ykqmain.com/tags/%E5%8F%A4%E4%BB%A3%E5%8F%B2/"/>
+      <category term="古代史" scheme="https://blog.ykqmain.com/tags/%E5%8F%A4%E4%BB%A3%E5%8F%B2/"/>
     
-      <category term="文化" scheme="http://blog.ykqmain.com/tags/%E6%96%87%E5%8C%96/"/>
+      <category term="文化" scheme="https://blog.ykqmain.com/tags/%E6%96%87%E5%8C%96/"/>
     
-      <category term="英雄" scheme="http://blog.ykqmain.com/tags/%E8%8B%B1%E9%9B%84/"/>
+      <category term="英雄" scheme="https://blog.ykqmain.com/tags/%E8%8B%B1%E9%9B%84/"/>
     
-      <category term="春秋战国" scheme="http://blog.ykqmain.com/tags/%E6%98%A5%E7%A7%8B%E6%88%98%E5%9B%BD/"/>
+      <category term="春秋战国" scheme="https://blog.ykqmain.com/tags/%E6%98%A5%E7%A7%8B%E6%88%98%E5%9B%BD/"/>
     
-      <category term="三国" scheme="http://blog.ykqmain.com/tags/%E4%B8%89%E5%9B%BD/"/>
+      <category term="三国" scheme="https://blog.ykqmain.com/tags/%E4%B8%89%E5%9B%BD/"/>
     
-      <category term="汉唐" scheme="http://blog.ykqmain.com/tags/%E6%B1%89%E5%94%90/"/>
+      <category term="汉唐" scheme="https://blog.ykqmain.com/tags/%E6%B1%89%E5%94%90/"/>
     
-      <category term="感叹" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E5%8F%B9/"/>
+      <category term="感叹" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E5%8F%B9/"/>
     
   </entry>
   
   <entry>
     <title>观「诸子」有感</title>
-    <link href="http://blog.ykqmain.com/zhuzi/"/>
-    <id>http://blog.ykqmain.com/zhuzi/</id>
+    <link href="https://blog.ykqmain.com/zhuzi/"/>
+    <id>https://blog.ykqmain.com/zhuzi/</id>
     <published>2018-08-24T16:00:00.000Z</published>
     <updated>2018-09-07T10:16:00.000Z</updated>
     
@@ -211,29 +211,29 @@
     
     </summary>
     
-      <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="诸子百家" scheme="http://blog.ykqmain.com/tags/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/"/>
+      <category term="诸子百家" scheme="https://blog.ykqmain.com/tags/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/"/>
     
-      <category term="哲学" scheme="http://blog.ykqmain.com/tags/%E5%93%B2%E5%AD%A6/"/>
+      <category term="哲学" scheme="https://blog.ykqmain.com/tags/%E5%93%B2%E5%AD%A6/"/>
     
-      <category term="思想" scheme="http://blog.ykqmain.com/tags/%E6%80%9D%E6%83%B3/"/>
+      <category term="思想" scheme="https://blog.ykqmain.com/tags/%E6%80%9D%E6%83%B3/"/>
     
-      <category term="中国" scheme="http://blog.ykqmain.com/tags/%E4%B8%AD%E5%9B%BD/"/>
+      <category term="中国" scheme="https://blog.ykqmain.com/tags/%E4%B8%AD%E5%9B%BD/"/>
     
-      <category term="孔孟荀" scheme="http://blog.ykqmain.com/tags/%E5%AD%94%E5%AD%9F%E8%8D%80/"/>
+      <category term="孔孟荀" scheme="https://blog.ykqmain.com/tags/%E5%AD%94%E5%AD%9F%E8%8D%80/"/>
     
-      <category term="老庄" scheme="http://blog.ykqmain.com/tags/%E8%80%81%E5%BA%84/"/>
+      <category term="老庄" scheme="https://blog.ykqmain.com/tags/%E8%80%81%E5%BA%84/"/>
     
-      <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
+      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
   </entry>
   
   <entry>
     <title>国产动画思念集</title>
-    <link href="http://blog.ykqmain.com/donghua/"/>
-    <id>http://blog.ykqmain.com/donghua/</id>
+    <link href="https://blog.ykqmain.com/donghua/"/>
+    <id>https://blog.ykqmain.com/donghua/</id>
     <published>2018-07-23T16:00:00.000Z</published>
     <updated>2019-03-22T13:15:29.355Z</updated>
     
@@ -255,27 +255,27 @@
     
     </summary>
     
-      <category term="动画" scheme="http://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
     
     
-      <category term="动画" scheme="http://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
-      <category term="回忆" scheme="http://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="励志" scheme="http://blog.ykqmain.com/tags/%E5%8A%B1%E5%BF%97/"/>
+      <category term="励志" scheme="https://blog.ykqmain.com/tags/%E5%8A%B1%E5%BF%97/"/>
     
-      <category term="经典" scheme="http://blog.ykqmain.com/tags/%E7%BB%8F%E5%85%B8/"/>
+      <category term="经典" scheme="https://blog.ykqmain.com/tags/%E7%BB%8F%E5%85%B8/"/>
     
-      <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
+      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
-      <category term="国产" scheme="http://blog.ykqmain.com/tags/%E5%9B%BD%E4%BA%A7/"/>
+      <category term="国产" scheme="https://blog.ykqmain.com/tags/%E5%9B%BD%E4%BA%A7/"/>
     
   </entry>
   
   <entry>
     <title>虹猫蓝兔——致童年，望归来</title>
-    <link href="http://blog.ykqmain.com/honglan/"/>
-    <id>http://blog.ykqmain.com/honglan/</id>
+    <link href="https://blog.ykqmain.com/honglan/"/>
+    <id>https://blog.ykqmain.com/honglan/</id>
     <published>2018-07-21T16:00:00.000Z</published>
     <updated>2019-03-22T12:36:10.964Z</updated>
     
@@ -294,29 +294,29 @@
     
     </summary>
     
-      <category term="动画" scheme="http://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
     
     
-      <category term="动画" scheme="http://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
-      <category term="冒险" scheme="http://blog.ykqmain.com/tags/%E5%86%92%E9%99%A9/"/>
+      <category term="冒险" scheme="https://blog.ykqmain.com/tags/%E5%86%92%E9%99%A9/"/>
     
-      <category term="回忆" scheme="http://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="童年" scheme="http://blog.ykqmain.com/tags/%E7%AB%A5%E5%B9%B4/"/>
+      <category term="童年" scheme="https://blog.ykqmain.com/tags/%E7%AB%A5%E5%B9%B4/"/>
     
-      <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
+      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
-      <category term="国产" scheme="http://blog.ykqmain.com/tags/%E5%9B%BD%E4%BA%A7/"/>
+      <category term="国产" scheme="https://blog.ykqmain.com/tags/%E5%9B%BD%E4%BA%A7/"/>
     
-      <category term="武侠" scheme="http://blog.ykqmain.com/tags/%E6%AD%A6%E4%BE%A0/"/>
+      <category term="武侠" scheme="https://blog.ykqmain.com/tags/%E6%AD%A6%E4%BE%A0/"/>
     
   </entry>
   
   <entry>
     <title>毕业随想</title>
-    <link href="http://blog.ykqmain.com/graduate/"/>
-    <id>http://blog.ykqmain.com/graduate/</id>
+    <link href="https://blog.ykqmain.com/graduate/"/>
+    <id>https://blog.ykqmain.com/graduate/</id>
     <published>2018-05-19T16:00:00.000Z</published>
     <updated>2019-03-21T13:32:47.991Z</updated>
     
@@ -332,23 +332,23 @@
     
     </summary>
     
-      <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="回忆" scheme="http://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="感想" scheme="http://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
+      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
-      <category term="毕业" scheme="http://blog.ykqmain.com/tags/%E6%AF%95%E4%B8%9A/"/>
+      <category term="毕业" scheme="https://blog.ykqmain.com/tags/%E6%AF%95%E4%B8%9A/"/>
     
-      <category term="随笔" scheme="http://blog.ykqmain.com/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="https://blog.ykqmain.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>基于Hadoop的简单云盘</title>
-    <link href="http://blog.ykqmain.com/clouddisk/"/>
-    <id>http://blog.ykqmain.com/clouddisk/</id>
+    <link href="https://blog.ykqmain.com/clouddisk/"/>
+    <id>https://blog.ykqmain.com/clouddisk/</id>
     <published>2017-07-01T16:00:00.000Z</published>
     <updated>2019-03-22T13:03:46.930Z</updated>
     
@@ -365,29 +365,29 @@
     
     </summary>
     
-      <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+      <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="大数据" scheme="http://blog.ykqmain.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+      <category term="大数据" scheme="https://blog.ykqmain.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
-      <category term="Hadoop" scheme="http://blog.ykqmain.com/tags/Hadoop/"/>
+      <category term="Hadoop" scheme="https://blog.ykqmain.com/tags/Hadoop/"/>
     
-      <category term="CentOS" scheme="http://blog.ykqmain.com/tags/CentOS/"/>
+      <category term="CentOS" scheme="https://blog.ykqmain.com/tags/CentOS/"/>
     
-      <category term="Java" scheme="http://blog.ykqmain.com/tags/Java/"/>
+      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
-      <category term="Tomcat" scheme="http://blog.ykqmain.com/tags/Tomcat/"/>
+      <category term="Tomcat" scheme="https://blog.ykqmain.com/tags/Tomcat/"/>
     
-      <category term="Eclipse" scheme="http://blog.ykqmain.com/tags/Eclipse/"/>
+      <category term="Eclipse" scheme="https://blog.ykqmain.com/tags/Eclipse/"/>
     
   </entry>
   
   <entry>
     <title>Hadoop完全分布式搭建</title>
-    <link href="http://blog.ykqmain.com/hadoop/"/>
-    <id>http://blog.ykqmain.com/hadoop/</id>
+    <link href="https://blog.ykqmain.com/hadoop/"/>
+    <id>https://blog.ykqmain.com/hadoop/</id>
     <published>2017-06-26T16:00:00.000Z</published>
     <updated>2019-03-22T13:03:46.929Z</updated>
     
@@ -403,25 +403,25 @@
     
     </summary>
     
-      <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+      <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="大数据" scheme="http://blog.ykqmain.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+      <category term="大数据" scheme="https://blog.ykqmain.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
-      <category term="Hadoop" scheme="http://blog.ykqmain.com/tags/Hadoop/"/>
+      <category term="Hadoop" scheme="https://blog.ykqmain.com/tags/Hadoop/"/>
     
-      <category term="CentOS" scheme="http://blog.ykqmain.com/tags/CentOS/"/>
+      <category term="CentOS" scheme="https://blog.ykqmain.com/tags/CentOS/"/>
     
-      <category term="Java" scheme="http://blog.ykqmain.com/tags/Java/"/>
+      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>东湖的阳光</title>
-    <link href="http://blog.ykqmain.com/donghu/"/>
-    <id>http://blog.ykqmain.com/donghu/</id>
+    <link href="https://blog.ykqmain.com/donghu/"/>
+    <id>https://blog.ykqmain.com/donghu/</id>
     <published>2017-05-09T16:00:00.000Z</published>
     <updated>2019-03-22T13:04:10.621Z</updated>
     
@@ -441,23 +441,23 @@
     
     </summary>
     
-      <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="回忆" scheme="http://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="武汉" scheme="http://blog.ykqmain.com/tags/%E6%AD%A6%E6%B1%89/"/>
+      <category term="武汉" scheme="https://blog.ykqmain.com/tags/%E6%AD%A6%E6%B1%89/"/>
     
-      <category term="东湖" scheme="http://blog.ykqmain.com/tags/%E4%B8%9C%E6%B9%96/"/>
+      <category term="东湖" scheme="https://blog.ykqmain.com/tags/%E4%B8%9C%E6%B9%96/"/>
     
-      <category term="婧玉" scheme="http://blog.ykqmain.com/tags/%E5%A9%A7%E7%8E%89/"/>
+      <category term="婧玉" scheme="https://blog.ykqmain.com/tags/%E5%A9%A7%E7%8E%89/"/>
     
   </entry>
   
   <entry>
     <title>一首歌能带来什么回忆</title>
-    <link href="http://blog.ykqmain.com/future/"/>
-    <id>http://blog.ykqmain.com/future/</id>
+    <link href="https://blog.ykqmain.com/future/"/>
+    <id>https://blog.ykqmain.com/future/</id>
     <published>2017-04-30T16:00:00.000Z</published>
     <updated>2019-03-22T13:05:14.855Z</updated>
     
@@ -472,23 +472,23 @@
     
     </summary>
     
-      <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="动画" scheme="http://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
-      <category term="回忆" scheme="http://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="歌曲" scheme="http://blog.ykqmain.com/tags/%E6%AD%8C%E6%9B%B2/"/>
+      <category term="歌曲" scheme="https://blog.ykqmain.com/tags/%E6%AD%8C%E6%9B%B2/"/>
     
-      <category term="网球王子" scheme="http://blog.ykqmain.com/tags/%E7%BD%91%E7%90%83%E7%8E%8B%E5%AD%90/"/>
+      <category term="网球王子" scheme="https://blog.ykqmain.com/tags/%E7%BD%91%E7%90%83%E7%8E%8B%E5%AD%90/"/>
     
   </entry>
   
   <entry>
     <title>Mac上利用OBS在B站直播iPhone上的王者荣耀</title>
-    <link href="http://blog.ykqmain.com/obs/"/>
-    <id>http://blog.ykqmain.com/obs/</id>
+    <link href="https://blog.ykqmain.com/obs/"/>
+    <id>https://blog.ykqmain.com/obs/</id>
     <published>2017-04-15T16:00:00.000Z</published>
     <updated>2019-03-22T13:03:39.859Z</updated>
     
@@ -510,29 +510,29 @@
     
     </summary>
     
-      <category term="计算机" scheme="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+      <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="iPhone" scheme="http://blog.ykqmain.com/tags/iPhone/"/>
+      <category term="iPhone" scheme="https://blog.ykqmain.com/tags/iPhone/"/>
     
-      <category term="OBS" scheme="http://blog.ykqmain.com/tags/OBS/"/>
+      <category term="OBS" scheme="https://blog.ykqmain.com/tags/OBS/"/>
     
-      <category term="直播" scheme="http://blog.ykqmain.com/tags/%E7%9B%B4%E6%92%AD/"/>
+      <category term="直播" scheme="https://blog.ykqmain.com/tags/%E7%9B%B4%E6%92%AD/"/>
     
-      <category term="B站" scheme="http://blog.ykqmain.com/tags/B%E7%AB%99/"/>
+      <category term="B站" scheme="https://blog.ykqmain.com/tags/B%E7%AB%99/"/>
     
-      <category term="王者荣耀" scheme="http://blog.ykqmain.com/tags/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/"/>
+      <category term="王者荣耀" scheme="https://blog.ykqmain.com/tags/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/"/>
     
-      <category term="Soundflower" scheme="http://blog.ykqmain.com/tags/Soundflower/"/>
+      <category term="Soundflower" scheme="https://blog.ykqmain.com/tags/Soundflower/"/>
     
   </entry>
   
   <entry>
     <title>因为一个人，喜欢一部剧</title>
-    <link href="http://blog.ykqmain.com/april/"/>
-    <id>http://blog.ykqmain.com/april/</id>
+    <link href="https://blog.ykqmain.com/april/"/>
+    <id>https://blog.ykqmain.com/april/</id>
     <published>2017-04-09T16:00:00.000Z</published>
     <updated>2019-03-22T13:04:22.891Z</updated>
     
@@ -550,21 +550,21 @@
     
     </summary>
     
-      <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="动画" scheme="http://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
-      <category term="回忆" scheme="http://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="婧玉" scheme="http://blog.ykqmain.com/tags/%E5%A9%A7%E7%8E%89/"/>
+      <category term="婧玉" scheme="https://blog.ykqmain.com/tags/%E5%A9%A7%E7%8E%89/"/>
     
   </entry>
   
   <entry>
     <title>博客1周年暨年终总结</title>
-    <link href="http://blog.ykqmain.com/2016/"/>
-    <id>http://blog.ykqmain.com/2016/</id>
+    <link href="https://blog.ykqmain.com/2016/"/>
+    <id>https://blog.ykqmain.com/2016/</id>
     <published>2016-12-19T16:00:00.000Z</published>
     <updated>2019-03-22T13:05:08.547Z</updated>
     
@@ -580,21 +580,21 @@
     
     </summary>
     
-      <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="blog" scheme="http://blog.ykqmain.com/tags/blog/"/>
+      <category term="blog" scheme="https://blog.ykqmain.com/tags/blog/"/>
     
-      <category term="回忆" scheme="http://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="总结" scheme="http://blog.ykqmain.com/tags/%E6%80%BB%E7%BB%93/"/>
+      <category term="总结" scheme="https://blog.ykqmain.com/tags/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>Mac的Apache+MySQL+PHP配置</title>
-    <link href="http://blog.ykqmain.com/mamp/"/>
-    <id>http://blog.ykqmain.com/mamp/</id>
+    <link href="https://blog.ykqmain.com/mamp/"/>
+    <id>https://blog.ykqmain.com/mamp/</id>
     <published>2016-10-09T16:00:00.000Z</published>
     <updated>2017-11-07T11:51:41.000Z</updated>
     
@@ -611,29 +611,29 @@
     
     </summary>
     
-      <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+      <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="Apache" scheme="http://blog.ykqmain.com/tags/Apache/"/>
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
-      <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-      <category term="MySQL" scheme="http://blog.ykqmain.com/tags/MySQL/"/>
+      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
-      <category term="数据库" scheme="http://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
-      <category term="PHP" scheme="http://blog.ykqmain.com/tags/PHP/"/>
+      <category term="PHP" scheme="https://blog.ykqmain.com/tags/PHP/"/>
     
-      <category term="Web" scheme="http://blog.ykqmain.com/tags/Web/"/>
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
   </entry>
   
   <entry>
     <title>Apple相关</title>
-    <link href="http://blog.ykqmain.com/apple/"/>
-    <id>http://blog.ykqmain.com/apple/</id>
+    <link href="https://blog.ykqmain.com/apple/"/>
+    <id>https://blog.ykqmain.com/apple/</id>
     <published>2016-09-03T16:00:00.000Z</published>
     <updated>2019-01-28T12:20:26.441Z</updated>
     
@@ -651,29 +651,29 @@
     
     </summary>
     
-      <category term="计算机" scheme="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+      <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Apple" scheme="http://blog.ykqmain.com/tags/Apple/"/>
+      <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
     
-      <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="macOS" scheme="http://blog.ykqmain.com/tags/macOS/"/>
+      <category term="macOS" scheme="https://blog.ykqmain.com/tags/macOS/"/>
     
-      <category term="OS X" scheme="http://blog.ykqmain.com/tags/OS-X/"/>
+      <category term="OS X" scheme="https://blog.ykqmain.com/tags/OS-X/"/>
     
-      <category term="iPhone" scheme="http://blog.ykqmain.com/tags/iPhone/"/>
+      <category term="iPhone" scheme="https://blog.ykqmain.com/tags/iPhone/"/>
     
-      <category term="iOS" scheme="http://blog.ykqmain.com/tags/iOS/"/>
+      <category term="iOS" scheme="https://blog.ykqmain.com/tags/iOS/"/>
     
-      <category term="skill" scheme="http://blog.ykqmain.com/tags/skill/"/>
+      <category term="skill" scheme="https://blog.ykqmain.com/tags/skill/"/>
     
   </entry>
   
   <entry>
     <title>年轻的战场</title>
-    <link href="http://blog.ykqmain.com/young/"/>
-    <id>http://blog.ykqmain.com/young/</id>
+    <link href="https://blog.ykqmain.com/young/"/>
+    <id>https://blog.ykqmain.com/young/</id>
     <published>2016-07-05T16:00:00.000Z</published>
     <updated>2019-03-21T13:32:47.988Z</updated>
     
@@ -698,19 +698,19 @@
     
     </summary>
     
-      <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="回忆" scheme="http://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="生日" scheme="http://blog.ykqmain.com/tags/%E7%94%9F%E6%97%A5/"/>
+      <category term="生日" scheme="https://blog.ykqmain.com/tags/%E7%94%9F%E6%97%A5/"/>
     
   </entry>
   
   <entry>
     <title>Nginx安装</title>
-    <link href="http://blog.ykqmain.com/nginx/"/>
-    <id>http://blog.ykqmain.com/nginx/</id>
+    <link href="https://blog.ykqmain.com/nginx/"/>
+    <id>https://blog.ykqmain.com/nginx/</id>
     <published>2016-06-07T16:00:00.000Z</published>
     <updated>2017-12-14T02:05:46.000Z</updated>
     
@@ -728,21 +728,21 @@
     
     </summary>
     
-      <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+      <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="Nginx" scheme="http://blog.ykqmain.com/tags/Nginx/"/>
+      <category term="Nginx" scheme="https://blog.ykqmain.com/tags/Nginx/"/>
     
   </entry>
   
   <entry>
     <title>NASM汇编的&quot;hello, world&quot;</title>
-    <link href="http://blog.ykqmain.com/nasm/"/>
-    <id>http://blog.ykqmain.com/nasm/</id>
+    <link href="https://blog.ykqmain.com/nasm/"/>
+    <id>https://blog.ykqmain.com/nasm/</id>
     <published>2016-05-16T16:00:00.000Z</published>
     <updated>2019-03-12T13:06:55.688Z</updated>
     
@@ -758,21 +758,21 @@
     
     </summary>
     
-      <category term="计算机" scheme="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+      <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="汇编" scheme="http://blog.ykqmain.com/tags/%E6%B1%87%E7%BC%96/"/>
+      <category term="汇编" scheme="https://blog.ykqmain.com/tags/%E6%B1%87%E7%BC%96/"/>
     
-      <category term="Assembly" scheme="http://blog.ykqmain.com/tags/Assembly/"/>
+      <category term="Assembly" scheme="https://blog.ykqmain.com/tags/Assembly/"/>
     
-      <category term="NASM" scheme="http://blog.ykqmain.com/tags/NASM/"/>
+      <category term="NASM" scheme="https://blog.ykqmain.com/tags/NASM/"/>
     
   </entry>
   
   <entry>
     <title>MySQL小记——附iOS游戏推荐</title>
-    <link href="http://blog.ykqmain.com/mysql/"/>
-    <id>http://blog.ykqmain.com/mysql/</id>
+    <link href="https://blog.ykqmain.com/mysql/"/>
+    <id>https://blog.ykqmain.com/mysql/</id>
     <published>2016-04-12T16:00:00.000Z</published>
     <updated>2019-03-21T13:21:47.459Z</updated>
     
@@ -784,21 +784,21 @@
     
     </summary>
     
-      <category term="计算机" scheme="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+      <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="MySQL" scheme="http://blog.ykqmain.com/tags/MySQL/"/>
+      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
-      <category term="数据库" scheme="http://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
   <entry>
     <title>游戏王——吹过了我们的青春</title>
-    <link href="http://blog.ykqmain.com/ygo/"/>
-    <id>http://blog.ykqmain.com/ygo/</id>
+    <link href="https://blog.ykqmain.com/ygo/"/>
+    <id>https://blog.ykqmain.com/ygo/</id>
     <published>2016-02-19T16:00:00.000Z</published>
     <updated>2019-03-22T13:04:22.891Z</updated>
     
@@ -812,25 +812,25 @@
     
     </summary>
     
-      <category term="动画" scheme="http://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
     
     
-      <category term="动画" scheme="http://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
-      <category term="热血" scheme="http://blog.ykqmain.com/tags/%E7%83%AD%E8%A1%80/"/>
+      <category term="热血" scheme="https://blog.ykqmain.com/tags/%E7%83%AD%E8%A1%80/"/>
     
-      <category term="日本" scheme="http://blog.ykqmain.com/tags/%E6%97%A5%E6%9C%AC/"/>
+      <category term="日本" scheme="https://blog.ykqmain.com/tags/%E6%97%A5%E6%9C%AC/"/>
     
-      <category term="童年" scheme="http://blog.ykqmain.com/tags/%E7%AB%A5%E5%B9%B4/"/>
+      <category term="童年" scheme="https://blog.ykqmain.com/tags/%E7%AB%A5%E5%B9%B4/"/>
     
-      <category term="卡牌" scheme="http://blog.ykqmain.com/tags/%E5%8D%A1%E7%89%8C/"/>
+      <category term="卡牌" scheme="https://blog.ykqmain.com/tags/%E5%8D%A1%E7%89%8C/"/>
     
   </entry>
   
   <entry>
     <title>RWBY</title>
-    <link href="http://blog.ykqmain.com/rwby/"/>
-    <id>http://blog.ykqmain.com/rwby/</id>
+    <link href="https://blog.ykqmain.com/rwby/"/>
+    <id>https://blog.ykqmain.com/rwby/</id>
     <published>2016-01-08T16:00:00.000Z</published>
     <updated>2019-03-22T13:04:22.890Z</updated>
     
@@ -842,25 +842,25 @@
     
     </summary>
     
-      <category term="动画" scheme="http://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
     
     
-      <category term="动画" scheme="http://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
-      <category term="美国" scheme="http://blog.ykqmain.com/tags/%E7%BE%8E%E5%9B%BD/"/>
+      <category term="美国" scheme="https://blog.ykqmain.com/tags/%E7%BE%8E%E5%9B%BD/"/>
     
-      <category term="动作" scheme="http://blog.ykqmain.com/tags/%E5%8A%A8%E4%BD%9C/"/>
+      <category term="动作" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E4%BD%9C/"/>
     
-      <category term="冒险" scheme="http://blog.ykqmain.com/tags/%E5%86%92%E9%99%A9/"/>
+      <category term="冒险" scheme="https://blog.ykqmain.com/tags/%E5%86%92%E9%99%A9/"/>
     
-      <category term="热血" scheme="http://blog.ykqmain.com/tags/%E7%83%AD%E8%A1%80/"/>
+      <category term="热血" scheme="https://blog.ykqmain.com/tags/%E7%83%AD%E8%A1%80/"/>
     
   </entry>
   
   <entry>
     <title>利器</title>
-    <link href="http://blog.ykqmain.com/liqi/"/>
-    <id>http://blog.ykqmain.com/liqi/</id>
+    <link href="https://blog.ykqmain.com/liqi/"/>
+    <id>https://blog.ykqmain.com/liqi/</id>
     <published>2016-01-03T16:00:00.000Z</published>
     <updated>2019-05-20T01:51:16.697Z</updated>
     
@@ -876,27 +876,27 @@
     
     </summary>
     
-      <category term="计算机" scheme="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+      <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Apple" scheme="http://blog.ykqmain.com/tags/Apple/"/>
+      <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
     
-      <category term="Mac" scheme="http://blog.ykqmain.com/tags/Mac/"/>
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="macOS" scheme="http://blog.ykqmain.com/tags/macOS/"/>
+      <category term="macOS" scheme="https://blog.ykqmain.com/tags/macOS/"/>
     
-      <category term="工具" scheme="http://blog.ykqmain.com/tags/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://blog.ykqmain.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
-      <category term="Software" scheme="http://blog.ykqmain.com/tags/Software/"/>
+      <category term="Software" scheme="https://blog.ykqmain.com/tags/Software/"/>
     
-      <category term="App" scheme="http://blog.ykqmain.com/tags/App/"/>
+      <category term="App" scheme="https://blog.ykqmain.com/tags/App/"/>
     
   </entry>
   
   <entry>
     <title>hexo搭建博客</title>
-    <link href="http://blog.ykqmain.com/hexo/"/>
-    <id>http://blog.ykqmain.com/hexo/</id>
+    <link href="https://blog.ykqmain.com/hexo/"/>
+    <id>https://blog.ykqmain.com/hexo/</id>
     <published>2015-12-09T16:00:00.000Z</published>
     <updated>2019-05-17T03:28:27.412Z</updated>
     
@@ -916,23 +916,23 @@
     
     </summary>
     
-      <category term="计算机" scheme="http://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+      <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="blog" scheme="http://blog.ykqmain.com/tags/blog/"/>
+      <category term="blog" scheme="https://blog.ykqmain.com/tags/blog/"/>
     
-      <category term="hexo" scheme="http://blog.ykqmain.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://blog.ykqmain.com/tags/hexo/"/>
     
-      <category term="GitHub" scheme="http://blog.ykqmain.com/tags/GitHub/"/>
+      <category term="GitHub" scheme="https://blog.ykqmain.com/tags/GitHub/"/>
     
-      <category term="Markdown" scheme="http://blog.ykqmain.com/tags/Markdown/"/>
+      <category term="Markdown" scheme="https://blog.ykqmain.com/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>The First Web Page</title>
-    <link href="http://blog.ykqmain.com/first/"/>
-    <id>http://blog.ykqmain.com/first/</id>
+    <link href="https://blog.ykqmain.com/first/"/>
+    <id>https://blog.ykqmain.com/first/</id>
     <published>2015-11-20T16:00:00.000Z</published>
     <updated>2017-11-07T11:51:48.000Z</updated>
     
@@ -950,23 +950,23 @@
     
     </summary>
     
-      <category term="网络" scheme="http://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+      <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Apache" scheme="http://blog.ykqmain.com/tags/Apache/"/>
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
-      <category term="服务器" scheme="http://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-      <category term="Web" scheme="http://blog.ykqmain.com/tags/Web/"/>
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
-      <category term="Linux" scheme="http://blog.ykqmain.com/tags/Linux/"/>
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>Timeline</title>
-    <link href="http://blog.ykqmain.com/hello/"/>
-    <id>http://blog.ykqmain.com/hello/</id>
+    <link href="https://blog.ykqmain.com/hello/"/>
+    <id>https://blog.ykqmain.com/hello/</id>
     <published>2015-11-19T16:00:00.000Z</published>
     <updated>2019-05-15T09:10:13.108Z</updated>
     
@@ -985,21 +985,21 @@
     
     </summary>
     
-      <category term="其他" scheme="http://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="其他" scheme="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-      <category term="Timeline" scheme="http://blog.ykqmain.com/tags/Timeline/"/>
+      <category term="Timeline" scheme="https://blog.ykqmain.com/tags/Timeline/"/>
     
-      <category term="blog" scheme="http://blog.ykqmain.com/tags/blog/"/>
+      <category term="blog" scheme="https://blog.ykqmain.com/tags/blog/"/>
     
-      <category term="回忆" scheme="http://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
   </entry>
   
   <entry>
     <title>诗词两首</title>
-    <link href="http://blog.ykqmain.com/shici/"/>
-    <id>http://blog.ykqmain.com/shici/</id>
+    <link href="https://blog.ykqmain.com/shici/"/>
+    <id>https://blog.ykqmain.com/shici/</id>
     <published>2013-12-31T16:00:00.000Z</published>
     <updated>2019-05-16T13:16:17.244Z</updated>
     
@@ -1021,25 +1021,25 @@
     
     </summary>
     
-      <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="文章" scheme="http://blog.ykqmain.com/tags/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/tags/%E6%96%87%E7%AB%A0/"/>
     
-      <category term="无聊" scheme="http://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
+      <category term="无聊" scheme="https://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
     
-      <category term="诗歌" scheme="http://blog.ykqmain.com/tags/%E8%AF%97%E6%AD%8C/"/>
+      <category term="诗歌" scheme="https://blog.ykqmain.com/tags/%E8%AF%97%E6%AD%8C/"/>
     
-      <category term="诗词" scheme="http://blog.ykqmain.com/tags/%E8%AF%97%E8%AF%8D/"/>
+      <category term="诗词" scheme="https://blog.ykqmain.com/tags/%E8%AF%97%E8%AF%8D/"/>
     
-      <category term="高中" scheme="http://blog.ykqmain.com/tags/%E9%AB%98%E4%B8%AD/"/>
+      <category term="高中" scheme="https://blog.ykqmain.com/tags/%E9%AB%98%E4%B8%AD/"/>
     
   </entry>
   
   <entry>
     <title>观书有感</title>
-    <link href="http://blog.ykqmain.com/guanshu/"/>
-    <id>http://blog.ykqmain.com/guanshu/</id>
+    <link href="https://blog.ykqmain.com/guanshu/"/>
+    <id>https://blog.ykqmain.com/guanshu/</id>
     <published>2009-12-31T16:00:00.000Z</published>
     <updated>2019-05-16T12:34:22.603Z</updated>
     
@@ -1057,16 +1057,16 @@
     
     </summary>
     
-      <category term="文章" scheme="http://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="文章" scheme="http://blog.ykqmain.com/tags/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://blog.ykqmain.com/tags/%E6%96%87%E7%AB%A0/"/>
     
-      <category term="散文" scheme="http://blog.ykqmain.com/tags/%E6%95%A3%E6%96%87/"/>
+      <category term="散文" scheme="https://blog.ykqmain.com/tags/%E6%95%A3%E6%96%87/"/>
     
-      <category term="初中" scheme="http://blog.ykqmain.com/tags/%E5%88%9D%E4%B8%AD/"/>
+      <category term="初中" scheme="https://blog.ykqmain.com/tags/%E5%88%9D%E4%B8%AD/"/>
     
-      <category term="无聊" scheme="http://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
+      <category term="无聊" scheme="https://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
     
   </entry>
   
