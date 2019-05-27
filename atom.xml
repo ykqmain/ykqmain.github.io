@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ykqmain.com/"/>
-  <updated>2019-04-22T11:58:32.504Z</updated>
+  <updated>2019-05-27T15:04:32.280Z</updated>
   <id>https://blog.ykqmain.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>北漂日志</title>
+    <link href="https://blog.ykqmain.com/beijing/"/>
+    <id>https://blog.ykqmain.com/beijing/</id>
+    <published>2019-05-26T16:00:00.000Z</published>
+    <updated>2019-05-27T15:04:32.280Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><strong>安得广厦千万间，大庇天下寒士俱欢颜，风雨不动安如山。</strong></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;安得广厦千万间，大庇天下寒士俱欢颜，风雨不动安如山。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+      <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+    
+    
+      <category term="日志" scheme="https://blog.ykqmain.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="记录" scheme="https://blog.ykqmain.com/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="生活" scheme="https://blog.ykqmain.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="责任" scheme="https://blog.ykqmain.com/tags/%E8%B4%A3%E4%BB%BB/"/>
+    
+      <category term="社会" scheme="https://blog.ykqmain.com/tags/%E7%A4%BE%E4%BC%9A/"/>
+    
+      <category term="北京" scheme="https://blog.ykqmain.com/tags/%E5%8C%97%E4%BA%AC/"/>
+    
+      <category term="工作" scheme="https://blog.ykqmain.com/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+      <category term="思想" scheme="https://blog.ykqmain.com/tags/%E6%80%9D%E6%83%B3/"/>
+    
+      <category term="人生" scheme="https://blog.ykqmain.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+      <category term="感叹" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E5%8F%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>Debian从0到1</title>
@@ -169,6 +215,8 @@
     
       <category term="思想" scheme="https://blog.ykqmain.com/tags/%E6%80%9D%E6%83%B3/"/>
     
+      <category term="感叹" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E5%8F%B9/"/>
+    
       <category term="中国" scheme="https://blog.ykqmain.com/tags/%E4%B8%AD%E5%9B%BD/"/>
     
       <category term="历史" scheme="https://blog.ykqmain.com/tags/%E5%8E%86%E5%8F%B2/"/>
@@ -186,8 +234,6 @@
       <category term="三国" scheme="https://blog.ykqmain.com/tags/%E4%B8%89%E5%9B%BD/"/>
     
       <category term="汉唐" scheme="https://blog.ykqmain.com/tags/%E6%B1%89%E5%94%90/"/>
-    
-      <category term="感叹" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E5%8F%B9/"/>
     
   </entry>
   
@@ -214,11 +260,11 @@
       <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
+      <category term="思想" scheme="https://blog.ykqmain.com/tags/%E6%80%9D%E6%83%B3/"/>
+    
       <category term="诸子百家" scheme="https://blog.ykqmain.com/tags/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/"/>
     
       <category term="哲学" scheme="https://blog.ykqmain.com/tags/%E5%93%B2%E5%AD%A6/"/>
-    
-      <category term="思想" scheme="https://blog.ykqmain.com/tags/%E6%80%9D%E6%83%B3/"/>
     
       <category term="中国" scheme="https://blog.ykqmain.com/tags/%E4%B8%AD%E5%9B%BD/"/>
     
@@ -988,9 +1034,9 @@
       <category term="其他" scheme="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-      <category term="Timeline" scheme="https://blog.ykqmain.com/tags/Timeline/"/>
-    
       <category term="blog" scheme="https://blog.ykqmain.com/tags/blog/"/>
+    
+      <category term="Timeline" scheme="https://blog.ykqmain.com/tags/Timeline/"/>
     
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     

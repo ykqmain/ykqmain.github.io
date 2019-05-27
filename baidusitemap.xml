@@ -4,6 +4,44 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/beijing/</loc>
+    <lastmod>2019-05-27T15:04:32.280Z</lastmod>
+    <data>
+        <display>
+        <title>北漂日志</title>
+        <pubTime>2019-05-26T16:00:00.000Z</pubTime>
+        
+        <tag>日志</tag>
+         
+        <tag>记录</tag>
+         
+        <tag>生活</tag>
+         
+        <tag>责任</tag>
+         
+        <tag>社会</tag>
+         
+        <tag>北京</tag>
+         
+        <tag>工作</tag>
+         
+        <tag>思想</tag>
+         
+        <tag>人生</tag>
+         
+        <tag>感叹</tag>
+         
+         
+           
+             
+              <breadCrumb title="文章" url="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
     <lastmod>2019-05-23T08:28:20.054Z</lastmod>
     <data>
@@ -122,9 +160,9 @@
         <title>Timeline</title>
         <pubTime>2015-11-19T16:00:00.000Z</pubTime>
         
-        <tag>Timeline</tag>
-         
         <tag>blog</tag>
+         
+        <tag>Timeline</tag>
          
         <tag>回忆</tag>
          
@@ -528,6 +566,8 @@
         
         <tag>思想</tag>
          
+        <tag>感叹</tag>
+         
         <tag>中国</tag>
          
         <tag>历史</tag>
@@ -545,8 +585,6 @@
         <tag>三国</tag>
          
         <tag>汉唐</tag>
-         
-        <tag>感叹</tag>
          
          
            
@@ -728,11 +766,11 @@
         <title>观「诸子」有感</title>
         <pubTime>2018-08-24T16:00:00.000Z</pubTime>
         
+        <tag>思想</tag>
+         
         <tag>诸子百家</tag>
          
         <tag>哲学</tag>
-         
-        <tag>思想</tag>
          
         <tag>中国</tag>
          
