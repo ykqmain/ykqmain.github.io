@@ -42,7 +42,7 @@
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/clouddisk/17.png!shuiyin">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/clouddisk/18.png!shuiyin">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/clouddisk/19.png!shuiyin">
-<meta property="og:updated_time" content="2019-03-22T13:03:46.000Z">
+<meta property="og:updated_time" content="2019-06-18T02:26:27.886Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于Hadoop的简单云盘">
 <meta name="twitter:description" content="首先完成 hadoop完全分布式搭建 开发环境： 123456本机 macOS 10.12.5虚拟机 CentOS 6.9  ×3Hadoop 2.7.3JDK 1.8Tomcat 8.5.16IDE Eclipse Java EE IDE for Web Developers, Oxygen Release (4.7.0) 安装Tomcat下载Tomcat，我选择8.5.16的.tar.gz文件">
@@ -247,9 +247,9 @@
       <p><strong>首先完成 <a href="http://blog.ykqmain.com/hadoop/" target="\_blank">hadoop完全分布式搭建</a></strong></p>
 <p>开发环境：</p>
 <figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">本机 macOS <span class="number">10.12</span><span class="number">.5</span></span><br><span class="line">虚拟机 CentOS <span class="number">6.9</span>  ×<span class="number">3</span></span><br><span class="line">Hadoop <span class="number">2.7</span><span class="number">.3</span></span><br><span class="line">JDK <span class="number">1.8</span></span><br><span class="line">Tomcat <span class="number">8.5</span><span class="number">.16</span></span><br><span class="line">IDE Eclipse Java EE IDE for Web Developers, Oxygen Release (<span class="number">4.7</span><span class="number">.0</span>)</span><br></pre></td></tr></table></figure>
-<h2 id="安装Tomcat"><a href="#安装Tomcat" class="headerlink" title="安装Tomcat"></a>安装Tomcat</h2><p>下载<a href="http://tomcat.apache.org" target="_blank" rel="noopener">Tomcat</a>，我选择8.5.16的<code>.tar.gz</code>文件，解压并改名，最终路径为<code>/usr/local/Tomcat</code></p>
-<p>授予权限，<code>sudo chmod 755 /usr/local/Tomcat/bin/*.sh</code></p>
-<p>运行<br><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> <span class="string">/usr/local/Tomcat/bin</span></span><br><span class="line"><span class="string">./startup.sh</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="安装Tomcat"><a href="#安装Tomcat" class="headerlink" title="安装Tomcat"></a>安装Tomcat</h2><p>下载<a href="http://tomcat.apache.org" target="_blank" rel="noopener">Tomcat</a>，我选择8.5.16的<code>.tar.gz</code>文件，解压并改名，最终路径为<code>/usr/local/tomcat</code></p>
+<p>授予权限，<code>sudo chmod 755 /usr/local/tomcat/bin/*.sh</code></p>
+<p>运行<br><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> <span class="string">/usr/local/tomcat/bin</span></span><br><span class="line"><span class="string">./startup.sh</span></span><br></pre></td></tr></table></figure></p>
 <p>在浏览器输入<code>localhost:8080</code>即可访问，关闭在终端输入<code>./shutdown.sh</code>。</p>
 <p><br></p>
 <h2 id="Eclipse配置Tomcat"><a href="#Eclipse配置Tomcat" class="headerlink" title="Eclipse配置Tomcat"></a>Eclipse配置Tomcat</h2><ol>
@@ -257,7 +257,7 @@
 </li>
 <li><p>右侧<code>Add</code>，选择对应Tomcat版本，next</p>
 </li>
-<li><p>路径填写Tomcat安装路径，我这里为<code>/usr/local/Tomcat</code>，并选择JRE</p>
+<li><p>路径填写Tomcat安装路径，我这里为<code>/usr/local/tomcat</code>，并选择JRE</p>
 </li>
 <li><p>Finish</p>
 </li>
@@ -265,7 +265,7 @@
 </li>
 <li><p>Finish</p>
 </li>
-<li><p>双击创建的服务，Deploy path 填写Tomcat安装路径，即<code>/usr/local/Tomcat</code>，关闭保存</p>
+<li><p>双击创建的服务，Deploy path 填写Tomcat安装路径，即<code>/usr/local/tomcat</code>，关闭保存</p>
 </li>
 </ol>
 <p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/clouddisk/1.png!shuiyin" alt=""></p>
