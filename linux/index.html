@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-22T11:58:32.000Z">
+<meta property="og:updated_time" content="2019-06-20T01:06:26.227Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Debian从0到1">
 <meta name="twitter:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
@@ -307,7 +307,7 @@
 </ul>
 </li>
 <li><p>写入<code>authorized_keys</code></p>
-<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cat id_rsa &gt;&gt; authorized_keys</span><br><span class="line">chmod 700 ~<span class="string">/.ssh</span></span><br><span class="line">chmod 644 ~<span class="string">/.ssh/authorized_keys</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cat id_rsa<span class="selector-class">.pub</span> &gt;&gt; authorized_keys</span><br><span class="line">chmod <span class="number">700</span> ~/.ssh</span><br><span class="line">chmod <span class="number">644</span> ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>修改ssh配置文件</p>
 <ul>
