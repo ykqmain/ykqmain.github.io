@@ -12,18 +12,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Java,Debian,MariaDB,Python,Git,Django," />
+    <meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Debian,MariaDB,Python,Java,Git,Django," />
   
 
   <meta name="description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
-<meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Java,Debian,MariaDB,Python,Git,Django">
+<meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Debian,MariaDB,Python,Java,Git,Django">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Debian从0到1">
 <meta property="og:url" content="https://blog.ykqmain.com/linux/index.html">
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-20T01:06:26.227Z">
+<meta property="og:updated_time" content="2019-06-20T01:19:05.484Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Debian从0到1">
 <meta name="twitter:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
@@ -334,9 +334,7 @@
 <li>安装git，<code>apt install git</code></li>
 <li>安装zsh，<code>apt install zsh</code></li>
 <li>安装oh-my-zsh，<code>sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</code></li>
-<li><p>配置<code>.zshrc</code>，我把本地的配置文件传上去，稍作修改。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">ZSH_THEME=<span class="string">"preference"</span>    <span class="comment"># 主题</span></span><br><span class="line"></span><br><span class="line">plugins=(git github zsh-syntax-highlighting zsh-autosuggestions zsh-completions <span class="built_in">history</span>-substring-search extract osx python pip fasd)</span><br><span class="line"></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="string">"/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin"</span></span><br><span class="line"><span class="built_in">export</span> PATH=/usr/<span class="built_in">local</span>/bin:<span class="variable">$PATH</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> clang++=<span class="string">"clang++ -std=c++11"</span>    <span class="comment"># 别名</span></span><br><span class="line"><span class="built_in">alias</span> p3=<span class="string">"python3"</span></span><br><span class="line"><span class="built_in">alias</span> sha256=<span class="string">"shasum -a 256"</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">lazygit</span></span>() &#123;    <span class="comment"># 懒人 git commit</span></span><br><span class="line">    git add .</span><br><span class="line">    git commit -m <span class="string">"updated: <span class="variable">$(date +"%Y-%m-%d %T")</span>"</span></span><br><span class="line">    git push</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">bindkey</span> <span class="string">'^z'</span> autosuggest-clear    <span class="comment"># 插件的快捷键</span></span><br><span class="line"><span class="built_in">bindkey</span> <span class="string">'^[[A'</span> <span class="built_in">history</span>-substring-search-up</span><br><span class="line"><span class="built_in">bindkey</span> <span class="string">'^[[B'</span> <span class="built_in">history</span>-substring-search-down</span><br></pre></td></tr></table></figure>
-</li>
+<li>配置<code>.zshrc</code>，我把本地的配置文件传上去，稍作修改。</li>
 <li><p>因为这是配置好了的文件，要先把主题和插件准备好了之后再source。</p>
 <ul>
 <li><p>自定义preference主题，将本地的<code>preference.zsh-theme</code>上传到<code>~/.oh-my-zsh/custom/themes</code>，稍作修改。</p>
