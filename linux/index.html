@@ -12,18 +12,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Debian,MariaDB,Python,Java,Git,Django," />
+    <meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Java,Debian,MariaDB,Python,Git,Django," />
   
 
   <meta name="description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
-<meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Debian,MariaDB,Python,Java,Git,Django">
+<meta name="keywords" content="Apache,服务器,MySQL,Linux,Nginx,Java,Debian,MariaDB,Python,Git,Django">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Debian从0到1">
 <meta property="og:url" content="https://blog.ykqmain.com/linux/index.html">
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-20T01:19:05.484Z">
+<meta property="og:updated_time" content="2019-06-20T01:33:56.807Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Debian从0到1">
 <meta name="twitter:description" content="最近活动买了个阿里云玩玩，大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次想尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么玩？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellX">
@@ -326,12 +326,29 @@
 </li>
 </ol>
 <p><br></p>
-<h2 id="配置终端"><a href="#配置终端" class="headerlink" title="配置终端"></a>配置终端</h2><p>ssh上去就是终端，整天跟它打交道，必须要趁手。</p>
-<p>由于Mac上用的就是oh-my-zsh，那就没啥犹豫和选择困难的。</p>
+<h2 id="配置终端"><a href="#配置终端" class="headerlink" title="配置终端"></a>配置终端</h2><p>ssh上去就是终端，整天跟它打交道，必须要趁手，</p>
 <ol>
-<li><p>安装oh-my-zsh</p>
+<li><p>安装几个工具</p>
+<ul>
+<li><p><code>apt install XXX</code></p>
+<ul>
+<li><code>git</code></li>
+<li><code>tree</code></li>
+<li><code>dos2unix</code></li>
+<li><code>pip3</code>, Debian9自带Python3.5，但是没有pip3，使用<code>apt install python3-pip</code>安装。</li>
+</ul>
+</li>
+<li><p>pip3</p>
+<ul>
+<li>Requests<br><br></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<ol start="2">
+<li><p>安装oh-my-zsh (可选的，服务器很卡，bash也能用)</p>
 <ol>
-<li>安装git，<code>apt install git</code></li>
 <li>安装zsh，<code>apt install zsh</code></li>
 <li>安装oh-my-zsh，<code>sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</code></li>
 <li>配置<code>.zshrc</code>，我把本地的配置文件传上去，稍作修改。</li>
@@ -366,22 +383,8 @@
 </li>
 </ol>
 </li>
-<li><p>安装几个工具</p>
-<ul>
-<li><p><code>apt install XXX</code></p>
-<ul>
-<li><code>tree</code></li>
-<li><code>dos2unix</code></li>
-<li><code>pip3</code>, Debian9自带Python3.5，但是没有pip3，使用<code>apt install python3-pip</code>安装。</li>
-</ul>
-</li>
-<li><p>pip3</p>
-<ul>
-<li>Requests<br><br></li>
-</ul>
-</li>
-</ul>
-</li>
+</ol>
+<ol start="3">
 <li><p>配置Vim</p>
 <p> oh-my-zsh是平台，Vim就是双手。</p>
 <ul>
