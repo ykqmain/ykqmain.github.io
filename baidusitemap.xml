@@ -5,13 +5,15 @@
     
   <url>
     <loc>https://blog.ykqmain.com/sjwl/</loc>
-    <lastmod>2019-06-24T15:31:51.607Z</lastmod>
+    <lastmod>2019-06-24T15:35:08.377Z</lastmod>
     <data>
         <display>
         <title>我的社交网络迁移</title>
         <pubTime>2018-09-24T16:00:00.000Z</pubTime>
         
         <tag>社交网络</tag>
+         
+        <tag>微信</tag>
          
         <tag>QQ</tag>
          
@@ -23,6 +25,10 @@
          
         <tag>豆瓣</tag>
          
+        <tag>Bilibili</tag>
+         
+        <tag>抖音</tag>
+         
         <tag>Facebook</tag>
          
         <tag>Twitter</tag>
@@ -31,7 +37,7 @@
          
         <tag>Instagram</tag>
          
-        <tag>Bilibili</tag>
+        <tag>Telegram</tag>
          
          
            
@@ -292,9 +298,9 @@
         <title>Timeline</title>
         <pubTime>2015-11-19T16:00:00.000Z</pubTime>
         
-        <tag>Timeline</tag>
-         
         <tag>blog</tag>
+         
+        <tag>Timeline</tag>
          
         <tag>回忆</tag>
          
