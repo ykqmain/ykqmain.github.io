@@ -36,7 +36,7 @@
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/11.png">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/12.png">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/13.png">
-<meta property="og:updated_time" content="2019-03-21T13:21:47.000Z">
+<meta property="og:updated_time" content="2019-07-01T11:54:35.466Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MySQL小记——附iOS游戏推荐">
 <meta name="twitter:description" content="最近学的mysql的基础知识，想结合实际需求做点东西，练练手，这样才能学得扎实。">
@@ -247,7 +247,7 @@
 <p>默认安装之后，会生成默认的密码，一定要复制记下来。(使用brew安装的MySQL密码为空)</p>
 <p><strong>在Mac的<code>系统设置</code>中启动mysql.</strong></p>
 <p><br><br></p>
-<h3 id="1-登陆mysql"><a href="#1-登陆mysql" class="headerlink" title="1. 登陆mysql"></a>1. 登陆mysql</h3><h4 id="PATH问题"><a href="#PATH问题" class="headerlink" title="PATH问题"></a><em>PATH问题</em></h4><p>在终端中输入<code>mysql</code>，会提示失败。</p>
+<h3 id="1-登陆mysql"><a href="#1-登陆mysql" class="headerlink" title="1. 登陆mysql"></a>1. 登陆mysql</h3><h4 id="PATH问题"><a href="#PATH问题" class="headerlink" title="PATH问题"></a>PATH问题</h4><p>在终端中输入<code>mysql</code>，会提示失败。</p>
 <p>需要输入完整的路径，mysql默认安装在 <code>/usr/local/mysql</code> ，所以运行mysql的命令应该是<code>/usr/local/mysql/bin/mysql</code>。</p>
 <p>每次输入一长串命令无疑是麻烦的，最好的办法还是将<code>/usr/local/mysql/bin/</code>加入系统PATH，在<code>/Users/username/.bash_profile</code>文件中加入：(将 <code>username</code> 替换为你的Mac用户名)</p>
 <p><code>export PATH=$PATH:/usr/local/mysql/bin</code></p>
@@ -278,7 +278,7 @@
 </li>
 </ul>
 <p><br></p>
-<h4 id="命令问题"><a href="#命令问题" class="headerlink" title="命令问题"></a><em>命令问题</em></h4><p>打开终端，再输入<code>mysql</code>，提示错误是关于 user 的，查资料后得知，应该输入<code>mysql -u USERNAME -p</code>登陆mysql。</p>
+<h4 id="命令问题"><a href="#命令问题" class="headerlink" title="命令问题"></a>命令问题</h4><p>打开终端，再输入<code>mysql</code>，提示错误是关于 user 的，查资料后得知，应该输入<code>mysql -u USERNAME -p</code>登陆mysql。</p>
 <ol>
 <li>输入<code>mysql -u root -p</code>，回车</li>
 <li>输入初始密码。</li>
@@ -350,7 +350,7 @@
 <h4 id="6-批量导入"><a href="#6-批量导入" class="headerlink" title="6.批量导入"></a>6.批量导入</h4><p>用<code>INSERT</code>语句插入，只是用于少量数据的情况，对于更多的数据，最好采用导入的方式。比如用Excel之类的软件，先写好数据，然后存为<code>.csv</code>文件，稍作处理后导入mysql，</p>
 <p>我用了Numbers做了如下表格，</p>
 <p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/6.png" alt=""></p>
-<p><em>因为暂时没有想到如何处理id自动增加会覆盖数据的问题，我直接把表格的第一项id设置为6(因为mysql里面已经存在5条数据了)</em></p>
+<p>因为暂时没有想到如何处理id自动增加会覆盖数据的问题，我直接把表格的第一项id设置为6(因为mysql里面已经存在5条数据了)</p>
 <p>导出为<code>.csv</code>文件后，删掉第一行的name，developer等无用信息，</p>
 <p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/7.png" alt=""></p>
 <p>我将导出的<code>.csv</code>文件命名为 <code>1.csv</code>，导入命令为：</p>

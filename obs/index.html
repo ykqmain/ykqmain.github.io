@@ -41,7 +41,7 @@
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/16.png">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/17.png!shuiyin">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/18.png!shuiyin">
-<meta property="og:updated_time" content="2019-03-22T13:03:39.000Z">
+<meta property="og:updated_time" content="2019-07-01T11:52:23.405Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac上利用OBS在B站直播iPhone上的王者荣耀">
 <meta name="twitter:description" content="想这个标题就花费了我几分钟😂，我想还是可以表明意思的。  系统：macOS, iOS   软件：OBS, QuickTime     平台：哔哩哔哩   游戏：王者荣耀   重要软件：Soundflower  其实就是闲的慌，只是想玩玩直播 _(:3」∠)_，图个新鲜。 其实在很早之前我就直播测试过，只是有一个非常严重的问题，在Mac上直播，OBS只能获取麦克风的声音，无法输出系统扬声器的声音。">
@@ -261,7 +261,7 @@
 </blockquote>
 <p>其实就是闲的慌，只是想玩玩直播 _(:3」∠)_，图个新鲜。</p>
 <p>其实在很早之前我就直播测试过，只是有一个非常严重的问题，<strong>在Mac上直播，OBS只能获取麦克风的声音，无法输出系统扬声器的声音</strong>。这是一个非常影响体验的短板。但是可以通过Soundflower来解决 (仍然有一处不完美)。</p>
-<p><em>注意：B站已经提供了官方直播工具——<a href="http://live.bilibili.com/help/#zbj" target="_blank" rel="noopener">直播姬</a>，一键开启直播，支持<strong>Win，iOS，安卓</strong>。</em></p>
+<p>注意：B站已经提供了官方直播工具——<a href="http://live.bilibili.com/help/#zbj" target="_blank" rel="noopener">直播姬</a>，一键开启直播，支持<strong>Win，iOS，安卓</strong>。</p>
 <p>macOS上只能自己动手了，下面按照B站的帮助中心的顺序，逐条详述。</p>
 <p><br></p>
 <h2 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. 概述</h2><p>配置，越高越好(Intel i5，GTX950，8G 以上)</p>
@@ -287,14 +287,14 @@
 <p>这里就需要用到另一个软件了。</p>
 <p><br></p>
 <h2 id="3-Soundflower的使用"><a href="#3-Soundflower的使用" class="headerlink" title="3. Soundflower的使用"></a>3. Soundflower的使用</h2><p>首先在GitHub上下载<a href="https://github.com/mattingalls/Soundflower" target="_blank" rel="noopener">Soundflower</a>。</p>
-<p><em>注意：如果系统跳出对话框告诉你无法识别开发者签名等安全警告的话，请前往<code>偏好设定-&gt;安全与隐私</code>，里面选择仍要打开。</em></p>
+<p><strong>注意：如果系统跳出对话框告诉你无法识别开发者签名等安全警告的话，请前往<code>偏好设定-&gt;安全与隐私</code>，里面选择仍要打开。</strong></p>
 <p>双击<code>.pkg</code>安装后，<strong>重启电脑</strong>。</p>
 <p>重启之后，在Launchpad中打开<code>音频 MIDI 设置</code></p>
 <p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/8.png!shuiyin" alt=""></p>
 <p>点击加号，选择<code>创建一个多输出设备</code>，勾选 <code>内建输出</code> 和 <code>Soundflower(2ch)</code></p>
 <p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/9.png!shuiyin" alt=""></p>
 <p>前往<code>偏好设置-&gt;声音</code>。你现在可以看到输出设备里面有<code>Soundflower(2ch)</code>和<code>(64ch)</code>，以及刚刚创建的<code>多输出设备</code>。在输出设备里选择创建的多输出设备。在输入设备里面选则<code>Soundflower(2ch)</code>.</p>
-<p><em>注意：全程不需要关注<code>Soundflower(64ch)</code>这一项，与本篇无关。</em></p>
+<p><strong>注意：全程不需要关注<code>Soundflower(64ch)</code>这一项，与本篇无关。</strong></p>
 <p><strong>注意：</strong></p>
 <ol>
 <li>在切换输出设备之前，请先调整好系统音量，因为一旦你切换设备后，将无法改变音量大小。(这就是前面提到的不完美的地方)</li>
