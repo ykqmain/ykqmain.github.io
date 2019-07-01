@@ -42,7 +42,7 @@
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/clouddisk/17.png!shuiyin">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/clouddisk/18.png!shuiyin">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/clouddisk/19.png!shuiyin">
-<meta property="og:updated_time" content="2019-06-18T02:26:27.886Z">
+<meta property="og:updated_time" content="2019-07-01T11:42:33.191Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于Hadoop的简单云盘">
 <meta name="twitter:description" content="首先完成 hadoop完全分布式搭建 开发环境： 123456本机 macOS 10.12.5虚拟机 CentOS 6.9  ×3Hadoop 2.7.3JDK 1.8Tomcat 8.5.16IDE Eclipse Java EE IDE for Web Developers, Oxygen Release (4.7.0) 安装Tomcat下载Tomcat，我选择8.5.16的.tar.gz文件">
@@ -283,12 +283,12 @@
 <li><p>右键下方服务，<code>Start</code><br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/clouddisk/5.png!shuiyin" alt=""><br><br></p>
 </li>
 <li><p>在浏览器输入<code>localhost:8080/TomcatTest/index.html</code>访问。</p>
-<p> <em>本地tomcat测试成功</em></p>
+<p> 本地tomcat测试成功</p>
 </li>
 </ol>
 <p><br></p>
 <h2 id="启动hadoop"><a href="#启动hadoop" class="headerlink" title="启动hadoop"></a>启动hadoop</h2><h3 id="1-启动3个虚拟机，"><a href="#1-启动3个虚拟机，" class="headerlink" title="1.启动3个虚拟机，"></a>1.启动3个虚拟机，</h3><p><strong><em>Update: 2017-9</em></strong></p>
-<p><strong><em>事实证明，人确实容易犯懒，拖到现在😅。一旦放下等以后再整理，会花更多的时间和精力。</em></strong><br><br></p>
+<p><strong>事实证明，人确实容易犯懒，拖到现在😅。一旦放下等以后再整理，会花更多的时间和精力。</strong><br><br></p>
 <h3 id="2-启动Hadoop"><a href="#2-启动Hadoop" class="headerlink" title="2.启动Hadoop"></a>2.启动Hadoop</h3><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> <span class="string">/usr/hadoop/sbin</span></span><br><span class="line"><span class="string">./start-dfs.sh</span></span><br><span class="line"><span class="string">./start-yarn.sh</span></span><br></pre></td></tr></table></figure>
 <p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/clouddisk/6.png!shuiyin" alt=""></p>
 <p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/clouddisk/7.png!shuiyin" alt=""></p>
