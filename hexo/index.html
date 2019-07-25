@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="用了很多博客工具，最后选择了hexo，去除多余的功能，借助Markdown写作，专注内容。  hexo环境搭建 安装Git  安装Node.Js Node.Js官网  安装Hexo">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-25T14:43:34.564Z">
+<meta property="og:updated_time" content="2019-07-25T14:59:19.763Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo搭建博客">
 <meta name="twitter:description" content="用了很多博客工具，最后选择了hexo，去除多余的功能，借助Markdown写作，专注内容。  hexo环境搭建 安装Git  安装Node.Js Node.Js官网  安装Hexo">
@@ -236,32 +236,103 @@
 <a id="more"></a>
 <p><a href="https://hexo.io" target="_blank" rel="noopener">Hexo官网</a></p>
 <ol>
-<li><p>打开终端，输入<code>npm install hexo-cli -g</code>，静静等待安装完毕。(权限问题，<figure class="highlight plain"><figcaption><span>chown -R `whoami`</span><a href="/usr/local/lib/node_modules```)">link</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">2.  创建Hexo目录</span><br><span class="line"></span><br><span class="line">    找一个方便的地方创建一个文件夹，假设命名为`Blog`</span><br><span class="line"></span><br><span class="line">     (**注:你以后的博客操作都在这个文件夹内，尽量全英文路径，避免不必要的问题，建议你创建这个文件夹的快捷方式到桌面，方便操作**)</span><br><span class="line"></span><br><span class="line">3.  用`cd` 命令进入 刚刚创建的`Blog` 目录，输入 `hexo init`</span><br><span class="line"></span><br><span class="line">4.  等待完成后输入 `npm install`</span><br><span class="line"></span><br><span class="line">5.  等待完成后输入 `npm install hexo-server`</span><br><span class="line"></span><br><span class="line">6.  等待完成后输入 `npm install hexo-deployer-git --save`</span><br><span class="line"></span><br><span class="line">    RSS订阅：</span><br><span class="line"></span><br><span class="line">    `npm install hexo-generator-feed --save`</span><br></pre></td></tr></table></figure></p>
-<p>feed:<br>  type: atom<br>  path: atom.xml<br>  limit: false #Maximum number of posts in the feed (Use 0 or false to show all posts)<br>  hub:</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">        &lt;br&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="code">        站点地图插件：</span></span><br><span class="line"></span><br><span class="line"><span class="code">        `npm install hexo-generator-sitemap --save`</span></span><br><span class="line"></span><br><span class="line"><span class="code">        `npm install hexo-generator-baidu-sitemap --save`</span></span><br><span class="line"></span><br><span class="line"><span class="code">        搜索：</span></span><br><span class="line"></span><br><span class="line"><span class="code">        `npm install hexo-search --save`</span></span><br><span class="line"></span><br><span class="line"><span class="code">    7.  至此，hexo环境就已经搭建好了</span></span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="section">### 创建Github仓库</span></span><br><span class="line"></span><br><span class="line">hexo建博客，不一定要Github，但是一般部署在Github上，这里就以Github为例。</span><br><span class="line"></span><br><span class="line"><span class="bullet">1. </span>生成<span class="code">`ssh keys`</span>，请参考[<span class="string">Generating a new SSH key</span>](<span class="link">https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/</span>) 或者 [<span class="string">Git-生成-SSH-公钥</span>](<span class="link">http://git-scm.com/book/zh/v2/服务器上的-Git-生成-SSH-公钥</span>) （这个很重要）</span><br><span class="line"></span><br><span class="line"><span class="bullet">2. </span>Mac生成的<span class="code">`ssh key`</span> 在 <span class="code">`~/.ssh/`</span>下，复制<span class="code">`id_rsa.pub`</span>内容，粘贴到GitHub的网站的<span class="code">`Settings - SSH and GPG keys`</span>中</span><br><span class="line"></span><br><span class="line"><span class="bullet">3.  </span>测试ssh，<span class="code">`ssh -T git@github.com`</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">4.  </span>查看用户信息</span><br><span class="line"></span><br><span class="line"><span class="code">    `git config --list`</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">5.  </span>回到Github首页，点击”New repository”，新建一个库。</span><br><span class="line"></span><br><span class="line"><span class="bullet">6.  </span>输入Repository name: <span class="code">`yourname.github.io`</span> (yourname与你的注册用户名一致,这个就是你博客的域名了，一定要连后面github.io输入完整) ，其它设置默认，创建。</span><br><span class="line"></span><br><span class="line"><span class="bullet">7.  </span>点击刚刚的库，找到<span class="code">`Setting`</span> ，进入设置，点击<span class="code">`Launch automatic page generator`</span> ，点击底部的<span class="code">`Continue to layouts`</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">8.  </span>随意选择一个主题，最后点击<span class="code">`Publish page`</span> ，发布github默认生成的一个静态站点 。</span><br><span class="line"></span><br><span class="line"><span class="bullet">9.  </span>至此，Github上的操作就完成了。</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="section">### 博客配置</span></span><br><span class="line"></span><br><span class="line">进入本地的<span class="code">`blog`</span> 文件夹，这里简述重要文件(夹)的作用。</span><br><span class="line"></span><br><span class="line">| 文件名         |           | 作用    |</span><br><span class="line">| ----------- | :-------: | ----- |</span><br><span class="line">| _config.yml | --------- | 配置文件  |</span><br><span class="line">| source      | --------- | 博客的文章 |</span><br><span class="line">| themes      | --------- | 主题    |</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line">博客的配置，就是配置<span class="code">`_config.yml`</span> 文件，用编辑器打开。</span><br><span class="line"></span><br><span class="line">（注意：本文件的配置，冒号后面的空格不可删除，比如<span class="code">`title: 博客名字`</span>，这里冒号后面有一个空格，如果没有空格会报错）</span><br><span class="line"></span><br><span class="line">以下是需要配置的，其余默认即可。</span><br></pre></td></tr></table></figure>
+<li><p>打开终端，输入<code>npm install hexo-cli -g</code>，静静等待安装完毕。<br>(权限问题，<code>sudo chown -R $(whoami) /usr/local/lib/node_modules</code>)</p>
+</li>
+<li><p>创建Hexo目录</p>
+<p>找一个方便的地方创建一个文件夹，假设命名为<code>Blog</code></p>
+<p> (<strong>注:你以后的博客操作都在这个文件夹内，尽量全英文路径，避免不必要的问题，建议你创建这个文件夹的快捷方式到桌面，方便操作</strong>)</p>
+</li>
+<li><p>用<code>cd</code> 命令进入 刚刚创建的<code>Blog</code> 目录，输入 <code>hexo init</code></p>
+</li>
+<li><p>等待完成后输入 <code>npm install</code></p>
+</li>
+<li><p>等待完成后输入 <code>npm install hexo-server</code></p>
+</li>
+<li><p>等待完成后输入 <code>npm install hexo-deployer-git --save</code></p>
+<p>RSS订阅：</p>
+<p><code>npm install hexo-generator-feed --save</code></p>
+<figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">feed:</span><br><span class="line">  <span class="keyword">type</span>: atom</span><br><span class="line">  path: atom.<span class="built_in">xml</span></span><br><span class="line">  limit: <span class="literal">false</span> #Maximum number of posts <span class="keyword">in</span> the feed (Use <span class="number">0</span> <span class="literal">or</span> <span class="literal">false</span> <span class="keyword">to</span> show <span class="literal">all</span> posts)</span><br><span class="line">  hub:</span><br></pre></td></tr></table></figure>
+<p><br></p>
+<p>站点地图插件：</p>
+<p><code>npm install hexo-generator-sitemap --save</code></p>
+<p><code>npm install hexo-generator-baidu-sitemap --save</code></p>
+<p>搜索：</p>
+<p><code>npm install hexo-search --save</code></p>
+</li>
+<li><p>至此，hexo环境就已经搭建好了</p>
 </li>
 </ol>
 </li>
 </ol>
-<p>title: 博客名字<br>subtitle: 副标题<br>description: 博客描述<br>author: 作者<br>language: 语言(中文就填 zh-CN)<br>timezone: 时区(不填写，则会根据你的系统时间确定)</p>
-<p>url: 博客网址(<a href="http://XXXXXX" target="_blank" rel="noopener">http://XXXXXX</a>)<br>permalink: 永久链接格式(参考<a href="https://hexo.io/zh-cn/docs/permalinks.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/permalinks.html</a>)</p>
-<p>per_page: 10 //每页的文章数</p>
-<p>#站点地图<br>sitemap:<br>  path: sitemap.xml</p>
-<p>baidusitemap:<br>  path: baidusitemap.xml</p>
-<p>theme: 主题名字(在themes文件夹下面的文件夹名)</p>
-<p>（下面的2个yourname换成你的Github用户名，其余不变）<br>deploy:<br>  type: git<br>  repository: <a href="https://github.com/yourname/yourname.github.io" target="_blank" rel="noopener">https://github.com/yourname/yourname.github.io</a><br>  branch: master<br><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;br&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 应用主题</span><br><span class="line"></span><br><span class="line"><span class="number">1.</span>  自己写主题或者下载主题到 `blog` &gt; `themes` 文件夹下，主题是一个文件夹，假设名字为 `name` , 将 `blog` 下面的 `_config.yml` 文件里面的`theme:` 后面写`name` 即可应用主题。</span><br><span class="line"><span class="number">2.</span>  一般主题文件夹里面还会有一个`_config.yml` 文件，这是主题的配置，如何配置请阅读各主题的 `README.md` 。</span><br><span class="line"></span><br><span class="line">&lt;br&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 绑定域名</span><br><span class="line"></span><br><span class="line"><span class="number">1.</span>  假设你的域名为 `blog.abc.com` ,新建一个名为 `CNAME` 的文件，内容为 `blog.abc.com` ，**不要有任何文件后缀** 。放到 `blog` &gt; `source` 下面，以后不要删除。</span><br><span class="line"><span class="number">2.</span>  然后到你的DNS解析处，新建 `CNAME` 解析，主机记录为`blog` ,记录值为 `yourname.github.io`  。解析生效后可以通过 `blog.abc.com` 访问你的博客了。</span><br><span class="line"></span><br><span class="line">&lt;br&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 写博客</span><br><span class="line"></span><br><span class="line">进入，`blog` &gt; `source` &gt; `_posts` ，创建 `.md` 的文件，你的所有文章都将放在这个文件夹下，并且都为.md （或者 .html） 文件。</span><br></pre></td></tr></table></figure></p>
-<p>id: 文章ID (可选)</p>
-<p>title: 博客标题</p>
-<p>date: 2016-00-00 (时间的格式，中间是短横线)</p>
-<p>categories: 分类</p>
-<p>tags: 标签(多标签)</p>
-<ul>
-<li>1</li>
-<li>2</li>
-</ul>
-<p>— (分割线必不可少)</p>
-<pre><code>博客正文
-</code></pre><p><code>`</code></p>
+<p><br></p>
+<h3 id="创建Github仓库"><a href="#创建Github仓库" class="headerlink" title="创建Github仓库"></a>创建Github仓库</h3><p>hexo建博客，不一定要Github，但是一般部署在Github上，这里就以Github为例。</p>
+<ol>
+<li><p>生成<code>ssh keys</code>，请参考<a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank" rel="noopener">Generating a new SSH key</a> 或者 <a href="http://git-scm.com/book/zh/v2/服务器上的-Git-生成-SSH-公钥" target="_blank" rel="noopener">Git-生成-SSH-公钥</a> （这个很重要）</p>
+</li>
+<li><p>Mac生成的<code>ssh key</code> 在 <code>~/.ssh/</code>下，复制<code>id_rsa.pub</code>内容，粘贴到GitHub的网站的<code>Settings - SSH and GPG keys</code>中</p>
+</li>
+<li><p>测试ssh，<code>ssh -T git@github.com</code></p>
+</li>
+<li><p>查看用户信息</p>
+<p><code>git config --list</code></p>
+</li>
+<li><p>回到Github首页，点击”New repository”，新建一个库。</p>
+</li>
+<li><p>输入Repository name: <code>yourname.github.io</code> (yourname与你的注册用户名一致,这个就是你博客的域名了，一定要连后面github.io输入完整) ，其它设置默认，创建。</p>
+</li>
+<li><p>点击刚刚的库，找到<code>Setting</code> ，进入设置，点击<code>Launch automatic page generator</code> ，点击底部的<code>Continue to layouts</code></p>
+</li>
+<li><p>随意选择一个主题，最后点击<code>Publish page</code> ，发布github默认生成的一个静态站点 。</p>
+</li>
+<li><p>至此，Github上的操作就完成了。</p>
+</li>
+</ol>
+<p><br></p>
+<h3 id="博客配置"><a href="#博客配置" class="headerlink" title="博客配置"></a>博客配置</h3><p>进入本地的<code>blog</code> 文件夹，这里简述重要文件(夹)的作用。</p>
+<table>
+<thead>
+<tr>
+<th>文件名</th>
+<th style="text-align:center"></th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>_config.yml</td>
+<td style="text-align:center">———</td>
+<td>配置文件</td>
+</tr>
+<tr>
+<td>source</td>
+<td style="text-align:center">———</td>
+<td>博客的文章</td>
+</tr>
+<tr>
+<td>themes</td>
+<td style="text-align:center">———</td>
+<td>主题</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>博客的配置，就是配置<code>_config.yml</code> 文件，用编辑器打开。</p>
+<p>（注意：本文件的配置，冒号后面的空格不可删除，比如<code>title: 博客名字</code>，这里冒号后面有一个空格，如果没有空格会报错）</p>
+<p>以下是需要配置的，其余默认即可。</p>
+<figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">title</span>: 博客名字</span><br><span class="line"><span class="attribute">subtitle</span>: 副标题</span><br><span class="line"><span class="attribute">description</span>: 博客描述</span><br><span class="line"><span class="attribute">author</span>: 作者</span><br><span class="line"><span class="attribute">language</span>: 语言(中文就填 zh-CN)</span><br><span class="line"><span class="attribute">timezone</span>: 时区(不填写，则会根据你的系统时间确定)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="attribute">url</span>: 博客网址(http://XXXXXX)</span><br><span class="line"><span class="attribute">permalink</span>: 永久链接格式(参考https://hexo.io/zh-cn/docs/permalinks.html)</span><br><span class="line"></span><br><span class="line"><span class="attribute">per_page</span>: 10 //每页的文章数</span><br><span class="line"></span><br><span class="line">#站点地图</span><br><span class="line"><span class="attribute">sitemap:</span></span><br><span class="line">  path: sitemap.xml</span><br><span class="line"></span><br><span class="line"><span class="attribute">baidusitemap:</span></span><br><span class="line">  path: baidusitemap.xml</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="attribute">theme</span>: 主题名字(在themes文件夹下面的文件夹名)</span><br><span class="line"></span><br><span class="line">（下面的2个yourname换成你的Github用户名，其余不变）</span><br><span class="line"><span class="attribute">deploy:</span></span><br><span class="line">  type: git</span><br><span class="line">  <span class="attribute">repository</span>: https://github.com/yourname/yourname.github.io</span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure>
+<p><br></p>
+<h3 id="应用主题"><a href="#应用主题" class="headerlink" title="应用主题"></a>应用主题</h3><ol>
+<li>自己写主题或者下载主题到 <code>blog</code> &gt; <code>themes</code> 文件夹下，主题是一个文件夹，假设名字为 <code>name</code> , 将 <code>blog</code> 下面的 <code>_config.yml</code> 文件里面的<code>theme:</code> 后面写<code>name</code> 即可应用主题。</li>
+<li>一般主题文件夹里面还会有一个<code>_config.yml</code> 文件，这是主题的配置，如何配置请阅读各主题的 <code>README.md</code> 。</li>
+</ol>
+<p><br></p>
+<h3 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h3><ol>
+<li>假设你的域名为 <code>blog.abc.com</code> ,新建一个名为 <code>CNAME</code> 的文件，内容为 <code>blog.abc.com</code> ，<strong>不要有任何文件后缀</strong> 。放到 <code>blog</code> &gt; <code>source</code> 下面，以后不要删除。</li>
+<li>然后到你的DNS解析处，新建 <code>CNAME</code> 解析，主机记录为<code>blog</code> ,记录值为 <code>yourname.github.io</code>  。解析生效后可以通过 <code>blog.abc.com</code> 访问你的博客了。</li>
+</ol>
+<p><br></p>
+<h3 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h3><p>进入，<code>blog</code> &gt; <code>source</code> &gt; <code>_posts</code> ，创建 <code>.md</code> 的文件，你的所有文章都将放在这个文件夹下，并且都为.md （或者 .html） 文件。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">id</span>: 文章ID (可选)</span><br><span class="line"></span><br><span class="line"><span class="attribute">title</span>: 博客标题</span><br><span class="line"></span><br><span class="line"><span class="attribute">date</span>: 2016-00-00 (时间的格式，中间是短横线)</span><br><span class="line"></span><br><span class="line"><span class="attribute">categories</span>: 分类</span><br><span class="line"></span><br><span class="line"><span class="attribute">tags</span>: 标签(多标签)</span><br><span class="line">- 1</span><br><span class="line">- 2</span><br><span class="line"></span><br><span class="line">--- (分割线必不可少)</span><br><span class="line"></span><br><span class="line">	博客正文</span><br></pre></td></tr></table></figure>
 <p><br></p>
 <p><strong>更多：</strong></p>
 <ul>
