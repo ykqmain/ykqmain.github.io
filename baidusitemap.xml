@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/kafka/</loc>
+    <lastmod>2019-08-13T12:24:25.096Z</lastmod>
+    <data>
+        <display>
+        <title>Apache Kafka安装</title>
+        <pubTime>2019-08-12T16:00:00.000Z</pubTime>
+        
+        <tag>Apache</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>Kafka</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>日志</tag>
+         
+        <tag>ELK</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
     <lastmod>2019-08-11T09:09:16.923Z</lastmod>
     <data>
@@ -588,9 +618,9 @@
         <title>国产动画思念集</title>
         <pubTime>2018-07-23T16:00:00.000Z</pubTime>
         
-        <tag>动画</tag>
-         
         <tag>回忆</tag>
+         
+        <tag>动画</tag>
          
         <tag>励志</tag>
          
@@ -618,9 +648,9 @@
         <title>一首歌能带来什么回忆</title>
         <pubTime>2017-04-30T16:00:00.000Z</pubTime>
         
-        <tag>动画</tag>
-         
         <tag>回忆</tag>
+         
+        <tag>动画</tag>
          
         <tag>歌曲</tag>
          
@@ -644,9 +674,9 @@
         <title>因为一个人，喜欢一部剧</title>
         <pubTime>2017-04-09T16:00:00.000Z</pubTime>
         
-        <tag>动画</tag>
-         
         <tag>回忆</tag>
+         
+        <tag>动画</tag>
          
         <tag>婧玉</tag>
          
@@ -696,11 +726,11 @@
         <title>虹猫蓝兔——致童年，望归来</title>
         <pubTime>2018-07-21T16:00:00.000Z</pubTime>
         
+        <tag>回忆</tag>
+         
         <tag>动画</tag>
          
         <tag>冒险</tag>
-         
-        <tag>回忆</tag>
          
         <tag>童年</tag>
          
