@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/liyi/</loc>
+    
+    <lastmod>2019-08-20T14:00:32.601Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/kafka/</loc>
     
-    <lastmod>2019-08-13T12:24:25.096Z</lastmod>
+    <lastmod>2019-08-20T13:58:38.421Z</lastmod>
     
   </url>
   
