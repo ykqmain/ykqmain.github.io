@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/hello/</loc>
+    
+    <lastmod>2019-08-30T13:01:13.687Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/lishi/</loc>
     
     <lastmod>2019-08-26T11:17:51.023Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://blog.ykqmain.com/hexo/</loc>
     
     <lastmod>2019-07-25T14:59:19.763Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/hello/</loc>
-    
-    <lastmod>2019-07-18T03:08:56.000Z</lastmod>
     
   </url>
   
