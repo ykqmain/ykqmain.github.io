@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>The First Web Page | iAnna</title>
+  <title>第一个网页 | iAnna</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -15,18 +15,18 @@
     <meta name="keywords" content="Apache,服务器,Web,Linux," />
   
 
-  <meta name="description" content="假设已经拥有了一台服务器(系统为centOS 6)，需要知道你的 IP、端口（SSH Port）、密码。  打开终端，登录的你的服务器：ssh -p 端口 root@IP   输入密码">
+  <meta name="description" content="假设已经拥有了一台服务器（系统为centOS 6），需要知道你的 IP、端口（SSH Port）、密码。  打开终端，登录的你的服务器：ssh -p 端口 root@IP   输入密码">
 <meta name="keywords" content="Apache,服务器,Web,Linux">
 <meta property="og:type" content="article">
-<meta property="og:title" content="The First Web Page">
-<meta property="og:url" content="https://blog.ykqmain.com/first/index.html">
+<meta property="og:title" content="第一个网页">
+<meta property="og:url" content="https://blog.ykqmain.com/web/index.html">
 <meta property="og:site_name" content="iAnna">
-<meta property="og:description" content="假设已经拥有了一台服务器(系统为centOS 6)，需要知道你的 IP、端口（SSH Port）、密码。  打开终端，登录的你的服务器：ssh -p 端口 root@IP   输入密码">
+<meta property="og:description" content="假设已经拥有了一台服务器（系统为centOS 6），需要知道你的 IP、端口（SSH Port）、密码。  打开终端，登录的你的服务器：ssh -p 端口 root@IP   输入密码">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-11-07T11:51:48.000Z">
+<meta property="og:updated_time" content="2019-08-30T13:09:45.797Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="The First Web Page">
-<meta name="twitter:description" content="假设已经拥有了一台服务器(系统为centOS 6)，需要知道你的 IP、端口（SSH Port）、密码。  打开终端，登录的你的服务器：ssh -p 端口 root@IP   输入密码">
+<meta name="twitter:title" content="第一个网页">
+<meta name="twitter:description" content="假设已经拥有了一台服务器（系统为centOS 6），需要知道你的 IP、端口（SSH Port）、密码。  打开终端，登录的你的服务器：ssh -p 端口 root@IP   输入密码">
 
   
 
@@ -186,7 +186,7 @@
 <div class="content content-post CENTER">
    <article id="post-The First Web Page" class="article article-type-post" itemprop="blogPost">
   <header class="article-header">
-    <h1 class="post-title">The First Web Page</h1>
+    <h1 class="post-title">第一个网页</h1>
 
     <div class="article-meta">
       <span>
@@ -224,7 +224,7 @@
 
   <div class="article-content">
     
-      <p>假设已经拥有了一台服务器(<strong>系统为centOS 6</strong>)，需要知道你的 IP、端口（SSH Port）、密码。</p>
+      <p>假设已经拥有了一台服务器（<strong>系统为centOS 6</strong>），需要知道你的 IP、端口（SSH Port）、密码。</p>
 <ul>
 <li>打开<code>终端</code>，登录的你的服务器：<code>ssh -p 端口 root@IP</code></li>
 </ul>
@@ -304,10 +304,10 @@
 <li><p>此时，这个目录<code>/var/www/html</code>就成了网站根目录</p>
 </li>
 </ol>
+<p><em>至此，LAMP环境(Linux+Apache+Mysql/MariaDB+Perl/PHP/Python)就基本安装完成了。</em></p>
 <p><br></p>
-<p><br></p>
-<p><em>至此，LAMP环境(Linux+Apache+Mysql/MariaDB+Perl/PHP/Python)就<u>基本</u>安装完成了</em></p>
 <hr>
+<p><br></p>
 <p>​回到本地，编辑（或创建）一个名为 <code>index.html</code> 的文件（貌似 <code>index.php</code>也是可以的），这个HTML文件就是你的首页。html中的多媒体的路径要用<strong>服务器上的相对路径</strong>或者<strong>外链</strong>。</p>
 <p>将这个<code>index.html</code>送到服务器上的<code>/var/www/html</code>目录下即可，在本地和服务器传文件有无数种方法，比如：scp、ftp、sftp…</p>
 <p><br></p>
@@ -329,23 +329,29 @@
 </li>
 <li><ul>
 <li><p>你可以将<code>root@IP:服务器路径</code> 这里的路径改为服务器的根目录，然后通过</p>
-<p><code>cd（进入某文件夹），mv（移动），cp（复制），rm（删除），ls（显示当前目录下的文件)，pwd（显示当前目录的路径），mkdir（创建文件夹）</code>等linux命令，移动你上传的文件。</p>
+</li>
+<li><p><code>cd（进入某文件夹），mv（移动），cp（复制），rm（删除），ls（显示当前目录下的文件)，pwd（显示当前目录的路径），mkdir（创建文件夹）</code>等linux命令，移动你上传的文件。</p>
 </li>
 <li><p>如果你将一个html文件移动到<code>/var/www/html</code>下面，它将成为你网站的首页。</p>
 </li>
 </ul>
-<p>​</p>
 </li>
 <li><ul>
-<li>假设你的域名 “abc.com” 已经解析，那么 浏览器上的 ”abc.com” 即是 服务器上 <code>/var/www/html</code> 下html的内容。</li>
-<li>如果你在  <code>/var/www/html</code> 里创建一个名为 “web”的文件夹，并且在里面存有一个名为 “1.jpg”的文件，那么在浏览器中将可以通过 “abc.com/web/1.jpg” 来访问你的那张图片。</li>
+<li><p>假设你的域名 “abc.com” 已经解析，那么 浏览器上的 ”abc.com” 即是 服务器上 <code>/var/www/html</code> 下html的内容。</p>
+</li>
+<li><p>如果你在  <code>/var/www/html</code> 里创建一个名为 “web”的文件夹，并且在里面存有一个名为 “1.jpg”的文件，那么在浏览器中将可以通过 “abc.com/web/1.jpg” 来访问你的那张图片。</p>
+</li>
 </ul>
 </li>
+<li><ul>
 <li><p>如果你需要修改网页的内容，只需要修改对应目录下的对应文件的内容</p>
-<ul>
-<li>你可以直接在服务器上，用Vim修改文件</li>
-<li>你可以用ssh登录服务器，在本地编辑好文件（毕竟本地的编辑器好用），全选，复制，用Vim打开对应文件，清空，粘贴，保存退出。</li>
-<li>你可以在本地编辑好文件，直接上传文件到对应目录直接覆盖原文件。</li>
+</li>
+<li><p>你可以直接在服务器上，用Vim修改文件</p>
+</li>
+<li><p>你可以用ssh登录服务器，在本地编辑好文件（毕竟本地的编辑器好用），全选，复制，用Vim打开对应文件，清空，粘贴，保存退出。</p>
+</li>
+<li><p>你可以在本地编辑好文件，直接上传文件到对应目录直接覆盖原文件。</p>
+</li>
 </ul>
 </li>
 </ol>
