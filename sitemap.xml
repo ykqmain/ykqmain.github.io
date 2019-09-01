@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/liqi/</loc>
+    
+    <lastmod>2019-09-01T04:04:25.600Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/lanhu/</loc>
     
     <lastmod>2019-08-31T03:49:25.896Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>https://blog.ykqmain.com/kafka/</loc>
     
     <lastmod>2019-08-20T14:19:13.800Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/liqi/</loc>
-    
-    <lastmod>2019-08-11T09:09:16.923Z</lastmod>
     
   </url>
   
