@@ -5,15 +5,15 @@
     
   <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2019-10-30T08:00:22.078Z</lastmod>
+    <lastmod>2019-10-30T08:30:46.239Z</lastmod>
     <data>
         <display>
         <title>利器</title>
         <pubTime>2016-01-03T16:00:00.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
         <tag>Apple</tag>
+         
+        <tag>Mac</tag>
          
         <tag>macOS</tag>
          
@@ -43,15 +43,15 @@
         <title>Apple相关</title>
         <pubTime>2016-09-03T16:00:00.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
-        <tag>iPhone</tag>
-         
         <tag>Apple</tag>
+         
+        <tag>Mac</tag>
          
         <tag>macOS</tag>
          
         <tag>OS X</tag>
+         
+        <tag>iPhone</tag>
          
         <tag>iOS</tag>
          
@@ -213,9 +213,9 @@
         
         <tag>回忆</tag>
          
-        <tag>婧玉</tag>
-         
         <tag>动画</tag>
+         
+        <tag>婧玉</tag>
          
          
            
@@ -257,13 +257,13 @@
         <title>第一个网页</title>
         <pubTime>2015-11-20T16:00:00.000Z</pubTime>
         
-        <tag>Web</tag>
+        <tag>Apache</tag>
          
         <tag>Linux</tag>
          
         <tag>服务器</tag>
          
-        <tag>Apache</tag>
+        <tag>Web</tag>
          
          
            
@@ -309,8 +309,6 @@
         <title>Apache Kafka安装</title>
         <pubTime>2019-07-17T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>Apache</tag>
          
         <tag>Kafka</tag>
@@ -318,6 +316,8 @@
         <tag>分布式</tag>
          
         <tag>日志</tag>
+         
+        <tag>Linux</tag>
          
         <tag>ELK</tag>
          
@@ -389,9 +389,9 @@
         <title>MySQL小记——附iOS游戏推荐</title>
         <pubTime>2016-04-12T16:00:00.000Z</pubTime>
         
-        <tag>MySQL</tag>
-         
         <tag>Mac</tag>
+         
+        <tag>MySQL</tag>
          
         <tag>数据库</tag>
          
@@ -445,7 +445,7 @@
         <title>Debian从0到1</title>
         <pubTime>2019-04-17T16:00:00.000Z</pubTime>
         
-        <tag>Python</tag>
+        <tag>Apache</tag>
          
         <tag>Linux</tag>
          
@@ -453,13 +453,13 @@
          
         <tag>服务器</tag>
          
-        <tag>Apache</tag>
-         
         <tag>Nginx</tag>
          
         <tag>MySQL</tag>
          
         <tag>MariaDB</tag>
+         
+        <tag>Python</tag>
          
         <tag>Java</tag>
          
@@ -571,9 +571,9 @@
         <title>博客1周年暨年终总结</title>
         <pubTime>2016-12-19T16:00:00.000Z</pubTime>
         
-        <tag>回忆</tag>
-         
         <tag>blog</tag>
+         
+        <tag>回忆</tag>
          
         <tag>总结</tag>
          
@@ -676,15 +676,15 @@
         <title>Flask实践</title>
         <pubTime>2019-01-23T16:00:00.000Z</pubTime>
         
-        <tag>Flask</tag>
+        <tag>Linux</tag>
          
         <tag>Python</tag>
+         
+        <tag>Flask</tag>
          
         <tag>Web</tag>
          
         <tag>http</tag>
-         
-        <tag>Linux</tag>
          
         <tag>企业微信</tag>
          
@@ -852,15 +852,15 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
-        <tag>Web</tag>
+        <tag>Apache</tag>
+         
+        <tag>Mac</tag>
          
         <tag>服务器</tag>
          
-        <tag>Apache</tag>
-         
         <tag>MySQL</tag>
          
-        <tag>Mac</tag>
+        <tag>Web</tag>
          
         <tag>数据库</tag>
          
