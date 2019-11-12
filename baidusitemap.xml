@@ -4,6 +4,58 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/life/</loc>
+    <lastmod>2019-11-12T08:44:26.789Z</lastmod>
+    <data>
+        <display>
+        <title>TimeLine</title>
+        <pubTime>2015-07-05T16:00:00.000Z</pubTime>
+        
+        <tag>Blog</tag>
+         
+        <tag>回忆</tag>
+         
+        <tag>童年</tag>
+         
+        <tag>少年</tag>
+         
+         
+           
+             
+              <breadCrumb title="其他" url="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.ykqmain.com/hello/</loc>
+    <lastmod>2019-11-12T07:59:15.192Z</lastmod>
+    <data>
+        <display>
+        <title>第一个网页</title>
+        <pubTime>2015-11-20T16:00:00.000Z</pubTime>
+        
+        <tag>Apache</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>服务器</tag>
+         
+        <tag>Web</tag>
+         
+         
+           
+             
+              <breadCrumb title="网络" url="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
     <lastmod>2019-11-12T07:54:56.612Z</lastmod>
     <data>
@@ -29,56 +81,6 @@
            
              
               <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/life/</loc>
-    <lastmod>2019-11-12T07:29:31.956Z</lastmod>
-    <data>
-        <display>
-        <title>TimeLine</title>
-        <pubTime>2015-03-04T16:00:00.000Z</pubTime>
-        
-        <tag>Blog</tag>
-         
-        <tag>回忆</tag>
-         
-        <tag>童年</tag>
-         
-         
-           
-             
-              <breadCrumb title="其他" url="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/hello/</loc>
-    <lastmod>2019-11-12T07:24:40.671Z</lastmod>
-    <data>
-        <display>
-        <title>第一个网页</title>
-        <pubTime>2015-11-20T16:00:00.000Z</pubTime>
-        
-        <tag>Apache</tag>
-         
-        <tag>Linux</tag>
-         
-        <tag>服务器</tag>
-         
-        <tag>Web</tag>
-         
-         
-           
-             
-              <breadCrumb title="网络" url="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
           
         </display>
     </data>
@@ -569,9 +571,9 @@
         <title>博客1周年暨年终总结</title>
         <pubTime>2016-12-19T16:00:00.000Z</pubTime>
         
-        <tag>blog</tag>
-         
         <tag>回忆</tag>
+         
+        <tag>blog</tag>
          
         <tag>总结</tag>
          
