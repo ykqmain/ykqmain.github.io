@@ -4,6 +4,38 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/liqi/</loc>
+    <lastmod>2019-11-13T07:27:07.092Z</lastmod>
+    <data>
+        <display>
+        <title>利器</title>
+        <pubTime>2016-01-03T16:00:00.000Z</pubTime>
+        
+        <tag>Apple</tag>
+         
+        <tag>Mac</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>工具</tag>
+         
+        <tag>软件</tag>
+         
+        <tag>Software</tag>
+         
+        <tag>App</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/life/</loc>
     <lastmod>2019-11-12T08:44:26.789Z</lastmod>
     <data>
@@ -41,46 +73,14 @@
          
         <tag>Linux</tag>
          
-        <tag>Web</tag>
-         
         <tag>服务器</tag>
+         
+        <tag>Web</tag>
          
          
            
              
               <breadCrumb title="网络" url="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2019-11-12T07:54:56.612Z</lastmod>
-    <data>
-        <display>
-        <title>利器</title>
-        <pubTime>2016-01-03T16:00:00.000Z</pubTime>
-        
-        <tag>Apple</tag>
-         
-        <tag>Mac</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>工具</tag>
-         
-        <tag>软件</tag>
-         
-        <tag>Software</tag>
-         
-        <tag>App</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
           
         </display>
     </data>
@@ -449,10 +449,6 @@
          
         <tag>Linux</tag>
          
-        <tag>Java</tag>
-         
-        <tag>Python</tag>
-         
         <tag>Debian</tag>
          
         <tag>服务器</tag>
@@ -462,6 +458,10 @@
         <tag>MySQL</tag>
          
         <tag>MariaDB</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>Java</tag>
          
         <tag>Git</tag>
          
@@ -515,13 +515,13 @@
         
         <tag>Linux</tag>
          
+        <tag>Java</tag>
+         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
          
         <tag>CentOS</tag>
-         
-        <tag>Java</tag>
          
         <tag>Tomcat</tag>
          
@@ -678,11 +678,11 @@
         
         <tag>Linux</tag>
          
-        <tag>Flask</tag>
-         
         <tag>Python</tag>
          
         <tag>Web</tag>
+         
+        <tag>Flask</tag>
          
         <tag>http</tag>
          
@@ -734,13 +734,13 @@
         
         <tag>Linux</tag>
          
+        <tag>Java</tag>
+         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
          
         <tag>CentOS</tag>
-         
-        <tag>Java</tag>
          
          
            
@@ -856,8 +856,6 @@
          
         <tag>Mac</tag>
          
-        <tag>Web</tag>
-         
         <tag>服务器</tag>
          
         <tag>MySQL</tag>
@@ -865,6 +863,8 @@
         <tag>数据库</tag>
          
         <tag>PHP</tag>
+         
+        <tag>Web</tag>
          
          
            
