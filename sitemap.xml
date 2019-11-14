@@ -2,6 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/liyi/</loc>
+    
+    <lastmod>2019-11-14T03:23:53.977Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/lishi/</loc>
+    
+    <lastmod>2019-11-14T03:23:46.660Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/zhuzi/</loc>
+    
+    <lastmod>2019-11-14T03:23:21.234Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/donghu/</loc>
+    
+    <lastmod>2019-11-14T03:23:01.173Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/future/</loc>
+    
+    <lastmod>2019-11-14T03:18:45.069Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/kafka/</loc>
+    
+    <lastmod>2019-11-14T03:16:44.392Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/hexo/</loc>
+    
+    <lastmod>2019-11-14T03:15:45.424Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/twgx/</loc>
+    
+    <lastmod>2019-11-14T03:14:04.684Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/graduate/</loc>
     
     <lastmod>2019-11-14T03:04:31.659Z</lastmod>
@@ -37,27 +93,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/zhuzi/</loc>
-    
-    <lastmod>2019-10-02T07:34:59.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/lishi/</loc>
-    
-    <lastmod>2019-09-06T15:57:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/liyi/</loc>
-    
-    <lastmod>2019-09-01T08:50:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.ykqmain.com/lanhu/</loc>
     
     <lastmod>2019-08-31T03:49:25.000Z</lastmod>
@@ -75,20 +110,6 @@
     <loc>https://blog.ykqmain.com/young/</loc>
     
     <lastmod>2019-08-31T03:24:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/kafka/</loc>
-    
-    <lastmod>2019-08-20T14:19:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/hexo/</loc>
-    
-    <lastmod>2019-07-25T14:59:19.000Z</lastmod>
     
   </url>
   
@@ -135,13 +156,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/donghu/</loc>
-    
-    <lastmod>2019-07-01T11:41:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.ykqmain.com/2016/</loc>
     
     <lastmod>2019-07-01T11:41:17.000Z</lastmod>
@@ -170,13 +184,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/future/</loc>
-    
-    <lastmod>2019-03-22T13:05:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.ykqmain.com/hadoop/</loc>
     
     <lastmod>2019-03-22T13:03:46.000Z</lastmod>
@@ -187,13 +194,6 @@
     <loc>https://blog.ykqmain.com/honglan/</loc>
     
     <lastmod>2019-03-22T12:36:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/twgx/</loc>
-    
-    <lastmod>2019-03-12T13:14:13.000Z</lastmod>
     
   </url>
   
