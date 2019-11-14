@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/linux/</loc>
+    
+    <lastmod>2019-11-14T03:27:09.757Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/kafka/</loc>
+    
+    <lastmod>2019-11-14T03:26:58.014Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/april/</loc>
     
     <lastmod>2019-11-14T03:25:27.138Z</lastmod>
@@ -40,13 +54,6 @@
     <loc>https://blog.ykqmain.com/donghu/</loc>
     
     <lastmod>2019-11-14T03:23:01.173Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/kafka/</loc>
-    
-    <lastmod>2019-11-14T03:16:44.392Z</lastmod>
     
   </url>
   
@@ -131,13 +138,6 @@
     <loc>https://blog.ykqmain.com/obs/</loc>
     
     <lastmod>2019-07-01T11:52:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/linux/</loc>
-    
-    <lastmod>2019-07-01T11:47:07.000Z</lastmod>
     
   </url>
   
