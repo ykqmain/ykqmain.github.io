@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/ninghang/</loc>
-    <lastmod>2019-11-14T04:31:11.326Z</lastmod>
+    <lastmod>2019-11-14T04:38:06.097Z</lastmod>
     <data>
         <display>
         <title>宁杭之旅</title>
@@ -75,8 +75,6 @@
          
         <tag>Linux</tag>
          
-        <tag>Python</tag>
-         
         <tag>Debian</tag>
          
         <tag>服务器</tag>
@@ -86,6 +84,8 @@
         <tag>MySQL</tag>
          
         <tag>MariaDB</tag>
+         
+        <tag>Python</tag>
          
         <tag>Java</tag>
          
@@ -443,9 +443,9 @@
          
         <tag>Linux</tag>
          
-        <tag>Web</tag>
-         
         <tag>服务器</tag>
+         
+        <tag>Web</tag>
          
          
            
@@ -772,9 +772,9 @@
         
         <tag>Linux</tag>
          
-        <tag>Flask</tag>
-         
         <tag>Python</tag>
+         
+        <tag>Flask</tag>
          
         <tag>Web</tag>
          
@@ -890,11 +890,11 @@
          
         <tag>Mac</tag>
          
-        <tag>Web</tag>
-         
         <tag>服务器</tag>
          
         <tag>MySQL</tag>
+         
+        <tag>Web</tag>
          
         <tag>数据库</tag>
          
