@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ykqmain.com/"/>
-  <updated>2019-11-15T06:44:29.650Z</updated>
+  <updated>2019-11-15T06:50:32.363Z</updated>
   <id>https://blog.ykqmain.com/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="https://blog.ykqmain.com/shandong/"/>
     <id>https://blog.ykqmain.com/shandong/</id>
     <published>2019-09-12T16:00:00.000Z</published>
-    <updated>2019-11-15T06:44:29.650Z</updated>
+    <updated>2019-11-15T06:50:32.363Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/1.jpg!m" alt=""></p><center class="half"><br>    <img src="![](https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/2.jpg!shuiyin)" width="350"><img src="![](https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/3.jpg!shuiyin)" width="350"><br></center><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/4.jpg!shuiyin" alt=""></p><video height="auto" width="720" controls><br>  <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/5.m4v" type="video/mp4"><br>您的浏览器不支持Video标签。<br></video>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/1.jpg!m" alt=""></p><center class="half"><br>    <img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/2.jpg!shuiyin" width="350"><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/3.jpg!shuiyin" width="350"><br></center><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/4.jpg!shuiyin" alt=""></p><video height="auto" width="720" controls><br>  <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/5.m4v" type="video/mp4"><br>您的浏览器不支持Video标签。<br></video><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/6.jpg!m" alt=""></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/7.jpg!m" alt=""></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/8.jpg!m" alt=""></p><video height="720" width="auto" controls><br>  <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/9.m4v" type="video/mp4"><br>您的浏览器不支持Video标签。<br></video><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/10.jpg!shuiyin" alt=""></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/11.jpg!m" alt=""></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/12.jpg!m" alt=""></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/13.jpg!m" alt=""></p><video height="720" width="auto" controls><br>  <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/14.m4v" type="video/mp4"><br>您的浏览器不支持Video标签。<br></video><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/15.jpg!shuiyin" alt=""></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/16.jpg!m" alt=""></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/17.jpg!m" alt=""></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/8.jpg!m" alt=""></p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;&lt;img src=&quot;https://ianna.oss-cn-hangzhou.aliyuncs.com/shandong/1.jpg!m&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;center class=&quot;half&quot;&gt;&lt;br&gt;    &lt;img src=&quot;![](https://ian
+&lt;center class=&quot;half&quot;&gt;&lt;br&gt;    &lt;img src=&quot;https://ianna.o
       
     
     </summary>
@@ -115,8 +115,6 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
-    
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Kafka" scheme="https://blog.ykqmain.com/tags/Kafka/"/>
@@ -124,6 +122,8 @@
       <category term="分布式" scheme="https://blog.ykqmain.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
     
       <category term="日志" scheme="https://blog.ykqmain.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="ELK" scheme="https://blog.ykqmain.com/tags/ELK/"/>
     
@@ -151,13 +151,13 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
+    
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Nginx" scheme="https://blog.ykqmain.com/tags/Nginx/"/>
     
@@ -770,11 +770,11 @@
       <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
+    
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
@@ -1081,11 +1081,11 @@
       <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
+    
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
