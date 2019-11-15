@@ -155,8 +155,6 @@
     
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
-    
       <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
@@ -168,6 +166,8 @@
       <category term="MariaDB" scheme="https://blog.ykqmain.com/tags/MariaDB/"/>
     
       <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
+    
+      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
       <category term="Git" scheme="https://blog.ykqmain.com/tags/Git/"/>
     
@@ -243,9 +243,9 @@
     
       <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
     
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
-    
       <category term="Flask" scheme="https://blog.ykqmain.com/tags/Flask/"/>
+    
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
       <category term="http" scheme="https://blog.ykqmain.com/tags/http/"/>
     
@@ -522,13 +522,13 @@
     
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
+      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
+    
       <category term="大数据" scheme="https://blog.ykqmain.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
       <category term="Hadoop" scheme="https://blog.ykqmain.com/tags/Hadoop/"/>
     
       <category term="CentOS" scheme="https://blog.ykqmain.com/tags/CentOS/"/>
-    
-      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
       <category term="Tomcat" scheme="https://blog.ykqmain.com/tags/Tomcat/"/>
     
@@ -560,13 +560,13 @@
     
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
+      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
+    
       <category term="大数据" scheme="https://blog.ykqmain.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
       <category term="Hadoop" scheme="https://blog.ykqmain.com/tags/Hadoop/"/>
     
       <category term="CentOS" scheme="https://blog.ykqmain.com/tags/CentOS/"/>
-    
-      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
   </entry>
   
@@ -711,9 +711,9 @@
     
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="婧玉" scheme="https://blog.ykqmain.com/tags/%E5%A9%A7%E7%8E%89/"/>
-    
       <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+      <category term="婧玉" scheme="https://blog.ykqmain.com/tags/%E5%A9%A7%E7%8E%89/"/>
     
   </entry>
   
@@ -739,9 +739,9 @@
       <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
-    
       <category term="blog" scheme="https://blog.ykqmain.com/tags/blog/"/>
+    
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
       <category term="总结" scheme="https://blog.ykqmain.com/tags/%E6%80%BB%E7%BB%93/"/>
     
@@ -778,11 +778,11 @@
     
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
+    
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
       <category term="PHP" scheme="https://blog.ykqmain.com/tags/PHP/"/>
-    
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
   </entry>
   
