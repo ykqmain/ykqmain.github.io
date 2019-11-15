@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="Apache配置 macOS Sierra 10.12   Server version: Apache/2.4.23 (Unix)  Mac自带Apache，可通过httpd -v查看版本号。 配置文件：/private/etc/apache2/httpd.conf 默认部署包: /Library/WebServer/Documents  修改默认部署路径为了方便操作，需要指向特定的文件夹，通过">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-11-07T11:51:41.000Z">
+<meta property="og:updated_time" content="2019-11-15T08:00:01.357Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac的Apache+MySQL+PHP配置">
 <meta name="twitter:description" content="Apache配置 macOS Sierra 10.12   Server version: Apache/2.4.23 (Unix)  Mac自带Apache，可通过httpd -v查看版本号。 配置文件：/private/etc/apache2/httpd.conf 默认部署包: /Library/WebServer/Documents  修改默认部署路径为了方便操作，需要指向特定的文件夹，通过">
@@ -313,7 +313,7 @@
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$id = mysql_connect(<span class="string">"127.0.0.1:3306"</span>,<span class="string">"root"</span>,<span class="string">"密码"</span>);</span></span><br><span class="line"><span class="php">$ok = mysql_select_db(<span class="string">"database_name"</span>,$id);</span></span><br><span class="line"><span class="php"><span class="keyword">if</span>($ok) &#123;</span></span><br><span class="line"><span class="php">    $result = mysql_query(<span class="string">'SELECT * from student'</span>);</span></span><br><span class="line"><span class="php">    <span class="keyword">if</span>(!$result) &#123;</span></span><br><span class="line"><span class="php">        <span class="keyword">Die</span>(<span class="string">'无效查询'</span>.mysql_error());</span></span><br><span class="line"><span class="php">    &#125;</span></span><br><span class="line"><span class="php">    <span class="keyword">else</span> &#123;</span></span><br><span class="line"><span class="php">        <span class="keyword">echo</span> <span class="string">"成功执行SQL语句"</span>;</span></span><br><span class="line"><span class="php">    &#125;</span></span><br><span class="line"><span class="php">&#125;</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br></pre></td></tr></table></figure>
 <p><br></p>
 <p><strong>最后程序结束用mysql_close()函数来关闭数据库连接。</strong></p>
-<p><br><br></p>
+<p><br></p>
 <p>开始学习PHP了…… &nbsp;&nbsp; _(:3」∠)_</p>
 <p><br><br></p>
 
