@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="重装Mac系统 准备工作  备份！！！  准备一个16G以上的U盘（会被格式化）  从App Store下载新系统，下载成功后，退出自动安装。确保安装文件在“应用程序”文件夹（Applications）    格式化 U盘  打开“磁盘工具”  名称 填写 U (该名称之后会用到)  格式 选择 Mac OS 扩展 (日志式)  分区 选择 GUID 分区表    制作启动盘  打开“终端”  s">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-31T10:26:07.000Z">
+<meta property="og:updated_time" content="2019-12-11T05:00:45.792Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Apple相关">
 <meta name="twitter:description" content="重装Mac系统 准备工作  备份！！！  准备一个16G以上的U盘（会被格式化）  从App Store下载新系统，下载成功后，退出自动安装。确保安装文件在“应用程序”文件夹（Applications）    格式化 U盘  打开“磁盘工具”  名称 填写 U (该名称之后会用到)  格式 选择 Mac OS 扩展 (日志式)  分区 选择 GUID 分区表    制作启动盘  打开“终端”  s">
@@ -251,7 +251,7 @@
 <ol>
 <li><p>打开“终端”</p>
 </li>
-<li><p><code>sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/U</code></p>
+<li><p><code>sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/U</code></p>
 <ul>
 <li>相应地替换为<code>U</code></li>
 <li>空格之间用 <code>\</code> 连接</li>
@@ -270,10 +270,15 @@
 </li>
 <li><p>选择 U 盘的图标回车，可以直接覆盖安装系统(升级)，也可以在磁盘工具里面格式化抹掉整个硬盘，或者重新分区等实现全新的干净的安装。</p>
 </li>
-<li><p>屏蔽新系统 </p>
+<li><p>屏蔽更新</p>
 <ul>
 <li><code>sudo softwareupdate --ignore &quot;macOS Catalina&quot;</code></li>
-<li><code>defaults write com.apple.systempreferences AttentionPrefBundleIDs 0 ; killall Dock</code><br><br></li>
+<li><code>defaults write com.apple.systempreferences AttentionPrefBundleIDs 0 ; killall Dock</code></li>
+</ul>
+</li>
+<li><p>恢复更新</p>
+<ul>
+<li><code>sudo softwareupdate --reset-ignored</code><br><br></li>
 </ul>
 </li>
 </ol>
