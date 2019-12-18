@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/life/</loc>
+    <lastmod>2019-12-18T02:36:30.803Z</lastmod>
+    <data>
+        <display>
+        <title>TimeLine</title>
+        <pubTime>2015-07-05T16:00:00.000Z</pubTime>
+        
+        <tag>Blog</tag>
+         
+        <tag>回忆</tag>
+         
+        <tag>童年</tag>
+         
+        <tag>少年</tag>
+         
+         
+           
+             
+              <breadCrumb title="其他" url="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
     <lastmod>2019-12-16T03:27:12.133Z</lastmod>
     <data>
@@ -401,8 +427,6 @@
         <title>Apache Kafka安装</title>
         <pubTime>2019-07-17T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>Apache</tag>
          
         <tag>Kafka</tag>
@@ -410,6 +434,8 @@
         <tag>分布式</tag>
          
         <tag>日志</tag>
+         
+        <tag>Linux</tag>
          
         <tag>ELK</tag>
          
@@ -557,8 +583,6 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
-        <tag>Web</tag>
-         
         <tag>Apache</tag>
          
         <tag>Mac</tag>
@@ -570,6 +594,8 @@
         <tag>数据库</tag>
          
         <tag>PHP</tag>
+         
+        <tag>Web</tag>
          
          
            
@@ -603,32 +629,6 @@
            
              
               <breadCrumb title="动画" url="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/life/</loc>
-    <lastmod>2019-11-15T07:56:09.000Z</lastmod>
-    <data>
-        <display>
-        <title>TimeLine</title>
-        <pubTime>2015-07-05T16:00:00.000Z</pubTime>
-        
-        <tag>Blog</tag>
-         
-        <tag>回忆</tag>
-         
-        <tag>童年</tag>
-         
-        <tag>少年</tag>
-         
-         
-           
-             
-              <breadCrumb title="其他" url="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
           
         </display>
     </data>
@@ -699,21 +699,21 @@
         <title>Debian从0到1</title>
         <pubTime>2019-04-17T16:00:00.000Z</pubTime>
         
-        <tag>Python</tag>
-         
-        <tag>Linux</tag>
-         
         <tag>Apache</tag>
          
-        <tag>Java</tag>
+        <tag>Linux</tag>
          
         <tag>服务器</tag>
          
         <tag>MySQL</tag>
          
-        <tag>Debian</tag>
+        <tag>Python</tag>
+         
+        <tag>Java</tag>
          
         <tag>Nginx</tag>
+         
+        <tag>Debian</tag>
          
         <tag>MariaDB</tag>
          
@@ -765,13 +765,13 @@
         <title>第一个网页</title>
         <pubTime>2015-11-20T16:00:00.000Z</pubTime>
         
-        <tag>Web</tag>
+        <tag>Apache</tag>
          
         <tag>Linux</tag>
          
-        <tag>Apache</tag>
-         
         <tag>服务器</tag>
+         
+        <tag>Web</tag>
          
          
            
@@ -894,15 +894,15 @@
         <title>Flask实践</title>
         <pubTime>2019-01-23T16:00:00.000Z</pubTime>
         
+        <tag>Linux</tag>
+         
+        <tag>Web</tag>
+         
         <tag>Flask</tag>
          
         <tag>Python</tag>
          
-        <tag>Web</tag>
-         
         <tag>http</tag>
-         
-        <tag>Linux</tag>
          
         <tag>企业微信</tag>
          
