@@ -115,8 +115,6 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
-    
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Kafka" scheme="https://blog.ykqmain.com/tags/Kafka/"/>
@@ -124,6 +122,8 @@
       <category term="分布式" scheme="https://blog.ykqmain.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
     
       <category term="日志" scheme="https://blog.ykqmain.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="ELK" scheme="https://blog.ykqmain.com/tags/ELK/"/>
     
@@ -151,21 +151,21 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
-    
-      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
-    
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
-      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
-      <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
+      <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
+    
+      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
       <category term="Nginx" scheme="https://blog.ykqmain.com/tags/Nginx/"/>
+    
+      <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
     
       <category term="MariaDB" scheme="https://blog.ykqmain.com/tags/MariaDB/"/>
     
@@ -239,15 +239,15 @@
       <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
+    
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
+    
       <category term="Flask" scheme="https://blog.ykqmain.com/tags/Flask/"/>
     
       <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
     
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
-    
       <category term="http" scheme="https://blog.ykqmain.com/tags/http/"/>
-    
-      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="企业微信" scheme="https://blog.ykqmain.com/tags/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1/"/>
     
@@ -770,8 +770,6 @@
       <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
-    
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
@@ -783,6 +781,8 @@
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
       <category term="PHP" scheme="https://blog.ykqmain.com/tags/PHP/"/>
+    
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
   </entry>
   
@@ -1081,13 +1081,13 @@
       <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
-    
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
   </entry>
   
@@ -1096,9 +1096,9 @@
     <link href="https://blog.ykqmain.com/life/"/>
     <id>https://blog.ykqmain.com/life/</id>
     <published>2015-07-05T16:00:00.000Z</published>
-    <updated>2019-11-15T07:56:09.000Z</updated>
+    <updated>2019-12-18T02:36:30.803Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1996"><a href="#1996" class="headerlink" title="# 1996"></a># 1996</h2><p>出生于「长江」之北的南方人。<br><br></p><h2 id="童年时代（20世纪末～2008）"><a href="#童年时代（20世纪末～2008）" class="headerlink" title="# 童年时代（20世纪末～2008）"></a># 童年时代（20世纪末～2008）</h2><p>父母上东北打工，寄居镇上姑妈家，留守儿童。</p><ul><li><u><strong>动画</strong></u>，<strong>至今热爱</strong></li><li>童年动画群星璀璨，数不胜数</li><li><strong>红色警戒2</strong> 打开了我计算机的大门（about 2004）</li><li>拥有第一个QQ号，两个来自湖南和福建的难忘的网友（about 2006）</li><li>折腾QQ空间<br><br></li></ul><h2 id="中学时代（2008～2014）"><a href="#中学时代（2008～2014）" class="headerlink" title="# 中学时代（2008～2014）"></a># 中学时代（2008～2014）</h2><p><strong>about 2008</strong></p><ul><li><u><strong>历史爱好者</strong></u>，<strong>至今痴迷</strong></li><li>春秋战国，诸子百家</li><li>《网球王子》</li></ul><p><strong>about 2009</strong></p><ul><li>家里拥有第一台台式电脑（联想）</li><li>折腾各种邮箱，Yahoo邮箱、Sina邮箱、Sohu邮箱</li><li>第一次接触C语言，<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Hello, C... (｡•ˇ‸ˇ•｡) \n"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><p><strong>about 2010</strong></p><ul><li><strong>桃文</strong>，一个梦</li></ul><p><strong>about 2011</strong></p><ul><li><strong>三国杀</strong>，至今在玩</li><li>逛贴吧</li></ul><p><strong>about 2012</strong></p><ul><li>尝试了解<strong>孟子</strong>，<strong>至今最崇拜的人</strong></li><li>《超兽武装》，晚饭后的悠闲</li></ul><p><strong>about 2013</strong></p><ul><li><strong>古诗文</strong>，<strong>至今喜欢</strong></li><li>《未闻花名》</li></ul><p><strong>about 2014</strong></p><p>「只是在我心中还有一方净土，即使在别人眼里寸草不生，却始终一尘不染。」<br><br></p><p>“不要跟我谈以后，因为我看不到明天。</p><p>有可能一分钟后，就灰飞烟灭随风而去，我深知前人内心的孤独与苦闷，然而我的内心，也只有由后人去体会了。</p><p>「所以隐忍苟活，幽于粪土之中而不辞者，恨私心有所不尽，鄙陋没世，而文采不表于后世也。」</p><p>惟愿留下一部传世之作，让他在未来的某一天被后人欣赏，然后再梦游来天上与孤独的我谈心吧，也不枉此生了。”<br><br></p><p>Anna，第一台笔记本电脑（联想）<br><br></p><h2 id="青年时代（2014～）"><a href="#青年时代（2014～）" class="headerlink" title="# 青年时代（2014～）"></a># 青年时代（2014～）</h2><p><strong>2015.03.05</strong><br>第一部iPhone，取名Nana，开启Apple之门<br>启用iCloud照片，<strong>以图片记录生活，时间线清晰</strong></p><p><strong>2015.8.16</strong><br>第一台 MacBook Pro (2015)，仍叫 “Anna”</p><p><strong>2015.11.20</strong><br>第一台VPS<br>重访Google<br>开启Twitter之旅</p><p><strong>2015.11.21</strong><br>写第一个网页 <del><code>ianna.xyz</code></del></p><p><strong>2015.11.25</strong><br>用 <a href="https://wordpress.org" target="_blank" rel="noopener">WordPress</a> 搭建第一个博客 <del><code>blog.ianna.xyz</code></del></p><p><strong>2015.11.29</strong><br>把Blog迁移到 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a></p><p><strong>2015.12.20</strong><br>购买新域名 <code>ykqmain.com</code>，沿用至今<br>启用域名邮箱，<a href="mailto:i@ykqmain.com" target="_blank" rel="noopener">i@ykqmain.com</a><br><br></p><p><strong>@ Now</strong></p><p><strong>博客地址</strong>，<strong><a href="https://blog.ykqmain.com" target="_blank">blog.ykqmain.com</a></strong></p><p><em>To be continued…</em></p><p><br></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/main/qingyuan.jpg!xsy" alt=""></p><p><br><br></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="1996"><a href="#1996" class="headerlink" title="# 1996"></a># 1996</h2><p>出生于「长江」之北的南方人。<br><br></p><h2 id="童年时代（20世纪末～2008）"><a href="#童年时代（20世纪末～2008）" class="headerlink" title="# 童年时代（20世纪末～2008）"></a># 童年时代（20世纪末～2008）</h2><p>父母上东北打工，寄居镇上姑妈家，留守儿童。</p><ul><li><u><strong>动画</strong></u>，<strong>至今热爱</strong></li><li>童年动画群星璀璨，数不胜数</li><li><strong>红色警戒2</strong> 打开了我计算机的大门（about 2004）</li><li>拥有第一个QQ号，两个来自湖南和福建的难忘的网友（about 2006）</li><li>折腾QQ空间<br><br></li></ul><h2 id="中学时代（2008～2014）"><a href="#中学时代（2008～2014）" class="headerlink" title="# 中学时代（2008～2014）"></a># 中学时代（2008～2014）</h2><p><strong>about 2008</strong></p><ul><li><u><strong>历史爱好者</strong></u>，<strong>至今痴迷</strong></li><li>春秋战国，诸子百家</li><li>《网球王子》</li></ul><p><strong>about 2009</strong></p><ul><li>家里拥有第一台台式电脑（联想）</li><li>折腾各种邮箱，Yahoo邮箱、Sina邮箱、Sohu邮箱</li><li>第一次接触C语言，<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Hello, C... (｡•ˇ‸ˇ•｡) \n"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><p><strong>about 2010</strong></p><ul><li><strong>桃文</strong>，一个梦</li></ul><p><strong>about 2011</strong></p><ul><li>三国杀</li><li>逛贴吧</li></ul><p><strong>about 2012</strong></p><ul><li>尝试了解<strong>孟子</strong>，<strong>至今最崇拜的人</strong></li><li>《超兽武装》，晚饭后的悠闲</li></ul><p><strong>about 2013</strong></p><ul><li><strong>古诗文</strong>，<strong>至今喜欢</strong></li><li>《未闻花名》</li></ul><p><strong>about 2014</strong></p><p>「只是在我心中还有一方净土，即使在别人眼里寸草不生，却始终一尘不染。」<br><br></p><p>“不要跟我谈以后，因为我看不到明天。</p><p>有可能一分钟后，就灰飞烟灭随风而去，我深知前人内心的孤独与苦闷，然而我的内心，也只有由后人去体会了。</p><p>「所以隐忍苟活，幽于粪土之中而不辞者，恨私心有所不尽，鄙陋没世，而文采不表于后世也。」</p><p>惟愿留下一部传世之作，让他在未来的某一天被后人欣赏，然后再梦游来天上与孤独的我谈心吧，也不枉此生了。”<br><br></p><p>Anna，第一台笔记本电脑（联想）<br><br></p><h2 id="青年时代（2014～）"><a href="#青年时代（2014～）" class="headerlink" title="# 青年时代（2014～）"></a># 青年时代（2014～）</h2><p><strong>2015.03.05</strong><br>第一部iPhone，取名Nana，开启Apple之门<br>启用iCloud照片，<strong>以图片记录生活，时间线清晰</strong></p><p><strong>2015.8.16</strong><br>第一台 MacBook Pro (2015)，仍叫 “Anna”</p><p><strong>2015.11.20</strong><br>第一台VPS<br>重访Google<br>开启Twitter之旅</p><p><strong>2015.11.21</strong><br>写第一个网页 <del><code>ianna.xyz</code></del></p><p><strong>2015.11.25</strong><br>用 <a href="https://wordpress.org" target="_blank" rel="noopener">WordPress</a> 搭建第一个博客 <del><code>blog.ianna.xyz</code></del></p><p><strong>2015.11.29</strong><br>把Blog迁移到 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a></p><p><strong>2015.12.20</strong><br>购买新域名 <code>ykqmain.com</code>，沿用至今<br>启用域名邮箱，<a href="mailto:i@ykqmain.com" target="_blank" rel="noopener">i@ykqmain.com</a><br><br></p><p><strong>@ Now</strong></p><p><strong>博客地址</strong>，<strong><a href="https://blog.ykqmain.com" target="_blank">blog.ykqmain.com</a></strong></p><p><em>To be continued…</em></p><p><br></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/main/qingyuan.jpg!xsy" alt=""></p><p><br><br></p>]]></content>
     
     <summary type="html">
     
