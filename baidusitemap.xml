@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2019-12-19T08:26:37.305Z</lastmod>
+    <lastmod>2019-12-19T08:37:12.328Z</lastmod>
     <data>
         <display>
         <title>利器</title>
@@ -167,9 +167,9 @@
         
         <tag>回忆</tag>
          
-        <tag>婧玉</tag>
-         
         <tag>动画</tag>
+         
+        <tag>婧玉</tag>
          
          
            
@@ -427,8 +427,6 @@
         <title>Apache Kafka安装</title>
         <pubTime>2019-07-17T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>Apache</tag>
          
         <tag>Kafka</tag>
@@ -436,6 +434,8 @@
         <tag>分布式</tag>
          
         <tag>日志</tag>
+         
+        <tag>Linux</tag>
          
         <tag>ELK</tag>
          
@@ -491,11 +491,11 @@
         <title>基于Hadoop的简单云盘</title>
         <pubTime>2017-07-01T16:00:00.000Z</pubTime>
         
+        <tag>Linux</tag>
+         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
-         
-        <tag>Linux</tag>
          
         <tag>CentOS</tag>
          
@@ -523,11 +523,11 @@
         <title>Hadoop完全分布式搭建</title>
         <pubTime>2017-06-26T16:00:00.000Z</pubTime>
         
+        <tag>Linux</tag>
+         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
-         
-        <tag>Linux</tag>
          
         <tag>CentOS</tag>
          
@@ -583,15 +583,15 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
+        <tag>Apache</tag>
+         
         <tag>Mac</tag>
          
-        <tag>Apache</tag>
+        <tag>Web</tag>
          
         <tag>服务器</tag>
          
         <tag>MySQL</tag>
-         
-        <tag>Web</tag>
          
         <tag>数据库</tag>
          
@@ -699,23 +699,23 @@
         <title>Debian从0到1</title>
         <pubTime>2019-04-17T16:00:00.000Z</pubTime>
         
+        <tag>Apache</tag>
+         
         <tag>Linux</tag>
+         
+        <tag>Python</tag>
          
         <tag>Java</tag>
          
-        <tag>Apache</tag>
-         
-        <tag>Debian</tag>
-         
         <tag>服务器</tag>
-         
-        <tag>Nginx</tag>
          
         <tag>MySQL</tag>
          
-        <tag>MariaDB</tag>
+        <tag>Nginx</tag>
          
-        <tag>Python</tag>
+        <tag>Debian</tag>
+         
+        <tag>MariaDB</tag>
          
         <tag>Git</tag>
          
@@ -765,13 +765,13 @@
         <title>第一个网页</title>
         <pubTime>2015-11-20T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>Apache</tag>
          
-        <tag>服务器</tag>
+        <tag>Linux</tag>
          
         <tag>Web</tag>
+         
+        <tag>服务器</tag>
          
          
            
@@ -896,9 +896,9 @@
         
         <tag>Linux</tag>
          
-        <tag>Python</tag>
-         
         <tag>Flask</tag>
+         
+        <tag>Python</tag>
          
         <tag>Web</tag>
          
