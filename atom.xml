@@ -243,9 +243,9 @@
     
       <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
     
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
-    
       <category term="Flask" scheme="https://blog.ykqmain.com/tags/Flask/"/>
+    
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
       <category term="http" scheme="https://blog.ykqmain.com/tags/http/"/>
     
@@ -770,19 +770,19 @@
       <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
-    
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
+    
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
+    
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
       <category term="PHP" scheme="https://blog.ykqmain.com/tags/PHP/"/>
-    
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
   </entry>
   
@@ -810,15 +810,15 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
-    
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
+    
+      <category term="iPhone" scheme="https://blog.ykqmain.com/tags/iPhone/"/>
+    
+      <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
     
       <category term="macOS" scheme="https://blog.ykqmain.com/tags/macOS/"/>
     
       <category term="OS X" scheme="https://blog.ykqmain.com/tags/OS-X/"/>
-    
-      <category term="iPhone" scheme="https://blog.ykqmain.com/tags/iPhone/"/>
     
       <category term="iOS" scheme="https://blog.ykqmain.com/tags/iOS/"/>
     
@@ -943,9 +943,9 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
-    
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
+    
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
@@ -1005,9 +1005,9 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
-    
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
+    
+      <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
     
       <category term="macOS" scheme="https://blog.ykqmain.com/tags/macOS/"/>
     
