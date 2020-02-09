@@ -493,13 +493,13 @@
         
         <tag>Linux</tag>
          
-        <tag>Java</tag>
-         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
          
         <tag>CentOS</tag>
+         
+        <tag>Java</tag>
          
         <tag>Tomcat</tag>
          
@@ -525,13 +525,13 @@
         
         <tag>Linux</tag>
          
-        <tag>Java</tag>
-         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
          
         <tag>CentOS</tag>
+         
+        <tag>Java</tag>
          
          
            
@@ -587,11 +587,11 @@
          
         <tag>Mac</tag>
          
+        <tag>Web</tag>
+         
         <tag>服务器</tag>
          
         <tag>MySQL</tag>
-         
-        <tag>Web</tag>
          
         <tag>数据库</tag>
          
@@ -703,19 +703,19 @@
          
         <tag>Linux</tag>
          
-        <tag>Debian</tag>
-         
-        <tag>服务器</tag>
-         
-        <tag>Nginx</tag>
-         
-        <tag>MySQL</tag>
-         
-        <tag>MariaDB</tag>
-         
         <tag>Python</tag>
          
         <tag>Java</tag>
+         
+        <tag>服务器</tag>
+         
+        <tag>MySQL</tag>
+         
+        <tag>Nginx</tag>
+         
+        <tag>Debian</tag>
+         
+        <tag>MariaDB</tag>
          
         <tag>Git</tag>
          
@@ -769,9 +769,9 @@
          
         <tag>Linux</tag>
          
-        <tag>服务器</tag>
-         
         <tag>Web</tag>
+         
+        <tag>服务器</tag>
          
          
            
@@ -841,13 +841,13 @@
         
         <tag>文章</tag>
          
+        <tag>无聊</tag>
+         
         <tag>诗歌</tag>
          
         <tag>诗词</tag>
          
         <tag>高中</tag>
-         
-        <tag>无聊</tag>
          
          
            
@@ -869,11 +869,11 @@
         
         <tag>文章</tag>
          
-        <tag>无聊</tag>
-         
         <tag>散文</tag>
          
         <tag>初中</tag>
+         
+        <tag>无聊</tag>
          
          
            
@@ -896,9 +896,9 @@
         
         <tag>Linux</tag>
          
-        <tag>Python</tag>
-         
         <tag>Flask</tag>
+         
+        <tag>Python</tag>
          
         <tag>Web</tag>
          
