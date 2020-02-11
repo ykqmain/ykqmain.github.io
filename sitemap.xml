@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.ykqmain.com/hexo/</loc>
+    <loc>https://blog.ykqmain.com/time/</loc>
     
-    <lastmod>2020-02-10T10:37:53.894Z</lastmod>
+    <lastmod>2020-02-11T04:24:51.436Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/time/</loc>
+    <loc>https://blog.ykqmain.com/ninghang/</loc>
     
-    <lastmod>2020-02-10T10:36:20.596Z</lastmod>
+    <lastmod>2020-02-11T04:24:26.017Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/hexo/</loc>
+    
+    <lastmod>2020-02-10T10:37:53.894Z</lastmod>
     
   </url>
   
@@ -157,13 +164,6 @@
   
   <url>
     <loc>https://blog.ykqmain.com/2016/</loc>
-    
-    <lastmod>2019-11-15T07:28:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/ninghang/</loc>
     
     <lastmod>2019-11-15T07:28:53.000Z</lastmod>
     
