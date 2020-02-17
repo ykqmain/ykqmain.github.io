@@ -36,7 +36,7 @@
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/11.png">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/12.png">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/13.png">
-<meta property="og:updated_time" content="2019-07-01T11:54:35.000Z">
+<meta property="og:updated_time" content="2020-02-17T06:58:12.865Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MySQL小记——附iOS游戏推荐">
 <meta name="twitter:description" content="最近学的mysql的基础知识，想结合实际需求做点东西，练练手，这样才能学得扎实。">
@@ -307,7 +307,8 @@
 <li><p>有就移动到<code>/etc/</code>文件夹下(按cmd＋shift＋G快速前往文件夹)，没有就创建一个<code>my.cnf</code>，输入：</p>
 </li>
 </ol>
-<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[mysqld]</span></span><br><span class="line"><span class="attr">character-set-server</span>=utf8</span><br><span class="line"></span><br><span class="line"><span class="section">[client]</span></span><br><span class="line"><span class="attr">default-character-set</span>=utf8</span><br><span class="line"></span><br><span class="line"><span class="section">[mysql]</span></span><br><span class="line"><span class="attr">default-character-set</span>=utf8</span><br></pre></td></tr></table></figure>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[client]</span></span><br><span class="line"><span class="attr">default-character-set</span>=utf8mb4</span><br><span class="line"></span><br><span class="line"><span class="section">[mysql]</span></span><br><span class="line"><span class="attr">default-character-set</span>=utf8mb4</span><br><span class="line"></span><br><span class="line"><span class="section">[mysqld]</span></span><br><span class="line"><span class="attr">character-set-server</span>=utf8mb4</span><br></pre></td></tr></table></figure>
+<p>MySQL 的「utf8mb4」是真正的「UTF-8」</p>
 <p><br></p>
 <ul>
 <li>启动mysql服务，登陆，用<code>show variables like &#39;character%&#39;;</code>再检查一遍。</li>
