@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/time/</loc>
+    <lastmod>2020-02-18T05:36:55.777Z</lastmod>
+    <data>
+        <display>
+        <title>TimeLine</title>
+        <pubTime>2015-07-05T16:00:00.000Z</pubTime>
+        
+        <tag>Blog</tag>
+         
+        <tag>回忆</tag>
+         
+        <tag>童年</tag>
+         
+        <tag>少年</tag>
+         
+         
+           
+             
+              <breadCrumb title="其他" url="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
     <lastmod>2020-02-17T12:17:47.107Z</lastmod>
     <data>
@@ -85,32 +111,6 @@
            
              
               <breadCrumb title="旅行" url="https://blog.ykqmain.com/categories/%E6%97%85%E8%A1%8C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/time/</loc>
-    <lastmod>2020-02-11T04:24:51.000Z</lastmod>
-    <data>
-        <display>
-        <title>TimeLine</title>
-        <pubTime>2015-07-05T16:00:00.000Z</pubTime>
-        
-        <tag>Blog</tag>
-         
-        <tag>回忆</tag>
-         
-        <tag>童年</tag>
-         
-        <tag>少年</tag>
-         
-         
-           
-             
-              <breadCrumb title="其他" url="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
           
         </display>
     </data>
@@ -665,9 +665,9 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
-        <tag>Apache</tag>
-         
         <tag>Mac</tag>
+         
+        <tag>Apache</tag>
          
         <tag>服务器</tag>
          
@@ -725,9 +725,9 @@
         <title>博客1周年暨年终总结</title>
         <pubTime>2016-12-19T16:00:00.000Z</pubTime>
         
-        <tag>blog</tag>
-         
         <tag>回忆</tag>
+         
+        <tag>blog</tag>
          
         <tag>总结</tag>
          
