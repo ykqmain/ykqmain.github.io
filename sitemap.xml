@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/linux/</loc>
+    
+    <lastmod>2020-02-28T11:35:17.054Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/ffmpeg/</loc>
     
     <lastmod>2020-02-28T11:33:23.566Z</lastmod>
@@ -180,13 +187,6 @@
     <loc>https://blog.ykqmain.com/2016/</loc>
     
     <lastmod>2019-11-15T07:28:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/linux/</loc>
-    
-    <lastmod>2019-11-14T03:27:09.000Z</lastmod>
     
   </url>
   
