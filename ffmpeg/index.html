@@ -15,18 +15,21 @@
     <meta name="keywords" content="Mac,命令行,软件,ffmpeg,媒体,音频,视频," />
   
 
-  <meta name="description" content="Mac上面音频转换可以使用XLD，视频转换可以使用HandBrake。 我只是偶尔需要使用视频转换功能，又想要强大且免费的工具，非FFmpeg莫属，正好可以折腾一下，这玩意是真的复杂，必须写一篇博客记录，以备使用时查询。 运行环境：12macOS 10.14.6ffmpeg: stable 4.2.2">
+  <meta name="description" content="Mac上面音频转换可以使用XLD，视频转换可以使用HandBrake。 我只是偶尔需要使用视频转换功能，想要强大、免费、巨无霸的工具，非FFmpeg莫属，正好可以折腾一下，这玩意是真的复杂，必须写一篇博客记录，以备使用时查询。 运行环境：12macOS 10.14.6ffmpeg: stable 4.2.2 一、在Mac上安装FFmpeg这里是官方文档，里面提到了安装FFmpeg的三种方法：  H">
 <meta name="keywords" content="Mac,命令行,软件,ffmpeg,媒体,音频,视频">
 <meta property="og:type" content="article">
 <meta property="og:title" content="FFmpeg笔记">
 <meta property="og:url" content="https://blog.ykqmain.com/ffmpeg/index.html">
 <meta property="og:site_name" content="iAnna">
-<meta property="og:description" content="Mac上面音频转换可以使用XLD，视频转换可以使用HandBrake。 我只是偶尔需要使用视频转换功能，又想要强大且免费的工具，非FFmpeg莫属，正好可以折腾一下，这玩意是真的复杂，必须写一篇博客记录，以备使用时查询。 运行环境：12macOS 10.14.6ffmpeg: stable 4.2.2">
+<meta property="og:description" content="Mac上面音频转换可以使用XLD，视频转换可以使用HandBrake。 我只是偶尔需要使用视频转换功能，想要强大、免费、巨无霸的工具，非FFmpeg莫属，正好可以折腾一下，这玩意是真的复杂，必须写一篇博客记录，以备使用时查询。 运行环境：12macOS 10.14.6ffmpeg: stable 4.2.2 一、在Mac上安装FFmpeg这里是官方文档，里面提到了安装FFmpeg的三种方法：  H">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-02-28T04:05:13.534Z">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/1!sy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/2!sy">
+<meta property="og:updated_time" content="2020-02-28T05:02:37.590Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="FFmpeg笔记">
-<meta name="twitter:description" content="Mac上面音频转换可以使用XLD，视频转换可以使用HandBrake。 我只是偶尔需要使用视频转换功能，又想要强大且免费的工具，非FFmpeg莫属，正好可以折腾一下，这玩意是真的复杂，必须写一篇博客记录，以备使用时查询。 运行环境：12macOS 10.14.6ffmpeg: stable 4.2.2">
+<meta name="twitter:description" content="Mac上面音频转换可以使用XLD，视频转换可以使用HandBrake。 我只是偶尔需要使用视频转换功能，想要强大、免费、巨无霸的工具，非FFmpeg莫属，正好可以折腾一下，这玩意是真的复杂，必须写一篇博客记录，以备使用时查询。 运行环境：12macOS 10.14.6ffmpeg: stable 4.2.2 一、在Mac上安装FFmpeg这里是官方文档，里面提到了安装FFmpeg的三种方法：  H">
+<meta name="twitter:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/1!sy">
 
   
 
@@ -225,8 +228,50 @@
   <div class="article-content">
     
       <p>Mac上面音频转换可以使用<a href="https://tmkk.undo.jp/xld/index_e.html" target="_blank" rel="noopener">XLD</a>，视频转换可以使用<a href="https://handbrake.fr/" target="_blank" rel="noopener">HandBrake</a>。</p>
-<p>我只是偶尔需要使用视频转换功能，又想要强大且免费的工具，非FFmpeg莫属，正好可以折腾一下，这玩意是真的复杂，必须写一篇博客记录，以备使用时查询。</p>
+<p>我只是<strong>偶尔</strong>需要使用视频转换功能，想要强大、免费、巨无霸的工具，非<a href="https://www.ffmpeg.org" target="_blank" rel="noopener">FFmpeg</a>莫属，正好可以折腾一下，这玩意是真的复杂，必须写一篇博客记录，以备使用时查询。</p>
 <p>运行环境：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">macOS</span> 10<span class="selector-class">.14</span><span class="selector-class">.6</span></span><br><span class="line"><span class="selector-tag">ffmpeg</span>: <span class="selector-tag">stable</span> 4<span class="selector-class">.2</span><span class="selector-class">.2</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="一、在Mac上安装FFmpeg"><a href="#一、在Mac上安装FFmpeg" class="headerlink" title="一、在Mac上安装FFmpeg"></a>一、在Mac上安装FFmpeg</h2><p>这里是<a href="https://trac.ffmpeg.org/wiki/CompilationGuide/macOS" target="_blank" rel="noopener">官方文档</a>，里面提到了安装FFmpeg的三种方法：</p>
+<ol>
+<li><a href="https://brew.sh" target="_blank" rel="noopener">Homebrew</a></li>
+<li>直接下载<a href="https://www.ffmpeg.org/download.html#build-mac" target="_blank" rel="noopener">静态版本</a>的FFmpeg<ul>
+<li>优点：直接运行使用</li>
+<li>缺点：手动升级，可能不包含所需的所有编码器或过滤器</li>
+</ul>
+</li>
+<li>自己编译，下载源码，运行<code>./configure</code>，进行<code>make</code>和<code>make install</code><ul>
+<li>优点：貌似没有优点，可能能够体会一把自己掌握的控制感</li>
+<li>缺点：需要手动设置配置选项，还需要自己安装第三方库</li>
+</ul>
+</li>
+</ol>
+<p>第3种方法不推荐。第2种方法可以考虑，下载之后移到<code>/usr/local/bin</code>就可以使用，需要升级就手动下载新版，覆盖原来的即可。还需要注意，这可能是个“基础版”的FFmpeg，不包含某些高级功能。</p>
+<p>在 Mac 上，凡是跟命令行相关的包，推荐统一用Homebrew，便于管理和更新。下面是Homebrew安装FFmpeg的过程。</p>
+<ol start="0">
+<li>没安装Xcode，建议安装一个。还需要<code>xcode-select --install</code></li>
+<li>安装Homebrew，<code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></li>
+<li><del>如果使用<code>brew install ffmpeg</code>安装，得到的也是一个“基础版”的FFmpeg</del></li>
+<li>“专业版”的FFmpeg，Homebrew官方不提供，需要用到第三方<a href="https://github.com/homebrew-ffmpeg/homebrew-ffmpeg" target="_blank" rel="noopener">homebrew-ffmpeg</a><ol>
+<li>完全安装<ul>
+<li><code>brew tap homebrew-ffmpeg/ffmpeg</code></li>
+<li><code>brew install homebrew-ffmpeg/ffmpeg/ffmpeg</code></li>
+</ul>
+</li>
+<li>选项安装<ul>
+<li>查看选项 <code>brew options homebrew-ffmpeg/ffmpeg/ffmpeg</code></li>
+<li>安装 <code>brew install homebrew-ffmpeg/ffmpeg/ffmpeg --with-&lt;option1&gt; --with-&lt;option2&gt; ...</code></li>
+</ul>
+</li>
+<li>更新<ul>
+<li><code>brew update &amp;&amp; brew upgrade homebrew-ffmpeg/ffmpeg/ffmpeg</code></li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<p>安装中……</p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/1!sy" alt=""></p>
+<p>安装成功。</p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/2!sy" alt=""></p>
 <p><br><br></p>
 
     
