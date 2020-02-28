@@ -25,7 +25,8 @@
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/1.png!sy">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/2.png!sy">
-<meta property="og:updated_time" content="2020-02-28T06:32:48.126Z">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/3.png!sy">
+<meta property="og:updated_time" content="2020-02-28T07:15:06.877Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="FFmpeg笔记">
 <meta name="twitter:description" content="Mac上面音频转换可以使用XLD，视频转换可以使用HandBrake。 我只是偶尔需要使用视频转换功能，想要强大、免费、巨无霸的工具，非FFmpeg莫属，正好可以折腾一下，这玩意是真的复杂，也确实强大，必须写一篇博客记录，以备使用时查询。 运行环境：12macOS 10.14.6ffmpeg: stable 4.2.2 一、在Mac上安装FFmpeg这里是官方文档，里面提到了安装FFmpeg的三种">
@@ -280,33 +281,34 @@
 <p>安装成功。</p>
 <p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/2.png!sy" alt=""></p>
 <p><br></p>
-<h2 id="二、FFmpeg的常见用法"><a href="#二、FFmpeg的常见用法" class="headerlink" title="二、FFmpeg的常见用法"></a>二、FFmpeg的常见用法</h2><p>首先是<a href="https://ffmpeg.org/ffmpeg.html" target="_blank" rel="noopener">官方文档</a>，有啥不懂的基本能找到答案。</p>
+<h2 id="二、FFmpeg的常见用法"><a href="#二、FFmpeg的常见用法" class="headerlink" title="二、FFmpeg的常见用法"></a>二、FFmpeg的常见用法</h2><p>首先是<a href="https://ffmpeg.org/ffmpeg.html" target="_blank" rel="noopener">官方文档</a>，有啥不懂的基本能找到答案，就是成本有点高。</p>
 <p>ffmpeg通用语法格式：</p>
-<p><code>ffmpeg [全局选项] {[输入文件选项] -i 输入url} ... {[输出文件选项] 输出url} ...</code></p>
+<p><code>ffmpeg [全局选项] {[输入文件参数] -i 输入文件} ... {[输出文件参数] 输出文件} ...</code></p>
+<ul>
+<li><code>ffmpeg -formats</code> 支持的格式</li>
+<li><code>ffmpeg -codecs</code> 支持的编码</li>
+<li><code>ffmpeg -encoders</code> 支持的编码器<br><br></li>
+</ul>
 <ol>
 <li><p>获取媒体文件信息</p>
 <ol>
-<li><p>详细信息 <code>ffmpeg -i &quot;video.mp4&quot;</code></p>
-</li>
-<li><p>省略FFmpeg细节，仅显示媒体信息 <code>ffmpeg -i &quot;video.mp4&quot; -hide_banner</code></p>
-</li>
+<li><code>ffmpeg -i video.mp4</code> 详细信息</li>
+<li><code>ffmpeg -i video.mp4 -hide_banner</code> 省略FFmpeg细节，仅显示媒体信息</li>
 </ol>
-</li>
-<li><p>视频转换</p>
-<ol start="0">
-<li><p>检查 FFmpeg 支持格式的列表</p>
 <ul>
-<li><code>ffmpeg -formats</code></li>
+<li><strong>注意：</strong>文件名有空格或者特殊字符，使用双引号<code>&quot; &quot;</code>将文件名包起来<br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/3.png!sy" alt=""><br><br></li>
 </ul>
 </li>
+<li><p>视频转换</p>
+<ol>
 <li><p>从flv转到mp4</p>
 <ul>
-<li><code>ffmpeg -i &quot;input.flv&quot; &quot;output.mp4&quot;</code></li>
+<li><code>ffmpeg -i input.flv output.mp4</code></li>
 </ul>
 </li>
 <li><p>从GIF转mp4</p>
 <ul>
-<li><code>ffmpeg -i 1.gif -vf scale=600:-2,format=yuv420p out.mp4</code></li>
+<li><code>ffmpeg -i 1.gif -vf scale=600:-2,format=yuv420p out.mp4</code><br><br></li>
 </ul>
 </li>
 </ol>
@@ -315,38 +317,27 @@
 </li>
 </ol>
 <ul>
-<li><p><code>ffmpeg -i in.mp4 -ss 00:01:30 -t 00:10:00 -c copy out.mp4</code></p>
-</li>
-<li><p><code>-ss</code> 开始时间</p>
-</li>
+<li><code>ffmpeg -i input.mp4 -ss 00:01:30 -to 00:10:00 -c copy output.mp4</code><br><br></li>
+<li><code>-ss</code> 开始时间</li>
+<li><code>-to</code> 结束时间</li>
 <li><code>-t</code>  持续时间</li>
+<li><code>-c copy</code> 直接复制，不经过重新编码，这样比较快<br><br></li>
 </ul>
 <ol start="4">
 <li>合并</li>
 </ol>
-<p>创建<code>t.txt</code>，所有的文件都应该是相同的格式（相同的编码格式）。所有文件的路径应该逐个列出：<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part1.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part2.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part3.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part4.mp4</span><br></pre></td></tr></table></figure></p>
-<p>然后拼接所有文件：<br><code>ffmpeg -f concat -i t.txt -c copy output.mp4</code></p>
+<p>创建<code>1.txt</code>，所有的文件都应该是相同的格式（相同的编码），所有文件的路径应该逐个列出：<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part1.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part2.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part3.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part4.mp4</span><br></pre></td></tr></table></figure></p>
+<p>然后拼接所有文件：<br><code>ffmpeg -f concat -i 1.txt -c copy output.mp4</code><br><br></p>
 <ol start="4">
 <li>视频转音频</li>
 </ol>
 <ul>
-<li><p><code>ffmpeg -i &quot;input.mp4&quot; -vn -ar 44100 -ac 2 -ab 320 -f mp3 &quot;output.mp3&quot;</code></p>
-</li>
-<li><p><code>-vn</code> 在输出文件中移除视频录制</p>
-</li>
+<li><code>ffmpeg -i input.mp4 -vn -ar 44100 -ac 2 -ab 320 -f mp3 output.mp3</code><br><br></li>
+<li><code>-vn</code> 在输出文件中移除视频流</li>
 <li><code>-ar</code> 设置输出音频频率，常用 22050 Hz, 44100 Hz, 48000 Hz</li>
 <li><code>-ac</code> 设置音频通道数目</li>
 <li><code>-ab</code> 设置音频比特率，常用 128 kbps, 160 kbps, 192 kbps, 256 kbps, 320 kbps</li>
 <li><code>-f</code>  输出文件格式</li>
-</ul>
-<ol start="5">
-<li>更改视频分辨率</li>
-</ol>
-<ul>
-<li><p><code>ffmpeg -i input.mp4 -s 1280x720 -c:a copy output.mp4</code></p>
-</li>
-<li><p>设置所给定视频文件的分辨率到 1280×720</p>
-</li>
 </ul>
 <p><br><br></p>
 
