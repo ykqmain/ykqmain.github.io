@@ -36,7 +36,7 @@
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/11.png">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/12.png">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/mysql/13.png">
-<meta property="og:updated_time" content="2020-02-17T06:58:12.000Z">
+<meta property="og:updated_time" content="2020-02-28T06:21:21.212Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MySQL小记——附iOS游戏推荐">
 <meta name="twitter:description" content="最近学的mysql的基础知识，想结合实际需求做点东西，练练手，这样才能学得扎实。">
@@ -265,9 +265,7 @@
 <ol>
 <li><p>首先显示Mac隐藏文件</p>
 <ul>
-<li><p>在终端中输入<code>defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder</code>，回车。</p>
-<p>(隐藏Mac隐藏文件<code>defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder</code>)</p>
-</li>
+<li><code>Command + Shift + .</code></li>
 </ul>
 </li>
 <li><p>任意文本编辑器，输入代码，另存为<code>.bash_profile</code>。</p>
@@ -283,18 +281,13 @@
 <li>输入<code>mysql -u root -p</code>，回车</li>
 <li>输入初始密码。</li>
 </ol>
-<ul>
-<li>按<code>ctrl＋d</code>退出mysql。</li>
-</ul>
 <p><br><br><br></p>
 <h3 id="2-修改密码"><a href="#2-修改密码" class="headerlink" title="2. 修改密码"></a>2. 修改密码</h3><p>登陆成功后的第一件事，必然是修改密码。</p>
 <p>方法1:</p>
-<p>进入mysql，输入<code>set password for USERNAME@localhost = password(&#39;NEWPASS&#39;);</code></p>
-<p>(其中<code>USERNAME</code>是用户名，比如root，<code>NEWPASS</code>是你设置的密码。)</p>
+<p>进入mysql，输入<code>set password for root@localhost = password(&#39;新密码&#39;);</code></p>
 <p><br></p>
 <p>方法2:</p>
-<p>输入<code>mysqladmin -u USERNAME -p OLDPASS password NEWPASS</code></p>
-<p>(其中<code>USERNAME</code>是用户名，比如root，<code>OLDPASS</code>是原密码，<code>NEWPASS</code>是新密码。)</p>
+<p>输入<code>mysqladmin -u root -p 原密码 password 新密码</code></p>
 <p><br><br><br></p>
 <h3 id="3-编码问题"><a href="#3-编码问题" class="headerlink" title="3. 编码问题"></a>3. 编码问题</h3><p>当我插入中文到一个表中，提示<code>incorrect string</code>错误的时候，我就想到应该是编码的问题，话说解决编码最好的办法就是统一为utf8.</p>
 <p>然而mysql默认有很多地方不是utf8，登陆mysql之后，输入<code>show variables like &#39;character%&#39;;</code>查看编码，如果没有设置，会发现很多地方不是utf8，一劳永逸的办法是修改mysql配置文件，然而这个文件默认是不存在的 → _ →</p>
@@ -308,7 +301,7 @@
 </li>
 </ol>
 <figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[client]</span></span><br><span class="line"><span class="attr">default-character-set</span>=utf8mb4</span><br><span class="line"></span><br><span class="line"><span class="section">[mysql]</span></span><br><span class="line"><span class="attr">default-character-set</span>=utf8mb4</span><br><span class="line"></span><br><span class="line"><span class="section">[mysqld]</span></span><br><span class="line"><span class="attr">character-set-server</span>=utf8mb4</span><br></pre></td></tr></table></figure>
-<p>MySQL 的「utf8mb4」是真正的「UTF-8」</p>
+<p><strong>MySQL 的「utf8mb4」才是真正的「UTF-8」</strong></p>
 <p><br></p>
 <ul>
 <li>启动mysql服务，登陆，用<code>show variables like &#39;character%&#39;;</code>再检查一遍。</li>
