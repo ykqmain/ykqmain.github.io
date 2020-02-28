@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/zhuzi/</loc>
+    
+    <lastmod>2020-02-28T12:30:39.140Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/time/</loc>
+    
+    <lastmod>2020-02-28T12:30:04.903Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/linux/</loc>
     
     <lastmod>2020-02-28T11:35:17.054Z</lastmod>
@@ -37,13 +51,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/time/</loc>
-    
-    <lastmod>2020-02-18T05:42:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.ykqmain.com/shandong/</loc>
     
     <lastmod>2020-02-11T04:27:43.000Z</lastmod>
@@ -75,13 +82,6 @@
     <loc>https://blog.ykqmain.com/graduate/</loc>
     
     <lastmod>2020-01-01T03:23:15.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/zhuzi/</loc>
-    
-    <lastmod>2019-12-08T08:50:29.000Z</lastmod>
     
   </url>
   
