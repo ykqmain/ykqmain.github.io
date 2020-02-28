@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="iAnna">
 <meta property="og:description" content="重装Mac系统 准备工作  备份！！！  准备一个16G以上的U盘（会被格式化）  从App Store下载新系统，下载成功后，退出自动安装。确保安装文件在“应用程序”文件夹（Applications）    格式化 U盘  打开“磁盘工具”  名称 填写 U (该名称之后会用到)  格式 选择 Mac OS 扩展 (日志式)  分区 选择 GUID 分区表    制作启动盘  打开“终端”  s">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-01-29T11:31:12.000Z">
+<meta property="og:updated_time" content="2020-02-28T06:32:45.212Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Apple相关">
 <meta name="twitter:description" content="重装Mac系统 准备工作  备份！！！  准备一个16G以上的U盘（会被格式化）  从App Store下载新系统，下载成功后，退出自动安装。确保安装文件在“应用程序”文件夹（Applications）    格式化 U盘  打开“磁盘工具”  名称 填写 U (该名称之后会用到)  格式 选择 Mac OS 扩展 (日志式)  分区 选择 GUID 分区表    制作启动盘  打开“终端”  s">
@@ -306,7 +306,7 @@
 </li>
 <li><p><strong>显示 隐藏文件</strong></p>
 <ul>
-<li><p><code>Shift + Command + .</code></p>
+<li><p><code>Command + Shift + .</code></p>
 </li>
 <li><p>打开终端，<code>cd</code> 到相关文件夹，<code>ls -a</code></p>
 </li>
@@ -318,8 +318,15 @@
 </li>
 </ul>
 </li>
-<li><p><strong>关闭校园网认证弹窗</strong></p>
-<p> <code>sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -bool false</code><br><br></p>
+<li><p>Mac启动项</p>
+</li>
+</ol>
+<p>macOS系统的启动项会以<code>.plist</code>的文件存在于以下目录中：</p>
+<p><code>/Library/LaunchDaemons</code> 系统启动时运行，用户不登录也会运行。<br><code>/Library/LaunchAgents</code> 用户登录后运行。<br><code>~/Library/LaunchAgents</code> 用户自定义的用户启动项<br><code>/System/Library/LaunchDaemons</code> 系统自带的启动项<br><code>/System/Library/LaunchAgents</code> 系统自带的启动项</p>
+<p>每个 .plist 文件中，有 3 个属性控制着是否会开机自动启动。<br><code>KeepAlive</code>：决定程序是否需要一直运行，如果是 false 则需要时才启动。默认 false<br><code>RunAtLoad</code>：开机时是否运行。默认 false。<br><code>SuccessfulExit</code>：此项为 true 时，程序正常退出时重启（即退出码为 0）；为 false 时，程序非正常退出时重启。此项设置时会隐含默认 RunAtLoad = true，因为程序需要至少运行一次才能获得退出状态。<br><br></p>
+<ol start="4">
+<li><p><strong>重置launchpad</strong></p>
+<p> <code>defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock</code><br><br></p>
 </li>
 <li><p><strong>还原网络设置</strong></p>
 <p> 清空 下面文件夹中的所有文件，</p>
@@ -329,6 +336,9 @@
 </li>
 <li><p><strong>重建Spotlight索引</strong></p>
 <p> <code>sudo mdutil -E /</code><br><br></p>
+</li>
+<li><p><strong>关闭校园网认证弹窗</strong></p>
+<p> <code>sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -bool false</code><br><br></p>
 </li>
 </ol>
 <h2 id="常用路径"><a href="#常用路径" class="headerlink" title="常用路径"></a>常用路径</h2><ul>
@@ -379,79 +389,6 @@
 </ul>
 </li>
 </ol>
-<p><br><br></p>
-<h2 id="iPhone鉴别"><a href="#iPhone鉴别" class="headerlink" title="iPhone鉴别"></a>iPhone鉴别</h2><ol>
-<li><p>看外观</p>
-<p> <strong>暂时不要插卡激活，因为有的第三方渠道拿到的手机，激活后不能无条件退货</strong></p>
-<ul>
-<li><p><strong>手机盒</strong> 背部Model和 <strong>手机</strong> 背部Model对比是否一致 (比如 A1699 指 国行iPhone6sp)</p>
-</li>
-<li><p>开机看手机屏幕 (<strong>不插电话卡不会激活</strong>)</p>
-</li>
-<li><p>看手机外壳的接缝处以及间隙是否均匀，有无划痕</p>
-</li>
-<li><p>数据线、耳机、扬声器等<br><br></p>
-</li>
-</ul>
-</li>
-<li><p>查询序列号 (盒子背部)</p>
-<p> 官网查询：</p>
-<p> <a href="https://checkcoverage.apple.com/cn/zh/" target="_blank" rel="noopener">https://checkcoverage.apple.com/cn/zh/</a></p>
-<p> 官网显示，请激活你的iPhone<br><br></p>
-</li>
-<li><p>确认无误之后，关机，插卡激活<br><br></p>
-</li>
-<li><p>进入 <code>通用</code>-<code>关于本机</code></p>
-<ul>
-<li>查看<strong>序列号</strong>是否与盒子背部序列号一致</li>
-<li>查看手机型号 (比如 M<em>**</em>CH/A)<ul>
-<li>第一位字母表示生产类型<ul>
-<li>M 正常生产备货</li>
-<li>N 售后备换</li>
-<li>F 官方翻新，打折销售用</li>
-<li>3 官方展示机</li>
-</ul>
-</li>
-<li><code>/</code>前面两位字母是地区编码<ul>
-<li>CH 中国大陆</li>
-<li>ZP 港版</li>
-<li>LL 美版</li>
-<li>J  日版</li>
-</ul>
-</li>
-<li>最后一位<code>/A</code>表示更新版本。(如果这个产品配置有改变，需要和前款区分的话，就会打B、C之类。不过一般这种情况很少发生，所以后面基本都是<code>/A</code>)<br><br></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>通话质量 </p>
-<p> <strong>一定</strong> 要打电话测试，通话声音是否清晰，有无杂音电流声<br><br></p>
-</li>
-<li><p>检查更新，升级系统到最新系统，然后<code>抹掉所有内容和设置</code></p>
-<p> 很多山寨机靠越狱改序列号的翻新机器就会白苹果<br><br></p>
-</li>
-<li><p>功能检验</p>
-<ul>
-<li>Touch ID，识别速度，效率</li>
-<li>3D Touch</li>
-<li>关闭4G，测试3G和2G的上网质量</li>
-<li>Wi-Fi</li>
-<li>从App Store下载app并使用</li>
-<li>……<br><br></li>
-</ul>
-</li>
-<li><p>查询电池充放电循环次数</p>
-<p> 下载相关app可以查看，<br> 全新机器一般寿命是100%，循环不会超过2，可能有一些误差。<br><br></p>
-</li>
-<li><p>刷机</p>
-<p> 连接iTunes，查看iPhone的状态</p>
-<p> <strong>刷机</strong><br><br></p>
-</li>
-</ol>
-<p><strong>以上步骤，缺一不可</strong></p>
-<p><br></p>
-<p><strong>iPhone的水太深，以现在的造假技术，序列号已经不能作为唯一参考了。选择可靠的渠道是第一道保证。</strong></p>
-<p>Apple Store &gt; <a href="https://www.apple.com/cn/" target="_blank" rel="noopener">官网</a> &gt;&gt; <a href="https://apple.tmall.com" target="_blank" rel="noopener">天猫Apple旗舰店</a> &gt; <a href="https://apple.jd.com" target="_blank" rel="noopener">京东Apple产品专营店</a> ≈ 三大运营商 &gt;&gt; 其他第三方</p>
 <p><br><br></p>
 
     

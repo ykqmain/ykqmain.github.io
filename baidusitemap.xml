@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/ffmpeg/</loc>
-    <lastmod>2020-02-28T05:05:21.259Z</lastmod>
+    <lastmod>2020-02-28T06:32:48.126Z</lastmod>
     <data>
         <display>
         <title>FFmpeg笔记</title>
@@ -24,6 +24,62 @@
         <tag>音频</tag>
          
         <tag>视频</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.ykqmain.com/apple/</loc>
+    <lastmod>2020-02-28T06:32:45.212Z</lastmod>
+    <data>
+        <display>
+        <title>Apple相关</title>
+        <pubTime>2016-09-03T16:00:00.000Z</pubTime>
+        
+        <tag>Apple</tag>
+         
+        <tag>Mac</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>OS X</tag>
+         
+        <tag>iPhone</tag>
+         
+        <tag>iOS</tag>
+         
+        <tag>skill</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.ykqmain.com/mysql/</loc>
+    <lastmod>2020-02-28T06:21:21.212Z</lastmod>
+    <data>
+        <display>
+        <title>MySQL小记——附iOS游戏推荐</title>
+        <pubTime>2016-04-12T16:00:00.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+        <tag>MySQL</tag>
+         
+        <tag>数据库</tag>
          
          
            
@@ -87,30 +143,6 @@
            
              
               <breadCrumb title="其他" url="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/mysql/</loc>
-    <lastmod>2020-02-17T06:58:12.000Z</lastmod>
-    <data>
-        <display>
-        <title>MySQL小记——附iOS游戏推荐</title>
-        <pubTime>2016-04-12T16:00:00.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-        <tag>MySQL</tag>
-         
-        <tag>数据库</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
           
         </display>
     </data>
@@ -201,38 +233,6 @@
            
              
               <breadCrumb title="网络" url="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/apple/</loc>
-    <lastmod>2020-01-29T11:31:12.000Z</lastmod>
-    <data>
-        <display>
-        <title>Apple相关</title>
-        <pubTime>2016-09-03T16:00:00.000Z</pubTime>
-        
-        <tag>Apple</tag>
-         
-        <tag>Mac</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>OS X</tag>
-         
-        <tag>iPhone</tag>
-         
-        <tag>iOS</tag>
-         
-        <tag>skill</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
           
         </display>
     </data>
@@ -697,9 +697,9 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
-        <tag>Apache</tag>
-         
         <tag>Mac</tag>
+         
+        <tag>Apache</tag>
          
         <tag>服务器</tag>
          
