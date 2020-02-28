@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/linux/</loc>
+    <lastmod>2020-02-28T11:35:17.054Z</lastmod>
+    <data>
+        <display>
+        <title>Debian从0到0.1</title>
+        <pubTime>2019-04-17T16:00:00.000Z</pubTime>
+        
+        <tag>Apache</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>Debian</tag>
+         
+        <tag>服务器</tag>
+         
+        <tag>Nginx</tag>
+         
+        <tag>MySQL</tag>
+         
+        <tag>MariaDB</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Git</tag>
+         
+        <tag>Django</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/ffmpeg/</loc>
     <lastmod>2020-02-28T11:33:23.566Z</lastmod>
     <data>
@@ -767,46 +807,6 @@
            
              
               <breadCrumb title="文章" url="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/linux/</loc>
-    <lastmod>2019-11-14T03:27:09.000Z</lastmod>
-    <data>
-        <display>
-        <title>Debian从0到1</title>
-        <pubTime>2019-04-17T16:00:00.000Z</pubTime>
-        
-        <tag>Apache</tag>
-         
-        <tag>Linux</tag>
-         
-        <tag>Debian</tag>
-         
-        <tag>服务器</tag>
-         
-        <tag>Nginx</tag>
-         
-        <tag>MySQL</tag>
-         
-        <tag>MariaDB</tag>
-         
-        <tag>Python</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Git</tag>
-         
-        <tag>Django</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
           
         </display>
     </data>
