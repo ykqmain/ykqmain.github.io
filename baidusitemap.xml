@@ -4,8 +4,38 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/beipiao/</loc>
+    <lastmod>2020-03-02T11:12:39.555Z</lastmod>
+    <data>
+        <display>
+        <title>北漂日记</title>
+        <pubTime>2019-10-13T16:00:00.000Z</pubTime>
+        
+        <tag>回忆</tag>
+         
+        <tag>随笔</tag>
+         
+        <tag>感想</tag>
+         
+        <tag>北京</tag>
+         
+        <tag>漂泊</tag>
+         
+        <tag>日记</tag>
+         
+         
+           
+             
+              <breadCrumb title="文章" url="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/ffmpeg/</loc>
-    <lastmod>2020-03-02T11:09:30.234Z</lastmod>
+    <lastmod>2020-03-02T11:11:46.727Z</lastmod>
     <data>
         <display>
         <title>FFmpeg笔记</title>
@@ -29,36 +59,6 @@
            
              
               <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/bp/</loc>
-    <lastmod>2020-03-02T10:10:36.906Z</lastmod>
-    <data>
-        <display>
-        <title>北漂日记</title>
-        <pubTime>2019-10-13T16:00:00.000Z</pubTime>
-        
-        <tag>回忆</tag>
-         
-        <tag>随笔</tag>
-         
-        <tag>感想</tag>
-         
-        <tag>北京</tag>
-         
-        <tag>漂泊</tag>
-         
-        <tag>日记</tag>
-         
-         
-           
-             
-              <breadCrumb title="文章" url="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
           
         </display>
     </data>
@@ -145,13 +145,13 @@
         <title>利器</title>
         <pubTime>2016-01-03T16:00:00.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
-        <tag>软件</tag>
-         
         <tag>Apple</tag>
          
+        <tag>Mac</tag>
+         
         <tag>macOS</tag>
+         
+        <tag>软件</tag>
          
         <tag>工具</tag>
          
@@ -373,9 +373,9 @@
         <title>Apple相关</title>
         <pubTime>2016-09-03T16:00:00.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
         <tag>Apple</tag>
+         
+        <tag>Mac</tag>
          
         <tag>macOS</tag>
          
@@ -405,9 +405,9 @@
         <title>MySQL小记——附iOS游戏推荐</title>
         <pubTime>2016-04-12T16:00:00.000Z</pubTime>
         
-        <tag>MySQL</tag>
-         
         <tag>Mac</tag>
+         
+        <tag>MySQL</tag>
          
         <tag>数据库</tag>
          
@@ -521,9 +521,9 @@
         
         <tag>回忆</tag>
          
-        <tag>动画</tag>
-         
         <tag>婧玉</tag>
+         
+        <tag>动画</tag>
          
          
            
@@ -793,11 +793,11 @@
         
         <tag>Apache</tag>
          
+        <tag>Mac</tag>
+         
         <tag>服务器</tag>
          
         <tag>MySQL</tag>
-         
-        <tag>Mac</tag>
          
         <tag>Web</tag>
          
