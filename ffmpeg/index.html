@@ -26,7 +26,7 @@
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/1.png!sy">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/2.png!sy">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/3.png!sy">
-<meta property="og:updated_time" content="2020-03-02T10:47:02.770Z">
+<meta property="og:updated_time" content="2020-03-02T11:09:30.234Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="FFmpeg笔记">
 <meta name="twitter:description" content="Mac上面音频转换可以使用XLD，视频转换可以使用HandBrake。 我只是偶尔需要使用视频转换功能，想要强大、免费的工具，非FFmpeg莫属，正好可以折腾一下。这玩意是真的复杂，也确实强大，必须写一篇博客记录，以备使用时查询。 运行环境：12macOS 10.14.6ffmpeg: stable 4.2.2 一、在Mac上安装FFmpeg这里是官方文档，里面提到了安装FFmpeg的三种方法：">
@@ -332,15 +332,17 @@
 <p>创建<code>1.txt</code>，所有的文件都应该是相同的格式（相同的编码），所有文件的路径应该逐个列出：<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part1.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part2.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part3.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part4.mp4</span><br></pre></td></tr></table></figure></p>
 <p>然后拼接所有文件：<br><code>ffmpeg -f concat -i 1.txt -c copy output.mp4</code><br><br></p>
 <ol start="5">
-<li>视频转音频</li>
+<li>视频提取音频</li>
 </ol>
 <ul>
-<li><code>ffmpeg -i input.mp4 -vn -ar 44100 -ac 2 -ab 320 -f aac output.aac</code><br><br></li>
+<li><code>ffmpeg -i input.mp4 -vn -c:a copy output.aac</code></li>
+<li><code>ffmpeg -i input.mp4 -vn -ar 44100 -ab 320 -ac 2 -f mp3 output.mp3</code><br><br></li>
 <li><code>-vn</code> 在输出文件中移除视频流</li>
+<li><code>-c:a copy</code> 不改变编码，直接拷贝</li>
 <li><code>-ar</code> 设置输出音频频率，常用 22050 Hz, 44100 Hz, 48000 Hz</li>
-<li><code>-ac</code> 设置音频通道数目</li>
 <li><code>-ab</code> 设置音频比特率，常用 128 kbps, 160 kbps, 192 kbps, 256 kbps, 320 kbps</li>
-<li><code>-f</code>  输出文件格式<br><br></li>
+<li><code>-ac</code> 设置音频通道数目</li>
+<li><code>-f</code> 输出文件格式<br><br></li>
 </ul>
 <p><strong>持续更新常用命令当作备忘录……</strong></p>
 <p><br><br></p>

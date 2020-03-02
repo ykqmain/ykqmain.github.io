@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ykqmain.com/"/>
-  <updated>2020-03-02T10:47:02.770Z</updated>
+  <updated>2020-03-02T11:09:30.234Z</updated>
   <id>https://blog.ykqmain.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.ykqmain.com/ffmpeg/"/>
     <id>https://blog.ykqmain.com/ffmpeg/</id>
     <published>2020-02-27T16:00:00.000Z</published>
-    <updated>2020-03-02T10:47:02.770Z</updated>
+    <updated>2020-03-02T11:09:30.234Z</updated>
     
-    <content type="html"><![CDATA[<p>Mac上面音频转换可以使用<a href="https://tmkk.undo.jp/xld/index_e.html" target="_blank" rel="noopener">XLD</a>，视频转换可以使用<a href="https://handbrake.fr/" target="_blank" rel="noopener">HandBrake</a>。</p><p>我只是<strong>偶尔</strong>需要使用视频转换功能，想要<strong>强大、免费</strong>的工具，非<a href="https://www.ffmpeg.org" target="_blank" rel="noopener">FFmpeg</a>莫属，正好可以折腾一下。这玩意是真的复杂，也确实强大，必须写一篇博客记录，以备使用时查询。</p><p>运行环境：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">macOS</span> 10<span class="selector-class">.14</span><span class="selector-class">.6</span></span><br><span class="line"><span class="selector-tag">ffmpeg</span>: <span class="selector-tag">stable</span> 4<span class="selector-class">.2</span><span class="selector-class">.2</span></span><br></pre></td></tr></table></figure></p><h2 id="一、在Mac上安装FFmpeg"><a href="#一、在Mac上安装FFmpeg" class="headerlink" title="一、在Mac上安装FFmpeg"></a>一、在Mac上安装FFmpeg</h2><p>这里是<a href="https://trac.ffmpeg.org/wiki/CompilationGuide/macOS" target="_blank" rel="noopener">官方文档</a>，里面提到了安装FFmpeg的三种方法：</p><ol><li><p><a href="https://brew.sh" target="_blank" rel="noopener">Homebrew</a></p></li><li><p>直接下载<a href="https://www.ffmpeg.org/download.html#build-mac" target="_blank" rel="noopener">静态版本</a>的FFmpeg</p><ul><li>优点：直接运行使用</li><li>缺点：手动升级，可能不包含所需的所有编码器或过滤器</li></ul></li><li><p>自己编译，下载源码，运行<code>./configure</code>，进行<code>make</code>和<code>make install</code></p><ul><li>优点：貌似没有优点，可能能够体会一把自己掌握的控制感</li><li>缺点：需要手动设置配置选项，还需要自己安装第三方库</li></ul></li></ol><p>第3种方法不推荐。第2种方法可以考虑，下载之后移到<code>/usr/local/bin</code>就可以使用，需要升级就手动下载新版，覆盖原来的即可。还需要注意，这可能是个“基础版”的FFmpeg，不包含某些高级功能。</p><p>在 Mac 上，凡是跟命令行相关的包，推荐统一用Homebrew，便于管理和更新。<strong>下面是Homebrew安装FFmpeg的过程：</strong></p><ol start="0"><li><p>如果没安装Xcode，建议安装一个。还需要<code>xcode-select --install</code></p></li><li><p>安装Homebrew，<code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></p></li><li><p>如果使用<del><code>brew install ffmpeg</code></del>安装，得到的也是一个“基础版”的FFmpeg</p></li><li><p>“专业版”的FFmpeg，Homebrew官方不提供，需要用到第三方<a href="https://github.com/homebrew-ffmpeg/homebrew-ffmpeg" target="_blank" rel="noopener">homebrew-ffmpeg</a></p><ol><li><p><strong>完全安装</strong></p><ul><li><code>brew tap homebrew-ffmpeg/ffmpeg</code></li><li><code>brew install homebrew-ffmpeg/ffmpeg/ffmpeg</code></li></ul></li><li><p>选项安装</p><ul><li>查看选项 <code>brew options homebrew-ffmpeg/ffmpeg/ffmpeg</code></li><li>安装 <code>brew install homebrew-ffmpeg/ffmpeg/ffmpeg --with-&lt;option1&gt; --with-&lt;option2&gt; ...</code></li></ul></li><li><p>更新</p><ul><li><code>brew update &amp;&amp; brew upgrade homebrew-ffmpeg/ffmpeg/ffmpeg</code></li></ul></li></ol></li></ol><p>安装中……<br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/1.png!sy" alt=""></p><p>安装成功。<br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/2.png!sy" alt=""></p><p><br></p><h2 id="二、FFmpeg的常见用法"><a href="#二、FFmpeg的常见用法" class="headerlink" title="二、FFmpeg的常见用法"></a>二、FFmpeg的常见用法</h2><p>首先是<a href="https://ffmpeg.org/ffmpeg.html" target="_blank" rel="noopener">官方文档</a>，有啥不懂的基本能找到答案，就是成本有点高。</p><p>ffmpeg通用语法格式：</p><p><code>ffmpeg [全局选项] {[输入文件参数] -i 输入文件} ... {[输出文件参数] 输出文件} ...</code></p><ul><li><code>ffmpeg -formats</code> 支持的格式</li><li><code>ffmpeg -codecs</code> 支持的编码</li><li><code>ffmpeg -encoders</code> 支持的编码器<br><br></li></ul><ol><li><p>获取媒体文件信息</p><ol><li><p><code>ffmpeg -i video.mp4</code> 详细信息</p></li><li><p><code>ffmpeg -i video.mp4 -hide_banner</code> 省略FFmpeg细节，仅显示媒体信息</p></li></ol><ul><li><strong>注意：</strong>文件名有空格或者特殊字符，使用双引号<code>&quot; &quot;</code>将文件名包起来<br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/3.png!sy" alt=""><br><br></li></ul></li><li><p>视频转换</p><ol><li><p>从flv转到mp4</p><ul><li><code>ffmpeg -i input.flv output.mp4</code></li></ul></li><li><p>从GIF转mp4</p><ul><li><code>ffmpeg -i 1.gif -vf scale=600:-2,format=yuv420p out.mp4</code><br><br></li></ul></li></ol></li><li><p>剪切</p></li></ol><ul><li><code>ffmpeg -i input.mp4 -ss 00:01:30 -to 00:10:00 -c copy output.mp4</code><br><br></li><li><code>-ss</code> 开始时间</li><li><code>-to</code> 结束时间</li><li><code>-t</code>  持续时间</li><li><code>-c copy</code> 直接复制，不经过重新编码，这样比较快<br><br></li></ul><ol start="4"><li>合并</li></ol><p>创建<code>1.txt</code>，所有的文件都应该是相同的格式（相同的编码），所有文件的路径应该逐个列出：<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part1.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part2.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part3.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part4.mp4</span><br></pre></td></tr></table></figure></p><p>然后拼接所有文件：<br><code>ffmpeg -f concat -i 1.txt -c copy output.mp4</code><br><br></p><ol start="5"><li>视频转音频</li></ol><ul><li><code>ffmpeg -i input.mp4 -vn -ar 44100 -ac 2 -ab 320 -f aac output.aac</code><br><br></li><li><code>-vn</code> 在输出文件中移除视频流</li><li><code>-ar</code> 设置输出音频频率，常用 22050 Hz, 44100 Hz, 48000 Hz</li><li><code>-ac</code> 设置音频通道数目</li><li><code>-ab</code> 设置音频比特率，常用 128 kbps, 160 kbps, 192 kbps, 256 kbps, 320 kbps</li><li><code>-f</code>  输出文件格式<br><br></li></ul><p><strong>持续更新常用命令当作备忘录……</strong></p><p><br><br></p>]]></content>
+    <content type="html"><![CDATA[<p>Mac上面音频转换可以使用<a href="https://tmkk.undo.jp/xld/index_e.html" target="_blank" rel="noopener">XLD</a>，视频转换可以使用<a href="https://handbrake.fr/" target="_blank" rel="noopener">HandBrake</a>。</p><p>我只是<strong>偶尔</strong>需要使用视频转换功能，想要<strong>强大、免费</strong>的工具，非<a href="https://www.ffmpeg.org" target="_blank" rel="noopener">FFmpeg</a>莫属，正好可以折腾一下。这玩意是真的复杂，也确实强大，必须写一篇博客记录，以备使用时查询。</p><p>运行环境：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">macOS</span> 10<span class="selector-class">.14</span><span class="selector-class">.6</span></span><br><span class="line"><span class="selector-tag">ffmpeg</span>: <span class="selector-tag">stable</span> 4<span class="selector-class">.2</span><span class="selector-class">.2</span></span><br></pre></td></tr></table></figure></p><h2 id="一、在Mac上安装FFmpeg"><a href="#一、在Mac上安装FFmpeg" class="headerlink" title="一、在Mac上安装FFmpeg"></a>一、在Mac上安装FFmpeg</h2><p>这里是<a href="https://trac.ffmpeg.org/wiki/CompilationGuide/macOS" target="_blank" rel="noopener">官方文档</a>，里面提到了安装FFmpeg的三种方法：</p><ol><li><p><a href="https://brew.sh" target="_blank" rel="noopener">Homebrew</a></p></li><li><p>直接下载<a href="https://www.ffmpeg.org/download.html#build-mac" target="_blank" rel="noopener">静态版本</a>的FFmpeg</p><ul><li>优点：直接运行使用</li><li>缺点：手动升级，可能不包含所需的所有编码器或过滤器</li></ul></li><li><p>自己编译，下载源码，运行<code>./configure</code>，进行<code>make</code>和<code>make install</code></p><ul><li>优点：貌似没有优点，可能能够体会一把自己掌握的控制感</li><li>缺点：需要手动设置配置选项，还需要自己安装第三方库</li></ul></li></ol><p>第3种方法不推荐。第2种方法可以考虑，下载之后移到<code>/usr/local/bin</code>就可以使用，需要升级就手动下载新版，覆盖原来的即可。还需要注意，这可能是个“基础版”的FFmpeg，不包含某些高级功能。</p><p>在 Mac 上，凡是跟命令行相关的包，推荐统一用Homebrew，便于管理和更新。<strong>下面是Homebrew安装FFmpeg的过程：</strong></p><ol start="0"><li><p>如果没安装Xcode，建议安装一个。还需要<code>xcode-select --install</code></p></li><li><p>安装Homebrew，<code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></p></li><li><p>如果使用<del><code>brew install ffmpeg</code></del>安装，得到的也是一个“基础版”的FFmpeg</p></li><li><p>“专业版”的FFmpeg，Homebrew官方不提供，需要用到第三方<a href="https://github.com/homebrew-ffmpeg/homebrew-ffmpeg" target="_blank" rel="noopener">homebrew-ffmpeg</a></p><ol><li><p><strong>完全安装</strong></p><ul><li><code>brew tap homebrew-ffmpeg/ffmpeg</code></li><li><code>brew install homebrew-ffmpeg/ffmpeg/ffmpeg</code></li></ul></li><li><p>选项安装</p><ul><li>查看选项 <code>brew options homebrew-ffmpeg/ffmpeg/ffmpeg</code></li><li>安装 <code>brew install homebrew-ffmpeg/ffmpeg/ffmpeg --with-&lt;option1&gt; --with-&lt;option2&gt; ...</code></li></ul></li><li><p>更新</p><ul><li><code>brew update &amp;&amp; brew upgrade homebrew-ffmpeg/ffmpeg/ffmpeg</code></li></ul></li></ol></li></ol><p>安装中……<br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/1.png!sy" alt=""></p><p>安装成功。<br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/2.png!sy" alt=""></p><p><br></p><h2 id="二、FFmpeg的常见用法"><a href="#二、FFmpeg的常见用法" class="headerlink" title="二、FFmpeg的常见用法"></a>二、FFmpeg的常见用法</h2><p>首先是<a href="https://ffmpeg.org/ffmpeg.html" target="_blank" rel="noopener">官方文档</a>，有啥不懂的基本能找到答案，就是成本有点高。</p><p>ffmpeg通用语法格式：</p><p><code>ffmpeg [全局选项] {[输入文件参数] -i 输入文件} ... {[输出文件参数] 输出文件} ...</code></p><ul><li><code>ffmpeg -formats</code> 支持的格式</li><li><code>ffmpeg -codecs</code> 支持的编码</li><li><code>ffmpeg -encoders</code> 支持的编码器<br><br></li></ul><ol><li><p>获取媒体文件信息</p><ol><li><p><code>ffmpeg -i video.mp4</code> 详细信息</p></li><li><p><code>ffmpeg -i video.mp4 -hide_banner</code> 省略FFmpeg细节，仅显示媒体信息</p></li></ol><ul><li><strong>注意：</strong>文件名有空格或者特殊字符，使用双引号<code>&quot; &quot;</code>将文件名包起来<br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/ffmpeg/3.png!sy" alt=""><br><br></li></ul></li><li><p>视频转换</p><ol><li><p>从flv转到mp4</p><ul><li><code>ffmpeg -i input.flv output.mp4</code></li></ul></li><li><p>从GIF转mp4</p><ul><li><code>ffmpeg -i 1.gif -vf scale=600:-2,format=yuv420p out.mp4</code><br><br></li></ul></li></ol></li><li><p>剪切</p></li></ol><ul><li><code>ffmpeg -i input.mp4 -ss 00:01:30 -to 00:10:00 -c copy output.mp4</code><br><br></li><li><code>-ss</code> 开始时间</li><li><code>-to</code> 结束时间</li><li><code>-t</code>  持续时间</li><li><code>-c copy</code> 直接复制，不经过重新编码，这样比较快<br><br></li></ul><ol start="4"><li>合并</li></ol><p>创建<code>1.txt</code>，所有的文件都应该是相同的格式（相同的编码），所有文件的路径应该逐个列出：<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part1.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part2.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part3.mp4</span><br><span class="line"><span class="keyword">file</span> <span class="regexp">/Users/y</span>ang<span class="regexp">/Desktop/</span>part4.mp4</span><br></pre></td></tr></table></figure></p><p>然后拼接所有文件：<br><code>ffmpeg -f concat -i 1.txt -c copy output.mp4</code><br><br></p><ol start="5"><li>视频提取音频</li></ol><ul><li><code>ffmpeg -i input.mp4 -vn -c:a copy output.aac</code></li><li><code>ffmpeg -i input.mp4 -vn -ar 44100 -ab 320 -ac 2 -f mp3 output.mp3</code><br><br></li><li><code>-vn</code> 在输出文件中移除视频流</li><li><code>-c:a copy</code> 不改变编码，直接拷贝</li><li><code>-ar</code> 设置输出音频频率，常用 22050 Hz, 44100 Hz, 48000 Hz</li><li><code>-ab</code> 设置音频比特率，常用 128 kbps, 160 kbps, 192 kbps, 256 kbps, 320 kbps</li><li><code>-ac</code> 设置音频通道数目</li><li><code>-f</code> 输出文件格式<br><br></li></ul><p><strong>持续更新常用命令当作备忘录……</strong></p><p><br><br></p>]]></content>
     
     <summary type="html">
     
@@ -115,6 +115,8 @@
     
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
+      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
+    
       <category term="山东" scheme="https://blog.ykqmain.com/tags/%E5%B1%B1%E4%B8%9C/"/>
     
       <category term="青岛" scheme="https://blog.ykqmain.com/tags/%E9%9D%92%E5%B2%9B/"/>
@@ -124,8 +126,6 @@
       <category term="曲阜" scheme="https://blog.ykqmain.com/tags/%E6%9B%B2%E9%98%9C/"/>
     
       <category term="济南" scheme="https://blog.ykqmain.com/tags/%E6%B5%8E%E5%8D%97/"/>
-    
-      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
     
   </entry>
   
@@ -540,8 +540,6 @@
     
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
-    
       <category term="江苏" scheme="https://blog.ykqmain.com/tags/%E6%B1%9F%E8%8B%8F/"/>
     
       <category term="南京" scheme="https://blog.ykqmain.com/tags/%E5%8D%97%E4%BA%AC/"/>
@@ -551,6 +549,8 @@
       <category term="杭州" scheme="https://blog.ykqmain.com/tags/%E6%9D%AD%E5%B7%9E/"/>
     
       <category term="西湖" scheme="https://blog.ykqmain.com/tags/%E8%A5%BF%E6%B9%96/"/>
+    
+      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
     
   </entry>
   
@@ -768,9 +768,9 @@
     
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="婧玉" scheme="https://blog.ykqmain.com/tags/%E5%A9%A7%E7%8E%89/"/>
-    
       <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+      <category term="婧玉" scheme="https://blog.ykqmain.com/tags/%E5%A9%A7%E7%8E%89/"/>
     
   </entry>
   
@@ -829,11 +829,11 @@
     
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
-      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
-    
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
+    
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
@@ -867,9 +867,9 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
-    
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
+    
+      <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
     
       <category term="macOS" scheme="https://blog.ykqmain.com/tags/macOS/"/>
     
@@ -994,9 +994,9 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
-    
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
+    
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
@@ -1056,13 +1056,13 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
-    
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="macOS" scheme="https://blog.ykqmain.com/tags/macOS/"/>
-    
       <category term="软件" scheme="https://blog.ykqmain.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
+    
+      <category term="macOS" scheme="https://blog.ykqmain.com/tags/macOS/"/>
     
       <category term="工具" scheme="https://blog.ykqmain.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
