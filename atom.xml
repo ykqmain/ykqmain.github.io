@@ -77,6 +77,8 @@
     
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
+      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
+    
       <category term="山东" scheme="https://blog.ykqmain.com/tags/%E5%B1%B1%E4%B8%9C/"/>
     
       <category term="青岛" scheme="https://blog.ykqmain.com/tags/%E9%9D%92%E5%B2%9B/"/>
@@ -86,8 +88,6 @@
       <category term="曲阜" scheme="https://blog.ykqmain.com/tags/%E6%9B%B2%E9%98%9C/"/>
     
       <category term="济南" scheme="https://blog.ykqmain.com/tags/%E6%B5%8E%E5%8D%97/"/>
-    
-      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
     
   </entry>
   
@@ -192,19 +192,19 @@
     
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
+      <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
-    
-      <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
-    
       <category term="Nginx" scheme="https://blog.ykqmain.com/tags/Nginx/"/>
+    
+      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
       <category term="MariaDB" scheme="https://blog.ykqmain.com/tags/MariaDB/"/>
     
       <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
+    
+      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
       <category term="Git" scheme="https://blog.ykqmain.com/tags/Git/"/>
     
@@ -265,11 +265,11 @@
     
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
-    
       <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
     
       <category term="Flask" scheme="https://blog.ykqmain.com/tags/Flask/"/>
+    
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
       <category term="http" scheme="https://blog.ykqmain.com/tags/http/"/>
     
@@ -388,9 +388,9 @@
       <category term="动画" scheme="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
     
     
-      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
-    
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+    
+      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
       <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
@@ -429,11 +429,11 @@
       <category term="动画" scheme="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
     
     
-      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
-    
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
       <category term="童年" scheme="https://blog.ykqmain.com/tags/%E7%AB%A5%E5%B9%B4/"/>
+    
+      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
       <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
@@ -450,9 +450,9 @@
     <link href="https://blog.ykqmain.com/graduate/"/>
     <id>https://blog.ykqmain.com/graduate/</id>
     <published>2018-05-19T16:00:00.000Z</published>
-    <updated>2020-02-28T12:44:57.029Z</updated>
+    <updated>2020-03-02T07:56:53.082Z</updated>
     
-    <content type="html"><![CDATA[<p>今年没有更新博客，不是懒，而是没有心态。即使现在更新了这篇文章，也是一些乱七八糟的胡言乱语。</p><p>我有这个地方、也只有这个地方，能够尽情挥洒了。前几天看到一个帖子说，写博客总是觉得之前的写的不完美，喜欢删除。我之前也是那种心态，导致删除了太多宝贵的记忆。无论喜悲，回忆总是极其珍贵的人生“财富”，也许那时候的想法还挺幼稚，甚至未来再看的时候有些尴尬、有些“羞耻”，但它们确实是我人生中真实的一部分，属于我，组成了一个真实的我。以后的博客，我会尽量保存。</p><p>现在“快餐时代”，Twitter、Instagram、微博的兴起，几句话，几张图记录生活显得方便快捷，长篇大论显得极其艰难，很难有心思坐下来，长篇大论地写博客。好在毕业季最后的日子，显得清闲，坐在图书馆，花了几天时间写成这篇文章，因为这个时刻不得不记录下来。</p><p>是时候回忆一下大学的生活，作一个总结了。</p><blockquote><p>只是在我心中还有一方净土，即使在别人眼里寸草不生，却一尘不染。</p></blockquote><p><br></p><p>🎵 云烟成雨 - 房东的猫</p><audio controls="controls"><br>    <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/graduate/yunyanchengyu.mp3"><br>    Your browser does not support the Audio tag.<br></audio><p><br></p><p>说实话，熟能生巧，勤能补拙，写作也是。好长时间不去写，一些技巧、套路都不会用了，甚至都不知道如何写开头。好在这是我的博客，不用像试卷上的作文那样，为了分数而偏离本心。我已经不会写文章了。</p><p>那就随心所欲，逻辑不重要，重要的是感情和记录，<strong>想到哪，写到哪。</strong></p><p><br></p><hr><p><br></p><blockquote><p>人类的悲欢并不相通，我只是觉得他们吵闹。</p></blockquote><p>在这个大学最后的日子里，我没有太多悲欢离合的情绪，甚至有些小小的欢喜，只因为<strong>终于</strong>快要离开了。没有特别值得留恋的人和事，当然也没有特别戳心痛苦不堪的回忆，我对学校基本没有什么怨言，甚至还有些怀念那些曾经帮助过我的辅导员，真的非常谢谢她们（特别是“娜姐”，在此表达我最衷心的感谢）。除了那个糟心的寝室，我在此不想多提。</p><p>我对“大学应该如何度过？”这个问题的回答可以概括为：</p><p><strong>努力而无憾，足矣。</strong></p><p>这个道理谁都懂，只是不是自己的经历，不会有太深刻的感受。从时间轴对比以上回答来回忆我的大学生活，只是时间久远，加上没有额外的文字图片辅助，回忆可能会有遗漏或者偏差。当然也可以说，既然能忘掉的，说明不重要，那我就忽略那些遗漏的东西，放弃回忆的完整性，力求能够保证回忆的真实性。</p><p><br></p><hr><p><br></p><p>抱着我的第一代 <em>Anna</em>——Lenovo笔记本来到学校，伴随着高考失败，心态爆炸。然后辗转到图书馆做了一学期管理员，心稍微静了下来。</p><p>刚来学校的时候，除了图书馆，还加入了学校动漫社，在10月份的时候去了一次漫展。那时候还在用Windows，所以游戏是不可避免的，LOL，星际争霸2，最终幻想14是目前还能回忆起来的Win游戏。除此之外，手机也是安卓，那时候用安卓安装了模拟器，完整通关了《口袋妖怪 叶绿》，这是我小时候最羡慕的游戏，我也许是个恋旧的人。</p><p>到了下学期，手机已经坏了2个，本来想尝试小米，奈何总是无货，一气之下打开了Apple的官网，从此打开了新世界的大门。得到了人生第一部iPhone——iPhone6，我给她取名 <em>Nana</em>，与我的电脑相呼应，她们是我最好的朋友😄。</p><p>我在这学期中途退出了图书馆的工作，原因很大一部分是因为那个“部长”的态度，不多表述。</p><p>我还看了大量的动画，在看完《四月是你的谎言》之后，我就很少看新出的动画了，可能是被伤了，久久不能治愈吧。</p><p>暑假去了父母那里，在北京。北京的生活是丰富多彩的，那个房间的微风，我至今记忆犹新，是我妈为我特地准备的一个房间。之后游遍了北京城，以及郊区的长城，还碰到了两个同学。在转两次了Apple Store之后，便对Mac恋恋不忘，父母最后还是在8月给我买了MacBook Pro，真的非常谢谢他们。我把这台笔记本仍然取名 <em>Anna</em>，很显然她是第二代Anna了，原来的Lenovo笔记本留给我爸办公了。</p><p>暑假在北京的时期，除了出去游玩之外，我在我的Win上用mpc-hc播放器，又看了大量的动画，这是我印象中我最后一次看大量动画的记忆了。除了动画，我开始学习C++。</p><p><br></p><p>时间转眼到了大二，有让人极其糟心的事出现了，这个事一直伴随到毕业，就是前文提过的寝室问题。我的寝室在一楼，住了四年。亚热带季风气候，夏季高温多雨，冬季寒冷干燥。</p><ul><li>一天到晚，见不到太阳光。</li><li>夏天的早上起来，被子用手摸都能感受到的湿度。</li><li>每次暑假来，桌子柜子全部发霉了，每次来学校都意味着洗一个星期的衣服床单被套。</li></ul><p>除了恶劣的自然环境，室友自然也是不如意，比如出门从来不带钥匙总需要一个人专门开门，打游戏开外音，晚上打呼噜……多余的细节我也不便多说。在大二开始，麻烦多次辅导员，换了三次寝室，折腾了四次，才稳定下来。所以我必须在此感谢我的辅导员“娜姐”🙏。</p><p>在学习上，接着暑假的C++学习，之后又开始自学Python。</p><p>iOS可以折腾捣鼓一个学期，OS X一个全新的系统，毫无疑问是非常有吸引力的，之前的类Unix只接触过Ubuntu。</p><p>再之后接触了域名，服务器，VPS，以及墙外的世界，开始了Twitter之旅。在11月份的时候开始搭建本博客，折腾直至寒假。</p><p>在寒假期间，我和她又有了新的接触。</p><p>之后持续折腾着博客和OS X，Python的学习之后是Java。</p><p>发现在Ubuntu上的游戏<a href="http://www.wesnoth.org" target="_blank" rel="noopener">韦诺之战</a>是跨平台的，于是在Mac怀旧了一下，同时也重温了一遍《网球王子真人版》(中国)，以及《网球王子》动画。</p><p>之所以想到去重温网球王子，除了坑爹的体育课选了三学期网球之外，还是与她有关。网球和散步的浪漫，以及电影遗憾，和没有理由的无奈，混着夏天的风，显得甜蜜。</p><p><br></p><p>大三一来，毫无疑问又是一个星期的洗和晒。🙂</p><p>11月份，在枫叶红了之际，经历了无数波折之后，终于跟她在一起了❤️。在《你的名字》弥补那些遗憾。</p><p>在一起之后的日子并不全是美好的，有欢笑，也有争吵。</p><p><br></p><p>之后的回忆，由于比较近，不再赘述。</p><p><br></p><hr><p><br></p><p>🎵 紫苑 - makegumi</p><audio controls="controls"><br>    <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/graduate/ziyuan.mp3"><br>    Your browser does not support the Audio tag.<br></audio><p><br></p><p>三年前，抱着对面码的爱，废寝忘食剪辑了这个视频，那个时候的心态，真是纯粹。</p><p><a href="https://www.bilibili.com/video/av2316078" target="\_blank"><br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/graduate/mianma.jpg" alt="未闻花名"> </a><br>(点击图片跳转Bilibili)</p><p>偌大的世界，竟然找不到一丝归属感。除了Bilibili还有情怀，剩下的，全是孤独。不是争锋相对的撕逼，就是利益驱使的各种莫名行为。</p><p>天下熙熙皆为利来，天下壤壤皆为利往。</p><p><br></p><hr><p><br></p><p>🎵 四季 - 曾黎</p><audio controls="controls"><br>    <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/graduate/siji.mp3"><br>    Your browser does not support the Audio tag.<br></audio><p><br></p><p>「好长啊，这一轮四季。」</p><p>七年前的冬天，晚自习之后，我经常哼着这支曲子骑自行车回家，寒风中夹杂着一丝丝悲凉，还有对英雄们的向往。</p><p>「看人间，有几番迷离。躲不过凄风冷雨。」</p><p>结合三国的背景，唱的令人心碎，叫人太悲伤。</p><p>「弹指间，九九归一。」</p><p>感叹诸葛丞相星落秋风五丈原，只盼来日登蜀道，再续出师表。</p><p>作为人的最高荣誉，无疑是名垂青史，流芳百世。</p><p>「青史一页会记得，你们都是英雄。」</p><p>而我等小人物却为衣食住行奔波一生，渺小且孤独的存在着，淹没在历史的长河中。也许唯一能做的只是在失落之时，仰望星空之余，还可以感叹一句，</p><p><strong>天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。</strong></p><p>感恩前人们留下的无数经典，诸子百家，经史子集，诗词歌赋，即使相隔千年，见字如面。</p><p><br></p><p><strong><em>人生如梦，一尊还酹江月。</em></strong></p><p><br><br></p>]]></content>
+    <content type="html"><![CDATA[<p>今年没有更新博客，不是懒，而是没有心态。即使现在更新了这篇文章，也是一些乱七八糟的胡言乱语。</p><p>我有这个地方、也只有这个地方，能够尽情挥洒了。前几天看到一个帖子说，写博客总是觉得之前的写的不完美，喜欢删除。我之前也是那种心态，导致删除了太多宝贵的记忆。无论喜悲，回忆总是极其珍贵的人生“财富”，也许那时候的想法还挺幼稚，甚至未来再看的时候有些尴尬、有些“羞耻”，但它们确实是我人生中真实的一部分，属于我，组成了一个真实的我。以后的博客，我会尽量保存。</p><p>现在“快餐时代”，Twitter、Instagram、微博的兴起，几句话，几张图记录生活显得方便快捷，长篇大论显得极其艰难，很难有心思坐下来，长篇大论地写博客。好在毕业季最后的日子，显得清闲，坐在图书馆，花了几天时间写成这篇文章，因为这个时刻不得不记录下来。</p><p>是时候回忆一下大学的生活，作一个总结了。</p><blockquote><p>只是在我心中还有一方净土，即使在别人眼里寸草不生，却一尘不染。</p></blockquote><p><br></p><p>🎵 云烟成雨 - 房东的猫</p><audio controls="controls"><br>    <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/graduate/yunyanchengyu.mp3"><br>    Your browser does not support the Audio tag.<br></audio><p><br></p><p>说实话，熟能生巧，勤能补拙，写作也是。好长时间不去写，一些技巧、套路都不会用了，甚至都不知道如何写开头。好在这是我的博客，不用像试卷上的作文那样，为了分数而偏离本心。我已经不会写文章了。</p><p>那就随心所欲，逻辑不重要，重要的是感情和记录，<strong>想到哪，写到哪。</strong></p><p><br></p><hr><p><br></p><blockquote><p>人类的悲欢并不相通，我只是觉得他们吵闹。</p></blockquote><p>在这个大学最后的日子里，我没有太多悲欢离合的情绪，甚至有些小小的欢喜，只因为<strong>终于</strong>快要离开了。<strong>没有特别值得留恋的人和事，也没有特别戳心痛苦不堪的回忆，</strong>我对学校基本没有什么怨言，甚至还有些怀念那些曾经帮助过我的辅导员，真的非常谢谢她们（特别是“娜姐”，在此表达我最衷心的感谢）。除了那个糟心的寝室，我在此不想多提。</p><p>我对“大学应该如何度过？”这个问题的回答可以概括为：</p><p><strong>努力而无憾，足矣。</strong></p><p>这个道理谁都懂，只是不是自己的经历，不会有太深刻的感受。从时间轴对比以上回答来回忆我的大学生活，只是时间久远，加上没有额外的文字图片辅助，回忆可能会有遗漏或者偏差。当然也可以说，既然能忘掉的，说明不重要，那我就忽略那些遗漏的东西，放弃回忆的完整性，力求能够保证回忆的真实性。</p><p><br></p><hr><p><br></p><p>抱着我的第一代 <em>Anna</em>——Lenovo笔记本来到学校，伴随着高考失败，心态爆炸。然后辗转到图书馆做了一学期管理员，心稍微静了下来。</p><p>刚来学校的时候，除了图书馆，还加入了学校动漫社，在10月份的时候去了一次漫展。那时候还在用Windows，所以游戏是不可避免的，LOL，星际争霸2，最终幻想14是目前还能回忆起来的Win游戏。除此之外，手机也是安卓，那时候用安卓安装了模拟器，完整通关了《口袋妖怪 叶绿》，这是我小时候最羡慕的游戏，我也许是个恋旧的人。</p><p>到了下学期，手机已经坏了2个，本来想尝试小米，奈何总是无货，一气之下打开了Apple的官网，从此打开了新世界的大门。得到了人生第一部iPhone——iPhone6，我给她取名 <em>Nana</em>，与我的电脑相呼应，她们是我最好的朋友😄。</p><p>我在这学期中途退出了图书馆的工作，原因很大一部分是因为那个“部长”的态度，不多表述。</p><p>我还看了大量的动画，在看完《四月是你的谎言》之后，我就很少看新出的动画了，可能是被伤了，久久不能治愈吧。</p><p>暑假去了父母那里，在北京。北京的生活是丰富多彩的，那个房间的微风，我至今记忆犹新，是我妈为我特地准备的一个房间。之后游遍了北京城，以及郊区的长城，还碰到了两个同学。在转两次了Apple Store之后，便对Mac恋恋不忘，父母最后还是在8月给我买了MacBook Pro，真的非常谢谢他们。我把这台笔记本仍然取名 <em>Anna</em>，很显然她是第二代Anna了，原来的Lenovo笔记本留给我爸办公了。</p><p>暑假在北京的时期，除了出去游玩之外，我在我的Win上用mpc-hc播放器，又看了大量的动画，这是我印象中我最后一次看大量动画的记忆了。除了动画，我开始学习C++。</p><p><br></p><p>时间转眼到了大二，有让人极其糟心的事出现了，这个事一直伴随到毕业，就是前文提过的寝室问题。我的寝室在一楼，住了四年。亚热带季风气候，夏季高温多雨，冬季寒冷干燥。</p><ul><li>一天到晚，见不到太阳光。</li><li>夏天的早上起来，被子用手摸都能感受到的湿度。</li><li>每次暑假来，桌子柜子全部发霉了，每次来学校都意味着洗一个星期的衣服床单被套。</li></ul><p>除了恶劣的自然环境，室友自然也是不如意，比如出门从来不带钥匙总需要一个人专门开门，打游戏开外音，晚上打呼噜……多余的细节我也不便多说。在大二开始，麻烦多次辅导员，换了三次寝室，折腾了四次，才稳定下来。所以我必须在此感谢我的辅导员“娜姐”🙏。</p><p>在学习上，接着暑假的C++学习，之后又开始自学Python。</p><p>iOS可以折腾捣鼓一个学期，OS X一个全新的系统，毫无疑问是非常有吸引力的，之前的类Unix只接触过Ubuntu。</p><p>再之后接触了域名，服务器，VPS，以及墙外的世界，开始了Twitter之旅。在11月份的时候开始搭建本博客，折腾直至寒假。</p><p>在寒假期间，我和她又有了新的接触。</p><p>之后持续折腾着博客和OS X，Python的学习之后是Java。</p><p>发现在Ubuntu上的游戏<a href="http://www.wesnoth.org" target="_blank" rel="noopener">韦诺之战</a>是跨平台的，于是在Mac怀旧了一下，同时也重温了一遍《网球王子真人版》(中国)，以及《网球王子》动画。</p><p>之所以想到去重温网球王子，除了坑爹的体育课选了三学期网球之外，还是与她有关。网球和散步的浪漫，以及电影遗憾，和没有理由的无奈，混着夏天的风，显得甜蜜。</p><p><br></p><p>大三一来，毫无疑问又是一个星期的洗和晒。🙂</p><p>11月份，在枫叶红了之际，经历了无数波折之后，终于跟她在一起了❤️。在《你的名字》弥补那些遗憾。</p><p>在一起之后的日子并不全是美好的，有欢笑，也有争吵。</p><p><br></p><p>再之后的回忆，关于考研自习室的一点感受。</p><p>看到自习室的时候，不禁想起倒数第二排，靠窗的那些日子，如果在动画中，那可能是一个会开挂的男主角，然而在现实中却是不折不扣的一个悲惨 的人，或者说是悲惨的「一个」人。</p><p>那些背后的努力，有些心里的感情，别人是不会懂的，也许他们会无条件的给你安慰和支持，但那也不过是出于朋友们的善意。</p><p>但是，当自己准备好的时候，不说身边的冷嘲热讽，就她妈的连一个位置都没有。</p><p>那时候窗边温暖的春风和今天新鲜的阳光如此相似，以至于让人觉得，我和我的影子从未改变，茕茕孑立于浮世，它可能是最美好的阳光，是一我唯一的依靠。</p><p>小人物的生活，琐碎的事情，无尽的烦恼，说不出的人生。</p><p>有时候你的努力别人不会看见，只有你自己，才能看到你自己。</p><p>「君子见机，达人知命。」</p><p>反正自己本来就是一个人，其他的让他随风而去吧。还好图书馆又在那里，不离不弃。</p><blockquote><p>寄蜉蝣于天地，渺沧海之一粟。<br>哀吾身之须臾，羡长江之无穷。<br>挟飞仙以遨游，抱明月而长终。<br>知不可乎骤得，托遗响于悲风。<br>——苏轼《前赤壁赋》</p></blockquote><p><br></p><p>从阴暗的寝室走出来，外面是明媚的阳光，甚至还有点刺眼。</p><p>缓缓地挪动步子，少有的环视四周。阳光透过树的缝隙，伴随着夏天的风，给人有慵懒的感觉。</p><p>即使是每天独来独往的穿梭于几个点，最近也耳濡目染发生在身边的毕业照活动，这说明留给我的大学时间不多了。</p><p><br></p><p>就像我之前说的，</p><blockquote><p>小学是一个班的小学，<br>初中是一群人的初中，<br>高中是几个人的高中，<br>…………<br>我想，大学应该是<strong>一个人的大学</strong>。</p></blockquote><blockquote><p>谁走进我的生命，由命运决定，<br>谁停留在我的生命中，由我自己决定。</p></blockquote><p><br></p><p><strong>我的大学生活就这样，结束了。</strong></p><p><br></p><hr><p><br></p><p>🎵 紫苑 - makegumi</p><audio controls="controls"><br>    <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/graduate/ziyuan.mp3"><br>    Your browser does not support the Audio tag.<br></audio><p><br></p><p>三年前，抱着对面码的爱，废寝忘食剪辑了这个视频，那个时候的心态，真是纯粹。</p><p><a href="https://www.bilibili.com/video/av2316078" target="\_blank"><br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/graduate/mianma.jpg" alt="未闻花名"> </a><br>(点击图片跳转Bilibili)</p><p>偌大的世界，竟然找不到一丝归属感。除了Bilibili还有情怀，剩下的，全是孤独。不是争锋相对的撕逼，就是利益驱使的各种莫名行为。</p><p>天下熙熙皆为利来，天下壤壤皆为利往。</p><p><br></p><hr><p><br></p><p>🎵 四季 - 曾黎</p><audio controls="controls"><br>    <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/graduate/siji.mp3"><br>    Your browser does not support the Audio tag.<br></audio><p><br></p><p>「好长啊，这一轮四季。」</p><p>七年前的冬天，晚自习之后，我经常哼着这支曲子骑自行车回家，寒风中夹杂着一丝丝悲凉，还有对英雄们的向往。</p><p>「看人间，有几番迷离。躲不过凄风冷雨。」</p><p>结合三国的背景，唱的令人心碎，叫人太悲伤。</p><p>「弹指间，九九归一。」</p><p>感叹诸葛丞相星落秋风五丈原，“只盼来日登蜀道，再续出师表。”</p><p>作为人的最高荣誉，无疑是名垂青史，流芳百世。</p><p>「青史一页会记得，你们都是英雄。」</p><p>而我等小人物却为衣食住行奔波一生，渺小且孤独的存在着，淹没在历史的长河中。也许唯一能做的只是在失落之时，仰望星空之余，还可以感叹一句，</p><p><strong>天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。</strong></p><p>感恩前人们留下的无数经典，诸子百家，经史子集，诗词歌赋，即使相隔千年，见字如面。</p><p><br></p><p><strong><em>人生如梦，一尊还酹江月。</em></strong></p><p><br><br></p>]]></content>
     
     <summary type="html">
     
@@ -502,8 +502,6 @@
     
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
-    
       <category term="江苏" scheme="https://blog.ykqmain.com/tags/%E6%B1%9F%E8%8B%8F/"/>
     
       <category term="南京" scheme="https://blog.ykqmain.com/tags/%E5%8D%97%E4%BA%AC/"/>
@@ -513,6 +511,8 @@
       <category term="杭州" scheme="https://blog.ykqmain.com/tags/%E6%9D%AD%E5%B7%9E/"/>
     
       <category term="西湖" scheme="https://blog.ykqmain.com/tags/%E8%A5%BF%E6%B9%96/"/>
+    
+      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
     
   </entry>
   
@@ -541,13 +541,13 @@
     
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
+      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
+    
       <category term="大数据" scheme="https://blog.ykqmain.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
       <category term="Hadoop" scheme="https://blog.ykqmain.com/tags/Hadoop/"/>
     
       <category term="CentOS" scheme="https://blog.ykqmain.com/tags/CentOS/"/>
-    
-      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
       <category term="Tomcat" scheme="https://blog.ykqmain.com/tags/Tomcat/"/>
     
@@ -579,13 +579,13 @@
     
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
+      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
+    
       <category term="大数据" scheme="https://blog.ykqmain.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
       <category term="Hadoop" scheme="https://blog.ykqmain.com/tags/Hadoop/"/>
     
       <category term="CentOS" scheme="https://blog.ykqmain.com/tags/CentOS/"/>
-    
-      <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
   </entry>
   
@@ -650,13 +650,13 @@
       <category term="动画" scheme="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
     
     
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+    
       <category term="歌曲" scheme="https://blog.ykqmain.com/tags/%E6%AD%8C%E6%9B%B2/"/>
     
       <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
       <category term="网球王子" scheme="https://blog.ykqmain.com/tags/%E7%BD%91%E7%90%83%E7%8E%8B%E5%AD%90/"/>
-    
-      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
   </entry>
   
@@ -728,9 +728,9 @@
       <category term="动画" scheme="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
     
     
-      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
-    
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+    
+      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
       <category term="婧玉" scheme="https://blog.ykqmain.com/tags/%E5%A9%A7%E7%8E%89/"/>
     
@@ -797,11 +797,11 @@
     
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
+    
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
       <category term="PHP" scheme="https://blog.ykqmain.com/tags/PHP/"/>
-    
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
   </entry>
   
@@ -850,25 +850,19 @@
     <link href="https://blog.ykqmain.com/young/"/>
     <id>https://blog.ykqmain.com/young/</id>
     <published>2016-07-05T16:00:00.000Z</published>
-    <updated>2019-11-15T08:44:53.000Z</updated>
+    <updated>2020-03-02T07:53:33.439Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>今天我</p></blockquote><blockquote><p>终于站在这年轻的战场</p></blockquote><blockquote><p>请你给我</p></blockquote><blockquote><p>一束爱的光芒</p></blockquote><blockquote><p>今天我</p></blockquote><blockquote><p>将要走向这胜利的远方</p></blockquote><blockquote><p>我要把这世界为你点亮</p></blockquote><blockquote><p>…… ……</p></blockquote><blockquote><p>————《年轻的战场》</p></blockquote><p><br></p><p>🎵 年轻的战场 - 张杰</p><audio controls="controls"><br>    <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/young/young.m4a"><br>    Your browser does not support the Audio tag.<br></audio><p><br></p><p>20岁的生日，强迫着自己写一点东西，对于两年没有再接触文史材料的我来说，写作变得很陌生，有点艰难，想到哪扯到哪吧，在博客上做个记录。</p><p>…… ……</p><p>再没有文体的限制，更没有了800字的限制，等到可以想说什么想写什么时候，似乎表达的欲望并没有那么强烈，还不如高中呢 :-)</p><p>待续，</p><p><br></p><h2 id="Update：2016-08-25"><a href="#Update：2016-08-25" class="headerlink" title="Update：2016-08-25"></a>Update：2016-08-25</h2><p>本来是想在20岁的生日记录一些的，果然，人必须是要经历一些事情，才会有所感悟。</p><p>:-) 微笑，是比大哭更心痛的表情🙂<br><br></p><p>🎵 Orange (中文版)</p><audio controls="controls"><br>    <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/april/Orange_cn.mp3"><br>    Your browser does not support the Audio tag.<br></audio><p>写作已经变得很陌生，最简单的是按照时间的顺序来。</p><p><br></p><hr><p><br></p><p>在学校打了最后一场网球，纪念三学期的网球课，直到最后，我才发现，原来<strong>网球</strong>这么有趣，就像某些人，直到最后才<strong>被发现</strong> :-)</p><p>人生就是那么奇怪，你以为只是一个过客，她却留下了，你以为她永远不会走，她却又离开了。</p><p><br></p><p>最后，一个人到楼顶吹吹风，第二天就回家了。</p><p><br></p><hr><p><br></p><p>往事不堪回首，以至于稍微回想一下就会感到莫名的悲伤，</p><p>20年，活着真累，</p><p>读的学校很水，钱也不会赚，事也不会做。</p><p>别人家的孩子考上研究生，别人家的孩子都在赚钱，别人家的孩子都好些。</p><p>如果哪天我出意外死了，真的解脱了，也就不像现在这么累，半点生活的乐趣都没有。学业没搞好，事业连影子都看不到。</p><p>高考后没哭过这么痛快，不禁想到，人的一生该怎样度过？“为了人类的解放而斗争”对我而言只能是一句玩笑。</p><p>“天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。” 对于自己选择的路，就算是爬，也要爬完。唯一期望的是，不留遗憾。</p><p>如果哪天我有幸去世，希望朋友能来参加我葬礼的同时，能多思念我一分钟，这也就足够了 : )</p><p>空闲的时候，看看B站，直播的“放映厅”，那是一个新世界，</p><p>没事就开着，看到《武林外传》，那是很遥远的回忆了，</p><p>但是歌词却记忆犹新，</p><blockquote><p>这世界有太多不如意</p></blockquote><blockquote><p>但你的生活还是要继续</p></blockquote><blockquote><p>太阳每天依旧要升起</p></blockquote><blockquote><p>希望永远种在你心里</p></blockquote><blockquote><p>————《侠客行》</p></blockquote><p><br></p><hr><p><br></p><p>夏天，应该有空调，Wi-Fi，音乐……</p><p>特别的，这个夏天还有<strong>洪水</strong>。</p><p>因为外婆家房子问题，所以搬来跟我一起，大约一个星期。</p><p>吃饭，烧水，都是我，<strong>琐碎的小事</strong> 不间断，这大概就是生活。</p><blockquote><p>寄蜉蝣于天地，渺沧海之一粟。</p></blockquote><blockquote><p>哀吾生之须臾，羡长江之无穷。</p></blockquote><blockquote><p>挟飞仙以遨游，抱明月而长终。</p></blockquote><blockquote><p>知不可乎骤得，托遗响于悲风。</p></blockquote><blockquote><p>————《前赤壁赋》</p></blockquote><p>七月就这么过去了。</p><p><br></p><hr><p><br></p><p>在八月的时候看了许多动画，特点都是国产，以及童年怀旧。深感动画世界的<strong>美好</strong>、童年时代的<strong>单纯</strong>、以及与小伙伴们玩耍时的<strong>欢乐</strong>。</p><p>遗憾不懂音乐，就像错过了一整个美好的世界……羡慕会弹钢琴的人 (｡-_-｡)</p><p><br></p><p>夜深人静的时候，抬头往上看，最美的景色展现在眼前，这是<strong>自然</strong>赠予孤独的我最好的礼物，</p><blockquote><p>年轻的时候，你总是以为会和许多人志同道合，有点风吹草动就忍不住找人倾诉。和恋人吵个架，恨不得让全世界的人来安慰你。稍感寂寞，就狂喊孤独。但是后来你会发现，有的人，是一起成长的；有的人，是用来遗忘的；能伴你走过一程又一程的，也就屈指可数的几个人。</p></blockquote><p><strong>而现在，我也渐渐地习惯了一个人。</strong></p><p><br></p><hr><p><br></p><p>光阴似箭，日月如梭。</p><p>来到学校，看到这样的<strong>寝室</strong>，不禁感慨，</p><p>生活总是有很多不顺，以前试着强行扯理由安慰自己，让自己好过点，但是这次、也就是现在，我已经想不出任何理由来平复我的心，心很累，真的累了。</p><p>坐在寝室里，再看看_学费_，</p><p>心里再一凉</p><p>对不起父母的血汗钱</p><p>心累，心凉，心痛，</p><p>愧疚，难受，想哭。</p><p>未来很迷茫，道路是未知的。</p><p><br></p><p>傍晚的风很暖，学校门口的那条街又新开了很多店面，热闹非凡，</p><p>而我，<strong>离人群越来越远了</strong>。</p><p><br><br></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>今天我<br>终于站在这年轻的战场<br>请你给我<br>一束爱的光芒<br>今天我<br>将要走向这胜利的远方<br>我要把这世界为你点亮<br>…… ……<br>——《年轻的战场》</p></blockquote><p><br></p><p>🎵 年轻的战场 - 张杰</p><audio controls="controls"><br>    <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/young/young.m4a"><br>    Your browser does not support the Audio tag.<br></audio><p><br></p><p>20岁的生日，强迫着自己写一点东西，对于两年没有再接触文史材料的我来说，写作变得很陌生，有点艰难，想到哪扯到哪吧，在博客上做个记录。</p><p>…… ……</p><p>再没有文体的限制，更没有了800字的限制，等到可以想说什么想写什么时候，似乎表达的欲望并没有那么强烈，还不如高中呢 :-)</p><p>待续，</p><p><br></p><h2 id="Update：2016-08-25"><a href="#Update：2016-08-25" class="headerlink" title="Update：2016-08-25"></a>Update：2016-08-25</h2><p>本来是想在20岁的生日记录一些的，果然，人必须是要经历一些事情，才会有所感悟。</p><p>:-) 微笑，是比大哭更心痛的表情🙂<br><br></p><p>🎵 Orange (中文版)</p><audio controls="controls"><br>    <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/april/Orange_cn.mp3"><br>    Your browser does not support the Audio tag.<br></audio><p>写作已经变得很陌生，最简单的是按照时间的顺序来。</p><p><br></p><hr><p><br></p><p>在学校打了最后一场网球，纪念三学期的网球课，直到最后，我才发现，原来<strong>网球</strong>这么有趣，就像某些人，直到最后才<strong>被发现</strong> :-)</p><p>人生就是那么奇怪，你以为只是一个过客，她却留下了，你以为她永远不会走，她却又离开了。</p><p><br></p><p>最后，一个人到楼顶吹吹风，第二天就回家了。</p><p><br></p><hr><p><br></p><p>往事不堪回首，以至于稍微回想一下就会感到莫名的悲伤，</p><p>20年，活着真累，</p><p>读的学校很水，钱也不会赚，事也不会做。</p><p>别人家的孩子考上研究生，别人家的孩子都在赚钱，别人家的孩子都好些。</p><p>如果哪天我出意外死了，真的解脱了，也就不像现在这么累，半点生活的乐趣都没有。学业没搞好，事业连影子都看不到。</p><p>高考后没哭过这么痛快，不禁想到，人的一生该怎样度过？“为了人类的解放而斗争”对我而言只能是一句玩笑。</p><p>“天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。” 对于自己选择的路，就算是爬，也要爬完。唯一期望的是，不留遗憾。</p><p>如果哪天我有幸去世，希望朋友能来参加我葬礼的同时，能多思念我一分钟，这也就足够了 : )</p><p>空闲的时候，看看B站，直播的“放映厅”，那是一个新世界，</p><p>没事就开着，看到《武林外传》，那是很遥远的回忆了，</p><p>但是歌词却记忆犹新，</p><blockquote><p>这世界有太多不如意<br>但你的生活还是要继续<br>太阳每天依旧要升起<br>希望永远种在你心里<br>——《侠客行》</p></blockquote><p><br></p><hr><p><br></p><p>夏天，应该有空调，Wi-Fi，音乐……</p><p>特别的，这个夏天还有<strong>洪水</strong>。</p><p>因为外婆家房子问题，所以搬来跟我一起，大约一个星期。</p><p>吃饭，烧水，都是我，<strong>琐碎的小事</strong> 不间断，这大概就是生活。</p><blockquote><p>寄蜉蝣于天地，渺沧海之一粟。<br>哀吾生之须臾，羡长江之无穷。<br>挟飞仙以遨游，抱明月而长终。<br>知不可乎骤得，托遗响于悲风。<br>——《前赤壁赋》</p></blockquote><p>七月就这么过去了。</p><p><br></p><hr><p><br></p><p>在八月的时候看了许多动画，特点都是国产，以及童年怀旧。深感动画世界的<strong>美好</strong>、童年时代的<strong>单纯</strong>、以及与小伙伴们玩耍时的<strong>欢乐</strong>。</p><p>遗憾不懂音乐，就像错过了一整个美好的世界……羡慕会弹钢琴的人 (｡-_-｡)</p><p><br></p><p>夜深人静的时候，抬头往上看，最美的景色展现在眼前，这是<strong>自然</strong>赠予孤独的我最好的礼物，</p><blockquote><p>年轻的时候，你总是以为会和许多人志同道合，有点风吹草动就忍不住找人倾诉。和恋人吵个架，恨不得让全世界的人来安慰你。稍感寂寞，就狂喊孤独。但是后来你会发现，有的人，是一起成长的；有的人，是用来遗忘的；能伴你走过一程又一程的，也就屈指可数的几个人。</p></blockquote><p><strong>而现在，我也渐渐地习惯了一个人。</strong></p><p><br></p><hr><p><br></p><p>光阴似箭，日月如梭。</p><p>来到学校，看到这样的<strong>寝室</strong>，不禁感慨，</p><p>生活总是有很多不顺，以前试着强行扯理由安慰自己，让自己好过点，但是这次、也就是现在，我已经想不出任何理由来平复我的心，心很累，真的累了。</p><p>坐在寝室里，再看看_学费_，</p><p>心里再一凉</p><p>对不起父母的血汗钱</p><p>心累，心凉，心痛，</p><p>愧疚，难受，想哭。</p><p>未来很迷茫，道路是未知的。</p><p><br></p><p>傍晚的风很暖，学校门口的那条街又新开了很多店面，热闹非凡，</p><p>而我，<strong>离人群越来越远了</strong>。</p><p><br><br></p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;blockquote&gt;
-&lt;p&gt;今天我&lt;/p&gt;
+&lt;p&gt;今天我&lt;br&gt;终于站在这年轻的战场&lt;br&gt;请你给我&lt;br&gt;一束爱的光芒&lt;br&gt;今天我&lt;br&gt;将要走向这胜利的远方&lt;br&gt;我要把这世界为你点亮&lt;br&gt;…… ……&lt;br&gt;——《年轻的战场》&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;终于站在这年轻的战场&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;请你给我&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;一束
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;
       
     
     </summary>
@@ -990,9 +984,9 @@
       <category term="动画" scheme="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
     
     
-      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
-    
       <category term="童年" scheme="https://blog.ykqmain.com/tags/%E7%AB%A5%E5%B9%B4/"/>
+    
+      <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
       <category term="日本" scheme="https://blog.ykqmain.com/tags/%E6%97%A5%E6%9C%AC/"/>
     
@@ -1175,9 +1169,9 @@
       <category term="其他" scheme="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
-    
       <category term="Blog" scheme="https://blog.ykqmain.com/tags/Blog/"/>
+    
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
       <category term="童年" scheme="https://blog.ykqmain.com/tags/%E7%AB%A5%E5%B9%B4/"/>
     
