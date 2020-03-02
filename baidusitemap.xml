@@ -4,6 +4,60 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/bp/</loc>
+    <lastmod>2020-03-02T10:10:36.906Z</lastmod>
+    <data>
+        <display>
+        <title>北漂日记</title>
+        <pubTime>2019-10-13T16:00:00.000Z</pubTime>
+        
+        <tag>回忆</tag>
+         
+        <tag>随笔</tag>
+         
+        <tag>感想</tag>
+         
+        <tag>北京</tag>
+         
+        <tag>漂泊</tag>
+         
+        <tag>日记</tag>
+         
+         
+           
+             
+              <breadCrumb title="文章" url="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.ykqmain.com/donghua/</loc>
+    <lastmod>2020-03-02T08:13:22.858Z</lastmod>
+    <data>
+        <display>
+        <title>动画世界</title>
+        <pubTime>2019-03-19T16:00:00.000Z</pubTime>
+        
+        <tag>动画</tag>
+         
+        <tag>随笔</tag>
+         
+        <tag>感想</tag>
+         
+         
+           
+             
+              <breadCrumb title="文章" url="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/graduate/</loc>
     <lastmod>2020-03-02T07:56:53.082Z</lastmod>
     <data>
@@ -77,30 +131,6 @@
            
              
               <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/donghua/</loc>
-    <lastmod>2020-02-29T07:00:30.628Z</lastmod>
-    <data>
-        <display>
-        <title>动画世界</title>
-        <pubTime>2019-02-15T16:00:00.000Z</pubTime>
-        
-        <tag>动画</tag>
-         
-        <tag>随笔</tag>
-         
-        <tag>感想</tag>
-         
-         
-           
-             
-              <breadCrumb title="文章" url="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
           
         </display>
     </data>
@@ -821,9 +851,9 @@
         <title>博客1周年暨年终总结</title>
         <pubTime>2016-12-19T16:00:00.000Z</pubTime>
         
-        <tag>回忆</tag>
-         
         <tag>blog</tag>
+         
+        <tag>回忆</tag>
          
         <tag>总结</tag>
          
@@ -897,13 +927,13 @@
         
         <tag>文章</tag>
          
-        <tag>无聊</tag>
-         
         <tag>诗歌</tag>
          
         <tag>诗词</tag>
          
         <tag>高中</tag>
+         
+        <tag>无聊</tag>
          
          
            
@@ -925,11 +955,11 @@
         
         <tag>文章</tag>
          
+        <tag>无聊</tag>
+         
         <tag>散文</tag>
          
         <tag>初中</tag>
-         
-        <tag>无聊</tag>
          
          
            
