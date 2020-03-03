@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/beipiao/</loc>
-    <lastmod>2020-03-03T08:55:56.580Z</lastmod>
+    <lastmod>2020-03-03T09:02:14.452Z</lastmod>
     <data>
         <display>
         <title>北漂日记（多图预警）</title>
@@ -169,6 +169,8 @@
         
         <tag>回忆</tag>
          
+        <tag>旅行</tag>
+         
         <tag>山东</tag>
          
         <tag>青岛</tag>
@@ -178,8 +180,6 @@
         <tag>曲阜</tag>
          
         <tag>济南</tag>
-         
-        <tag>旅行</tag>
          
          
            
@@ -329,8 +329,6 @@
         
         <tag>回忆</tag>
          
-        <tag>旅行</tag>
-         
         <tag>江苏</tag>
          
         <tag>南京</tag>
@@ -340,6 +338,8 @@
         <tag>杭州</tag>
          
         <tag>西湖</tag>
+         
+        <tag>旅行</tag>
          
          
            
@@ -557,6 +557,10 @@
          
         <tag>Linux</tag>
          
+        <tag>Python</tag>
+         
+        <tag>Java</tag>
+         
         <tag>Debian</tag>
          
         <tag>服务器</tag>
@@ -566,10 +570,6 @@
         <tag>MySQL</tag>
          
         <tag>MariaDB</tag>
-         
-        <tag>Python</tag>
-         
-        <tag>Java</tag>
          
         <tag>Git</tag>
          
@@ -763,13 +763,13 @@
         
         <tag>Linux</tag>
          
-        <tag>Java</tag>
-         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
          
         <tag>CentOS</tag>
+         
+        <tag>Java</tag>
          
         <tag>Tomcat</tag>
          
@@ -795,13 +795,13 @@
         
         <tag>Linux</tag>
          
-        <tag>Java</tag>
-         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
          
         <tag>CentOS</tag>
+         
+        <tag>Java</tag>
          
          
            
@@ -825,11 +825,11 @@
          
         <tag>Mac</tag>
          
+        <tag>Web</tag>
+         
         <tag>服务器</tag>
          
         <tag>MySQL</tag>
-         
-        <tag>Web</tag>
          
         <tag>数据库</tag>
          
@@ -885,9 +885,9 @@
          
         <tag>Linux</tag>
          
-        <tag>服务器</tag>
-         
         <tag>Web</tag>
+         
+        <tag>服务器</tag>
          
          
            
@@ -988,9 +988,9 @@
         
         <tag>Linux</tag>
          
-        <tag>Python</tag>
-         
         <tag>Flask</tag>
+         
+        <tag>Python</tag>
          
         <tag>Web</tag>
          
