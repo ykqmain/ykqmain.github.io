@@ -79,19 +79,19 @@
     
       <category term="人生" scheme="https://blog.ykqmain.com/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="随笔" scheme="https://blog.ykqmain.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
-    
       <category term="北京" scheme="https://blog.ykqmain.com/tags/%E5%8C%97%E4%BA%AC/"/>
     
       <category term="漂泊" scheme="https://blog.ykqmain.com/tags/%E6%BC%82%E6%B3%8A/"/>
     
       <category term="生活" scheme="https://blog.ykqmain.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
+      <category term="随笔" scheme="https://blog.ykqmain.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
       <category term="日记" scheme="https://blog.ykqmain.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="记录" scheme="https://blog.ykqmain.com/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
   </entry>
   
@@ -707,9 +707,9 @@
     <link href="https://blog.ykqmain.com/obs/"/>
     <id>https://blog.ykqmain.com/obs/</id>
     <published>2017-04-15T16:00:00.000Z</published>
-    <updated>2020-03-05T02:48:24.331Z</updated>
+    <updated>2020-03-05T02:50:32.663Z</updated>
     
-    <content type="html"><![CDATA[<p>想这个标题就花费了我几分钟，我想还是可以表明意思的。</p><blockquote><p>系统：macOS, iOS<br>软件：OBS, QuickTime  </p><p>平台：<a href="http://live.bilibili.com" target="_blank" rel="noopener">哔哩哔哩</a><br>游戏：王者荣耀</p><p>重要软件：<a href="https://github.com/mattingalls/Soundflower" target="_blank" rel="noopener">Soundflower</a></p></blockquote><p>其实就是闲的慌，只是想玩玩直播 _(:3」∠)_，图个新鲜。</p><p>其实在很早之前我就直播测试过，只是有一个非常严重的问题，<strong>在Mac上直播，OBS只能获取麦克风的声音，无法输出系统扬声器的声音</strong>。这是一个非常影响体验的短板。但是可以通过Soundflower来解决 (仍然有一处不完美)。</p><p>注意：B站已经提供了官方直播工具——<a href="http://live.bilibili.com/help/#zbj" target="_blank" rel="noopener">直播姬</a>，一键开启直播，支持<strong>Win，iOS，安卓</strong>。</p><p>macOS上只能自己动手了，下面按照B站的帮助中心的顺序，逐条详述。</p><p><br></p><h2 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. 概述</h2><p>配置，越高越好(Intel i5，GTX950，8G 以上)</p><p>网速，越快越好(最低<strong>上传</strong>带宽为1Mbps)</p><p>申请直播间，实名认证，中国特色。</p><p>填写信息，开启直播 (在这里暂停，转往配置相关软件)</p><p><br></p><h2 id="2-OBS"><a href="#2-OBS" class="headerlink" title="2. OBS"></a>2. OBS</h2><p>下载 <a href="https://obsproject.com" target="_blank" rel="noopener">OBS</a></p><p>打开软件，显示如下</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/1.png!sy" alt=""></p><p>添加一个<code>来源</code>，<strong>显示捕获</strong></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/2.png!xsy" alt=""></p><p>变换选择 <strong>比例适配屏幕</strong></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/3.png!xsy" alt=""></p><p>打开OBS的设置，点击<code>输出</code>，比特率修改为1500。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/4.png!xsy" alt=""></p><p>在B站自己的直播间，点击右上角的开启直播，复制自己的<code>rtmp地址</code>和<code>直播码</code>到OBS设置中的<code>串流</code>中</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/5.png!xsy" alt=""></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/6.png!xsy" alt=""></p><p>保存之后，就可以点击右边的<code>开始串流</code>开启直播了。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/7.png!xsy" alt=""></p><p>到这里，基本的直播功能就完成了。但是，很快就会发现开头提到的那个问题，<strong>在Mac上直播，OBS只能获取麦克风的声音，无法输出系统扬声器的声音</strong>。</p><p>这里就需要用到另一个软件了。</p><p><br></p><h2 id="3-Soundflower的使用"><a href="#3-Soundflower的使用" class="headerlink" title="3. Soundflower的使用"></a>3. Soundflower的使用</h2><p>首先在GitHub上下载<a href="https://github.com/mattingalls/Soundflower" target="_blank" rel="noopener">Soundflower</a>。</p><p><strong>注意：如果系统跳出对话框告诉你无法识别开发者签名等安全警告的话，请前往<code>偏好设定-&gt;安全与隐私</code>，里面选择仍要打开。</strong></p><p>双击<code>.pkg</code>安装后，<strong>重启电脑</strong>。</p><p>重启之后，在Launchpad中打开<code>音频 MIDI 设置</code></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/8.png!xsy" alt=""></p><p>点击加号，选择<code>创建一个多输出设备</code>，勾选 <code>内建输出</code> 和 <code>Soundflower(2ch)</code></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/9.png!xsy" alt=""></p><p>前往<code>偏好设置-&gt;声音</code>。你现在可以看到输出设备里面有<code>Soundflower(2ch)</code>和<code>(64ch)</code>，以及刚刚创建的<code>多输出设备</code>。在输出设备里选择创建的多输出设备。在输入设备里面选则<code>Soundflower(2ch)</code>.</p><p><strong>注意：全程不需要关注<code>Soundflower(64ch)</code>这一项，与本篇无关。</strong></p><p><strong>注意：</strong></p><ol><li>在切换输出设备之前，请先调整好系统音量，因为一旦你切换设备后，将无法改变音量大小。(这就是前面提到的不完美的地方)</li><li>如果你把输出设备设置为<code>Soundflower(2ch)</code>，在后续录制音频或者视频时，你自己是听不见声音的(因为没有选择内建输出)。但是录制好的视频是有声音的。</li></ol><p>切换回<code>音频 MIDI 设置</code>，选中左侧的<code>Soundflower(2ch)</code>，将其输入和输出的主声道向右拉到最大。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/10.png!xsy" alt=""></p><p>Soundflower的设置就完成了。</p><p>回到 OBS</p><p>打开设置，选中 <code>音频</code>，按图设置：</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/11.png!xsy" alt=""></p><p>保存后回到主面板，如图所示。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/12.png!xsy" alt=""></p><p>再<code>串流</code>，就能输出系统发出的所有声音到直播中去了。</p><p><br></p><hr><p><br></p><p>本来对于一个羞涩的我，到这里就结束了的。因为我不用麦克风 😐</p><p>也许你很快就能发现另一个问题了，系统的声音输出到直播中去了，但是自己说话的声音没了。</p><p>那是因为再前面设置输入设备为<code>Soundflower(2ch)</code>的原因，麦克风没有选中。</p><p>原理跟之前相同，前面是将 <code>内建输出</code>和<code>Soundflower(2ch)</code> 绑定在一起了。</p><p>同样的，<code>音频 MIDI 设置</code> 还可以将 <code>麦克风</code>和<code>Soundflower(2ch)</code>聚集在一起。</p><p>打开<code>音频 MIDI 设置</code>，右下角的加号，创建<code>聚集设备</code>，勾选<code>内建麦克风</code>和<code>Soundflower(2ch)</code>，并将<code>Soundflower(2ch)</code>设为主要。如图所示：</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/13.png!xsy" alt=""></p><p>再转到<code>偏好设置-&gt;声音</code>，设置系统的音频输入设备为刚刚创建的<code>聚合输入设备</code>就行了。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/14.png!xsy" alt=""></p><p><br></p><h2 id="4-直播王者荣耀"><a href="#4-直播王者荣耀" class="headerlink" title="4. 直播王者荣耀"></a>4. 直播王者荣耀</h2><p>将iPhone用数据线连上Mac，打开<code>QuickTime</code>，</p><p>选择<code>文件</code>-&gt;<code>新建影片录制(opt+cmd+N)</code>，这时会开启摄像头，点击如图所示的下三角，相机和麦克风都选择自己的iPhone的名字即可</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/15.png!xsy" alt=""></p><p>iPhone的操作就投影到桌面了。</p><p>注意调节QuickTime的音量才能听到iPhone的声音</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/16.png" alt=""></p><p>最后打开王者荣耀，就开始玩了。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/17.png!sy" alt=""></p><p><br><br></p><p>为了切换调整方便，可以<code>在菜单栏显示音量</code>。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/18.png!xsy" alt=""></p><p><br></p><p>至此，该说的都说完了😉，发热和风扇呼呼的情况自己体会。😅</p><p><br><br></p>]]></content>
+    <content type="html"><![CDATA[<p>想这个标题就花费了我几分钟，我想还是可以表明意思的。</p><blockquote><p>系统：macOS, iOS<br>软件：OBS, QuickTime  </p><p>平台：<a href="http://live.bilibili.com" target="_blank" rel="noopener">哔哩哔哩</a><br>游戏：王者荣耀</p><p>重要软件：<a href="https://github.com/mattingalls/Soundflower" target="_blank" rel="noopener">Soundflower</a></p></blockquote><p>其实就是闲的慌，只是想玩玩直播 _(:3」∠)_，图个新鲜。</p><p>其实在很早之前我就直播测试过，只是有一个非常严重的问题，<strong>在Mac上直播，OBS只能获取麦克风的声音，无法输出系统扬声器的声音</strong>。这是一个非常影响体验的短板。但是可以通过Soundflower来解决 (仍然有一处不完美)。</p><p>注意：B站已经提供了官方直播工具——<a href="https://live.bilibili.com/liveHime" target="_blank" rel="noopener">直播姬</a>，一键开启直播，支持<strong>Win，iOS，安卓</strong>。</p><p>macOS上只能自己动手了，下面按照B站的帮助中心的顺序，逐条详述。</p><p><br></p><h2 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. 概述</h2><p>配置，越高越好(Intel i5，GTX950，8G 以上)</p><p>网速，越快越好(最低<strong>上传</strong>带宽为1Mbps)</p><p>申请直播间，实名认证，中国特色。</p><p>填写信息，开启直播 (在这里暂停，转往配置相关软件)</p><p><br></p><h2 id="2-OBS"><a href="#2-OBS" class="headerlink" title="2. OBS"></a>2. OBS</h2><p>下载 <a href="https://obsproject.com" target="_blank" rel="noopener">OBS</a></p><p>打开软件，显示如下</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/1.png!sy" alt=""></p><p>添加一个<code>来源</code>，<strong>显示捕获</strong></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/2.png!xsy" alt=""></p><p>变换选择 <strong>比例适配屏幕</strong></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/3.png!xsy" alt=""></p><p>打开OBS的设置，点击<code>输出</code>，比特率修改为1500。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/4.png!xsy" alt=""></p><p>在B站自己的直播间，点击右上角的开启直播，复制自己的<code>rtmp地址</code>和<code>直播码</code>到OBS设置中的<code>串流</code>中</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/5.png!xsy" alt=""></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/6.png!xsy" alt=""></p><p>保存之后，就可以点击右边的<code>开始串流</code>开启直播了。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/7.png!xsy" alt=""></p><p>到这里，基本的直播功能就完成了。但是，很快就会发现开头提到的那个问题，<strong>在Mac上直播，OBS只能获取麦克风的声音，无法输出系统扬声器的声音</strong>。</p><p>这里就需要用到另一个软件了。</p><p><br></p><h2 id="3-Soundflower的使用"><a href="#3-Soundflower的使用" class="headerlink" title="3. Soundflower的使用"></a>3. Soundflower的使用</h2><p>首先在GitHub上下载<a href="https://github.com/mattingalls/Soundflower" target="_blank" rel="noopener">Soundflower</a>。</p><p><strong>注意：如果系统跳出对话框告诉你无法识别开发者签名等安全警告的话，请前往<code>偏好设定-&gt;安全与隐私</code>，里面选择仍要打开。</strong></p><p>双击<code>.pkg</code>安装后，<strong>重启电脑</strong>。</p><p>重启之后，在Launchpad中打开<code>音频 MIDI 设置</code></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/8.png!xsy" alt=""></p><p>点击加号，选择<code>创建一个多输出设备</code>，勾选 <code>内建输出</code> 和 <code>Soundflower(2ch)</code></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/9.png!xsy" alt=""></p><p>前往<code>偏好设置-&gt;声音</code>。你现在可以看到输出设备里面有<code>Soundflower(2ch)</code>和<code>(64ch)</code>，以及刚刚创建的<code>多输出设备</code>。在输出设备里选择创建的多输出设备。在输入设备里面选则<code>Soundflower(2ch)</code>.</p><p><strong>注意：全程不需要关注<code>Soundflower(64ch)</code>这一项，与本篇无关。</strong></p><p><strong>注意：</strong></p><ol><li>在切换输出设备之前，请先调整好系统音量，因为一旦你切换设备后，将无法改变音量大小。(这就是前面提到的不完美的地方)</li><li>如果你把输出设备设置为<code>Soundflower(2ch)</code>，在后续录制音频或者视频时，你自己是听不见声音的(因为没有选择内建输出)。但是录制好的视频是有声音的。</li></ol><p>切换回<code>音频 MIDI 设置</code>，选中左侧的<code>Soundflower(2ch)</code>，将其输入和输出的主声道向右拉到最大。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/10.png!xsy" alt=""></p><p>Soundflower的设置就完成了。</p><p>回到 OBS</p><p>打开设置，选中 <code>音频</code>，按图设置：</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/11.png!xsy" alt=""></p><p>保存后回到主面板，如图所示。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/12.png!xsy" alt=""></p><p>再<code>串流</code>，就能输出系统发出的所有声音到直播中去了。</p><p><br></p><hr><p><br></p><p>本来对于一个羞涩的我，到这里就结束了的。因为我不用麦克风 😐</p><p>也许你很快就能发现另一个问题了，系统的声音输出到直播中去了，但是自己说话的声音没了。</p><p>那是因为再前面设置输入设备为<code>Soundflower(2ch)</code>的原因，麦克风没有选中。</p><p>原理跟之前相同，前面是将 <code>内建输出</code>和<code>Soundflower(2ch)</code> 绑定在一起了。</p><p>同样的，<code>音频 MIDI 设置</code> 还可以将 <code>麦克风</code>和<code>Soundflower(2ch)</code>聚集在一起。</p><p>打开<code>音频 MIDI 设置</code>，右下角的加号，创建<code>聚集设备</code>，勾选<code>内建麦克风</code>和<code>Soundflower(2ch)</code>，并将<code>Soundflower(2ch)</code>设为主要。如图所示：</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/13.png!xsy" alt=""></p><p>再转到<code>偏好设置-&gt;声音</code>，设置系统的音频输入设备为刚刚创建的<code>聚合输入设备</code>就行了。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/14.png!xsy" alt=""></p><p><br></p><h2 id="4-直播王者荣耀"><a href="#4-直播王者荣耀" class="headerlink" title="4. 直播王者荣耀"></a>4. 直播王者荣耀</h2><p>将iPhone用数据线连上Mac，打开<code>QuickTime</code>，</p><p>选择<code>文件</code>-&gt;<code>新建影片录制(opt+cmd+N)</code>，这时会开启摄像头，点击如图所示的下三角，相机和麦克风都选择自己的iPhone的名字即可</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/15.png!xsy" alt=""></p><p>iPhone的操作就投影到桌面了。</p><p>注意调节QuickTime的音量才能听到iPhone的声音</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/16.png" alt=""></p><p>最后打开王者荣耀，就开始玩了。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/17.png!sy" alt=""></p><p><br><br></p><p>为了切换调整方便，可以<code>在菜单栏显示音量</code>。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/obs/18.png!xsy" alt=""></p><p><br></p><p>至此，该说的都说完了😉，发热和风扇呼呼的情况自己体会。😅</p><p><br><br></p>]]></content>
     
     <summary type="html">
     
@@ -1251,13 +1251,13 @@
     
       <category term="文章" scheme="https://blog.ykqmain.com/tags/%E6%96%87%E7%AB%A0/"/>
     
-      <category term="无聊" scheme="https://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
-    
       <category term="诗歌" scheme="https://blog.ykqmain.com/tags/%E8%AF%97%E6%AD%8C/"/>
     
       <category term="诗词" scheme="https://blog.ykqmain.com/tags/%E8%AF%97%E8%AF%8D/"/>
     
       <category term="高中" scheme="https://blog.ykqmain.com/tags/%E9%AB%98%E4%B8%AD/"/>
+    
+      <category term="无聊" scheme="https://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
     
   </entry>
   
@@ -1287,11 +1287,11 @@
     
       <category term="文章" scheme="https://blog.ykqmain.com/tags/%E6%96%87%E7%AB%A0/"/>
     
+      <category term="无聊" scheme="https://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
+    
       <category term="散文" scheme="https://blog.ykqmain.com/tags/%E6%95%A3%E6%96%87/"/>
     
       <category term="初中" scheme="https://blog.ykqmain.com/tags/%E5%88%9D%E4%B8%AD/"/>
-    
-      <category term="无聊" scheme="https://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
     
   </entry>
   
