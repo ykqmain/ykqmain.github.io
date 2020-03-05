@@ -4,6 +4,38 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/obs/</loc>
+    <lastmod>2020-03-05T02:44:10.327Z</lastmod>
+    <data>
+        <display>
+        <title>Mac上利用OBS在B站直播iPhone上的王者荣耀</title>
+        <pubTime>2017-04-15T16:00:00.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+        <tag>iPhone</tag>
+         
+        <tag>OBS</tag>
+         
+        <tag>直播</tag>
+         
+        <tag>B站</tag>
+         
+        <tag>王者荣耀</tag>
+         
+        <tag>Soundflower</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/ffmpeg/</loc>
     <lastmod>2020-03-04T12:41:28.102Z</lastmod>
     <data>
@@ -407,38 +439,6 @@
            
              
               <breadCrumb title="动画" url="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/obs/</loc>
-    <lastmod>2020-03-02T13:09:40.000Z</lastmod>
-    <data>
-        <display>
-        <title>Mac上利用OBS在B站直播iPhone上的王者荣耀</title>
-        <pubTime>2017-04-15T16:00:00.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-        <tag>iPhone</tag>
-         
-        <tag>OBS</tag>
-         
-        <tag>直播</tag>
-         
-        <tag>B站</tag>
-         
-        <tag>王者荣耀</tag>
-         
-        <tag>Soundflower</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
           
         </display>
     </data>
