@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/flask/</loc>
+    
+    <lastmod>2020-03-06T06:43:10.369Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/donghua/</loc>
+    
+    <lastmod>2020-03-06T06:42:51.254Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/ninghang/</loc>
     
     <lastmod>2020-03-06T06:06:02.719Z</lastmod>
@@ -75,13 +89,6 @@
     <loc>https://blog.ykqmain.com/twgx/</loc>
     
     <lastmod>2020-03-02T14:50:19.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/donghua/</loc>
-    
-    <lastmod>2020-03-02T13:32:31.000Z</lastmod>
     
   </url>
   
@@ -236,13 +243,6 @@
     <loc>https://blog.ykqmain.com/guanshu/</loc>
     
     <lastmod>2019-05-16T12:34:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/flask/</loc>
-    
-    <lastmod>2019-05-08T07:03:48.000Z</lastmod>
     
   </url>
   
