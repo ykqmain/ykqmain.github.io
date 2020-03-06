@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/beipiao/</loc>
+    
+    <lastmod>2020-03-06T06:44:04.878Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/flask/</loc>
     
     <lastmod>2020-03-06T06:43:10.369Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>https://blog.ykqmain.com/liqi/</loc>
     
     <lastmod>2020-03-04T12:38:25.895Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/beipiao/</loc>
-    
-    <lastmod>2020-03-03T10:34:36.000Z</lastmod>
     
   </url>
   
