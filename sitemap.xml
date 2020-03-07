@@ -2,72 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/april/</loc>
+    
+    <lastmod>2020-03-07T07:26:08.740Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/moe/</loc>
     
-    <lastmod>2020-03-06T09:02:20.214Z</lastmod>
+    <lastmod>2020-03-06T09:02:20.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.ykqmain.com/beipiao/</loc>
     
-    <lastmod>2020-03-06T06:44:04.878Z</lastmod>
+    <lastmod>2020-03-06T06:44:04.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.ykqmain.com/flask/</loc>
     
-    <lastmod>2020-03-06T06:43:10.369Z</lastmod>
+    <lastmod>2020-03-06T06:43:10.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.ykqmain.com/donghua/</loc>
     
-    <lastmod>2020-03-06T06:42:51.254Z</lastmod>
+    <lastmod>2020-03-06T06:42:51.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.ykqmain.com/ninghang/</loc>
     
-    <lastmod>2020-03-06T06:06:02.719Z</lastmod>
+    <lastmod>2020-03-06T06:06:02.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.ykqmain.com/time/</loc>
     
-    <lastmod>2020-03-06T04:04:00.913Z</lastmod>
+    <lastmod>2020-03-06T04:04:00.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.ykqmain.com/hexo/</loc>
     
-    <lastmod>2020-03-06T04:03:23.784Z</lastmod>
+    <lastmod>2020-03-06T04:03:23.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.ykqmain.com/obs/</loc>
     
-    <lastmod>2020-03-05T02:50:32.663Z</lastmod>
+    <lastmod>2020-03-05T02:50:32.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.ykqmain.com/ffmpeg/</loc>
     
-    <lastmod>2020-03-04T12:41:28.102Z</lastmod>
+    <lastmod>2020-03-04T12:41:28.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
     
-    <lastmod>2020-03-04T12:38:25.895Z</lastmod>
+    <lastmod>2020-03-04T12:38:25.000Z</lastmod>
     
   </url>
   
@@ -166,13 +173,6 @@
     <loc>https://blog.ykqmain.com/mysql/</loc>
     
     <lastmod>2020-02-28T06:21:21.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/april/</loc>
-    
-    <lastmod>2019-11-15T08:46:39.000Z</lastmod>
     
   </url>
   
