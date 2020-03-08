@@ -4,6 +4,38 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/liqi/</loc>
+    <lastmod>2020-03-08T02:31:00.228Z</lastmod>
+    <data>
+        <display>
+        <title>利器</title>
+        <pubTime>2016-01-03T16:00:00.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+        <tag>软件</tag>
+         
+        <tag>Apple</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>工具</tag>
+         
+        <tag>Software</tag>
+         
+        <tag>APP</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/april/</loc>
     <lastmod>2020-03-07T07:26:08.740Z</lastmod>
     <data>
@@ -111,11 +143,11 @@
         
         <tag>Linux</tag>
          
+        <tag>Flask</tag>
+         
         <tag>Python</tag>
          
         <tag>Web</tag>
-         
-        <tag>Flask</tag>
          
         <tag>http</tag>
          
@@ -296,38 +328,6 @@
         <tag>音频</tag>
          
         <tag>视频</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2020-03-04T12:38:25.000Z</lastmod>
-    <data>
-        <display>
-        <title>利器</title>
-        <pubTime>2016-01-03T16:00:00.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-        <tag>软件</tag>
-         
-        <tag>工具</tag>
-         
-        <tag>Apple</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>Software</tag>
-         
-        <tag>APP</tag>
          
          
            
@@ -679,6 +679,8 @@
          
         <tag>Linux</tag>
          
+        <tag>Python</tag>
+         
         <tag>Debian</tag>
          
         <tag>服务器</tag>
@@ -688,8 +690,6 @@
         <tag>MySQL</tag>
          
         <tag>MariaDB</tag>
-         
-        <tag>Python</tag>
          
         <tag>Java</tag>
          
@@ -717,13 +717,13 @@
         
         <tag>Mac</tag>
          
-        <tag>iPhone</tag>
-         
         <tag>Apple</tag>
          
         <tag>macOS</tag>
          
         <tag>OS X</tag>
+         
+        <tag>iPhone</tag>
          
         <tag>iOS</tag>
          
@@ -747,9 +747,9 @@
         <title>MySQL小记——附iOS游戏推荐</title>
         <pubTime>2016-04-12T16:00:00.000Z</pubTime>
         
-        <tag>MySQL</tag>
-         
         <tag>Mac</tag>
+         
+        <tag>MySQL</tag>
          
         <tag>数据库</tag>
          
@@ -893,19 +893,19 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
+        <tag>Mac</tag>
+         
         <tag>Apache</tag>
+         
+        <tag>Web</tag>
          
         <tag>服务器</tag>
          
         <tag>MySQL</tag>
          
-        <tag>Mac</tag>
-         
         <tag>数据库</tag>
          
         <tag>PHP</tag>
-         
-        <tag>Web</tag>
          
          
            
@@ -957,9 +957,9 @@
          
         <tag>Linux</tag>
          
-        <tag>服务器</tag>
-         
         <tag>Web</tag>
+         
+        <tag>服务器</tag>
          
          
            
