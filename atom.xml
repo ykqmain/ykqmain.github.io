@@ -236,6 +236,8 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
+    
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Kafka" scheme="https://blog.ykqmain.com/tags/Kafka/"/>
@@ -243,8 +245,6 @@
       <category term="分布式" scheme="https://blog.ykqmain.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
     
       <category term="日志" scheme="https://blog.ykqmain.com/tags/%E6%97%A5%E5%BF%97/"/>
-    
-      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="ELK" scheme="https://blog.ykqmain.com/tags/ELK/"/>
     
@@ -272,13 +272,13 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
-    
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Nginx" scheme="https://blog.ykqmain.com/tags/Nginx/"/>
     
@@ -351,9 +351,9 @@
     
       <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
     
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
-    
       <category term="Flask" scheme="https://blog.ykqmain.com/tags/Flask/"/>
+    
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
       <category term="http" scheme="https://blog.ykqmain.com/tags/http/"/>
     
@@ -871,19 +871,19 @@
       <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
-    
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
+    
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
+    
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
       <category term="PHP" scheme="https://blog.ykqmain.com/tags/PHP/"/>
-    
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
   </entry>
   
@@ -1219,11 +1219,11 @@
       <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
-    
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
