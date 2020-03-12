@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ykqmain.com/"/>
-  <updated>2020-03-12T02:21:51.142Z</updated>
+  <updated>2020-03-12T04:11:52.534Z</updated>
   <id>https://blog.ykqmain.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.ykqmain.com/rssjs/"/>
     <id>https://blog.ykqmain.com/rssjs/</id>
     <published>2020-03-09T16:00:00.000Z</published>
-    <updated>2020-03-12T02:21:51.142Z</updated>
+    <updated>2020-03-12T04:11:52.534Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>RSS（简易信息聚合）是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。<br>“资源描述框架站点摘要”（RDF Site Summary）就是RSS的英文原意，后来通过逆向首字母缩略词变更为Really Simple Syndication“简易信息聚合”。把新闻标题、摘要（Feed）、内容按照用户的要求，“送”到用户的桌面就是RSS的目的。</p><p>——<a href="https://zh.wikipedia.org/wiki/RSS" target="_blank" rel="noopener">维基百科</a></p></blockquote><p>要问到什么是互联网精神，大多数人也能说出几个关键词，<code>自由</code>、<code>开放</code>和<code>共享</code>。<br>在如今越来越封闭的环境里，各个网站、APP自成一体，<strong>开放</strong>显得尤为稀缺和珍贵，毕竟开放则意味着某些“利益”受损，从资本的角度考虑的话，开放无利可图，封闭也无可厚非，人毕竟也要吃饭。<br>所以可以说<strong>开放是一种美德</strong>，而RSS则是互联网开放精神的典型代表。</p><p>之前折腾过RSS，客户端iOS用的Reeder3，Mac舍不得买。后来出了Reeder4重新收费，就暂时搁置了。<br>最近了解到一款新的RSS阅读器<a href="https://ranchero.com/netnewswire/" target="_blank" rel="noopener"><strong>NetNewsWire</strong></a>，这是一款<a href="https://github.com/Ranchero-Software/NetNewsWire" target="_blank" rel="noopener">开源</a>、免费、支持Mac&amp;iOS的RSS阅读器。体验了一翻，非常棒。据官方说正在探索iCloud同步的可行性，这个特性非常期待。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/rssjs/1.png!sy" alt=""></p><p>虽然现在的新闻和资讯没什么好看的， 但是绝对不能不看，人不可能与社会脱节。微博本就嘈杂不堪，微博官方的某些行为更是令人作呕（自动关注、点赞，被卖粉等等）。<br>相比之下，即使“工作苦微信久矣”，但公众号确实可以了解很多组织或机构的官方消息，因为每天的发布次数有限，反倒有一定的质量保证。</p><p>所以<strong>微信公众号</strong>就成了我的主要新闻资讯来源，<strong>RSS</strong>则顺理成章地成为了辅助。<br>也借此篇博客分享几个订阅源。</p><p>首先当然是我的博客🤓：</p><ul><li><a href="https://blog.ykqmain.com/atom.xml">iAnna</a></li></ul><p>综合：</p><ul><li><a href="http://www.qdaily.com/feed.xml" target="_blank" rel="noopener">好奇心日报</a></li><li><a href="https://feedx.net/rss/wikihistory.xml" target="_blank" rel="noopener">历史上的今天</a></li><li><a href="https://feedx.net/rss/shiwen.xml" target="_blank" rel="noopener">每日古诗文</a></li><li><a href="https://www.zhihu.com/rss" target="_blank" rel="noopener">知乎每日精选</a></li><li><a href="http://feeds.feedburner.com/zhihu-daily" target="_blank" rel="noopener">知乎日报</a></li></ul><p>科技：</p><ul><li><a href="https://36kr.com/feed" target="_blank" rel="noopener">36氪</a></li><li><a href="https://www.ifanr.com/feed" target="_blank" rel="noopener">爱范儿</a></li><li><a href="https://rss.huxiu.com/" target="_blank" rel="noopener">虎嗅</a></li><li><a href="http://feed.geekpark.net/" target="_blank" rel="noopener">极客公园</a></li><li><a href="https://sspai.com/feed" target="_blank" rel="noopener">少数派</a></li><li><a href="https://www.tmtpost.com/rss.xml" target="_blank" rel="noopener">钛媒体</a></li><li><a href="https://wanqu.co/feed/" target="_blank" rel="noopener">湾区日报</a></li><li><a href="https://www.cnbeta.com/backend.php" target="_blank" rel="noopener">cnBeta</a></li><li><a href="https://www.infoq.cn/feed/" target="_blank" rel="noopener">InfoQ</a></li><li><a href="https://www.ithome.com/rss/" target="_blank" rel="noopener">IT之家</a></li><li><a href="https://www.solidot.org/index.rss" target="_blank" rel="noopener">Solidot</a></li><li><a href="https://www.pingwest.com/feed/all" target="_blank" rel="noopener">品玩</a></li></ul><p>软件：</p><ul><li><a href="https://www.appinn.com/feed/" target="_blank" rel="noopener">小众软件</a></li><li><a href="https://feed.iplaysoft.com" target="_blank" rel="noopener">异次元软件世界</a></li><li><a href="https://nnw.ranchero.com/feed.json" target="_blank" rel="noopener">NetNewsWire</a></li></ul><p>游戏：</p><ul><li><a href="http://www.chuapp.com/feed" target="_blank" rel="noopener">触乐</a></li><li><a href="https://www.yystv.cn/rss/feed" target="_blank" rel="noopener">游研社</a></li></ul><p>社区：</p><ul><li><a href="https://www.v2ex.com/feed/apple.json" target="_blank" rel="noopener">V2EX-Apple</a> (Json Feed)</li></ul><p><strong>工具</strong>：</p><ul><li><a href="https://feedx.net" target="_blank" rel="noopener">FeedX</a> (献给那些至今还对RSS钟情的人们)</li><li><a href="http://docs.rsshub.app" target="_blank" rel="noopener">RSSHub</a> (开源、简单易用、易于扩展的RSS生成器)</li><li><a href="https://feed43.com" target="_blank" rel="noopener">Feed43</a> (Convert web pages into professionally looking RSS feeds.)</li></ul><p><br><br></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>RSS（简易信息聚合）是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。<br>“资源描述框架站点摘要”（RDF Site Summary）就是RSS的英文原意，后来通过逆向首字母缩略词变更为Really Simple Syndication“简易信息聚合”。把新闻标题、摘要（Feed）、内容按照用户的要求，“送”到用户的桌面就是RSS的目的。</p><p>——<a href="https://zh.wikipedia.org/wiki/RSS" target="_blank" rel="noopener">维基百科</a></p></blockquote><p>要问到什么是互联网精神，大多数人也能说出几个关键词，<code>自由</code>、<code>开放</code>和<code>共享</code>。<br>在如今越来越封闭的环境里，各个网站、APP自成一体，<strong>开放</strong>显得尤为稀缺和珍贵，毕竟开放则意味着某些“利益”受损，从资本的角度考虑的话，开放无利可图，封闭也无可厚非，人毕竟也要吃饭。<br>所以可以说<strong>开放是一种美德</strong>，而RSS则是互联网开放精神的典型代表。</p><p>之前折腾过RSS，客户端iOS用的Reeder3，Mac舍不得买。后来出了Reeder4重新收费，就暂时搁置了。<br>最近了解到一款新的RSS阅读器<a href="https://ranchero.com/netnewswire/" target="_blank" rel="noopener"><strong>NetNewsWire</strong></a>，这是一款<a href="https://github.com/Ranchero-Software/NetNewsWire" target="_blank" rel="noopener">开源</a>、免费、支持Mac&amp;iOS的RSS阅读器。体验了一翻，非常棒。据官方说正在探索iCloud同步的可行性，这个特性非常期待。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/rssjs/1.png!sy" alt=""></p><p>虽然现在的新闻和资讯没什么好看的， 但是绝对不能不看，人不可能与社会脱节。微博本就嘈杂不堪，微博官方的某些行为更是令人作呕（自动关注、点赞，被卖粉等等）。<br>相比之下，即使“工作苦微信久矣”，但公众号确实可以了解很多组织或机构的官方消息，因为每天的发布次数有限，反倒有一定的质量保证。</p><p>所以<strong>微信公众号</strong>就成了我的主要新闻资讯来源，<strong>RSS</strong>则顺理成章地成为了辅助。也借此篇博客分享几个订阅源。</p><p>首先当然是我的博客🤓：</p><ul><li><a href="https://blog.ykqmain.com/atom.xml">iAnna</a></li></ul><p>综合：</p><ul><li><a href="http://www.qdaily.com/feed.xml" target="_blank" rel="noopener">好奇心日报</a></li><li><a href="https://feedx.net/rss/wikihistory.xml" target="_blank" rel="noopener">历史上的今天</a></li><li><a href="https://feedx.net/rss/shiwen.xml" target="_blank" rel="noopener">每日古诗文</a></li><li><a href="https://www.zhihu.com/rss" target="_blank" rel="noopener">知乎每日精选</a></li><li><a href="http://feeds.feedburner.com/zhihu-daily" target="_blank" rel="noopener">知乎日报</a></li></ul><p>科技：</p><ul><li><a href="https://36kr.com/feed" target="_blank" rel="noopener">36氪</a></li><li><a href="https://www.ifanr.com/feed" target="_blank" rel="noopener">爱范儿</a></li><li><a href="https://rss.huxiu.com/" target="_blank" rel="noopener">虎嗅</a></li><li><a href="http://feed.geekpark.net/" target="_blank" rel="noopener">极客公园</a></li><li><a href="https://sspai.com/feed" target="_blank" rel="noopener">少数派</a></li><li><a href="https://www.tmtpost.com/rss.xml" target="_blank" rel="noopener">钛媒体</a></li><li><a href="https://wanqu.co/feed/" target="_blank" rel="noopener">湾区日报</a></li><li><a href="https://www.cnbeta.com/backend.php" target="_blank" rel="noopener">cnBeta</a></li><li><a href="https://www.infoq.cn/feed/" target="_blank" rel="noopener">InfoQ</a></li><li><a href="https://www.ithome.com/rss/" target="_blank" rel="noopener">IT之家</a></li><li><a href="https://www.solidot.org/index.rss" target="_blank" rel="noopener">Solidot</a></li><li><a href="https://www.pingwest.com/feed/all" target="_blank" rel="noopener">品玩</a></li></ul><p>软件：</p><ul><li><a href="https://www.appinn.com/feed/" target="_blank" rel="noopener">小众软件</a></li><li><a href="https://feed.iplaysoft.com" target="_blank" rel="noopener">异次元软件世界</a></li><li><a href="https://nnw.ranchero.com/feed.json" target="_blank" rel="noopener">NetNewsWire</a></li></ul><p>游戏：</p><ul><li><a href="http://www.chuapp.com/feed" target="_blank" rel="noopener">触乐</a></li><li><a href="https://www.yystv.cn/rss/feed" target="_blank" rel="noopener">游研社</a></li></ul><p>社区：</p><ul><li><a href="https://www.v2ex.com/feed/apple.json" target="_blank" rel="noopener">V2EX-Apple</a> (Json Feed)</li></ul><p><strong>工具</strong>：</p><ul><li><a href="https://feedx.net" target="_blank" rel="noopener">FeedX</a> (献给那些至今还对RSS钟情的人们)</li><li><a href="http://docs.rsshub.app" target="_blank" rel="noopener">RSSHub</a> (开源、简单易用、易于扩展的RSS生成器)</li><li><a href="https://feed43.com" target="_blank" rel="noopener">Feed43</a> (Convert web pages into professionally looking RSS feeds.)</li></ul><p><br><br></p>]]></content>
     
     <summary type="html">
     
@@ -272,6 +272,8 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
+    
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Kafka" scheme="https://blog.ykqmain.com/tags/Kafka/"/>
@@ -279,8 +281,6 @@
       <category term="分布式" scheme="https://blog.ykqmain.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
     
       <category term="日志" scheme="https://blog.ykqmain.com/tags/%E6%97%A5%E5%BF%97/"/>
-    
-      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="ELK" scheme="https://blog.ykqmain.com/tags/ELK/"/>
     
@@ -308,13 +308,13 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
-    
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Nginx" scheme="https://blog.ykqmain.com/tags/Nginx/"/>
     
@@ -907,13 +907,13 @@
       <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
-    
-      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
-    
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
+    
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
+    
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
@@ -1074,9 +1074,9 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
-      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
-    
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
+    
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
@@ -1255,11 +1255,11 @@
       <category term="网络" scheme="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
-    
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
