@@ -514,13 +514,13 @@
     
       <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
-      <category term="国产" scheme="https://blog.ykqmain.com/tags/%E5%9B%BD%E4%BA%A7/"/>
+      <category term="励志" scheme="https://blog.ykqmain.com/tags/%E5%8A%B1%E5%BF%97/"/>
     
       <category term="经典" scheme="https://blog.ykqmain.com/tags/%E7%BB%8F%E5%85%B8/"/>
     
-      <category term="蓝狐" scheme="https://blog.ykqmain.com/tags/%E8%93%9D%E7%8B%90/"/>
+      <category term="国产" scheme="https://blog.ykqmain.com/tags/%E5%9B%BD%E4%BA%A7/"/>
     
-      <category term="励志" scheme="https://blog.ykqmain.com/tags/%E5%8A%B1%E5%BF%97/"/>
+      <category term="蓝狐" scheme="https://blog.ykqmain.com/tags/%E8%93%9D%E7%8B%90/"/>
     
   </entry>
   
@@ -876,9 +876,9 @@
       <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="blog" scheme="https://blog.ykqmain.com/tags/blog/"/>
-    
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+    
+      <category term="blog" scheme="https://blog.ykqmain.com/tags/blog/"/>
     
       <category term="总结" scheme="https://blog.ykqmain.com/tags/%E6%80%BB%E7%BB%93/"/>
     
@@ -1177,10 +1177,6 @@
       <category term="其他" scheme="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-      <category term="经典" scheme="https://blog.ykqmain.com/tags/%E7%BB%8F%E5%85%B8/"/>
-    
-      <category term="励志" scheme="https://blog.ykqmain.com/tags/%E5%8A%B1%E5%BF%97/"/>
-    
       <category term="唐朝" scheme="https://blog.ykqmain.com/tags/%E5%94%90%E6%9C%9D/"/>
     
       <category term="辞赋" scheme="https://blog.ykqmain.com/tags/%E8%BE%9E%E8%B5%8B/"/>
@@ -1192,6 +1188,10 @@
       <category term="抒情" scheme="https://blog.ykqmain.com/tags/%E6%8A%92%E6%83%85/"/>
     
       <category term="怀古" scheme="https://blog.ykqmain.com/tags/%E6%80%80%E5%8F%A4/"/>
+    
+      <category term="励志" scheme="https://blog.ykqmain.com/tags/%E5%8A%B1%E5%BF%97/"/>
+    
+      <category term="经典" scheme="https://blog.ykqmain.com/tags/%E7%BB%8F%E5%85%B8/"/>
     
   </entry>
   
