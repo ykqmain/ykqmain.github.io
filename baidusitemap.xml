@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/chunfen/</loc>
-    <lastmod>2020-03-20T08:08:42.594Z</lastmod>
+    <lastmod>2020-03-20T13:30:06.161Z</lastmod>
     <data>
         <display>
         <title>春分随笔</title>
@@ -39,7 +39,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2020-03-19T09:35:28.429Z</lastmod>
+    <lastmod>2020-03-19T09:35:28.000Z</lastmod>
     <data>
         <display>
         <title>利器</title>
@@ -271,9 +271,9 @@
          
         <tag>Python</tag>
          
-        <tag>Web</tag>
-         
         <tag>Flask</tag>
+         
+        <tag>Web</tag>
          
         <tag>http</tag>
          
@@ -965,11 +965,11 @@
          
         <tag>MySQL</tag>
          
+        <tag>Web</tag>
+         
         <tag>数据库</tag>
          
         <tag>PHP</tag>
-         
-        <tag>Web</tag>
          
          
            
