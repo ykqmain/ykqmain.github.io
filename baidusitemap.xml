@@ -5,17 +5,13 @@
     
   <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2020-03-22T04:21:37.467Z</lastmod>
+    <lastmod>2020-03-22T05:14:27.403Z</lastmod>
     <data>
         <display>
         <title>利器</title>
         <pubTime>2016-01-03T16:00:00.000Z</pubTime>
         
-        <tag>Apple</tag>
-         
         <tag>Mac</tag>
-         
-        <tag>macOS</tag>
          
         <tag>软件</tag>
          
@@ -24,6 +20,10 @@
         <tag>Software</tag>
          
         <tag>APP</tag>
+         
+        <tag>Apple</tag>
+         
+        <tag>macOS</tag>
          
          
            
@@ -779,15 +779,15 @@
         <title>Apple相关</title>
         <pubTime>2016-09-03T16:00:00.000Z</pubTime>
         
-        <tag>Apple</tag>
-         
         <tag>Mac</tag>
+         
+        <tag>iPhone</tag>
+         
+        <tag>Apple</tag>
          
         <tag>macOS</tag>
          
         <tag>OS X</tag>
-         
-        <tag>iPhone</tag>
          
         <tag>iOS</tag>
          
@@ -811,9 +811,9 @@
         <title>MySQL小记——附iOS游戏推荐</title>
         <pubTime>2016-04-12T16:00:00.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
         <tag>MySQL</tag>
+         
+        <tag>Mac</tag>
          
         <tag>数据库</tag>
          
@@ -957,13 +957,13 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
         <tag>Apache</tag>
          
         <tag>服务器</tag>
          
         <tag>MySQL</tag>
+         
+        <tag>Mac</tag>
          
         <tag>Web</tag>
          
