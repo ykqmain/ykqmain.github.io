@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/rssjs/</loc>
+    
+    <lastmod>2020-03-22T13:25:32.994Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
     
     <lastmod>2020-03-22T05:14:27.403Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://blog.ykqmain.com/chunfen/</loc>
     
     <lastmod>2020-03-20T13:30:06.161Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/rssjs/</loc>
-    
-    <lastmod>2020-03-18T11:58:00.000Z</lastmod>
     
   </url>
   
