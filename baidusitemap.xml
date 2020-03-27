@@ -269,9 +269,9 @@
         
         <tag>Linux</tag>
          
-        <tag>Python</tag>
-         
         <tag>Flask</tag>
+         
+        <tag>Python</tag>
          
         <tag>Web</tag>
          
@@ -743,6 +743,8 @@
          
         <tag>Linux</tag>
          
+        <tag>Python</tag>
+         
         <tag>Debian</tag>
          
         <tag>服务器</tag>
@@ -752,8 +754,6 @@
         <tag>MySQL</tag>
          
         <tag>MariaDB</tag>
-         
-        <tag>Python</tag>
          
         <tag>Java</tag>
          
@@ -957,15 +957,15 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
+        <tag>Apache</tag>
+         
         <tag>Mac</tag>
          
-        <tag>Apache</tag>
+        <tag>Web</tag>
          
         <tag>服务器</tag>
          
         <tag>MySQL</tag>
-         
-        <tag>Web</tag>
          
         <tag>数据库</tag>
          
@@ -1021,9 +1021,9 @@
          
         <tag>Linux</tag>
          
-        <tag>服务器</tag>
-         
         <tag>Web</tag>
+         
+        <tag>服务器</tag>
          
          
            
