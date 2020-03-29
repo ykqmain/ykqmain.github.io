@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2020-03-29T10:08:48.906Z</lastmod>
+    <lastmod>2020-03-29T10:17:09.240Z</lastmod>
     <data>
         <display>
         <title>利器</title>
@@ -765,13 +765,13 @@
         <title>Debian从0到0.1</title>
         <pubTime>2019-04-17T16:00:00.000Z</pubTime>
         
+        <tag>Apache</tag>
+         
         <tag>Linux</tag>
          
         <tag>Debian</tag>
          
         <tag>服务器</tag>
-         
-        <tag>Apache</tag>
          
         <tag>Nginx</tag>
          
@@ -837,9 +837,9 @@
         <title>MySQL小记——附iOS游戏推荐</title>
         <pubTime>2016-04-12T16:00:00.000Z</pubTime>
         
-        <tag>MySQL</tag>
-         
         <tag>Mac</tag>
+         
+        <tag>MySQL</tag>
          
         <tag>数据库</tag>
          
@@ -893,8 +893,6 @@
         <title>Apache Kafka安装</title>
         <pubTime>2019-07-17T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>Apache</tag>
          
         <tag>Kafka</tag>
@@ -902,6 +900,8 @@
         <tag>分布式</tag>
          
         <tag>日志</tag>
+         
+        <tag>Linux</tag>
          
         <tag>ELK</tag>
          
@@ -983,13 +983,13 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
-        <tag>服务器</tag>
-         
         <tag>Apache</tag>
          
-        <tag>MySQL</tag>
-         
         <tag>Mac</tag>
+         
+        <tag>服务器</tag>
+         
+        <tag>MySQL</tag>
          
         <tag>Web</tag>
          
@@ -1043,11 +1043,11 @@
         <title>第一个网页</title>
         <pubTime>2015-11-20T16:00:00.000Z</pubTime>
         
+        <tag>Apache</tag>
+         
         <tag>Linux</tag>
          
         <tag>服务器</tag>
-         
-        <tag>Apache</tag>
          
         <tag>Web</tag>
          
@@ -1095,13 +1095,13 @@
         
         <tag>文章</tag>
          
+        <tag>无聊</tag>
+         
         <tag>诗歌</tag>
          
         <tag>诗词</tag>
          
         <tag>高中</tag>
-         
-        <tag>无聊</tag>
          
          
            
@@ -1123,11 +1123,11 @@
         
         <tag>文章</tag>
          
-        <tag>无聊</tag>
-         
         <tag>散文</tag>
          
         <tag>初中</tag>
+         
+        <tag>无聊</tag>
          
          
            
