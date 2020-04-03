@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/ffmpeg/</loc>
-    <lastmod>2020-04-03T08:47:51.243Z</lastmod>
+    <lastmod>2020-04-03T08:52:56.817Z</lastmod>
     <data>
         <display>
         <title>FFmpeg笔记</title>
@@ -49,13 +49,13 @@
          
         <tag>感想</tag>
          
+        <tag>热血</tag>
+         
         <tag>国产</tag>
          
         <tag>经典</tag>
          
         <tag>星游记</tag>
-         
-        <tag>热血</tag>
          
         <tag>冒险</tag>
          
@@ -271,9 +271,9 @@
         
         <tag>回忆</tag>
          
-        <tag>婧玉</tag>
-         
         <tag>动画</tag>
+         
+        <tag>婧玉</tag>
          
         <tag>四月是你的谎言</tag>
          
@@ -335,19 +335,19 @@
          
         <tag>人生</tag>
          
+        <tag>随笔</tag>
+         
+        <tag>感想</tag>
+         
         <tag>北京</tag>
          
         <tag>漂泊</tag>
          
         <tag>生活</tag>
          
-        <tag>随笔</tag>
-         
         <tag>日记</tag>
          
         <tag>记录</tag>
-         
-        <tag>感想</tag>
          
          
            
@@ -367,15 +367,15 @@
         <title>Flask实践</title>
         <pubTime>2019-01-02T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
+        <tag>Flask</tag>
          
         <tag>Python</tag>
-         
-        <tag>Flask</tag>
          
         <tag>Web</tag>
          
         <tag>http</tag>
+         
+        <tag>Linux</tag>
          
         <tag>企业微信</tag>
          
@@ -679,9 +679,9 @@
         <title>博客1周年暨年终总结</title>
         <pubTime>2016-12-19T16:00:00.000Z</pubTime>
         
-        <tag>blog</tag>
-         
         <tag>回忆</tag>
+         
+        <tag>blog</tag>
          
         <tag>总结</tag>
          
@@ -783,9 +783,15 @@
         <title>Debian从0到0.1</title>
         <pubTime>2019-04-17T16:00:00.000Z</pubTime>
         
-        <tag>Apache</tag>
+        <tag>Python</tag>
          
         <tag>Linux</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Apache</tag>
+         
+        <tag>MySQL</tag>
          
         <tag>Debian</tag>
          
@@ -793,13 +799,7 @@
          
         <tag>Nginx</tag>
          
-        <tag>MySQL</tag>
-         
         <tag>MariaDB</tag>
-         
-        <tag>Python</tag>
-         
-        <tag>Java</tag>
          
         <tag>Git</tag>
          
@@ -825,13 +825,13 @@
         
         <tag>Mac</tag>
          
-        <tag>iPhone</tag>
-         
         <tag>Apple</tag>
          
         <tag>macOS</tag>
          
         <tag>OS X</tag>
+         
+        <tag>iPhone</tag>
          
         <tag>iOS</tag>
          
@@ -855,11 +855,11 @@
         <title>MySQL小记——附iOS游戏推荐</title>
         <pubTime>2016-04-12T16:00:00.000Z</pubTime>
         
-        <tag>MySQL</tag>
-         
         <tag>Mac</tag>
          
         <tag>数据库</tag>
+         
+        <tag>MySQL</tag>
          
          
            
@@ -911,6 +911,8 @@
         <title>Apache Kafka安装</title>
         <pubTime>2019-07-17T16:00:00.000Z</pubTime>
         
+        <tag>Linux</tag>
+         
         <tag>Apache</tag>
          
         <tag>Kafka</tag>
@@ -918,8 +920,6 @@
         <tag>分布式</tag>
          
         <tag>日志</tag>
-         
-        <tag>Linux</tag>
          
         <tag>ELK</tag>
          
@@ -943,13 +943,13 @@
         
         <tag>Linux</tag>
          
-        <tag>Java</tag>
-         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
          
         <tag>CentOS</tag>
+         
+        <tag>Java</tag>
          
         <tag>Tomcat</tag>
          
@@ -975,13 +975,13 @@
         
         <tag>Linux</tag>
          
-        <tag>Java</tag>
-         
         <tag>大数据</tag>
          
         <tag>Hadoop</tag>
          
         <tag>CentOS</tag>
+         
+        <tag>Java</tag>
          
          
            
@@ -1001,17 +1001,17 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
-        <tag>Apache</tag>
-         
-        <tag>服务器</tag>
-         
-        <tag>MySQL</tag>
-         
         <tag>Mac</tag>
          
         <tag>Web</tag>
          
+        <tag>Apache</tag>
+         
         <tag>数据库</tag>
+         
+        <tag>MySQL</tag>
+         
+        <tag>服务器</tag>
          
         <tag>PHP</tag>
          
@@ -1037,9 +1037,9 @@
          
         <tag>动画</tag>
          
-        <tag>热血</tag>
-         
         <tag>日本</tag>
+         
+        <tag>热血</tag>
          
         <tag>卡牌</tag>
          
@@ -1061,13 +1061,13 @@
         <title>第一个网页</title>
         <pubTime>2015-11-20T16:00:00.000Z</pubTime>
         
-        <tag>Apache</tag>
+        <tag>Web</tag>
          
         <tag>Linux</tag>
          
-        <tag>服务器</tag>
+        <tag>Apache</tag>
          
-        <tag>Web</tag>
+        <tag>服务器</tag>
          
          
            
@@ -1113,13 +1113,13 @@
         
         <tag>文章</tag>
          
-        <tag>无聊</tag>
-         
         <tag>诗歌</tag>
          
         <tag>诗词</tag>
          
         <tag>高中</tag>
+         
+        <tag>无聊</tag>
          
          
            
@@ -1141,11 +1141,11 @@
         
         <tag>文章</tag>
          
+        <tag>无聊</tag>
+         
         <tag>散文</tag>
          
         <tag>初中</tag>
-         
-        <tag>无聊</tag>
          
          
            
