@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/rainbowSea/</loc>
+    
+    <lastmod>2020-04-03T04:11:29.827Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/donghua/</loc>
+    
+    <lastmod>2020-04-03T01:48:34.782Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
     
     <lastmod>2020-04-01T00:46:29.552Z</lastmod>
@@ -61,13 +75,6 @@
     <loc>https://blog.ykqmain.com/flask/</loc>
     
     <lastmod>2020-03-06T06:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/donghua/</loc>
-    
-    <lastmod>2020-03-06T06:42:51.000Z</lastmod>
     
   </url>
   
