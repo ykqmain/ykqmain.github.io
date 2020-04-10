@@ -166,11 +166,11 @@
     
       <category term="人生" scheme="https://blog.ykqmain.com/tags/%E4%BA%BA%E7%94%9F/"/>
     
+      <category term="四月是你的谎言" scheme="https://blog.ykqmain.com/tags/%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80/"/>
+    
       <category term="随笔" scheme="https://blog.ykqmain.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
       <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
-    
-      <category term="四月是你的谎言" scheme="https://blog.ykqmain.com/tags/%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80/"/>
     
       <category term="萌" scheme="https://blog.ykqmain.com/tags/%E8%90%8C/"/>
     
@@ -285,8 +285,6 @@
     
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
-    
       <category term="山东" scheme="https://blog.ykqmain.com/tags/%E5%B1%B1%E4%B8%9C/"/>
     
       <category term="青岛" scheme="https://blog.ykqmain.com/tags/%E9%9D%92%E5%B2%9B/"/>
@@ -296,6 +294,8 @@
       <category term="曲阜" scheme="https://blog.ykqmain.com/tags/%E6%9B%B2%E9%98%9C/"/>
     
       <category term="济南" scheme="https://blog.ykqmain.com/tags/%E6%B5%8E%E5%8D%97/"/>
+    
+      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
     
   </entry>
   
@@ -360,8 +360,6 @@
       <category term="运维" scheme="https://blog.ykqmain.com/categories/%E8%BF%90%E7%BB%B4/"/>
     
     
-      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
-    
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Kafka" scheme="https://blog.ykqmain.com/tags/Kafka/"/>
@@ -369,6 +367,8 @@
       <category term="分布式" scheme="https://blog.ykqmain.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
     
       <category term="日志" scheme="https://blog.ykqmain.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="ELK" scheme="https://blog.ykqmain.com/tags/ELK/"/>
     
@@ -396,13 +396,13 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
+    
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
       <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
       <category term="Nginx" scheme="https://blog.ykqmain.com/tags/Nginx/"/>
     
@@ -702,6 +702,8 @@
     
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
+      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
+    
       <category term="江苏" scheme="https://blog.ykqmain.com/tags/%E6%B1%9F%E8%8B%8F/"/>
     
       <category term="南京" scheme="https://blog.ykqmain.com/tags/%E5%8D%97%E4%BA%AC/"/>
@@ -711,8 +713,6 @@
       <category term="杭州" scheme="https://blog.ykqmain.com/tags/%E6%9D%AD%E5%B7%9E/"/>
     
       <category term="西湖" scheme="https://blog.ykqmain.com/tags/%E8%A5%BF%E6%B9%96/"/>
-    
-      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
     
   </entry>
   
@@ -828,11 +828,11 @@
   </entry>
   
   <entry>
-    <title>Future——一首歌能带来什么回忆</title>
+    <title>Future——1首歌能带来什么回忆</title>
     <link href="https://blog.ykqmain.com/future/"/>
     <id>https://blog.ykqmain.com/future/</id>
     <published>2017-04-30T16:00:00.000Z</published>
-    <updated>2020-04-10T07:47:34.365Z</updated>
+    <updated>2020-04-10T08:15:38.116Z</updated>
     
     <content type="html"><![CDATA[<p><br></p><p>🎵 future - HIRO-X</p><audio controls="controls"><br>    <source src="https://ianna.oss-cn-hangzhou.aliyuncs.com/future/future.mp3"><br>    Your browser does not support the Audio tag.<br></audio><p><br></p><p>一首歌能带来什么回忆？</p><p>毫无疑问，一言难尽……</p><p>当《Future》的前奏响起时，扑面而来的是夏天的味道，蕴含的回忆，汇聚成感动，而又不同于《secret base ~君がくれたもの~》</p><p><br></p><p>记得之前关于歌声的意义，期待你的歌声，是为了永恒地铭记。多少年后，因为太多对世界的无奈和不屑，我会忘记一切、除了歌声所存储的一切，即使经过岁月的洗礼显得“并不太美好”，但我仍然会、想你。</p><p>犹如《老人与海》之如陈康，《秋天不回来》之如管江威。年龄越大，老朋友越来越远，新朋友越来越少。过去的我们也再也回不去了，但回忆还在。</p><p><br></p><p>在那个网络并不发达、上网大多是游戏和QQ的年代，去一次网吧，也许就是改个QQ头像，换句QQ签名，折腾QQ空间模块。也就是那个时候，为腾讯公司贡献了自己第一个会员，还是用手机打固定电话的形式充值的，只是为了可以换一个头像——</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/future/1.jpg" alt=""></p><p>越前龙马，在那个说“拽”不说“装逼”的记忆里，我感受到深深地逼格。在我心中，时至今日，就算是坂本也难以望其项背。抛开剧情的科学性，在那个世界里，“外旋发球”和“龟派气功”又有什么区别呢？也不多说网球、热血、友情、奋斗。那么，《Future》对我来说意味着什么？</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/future/2.jpg" alt=""></p><p><strong>是一腔热血配上空调雪碧的自我陶醉，是自己二次元世界的里程碑，更是初中的开始，是我的整个青春。</strong></p><p><br></p><p>一千个人眼里有一千个哈姆雷特，当我的记忆伴随着《Future》赋予它灵魂的时候，《Future》变成了“Future”深深地刻在了我的心里。《网球王子》不在是一部日本动画，也不是许斐刚的作品，而是在特定时间特定地点，记忆长河里我自己的一片意识，就是我自己。</p><p>也许看到这里的人会笑，是的，我自己也笑了。</p><p>我在替那时候的自己笑，“Future”直译「未来」，不知那个时候的自己，看到现在的我会不会笑呢？也许还会中二地补上那句 “まだまだだね（你还差得远呢）”。</p><p><br></p><p>我一点都不想反驳，甚至还想陪他笑，微笑的那种笑，比大哭更心痛的感觉。</p><p>随着《计算方法》和《软件工程》考试的过去，大学的必修考试也落下帷幕。没有解脱的轻松感，反到是几位人名令我记忆深刻。在这个即是结束又是开始的点，感受到的只是无助罢了。</p><p>在这个即将开始陈词滥调的趋势下，借用《Future》的歌词表达一下：</p><blockquote><p>想超越目前的界限　往未知的世界<br>体内的梦想　犹如要满出一般<br>映出全新的世界　就像鲜艳的朝阳<br>将强力地闪耀地　绽放的未来纳入胸中</p></blockquote><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/future/3.jpg!sy" alt=""></p><p><br></p><p>《Future》的记忆与他人无关，它所存储的一切，是关于我。</p><p>在上次说到迷茫的人生的时候，先去认准方向，试着寻找北极星。</p><p>然而，城市里根本看不到星星。不是因为它就不存在，也许不是城市污染，而是自己的双眼被蒙蔽，或是眼界太小。</p><p>很久以前，约定着以后的以后，回想起以前对“以后”的思考。现在看来，有的事现在不去做，也许真的再也没有机会了。</p><p>无论是金钱、时间，还是突发事件、学习、生活，甚至是天气，都是无数困难中的一部分。</p><p>人生仍然是迷茫的，毕竟“北极星”不一定在天上，抬头可见。得擦亮眼睛，靠自己去外面的未知世界寻找。</p><p>也许“梦想”真的很遥远，但「未来」我还想要。</p><p><strong>必须走出去，我想我会的。</strong></p><p><br></p><p>回首望去，动画里的世界仍然那么美好，他们不会因为「衣食住行」而烦恼，而我这类小人物却日日夜夜为此奔波一生，至死方休。</p><p>四分钟的音乐似乎演绎了整个青春，以此立志。</p><p>希望在Future还能看到 <strong>空调</strong>、<strong>雪碧</strong>、以及 <strong>「未来」</strong>。</p><p>希望那时候，我还是会对自己笑，</p><p>会心的笑。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/future/4.jpg!xsy" alt=""></p><p><br><br></p>]]></content>
     
@@ -987,17 +987,17 @@
       <category term="运维" scheme="https://blog.ykqmain.com/categories/%E8%BF%90%E7%BB%B4/"/>
     
     
-      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
-    
-      <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
+    
+      <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
-      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
+      <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
       <category term="PHP" scheme="https://blog.ykqmain.com/tags/PHP/"/>
     
@@ -1154,9 +1154,9 @@
     
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
-    
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
   </entry>
   
@@ -1335,13 +1335,13 @@
       <category term="编程" scheme="https://blog.ykqmain.com/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
-    
-      <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
+    
       <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
+    
+      <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
