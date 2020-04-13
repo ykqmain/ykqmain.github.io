@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ykqmain.com/"/>
-  <updated>2020-04-13T01:52:19.950Z</updated>
+  <updated>2020-04-13T01:57:51.466Z</updated>
   <id>https://blog.ykqmain.com/</id>
   
   <author>
@@ -21,19 +21,16 @@
     <link href="https://blog.ykqmain.com/browser/"/>
     <id>https://blog.ykqmain.com/browser/</id>
     <published>2020-04-12T16:00:00.000Z</published>
-    <updated>2020-04-13T01:52:19.950Z</updated>
+    <updated>2020-04-13T01:57:51.466Z</updated>
     
-    <content type="html"><![CDATA[<ol><li>最最最开始上网的时候，IE用得最多。眼光狭窄，自带就有，并且IE叫做”Internet Explorer”，以为Internet必须从这里进入，没有浏览器的概念。<br><br></li></ol><ol start="2"><li>往后，发现了「搜狗浏览器」，非常人性化的一些特性，陪伴我很长一段时间。这段时间我特别喜欢折腾电脑和互联网的一些玩意，比如QQ空间装扮拖来拖去总觉得不完美、百度HI、百度空间，各种邮箱，搜狐、雅虎，隔段时间换一个用户名。那个时候Google还没走，但我仍然是百度作为默认搜索以及设为首页。同时期应该也尝鲜过Chrome，可能不习惯空白页所以没有用。<br><br></li></ol><ol start="3"><li>再后来，不知道怎么发现Firefox的，就一直用了，也很愉快，每次打开电脑第一件事打开Firefox，在互联网的世界遨游。视频网站那个时候基本都是Flash，直到某个版本开始，频繁崩溃，对我这个B站深度用户而言，简直是噩梦。在我印象中，不夸张地说，十有八崩。从这里开始，我换到了Chrome。（Chrome应该是定制的Flash，非常稳定）<br><br></li></ol><ol start="4"><li>直到我用上了Mac，Safari成了我的主力，一台电脑必备两个以上浏览器。从Win的习惯过来，Chrome很自然的成了备胎。这段时间Firefox从我的视野中完全淡去。<br><br></li></ol><ol start="5"><li>再到Firefox Quantum发布的时候，掀起一顿讨论，我再次见到这个名字，就像一位好久不见的老朋友，原来他还在那里。这时候，Flash基本上退出了互联网的舞台中心，然而Firefox好像再也打不过Chrome了。大家争论比较多的是插件系统，毕竟我完全不关心插件，（Safari根本就没有插件好吧=_=!）我仍然怀着激动的心情下载体验了Firefox新版本，在Mac上有一个bug，当页面在载入的过程中，Cmd+M最小化，显示非常糟心且不能忍，有点失望，不了了之。<br><br></li></ol><ol start="6"><li><p>Apple在Safari的插件再插一刀，全部迁往AppStore，我看到这个消息的时候，就感觉这背后赤裸裸的写着“赶紧去用Chrome吧”。我是一个对插件不怎么在意的人，有一个广告屏蔽插件我就满足了，最多加一个Tampermonkey。以前还能用Safari Extensions中的uBlock Origin苟着，当时我是真的想迁移了。</p><p> 好在AdGuard for Safari给了Safari续了一命，这是一个Electron构建的应用，我刚开始用的时候选择的开机自启，非常卡、非常糟糕，各种体验不爽，但是屏蔽效果最好，支持订阅列表。后来我发现，这个APP不需要开机启动，Safari广告屏蔽也是生效的，只要把规则写入了Safari就不用常开，在需要更新订阅的时候打开，平时完全可以关闭。我又可以用Safari起飞了=_=!，可以说AdGuard for Safari就是那根稻草，不是压垮，而是救命。好事成双，Tampermonkey也在AppStore上架了。<br><br></p></li></ol><ol start="7"><li><p>能感受到互联网越来越封闭，把用户和数据圈进来，各成一体。<strong>封闭也无可厚非，人毕竟也要吃饭。但开放则显得尤为珍贵，以及值得赞美。</strong> 最近在了解Rust的时候，又看到了Mozilla。</p><blockquote><p>Mozilla: Keep the internet open and accessible to all.<br> 为所有人保持健康、开放且无障碍的互联网。</p></blockquote><p> 看到这里我很触动，要问到什么是互联网精神，我最快能想到的就是开放、自由、分享等等，Firefox是真情怀。<br><br></p></li></ol><ol start="8"><li><p>说说我目前用的，主要Safari，其次Firefox，Chrome备用。</p><p> Safari有三点决定了我不可能换浏览器：（除非AdGuard for Safari挂了）</p><ul><li>丝滑般的体验，Firefox和Chrome都没有。（跟插件无关，我的Firefox和Chrome也只有两个插件。）</li><li>跟iPhone同步。</li><li>用习惯了Safari的个人收藏页。<br>&nbsp;<br>情怀不是必选的理由，就像我也没选择Firefox一样，还是保持Safari不动摇。不过如果我用Windows，可能就会把Firefox当作主力。<br><br></li></ul></li></ol><ol start="9"><li><p>多次提及Firefox情怀，我的意思并不是说Firefox靠情怀。Firefox跟Chrome的差距是能体会到，但不会很大。</p><p> Firefox有一些细节不如Chrome，</p><ul><li>Firefox没有很好用的网页全文翻译工具（Safari更加没有）</li><li>Firefox的中文分词好像有问题，双击的时候会选中一句话，Chrome则可以选中一个词（Safari也可以选中词语）</li><li>在Mac上Chrome和Safari的快捷键比较通用，Firefox则有一些不一样</li><li>最近看到一些各种特效的博客，用Firefox打开，Mac的风扇都启动了，Chrome则会很好。不知道是开发者针对Chrome优化，还是Chrome技术强大。（Safari也会导致风扇启动。）</li><li>可能还不止这些……<br>&nbsp;<br>Firefox跟Chrome的选择是一个取舍的问题，有舍才有得，有得到的同时就有失去的。<br>不过，完全可以全都要。<br><br></li></ul></li></ol><p>Firefox套上Renaissance的皮肤，有当年那味了。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/browser/Firefox.png!sy" alt=""></p><p><br><br></p>]]></content>
+    <content type="html"><![CDATA[<p>最最最开始上网的时候，IE用得最多。眼光狭窄，自带就有，并且IE叫做”Internet Explorer”，以为Internet必须从这里进入，没有浏览器的概念。</p><p>往后，发现了「搜狗浏览器」，非常人性化的一些特性，陪伴我很长一段时间。这段时间我特别喜欢折腾电脑和互联网的一些玩意，比如QQ空间装扮拖来拖去总觉得不完美、百度HI、百度空间，各种邮箱，搜狐、雅虎，隔段时间换一个用户名。那个时候Google还没走，但我仍然是百度作为默认搜索以及设为首页。同时期应该也尝鲜过Chrome，可能不习惯空白页所以没有用。</p><p>再后来，不知道怎么发现Firefox的，就一直用了，也很愉快，每次打开电脑第一件事打开Firefox，在互联网的世界遨游。视频网站那个时候基本都是Flash，直到某个版本开始，频繁崩溃，对我这个B站深度用户而言，简直是噩梦。在我印象中，不夸张地说，十有八崩。从这里开始，我换到了Chrome。（Chrome应该是定制的Flash，非常稳定）</p><p>直到我用上了Mac，Safari成了我的主力，一台电脑必备两个以上浏览器。从Win的习惯过来，Chrome很自然的成了备胎。这段时间Firefox从我的视野中完全淡去。</p><p>再到Firefox Quantum发布的时候，掀起一顿讨论，我再次见到这个名字，就像一位好久不见的老朋友，原来他还在那里。这时候，Flash基本上退出了互联网的舞台中心，然而Firefox好像再也打不过Chrome了。大家争论比较多的是插件系统，毕竟我完全不关心插件，（Safari根本就没有插件好吧=_=!）我仍然怀着激动的心情下载体验了Firefox新版本，在Mac上有一个bug，当页面在载入的过程中，Cmd+M最小化，显示非常糟心且不能忍，有点失望，不了了之。</p><p>Apple在Safari的插件再插一刀，全部迁往AppStore，我看到这个消息的时候，就感觉这背后赤裸裸的写着“赶紧去用Chrome吧”。我是一个对插件不怎么在意的人，有一个广告屏蔽插件我就满足了，最多加一个Tampermonkey。以前还能用Safari Extensions中的uBlock Origin苟着，当时我是真的想迁移了。</p><p>好在AdGuard for Safari给了Safari续了一命，这是一个Electron构建的应用，我刚开始用的时候选择的开机自启，非常卡、非常糟糕，各种体验不爽，但是屏蔽效果最好，支持订阅列表。后来我发现，这个APP不需要开机启动，Safari广告屏蔽也是生效的，只要把规则写入了Safari就不用常开，在需要更新订阅的时候打开，平时完全可以关闭。我又可以用Safari起飞了=_=!，可以说AdGuard for Safari就是那根稻草，不是压垮，而是救命。好事成双，Tampermonkey也在AppStore上架了。</p><p>能感受到互联网越来越封闭，把用户和数据圈进来，各成一体。<strong>封闭也无可厚非，人毕竟也要吃饭。但开放则显得尤为珍贵，以及值得赞美。</strong> 最近在了解Rust的时候，又看到了Mozilla。</p><blockquote><p>Mozilla: Keep the internet open and accessible to all.<br>    为所有人保持健康、开放且无障碍的互联网。</p></blockquote><p>看到这里我很触动，要问到什么是互联网精神，我最快能想到的就是开放、自由、分享等等，Firefox是真情怀。</p><p>说说我目前用的，主要Safari，其次Firefox，Chrome备用。</p><p>Safari有三点决定了我不可能换浏览器：（除非AdGuard for Safari挂了）</p><ul><li>丝滑般的体验，Firefox和Chrome都没有。（跟插件无关，我的Firefox和Chrome也只有两个插件。）</li><li>跟iPhone同步。</li><li>用习惯了Safari的个人收藏页。<br>&nbsp;<br>情怀不是必选的理由，就像我也没选择Firefox一样，还是保持Safari不动摇。不过如果我用Windows，可能就会把Firefox当作主力。</li></ul><p>多次提及Firefox情怀，我的意思并不是说Firefox靠情怀。Firefox跟Chrome的差距是能体会到，但不会很大。</p><p>Firefox有一些细节不如Chrome，</p><ul><li>Firefox没有很好用的网页全文翻译工具（Safari更加没有）</li><li>Firefox的中文分词好像有问题，双击的时候会选中一句话，Chrome则可以选中一个词（Safari也可以选中词语）</li><li>在Mac上Chrome和Safari的快捷键比较通用，Firefox则有一些不一样</li><li>最近看到一些各种特效的博客，用Firefox打开，Mac的风扇都启动了，Chrome则会很好。不知道是开发者针对Chrome优化，还是Chrome技术强大。（Safari也会导致风扇启动。）</li><li>可能还不止这些……<br>&nbsp;<br>Firefox跟Chrome的选择是一个取舍的问题，有舍才有得，有得到的同时就有失去的。<br>不过，完全可以全都要。<br><br></li></ul><p>Firefox套上Renaissance的皮肤，有当年那味了。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/browser/Firefox.png!sy" alt=""></p><p><br><br></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;ol&gt;
-&lt;li&gt;最最最开始上网的时候，IE用得最多。眼光狭窄，自带就有，并且IE叫做”Internet Explorer”，以为Internet必须从这里进入，没有浏览器的概念。&lt;br&gt;&lt;br&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;往后，发现了「搜狗浏览
+        &lt;p&gt;最最最开始上网的时候，IE用得最多。眼光狭窄，自带就有，并且IE叫做”Internet Explorer”，以为Internet必须从这里进入，没有浏览器的概念。&lt;/p&gt;
+&lt;p&gt;往后，发现了「搜狗浏览器」，非常人性化的一些特性，陪伴我很长一段时间。这段时间我特别喜欢折腾电脑
       
     
     </summary>
@@ -586,11 +583,11 @@
       <category term="历史" scheme="https://blog.ykqmain.com/categories/%E5%8E%86%E5%8F%B2/"/>
     
     
+      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
+    
       <category term="中国" scheme="https://blog.ykqmain.com/tags/%E4%B8%AD%E5%9B%BD/"/>
     
       <category term="思想" scheme="https://blog.ykqmain.com/tags/%E6%80%9D%E6%83%B3/"/>
-    
-      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
       <category term="诸子百家" scheme="https://blog.ykqmain.com/tags/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/"/>
     
