@@ -583,11 +583,11 @@
       <category term="历史" scheme="https://blog.ykqmain.com/categories/%E5%8E%86%E5%8F%B2/"/>
     
     
+      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
+    
       <category term="中国" scheme="https://blog.ykqmain.com/tags/%E4%B8%AD%E5%9B%BD/"/>
     
       <category term="思想" scheme="https://blog.ykqmain.com/tags/%E6%80%9D%E6%83%B3/"/>
-    
-      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
       <category term="诸子百家" scheme="https://blog.ykqmain.com/tags/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/"/>
     
@@ -1027,9 +1027,9 @@
     
       <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
-      <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
+    
+      <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
       <category term="PHP" scheme="https://blog.ykqmain.com/tags/PHP/"/>
     
@@ -1186,9 +1186,9 @@
     
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
+    
+      <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -1248,13 +1248,13 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
+      <category term="软件" scheme="https://blog.ykqmain.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
       <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
     
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="macOS" scheme="https://blog.ykqmain.com/tags/macOS/"/>
-    
-      <category term="软件" scheme="https://blog.ykqmain.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="工具" scheme="https://blog.ykqmain.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
