@@ -317,8 +317,6 @@
     
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
-    
       <category term="山东" scheme="https://blog.ykqmain.com/tags/%E5%B1%B1%E4%B8%9C/"/>
     
       <category term="青岛" scheme="https://blog.ykqmain.com/tags/%E9%9D%92%E5%B2%9B/"/>
@@ -328,6 +326,8 @@
       <category term="曲阜" scheme="https://blog.ykqmain.com/tags/%E6%9B%B2%E9%98%9C/"/>
     
       <category term="济南" scheme="https://blog.ykqmain.com/tags/%E6%B5%8E%E5%8D%97/"/>
+    
+      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
     
   </entry>
   
@@ -432,11 +432,11 @@
     
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
-    
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="Nginx" scheme="https://blog.ykqmain.com/tags/Nginx/"/>
+    
+      <category term="Debian" scheme="https://blog.ykqmain.com/tags/Debian/"/>
     
       <category term="Git" scheme="https://blog.ykqmain.com/tags/Git/"/>
     
@@ -497,11 +497,11 @@
     
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
+    
       <category term="Flask" scheme="https://blog.ykqmain.com/tags/Flask/"/>
     
       <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
-    
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
       <category term="http" scheme="https://blog.ykqmain.com/tags/http/"/>
     
@@ -734,6 +734,8 @@
     
       <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
+      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
+    
       <category term="江苏" scheme="https://blog.ykqmain.com/tags/%E6%B1%9F%E8%8B%8F/"/>
     
       <category term="南京" scheme="https://blog.ykqmain.com/tags/%E5%8D%97%E4%BA%AC/"/>
@@ -743,8 +745,6 @@
       <category term="杭州" scheme="https://blog.ykqmain.com/tags/%E6%9D%AD%E5%B7%9E/"/>
     
       <category term="西湖" scheme="https://blog.ykqmain.com/tags/%E8%A5%BF%E6%B9%96/"/>
-    
-      <category term="旅行" scheme="https://blog.ykqmain.com/tags/%E6%97%85%E8%A1%8C/"/>
     
   </entry>
   
@@ -1021,11 +1021,11 @@
     
       <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
     
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
+    
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
       <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
@@ -1248,13 +1248,13 @@
       <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
+      <category term="软件" scheme="https://blog.ykqmain.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
       <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
     
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
       <category term="macOS" scheme="https://blog.ykqmain.com/tags/macOS/"/>
-    
-      <category term="软件" scheme="https://blog.ykqmain.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="工具" scheme="https://blog.ykqmain.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
@@ -1375,9 +1375,9 @@
     
       <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
     
-      <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
       <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
+    
+      <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
@@ -1403,9 +1403,9 @@
       <category term="其他" scheme="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
-    
       <category term="Blog" scheme="https://blog.ykqmain.com/tags/Blog/"/>
+    
+      <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
       <category term="童年" scheme="https://blog.ykqmain.com/tags/%E7%AB%A5%E5%B9%B4/"/>
     
