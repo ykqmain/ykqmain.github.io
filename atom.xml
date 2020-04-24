@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ykqmain.com/"/>
-  <updated>2020-04-24T09:26:48.002Z</updated>
+  <updated>2020-04-24T12:02:31.516Z</updated>
   <id>https://blog.ykqmain.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.ykqmain.com/program/"/>
     <id>https://blog.ykqmain.com/program/</id>
     <published>2020-04-19T16:00:00.000Z</published>
-    <updated>2020-04-24T09:26:48.002Z</updated>
+    <updated>2020-04-24T12:02:31.516Z</updated>
     
-    <content type="html"><![CDATA[<p>随便聊聊我的编程之路，留个记录。</p><p>我接触编程语言真的不算早，第一次接触在初中时代，编程语言是<strong>C语言</strong>。还在Windows上折腾过带GUI的Vim，具体的情况已经忘了。犹如昙花一现，埋没在少年的记忆中，唯独<strong>函数</strong>这个思想深深印在脑海。</p><p><br></p><hr><p><br></p><p>时间过得很快，再见面，就已经是大学了。</p><p>大学的开始毫无疑问是C语言，关于C语言的学习，教材的每一个例子我都动手敲了，用的是Visual Studio，一个章节建一个项目。除此之外，还把<a href="https://book.douban.com/subject/1240002/" target="_blank" rel="noopener">《C Primer Plus》</a>和<a href="https://book.douban.com/subject/1139336/" target="_blank" rel="noopener">《C程序设计语言》</a>学了若干遍，当然这时候我开始用上了编辑器，把VS中的<code>cl.exe</code>单独拿出来在cmd中编译运行C。</p><p>当时的想法是，赶紧学完C，复习一遍，再巩固一遍，最后告别一遍。<strong>每种流行的编程语言都有适合的场景以及它自己的生态</strong>，在我看来，C是系统级别和硬件级别的语言，不得不学、但又不是那么称手，适合入门编程，以及作为自己的后盾，隐藏在底层。<br><br></p><p>如果说C带领我踏上编程之路，那么Java就让我深刻理解了<strong>「面向对象」</strong>思想。</p><p>学校安排的第二门语言是Java，原本是C++的，计划在我们这届改变了。C是我的第一门编程语言，也是第一门面向过程语言。而Java顺理成章的成为了我的第一门面向对象的语言。</p><p>即使我知道了面向对象，可我对Java仍然不喜欢，甚至说有点厌恶。最直观的感受，就是从C的语法到Java的语法不适应感。要知道当时我是C系的狂热分子，对于啰里八嗦的Java语法，能喜欢才怪。但不喜欢是不喜欢，我仍然把教材的例子全部敲了一遍，这时候接触到了Eclipse，以及尝试用记事本写Java（现在看来完全没必要记事本，还是代码编辑器好一些）。要说也得益于记事本手敲代码，我对面向对象思想确实有一种理解了的感觉。</p><p>完美主义的驱使下，即使不喜欢Java，但我仍然想给它一个句号，自己买了<a href="https://book.douban.com/subject/25762168/" target="_blank" rel="noopener">《Java核心技术》</a>2本，学了一遍。也是这个时候接触的Sublime Text，养成了能不用IDE就不用的习惯，反正都是些小玩意。<br><br></p><p>大一的暑假来临，由于自己更偏向于C系语言，很自然地想要向C++进发。那个夏天我去北京跟父母一起，<a href="https://book.douban.com/subject/25708312/" target="_blank" rel="noopener">《C++ Primer》</a>和下载的动漫，陪伴了我整个暑假。随着对计算机行业的深入了解，以及对C++的学习体会，我发现他的复杂确实如网友所言，以我的能力无法驾驭，C++也就在这里不了了之，不过C++的迭代器和Vector令我印象深刻。暑假之末，我得到了父母“馈赠”的人生中第一台苹果笔记本，MacBook Pro 2015。<br><br></p><p>新学期的开始，学校开始教C++，由于我学过一次，但又不打算深入学习，应付考试完全足够。我的目光转向了iOS开发，即是Objective-C，虽然当时Apple已经发布了Swift，因为还不成熟，我仍然打算先过一遍Objective-C，然后再来一遍Swift。沉浸于图书馆几个月，看了几本书和一些视频。我认为iOS开发也许并不是一个好选择，需求不大，市场饱和，再加上Apple Developer账号的收费机制，我又放弃了一个方向。不过，我仍然在这里收获了MVC模式。<br><br></p><p>知识和见识越来越广，之前在编译型语言兜兜转转，放弃iOS之后，打算找一门脚本语言玩一玩。层层筛选下来，最后在Perl、Ruby和Pyhton之间举棋不定，至于JavaScript，当时的我认为它只适合前端，遂没有考虑。我的印象中，在图书馆找了好几本书对比，甚至夜晚跑步的时候也在纠结选哪个，网上也搜了很多资料。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/language.JPG" alt=""></p><p>当时比较了很多项，也纠结了很久。<strong>我最后选择了Python</strong>，如果我没记错的话，决定的最主要原因是：Ruby资源的母语是日语，而Python是英语。要知道一门外语对我而言是非常困难的，即使英语学了这么多年，还是这个水样子，而英语明显更为通用。之后在图书馆通过<a href="https://book.douban.com/subject/25880388/" target="_blank" rel="noopener">《Python基础教程》</a>正式接触Python。<br><br></p><p>Python之后，也没有上手什么项目。厌烦了通过hosts方式上Google，极其不稳定和慢速。偶然得知了VPS，便开启了SS之门，就像打开潘多拉魔盒。我的行动完全转向，重访Google，开启Twitter之旅。写了第一个网页，又萌生写博客的想法，于是立即动手，折腾WordPress废寝忘食。觉得博客应该专注内容，又了解到Hexo，于是把Blog迁移到Hexo。期间买了几个域名，这估计是大多人的历程，最后还是在com稳定下来。<br><br></p><p>这一折腾，就是寒假来临。这个寒假，我又复习了一遍《C Primer Plus》和《C++ Primer》，后来我还翻过C，但再也没有看过C++了。</p><p>新的学期，学校的课程关于编程语言的很少了，开始安排上了数据结构、数据库、汇编语言、编译原理、组成原理、操作系统、计算机网络等课程。我又看了一遍《Java核心技术》，博客一直在维护。开始尝试Web开发。HTML很好，但是JavaScript和PHP则是浅尝则止，对我而言，太繁杂了，技术更新太快，而且我自认为需要一点设计技能，这对一个强迫症患者，简直是噩梦。即使说JavaScript是每个程序员应该掌握的技能，但至今我仍然只敢说我仅仅熟悉HTML，而对JavaScript了解还算不上。</p><p>在那之后，我基本不接触新的编程语言了，而是暂时专注在计算机的其他的方面，比如数据库和计算机网络，对macOS和Linux的探索也足够的多。经历了这么多，对Java的讨厌，也逐渐转变为不喜欢，即使不喜欢，却还是隔三差五就把《Java核心技术》拿出来翻翻。也许这就是缘分，不喜欢Java，整个大学在这门语言上花的时间却最多。<br><br></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/book1.JPG!sy" alt=""></p><p>时间过得真的很快，就这样毕业了。</p><p>中间的一些插曲就不在此谈了。</p><p>原本我更希望找一份关于Python的工作，后来的亲身体验还是选择了Java，市场需求和自身能力的局限，没办法。</p><p>在经历了一些事之后，逐渐更新了自己的一些想法。</p><p>人生，就是经历组成的。</p><p><br></p><hr><p><br></p><p>语言之争是激烈的，有时候比小说还精彩。还是那句话，<strong>每种流行的编程语言都有适合的场景以及它自己的生态</strong>，除了看一门语言本身的设计之外，必须要看到这们语言周围的生态，争论语言好坏的意义不大。</p><p>很多时候我们可以说，语言只是表达工具，更重要的是深处的算法和设计模式等等；我们也可以说，不同的语言有不同的适用领域，用得好了，事半功倍。</p><p>其实这两种看法并不是相反的，而是相辅相成的。比如说，C/C++更适合系统编程和硬件、有很高的运行效率，但是上手难度大，不易控制。Java虽然语法啰嗦，但正是这一套规范，适合大型项目的协作开发，再加上Java强大的生态，成为目前最流行的企业语言不足为奇，在Web、大数据方面无人能敌，还带一个Android。对于脚本语言PHP、Python都有使用场景，PHP和网页的契合度，以及Python的开发效率，都是非常棒的优点。对于前端，几乎就是JavaScript没得选。</p><p>陷于语言之争只会让自己变得偏执，以及浪费时间。一门语言以及它周围的生态是不容易改变的，但是个人完全有一些小余地选择自己喜欢的。<br><br></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/code.png!sy" alt=""></p><p>一名程序员必须学习3种以上的编程语言（HTML属于标记语言，SQL属于查询语言不在此列，另外Shell也不算在里面），其中一门编译型语言、一门脚本语言、一门工作吃饭/喜欢兴趣的语言。不同的语言可以学到不一样的思想，见识到不一样的世界。</p><p>要我说需要学习和自己喜欢的编程语言选出5种，很可能就是C、Java、Python、JavaScript、以及Rust。</p><ul><li><p>C是入门的首选，打好基础。一开始就从脚本入手，很容易走偏，由奢入俭难（对于非程序员，还是非常推荐Python的）；</p></li><li><p>面向对象目前还是主流，可选C++或Java等等，我选的Java，这也是目前最好找工作的语言；</p></li><li><p>然后是脚本语言，可选Python或Ruby等等，我选的Python，脚本语言是程序员的拿手工具。现在看来Ruby的哲学不是我喜欢的，过多的语法糖令人有些混乱，选择困难症，对于方法的调用不能适应；</p></li><li><p>JavaScript跟C语言一样，几乎是程序员必备技能，稍微懂一点还是好些；</p></li><li><p>最后，新时代的语言，Go和Rust，上个世纪的潮流没能赶上，这波不能掉队。至于为啥选择了Rust，一来是用来代替C++，毕竟C++太难，从应用场景来看，Go对标的的是Java，而Java我觉得还好。二来是因为Mozilla情怀。</p></li></ul><p>以前我也在不断寻找一门契合自己的编程语言，最后发现每种都有这样那样的缺点，但是不能掩盖他们的光芒。果然这个世界上只有两种语言，被人骂的和没人用的。</p><p><br></p><p>我是真的有点学不动了，除了纸质书，还有电子的。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/ebook.png!sy" alt=""></p><p>最后我打算再看一下<a href="https://www.rust-lang.org/zh-CN/" target="_blank" rel="noopener">Rust</a>，我就真的不展开了，太累了。</p><p>即使Rust的学习曲线陡峭，我也希望在这里竖一块里程碑。我想我过多的涉猎不同的方向，却没有在一个方向上足够深入，我觉得是时候沉淀一下了。</p><p>开了一个新坑，算法一直以来都很头疼，如果这个计划半途而废也不奇怪，<strong>但我希望对于计算机、对于编程更多一点兴趣，而不是饭碗。</strong></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/algorithm.JPG!sy" width="480"></p><p>很可能我将要转行了，如果真是那样，那么Rust也算是一个很好的纪念。</p><p>也许我的编程之路到此为止了，总结一点经验就是，<strong>三分钟热度要不得，坚持难能可贵，深度比广度重要</strong>。不管怎么样，学无止境。💻</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/book2.JPG!sy" width="480"></p><blockquote><p><em>人生苦短，我用Python。</em></p></blockquote><p><br><br> </p>]]></content>
+    <content type="html"><![CDATA[<p>随便聊聊我的编程之路，留个记录。</p><p>我接触编程语言真的不算早，第一次接触在初中时代，编程语言是<strong>C语言</strong>。还在Windows上折腾过带GUI的Vim，具体的情况已经忘了。犹如昙花一现，埋没在少年的记忆中，唯独<strong>函数</strong>这个思想深深印在脑海。</p><p><br></p><hr><p><br></p><p>时间过得很快，再见面，就已经是大学了。</p><p>大学的开始毫无疑问是C语言，关于C语言的学习，教材的每一个例子我都动手敲了，用的是Visual Studio，一个章节建一个项目。除此之外，还把<a href="https://book.douban.com/subject/1240002/" target="_blank" rel="noopener">《C Primer Plus》</a>和<a href="https://book.douban.com/subject/1139336/" target="_blank" rel="noopener">《C程序设计语言》</a>学了若干遍，当然这时候我开始用上了编辑器，把VS中的<code>cl.exe</code>单独拿出来在cmd中编译运行C。</p><p>当时的想法是，赶紧学完C，复习一遍，再巩固一遍，最后告别一遍。<strong>每种流行的编程语言都有适合的场景以及它自己的生态</strong>，在我看来，C是系统级别和硬件级别的语言，不得不学、但又不是那么称手，适合入门编程，以及作为自己的后盾，隐藏在底层。<br><br></p><p>如果说C带领我踏上编程之路，那么Java就让我深刻理解了<strong>「面向对象」</strong>思想。</p><p>学校安排的第二门语言是Java，原本是C++的，计划在我们这届改变了。C是我的第一门编程语言，也是第一门面向过程语言。而Java顺理成章的成为了我的第一门面向对象的语言。</p><p>即使我知道了面向对象，可我对Java仍然不喜欢，甚至说有点厌恶。最直观的感受，就是从C的语法到Java的语法不适应感。要知道当时我是C系的狂热分子，对于啰里八嗦的Java语法，能喜欢才怪。但不喜欢是不喜欢，我仍然把教材的例子全部敲了一遍，这时候接触到了Eclipse，以及尝试用记事本写Java（现在看来完全没必要记事本，还是代码编辑器好一些）。要说也得益于记事本手敲代码，我对面向对象思想确实有一种理解了的感觉。</p><p>完美主义的驱使下，即使不喜欢Java，但我仍然想给它一个句号，自己买了<a href="https://book.douban.com/subject/25762168/" target="_blank" rel="noopener">《Java核心技术》</a>2本，学了一遍。也是这个时候接触的Sublime Text，养成了能不用IDE就不用的习惯，反正都是些小玩意。<br><br></p><p>大一的暑假来临，由于自己更偏向于C系语言，很自然地想要向C++进发。那个夏天我去北京跟父母一起，<a href="https://book.douban.com/subject/25708312/" target="_blank" rel="noopener">《C++ Primer》</a>和下载的动漫，陪伴了我整个暑假。随着对计算机行业的深入了解，以及对C++的学习体会，我发现他的复杂确实如网友所言，以我的能力无法驾驭，C++也就在这里不了了之，不过C++的迭代器和Vector令我印象深刻。暑假之末，我得到了父母“馈赠”的人生中第一台苹果笔记本，MacBook Pro 2015。<br><br></p><p>新学期的开始，学校开始教C++，由于我学过一次，但又不打算深入学习，应付考试完全足够。我的目光转向了iOS开发，即是Objective-C，虽然当时Apple已经发布了Swift，因为还不成熟，我仍然打算先过一遍Objective-C，然后再来一遍Swift。沉浸于图书馆几个月，看了几本书和一些视频。我认为iOS开发也许并不是一个好选择，需求不大，市场饱和，再加上Apple Developer账号的收费机制，我又放弃了一个方向。不过，我仍然在这里收获了MVC模式。<br><br></p><p>知识和见识越来越广，之前在编译型语言兜兜转转，放弃iOS之后，打算找一门脚本语言玩一玩。层层筛选下来，最后在Perl、Ruby和Pyhton之间举棋不定，至于JavaScript，当时的我认为它只适合前端，遂没有考虑。我的印象中，在图书馆找了好几本书对比，甚至夜晚跑步的时候也在纠结选哪个，网上也搜了很多资料。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/language.JPG" alt=""></p><p>当时比较了很多项，也纠结了很久。<strong>我最后选择了Python</strong>，如果我没记错的话，决定的最主要原因是：Ruby资源的母语是日语，而Python是英语。要知道一门外语对我而言是非常困难的，即使英语学了这么多年，还是这个水样子，而英语明显更为通用。之后在图书馆通过<a href="https://book.douban.com/subject/25880388/" target="_blank" rel="noopener">《Python基础教程》</a>正式接触Python。<br><br></p><p>Python之后，也没有上手什么项目。厌烦了通过hosts方式上Google，极其不稳定和慢速。偶然得知了VPS，便开启了SS之门，就像打开潘多拉魔盒。我的行动完全转向，重访Google，开启Twitter之旅。写了第一个网页，又萌生写博客的想法，于是立即动手，折腾WordPress废寝忘食。觉得博客应该专注内容，又了解到Hexo，于是把Blog迁移到Hexo。期间买了几个域名，这估计是大多人的历程，最后还是在com稳定下来。<br><br></p><p>这一折腾，就是寒假来临。这个寒假，我又复习了一遍《C Primer Plus》和《C++ Primer》，后来我还翻过C，但再也没有看过C++了。</p><p>新的学期，学校的课程关于编程语言的很少了，开始安排上了数据结构、数据库、汇编语言、编译原理、组成原理、操作系统、计算机网络等课程。我又看了一遍《Java核心技术》，博客一直在维护。开始尝试Web开发。HTML很好，但是JavaScript和PHP则是浅尝则止，对我而言，太繁杂了，技术更新太快，而且我自认为需要一点设计技能，这对一个强迫症患者，简直是噩梦。即使说JavaScript是每个程序员应该掌握的技能，但至今我仍然只敢说我仅仅熟悉HTML，而对JavaScript了解还算不上。</p><p>在那之后，我基本不接触新的编程语言了，而是暂时专注在计算机的其他的方面，比如数据库和计算机网络，对macOS和Linux的探索也足够的多。经历了这么多，对Java的讨厌，也逐渐转变为不喜欢，即使不喜欢，却还是隔三差五就把《Java核心技术》拿出来翻翻。也许这就是缘分，不喜欢Java，整个大学在这门语言上花的时间却最多。<br><br></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/book1.JPG!sy" alt=""></p><p>时间过得真的很快，就这样毕业了。</p><p>中间的一些插曲就不在此谈了。</p><p>原本我更希望找一份关于Python的工作，后来的亲身体验还是选择了Java，市场需求和自身能力的局限，没办法。</p><p>在经历了一些事之后，逐渐更新了自己的一些想法。</p><p>人生，就是经历组成的。</p><p><br></p><hr><p><br></p><p>语言之争是激烈的，有时候比小说还精彩。还是那句话，<strong>每种流行的编程语言都有适合的场景以及它自己的生态</strong>，除了看一门语言本身的设计之外，必须要看到这们语言周围的生态，争论语言好坏的意义不大。</p><p>很多时候我们可以说，语言只是表达工具，更重要的是深处的算法和设计模式等等；我们也可以说，不同的语言有不同的适用领域，用得好了，事半功倍。</p><p>其实这两种看法并不是相反的，而是相辅相成的。比如说，C/C++更适合系统编程和硬件、有很高的运行效率，但是上手难度大，不易控制。Java虽然语法啰嗦，但正是这一套规范，适合大型项目的协作开发，再加上Java强大的生态，成为目前最流行的企业语言不足为奇，在Web、大数据方面无人能敌，还带一个Android。对于脚本语言PHP、Python都有使用场景，PHP和网页的契合度，以及Python的开发效率，都是非常棒的优点。对于前端，几乎就是JavaScript没得选。</p><p>陷于语言之争只会让自己变得偏执，以及浪费时间。一门语言以及它周围的生态是不容易改变的，但是个人完全有一些小余地选择自己喜欢的。<br><br></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/code.png!sy" alt=""></p><p>一名程序员必须学习3种以上的编程语言（HTML属于标记语言，SQL属于查询语言不在此列，另外Shell也不算在里面），其中一门编译型语言、一门脚本语言、一门工作吃饭/喜欢兴趣的语言。不同的语言可以学到不一样的思想，见识到不一样的世界。</p><p>要我说需要学习和自己喜欢的编程语言选出5种，很可能就是C、Java、Python、JavaScript、以及Rust。</p><ul><li><p>C是入门的首选，打好基础。一开始就从脚本入手，很容易走偏，由奢入俭难（对于非程序员，还是非常推荐Python的）；</p></li><li><p>面向对象目前还是主流，可选C++或Java等等，我选的Java，这也是目前最好找工作的语言；</p></li><li><p>然后是脚本语言，可选Python或Ruby等等，我选的Python，脚本语言是程序员的拿手工具。现在看来Ruby的哲学不是我喜欢的，过多的语法糖令人有些混乱，选择困难症，对于方法的调用不能适应；</p></li><li><p>JavaScript跟C语言一样，几乎是程序员必备技能，稍微懂一点还是好些；</p></li><li><p>最后，新时代的语言，Go和Rust，上个世纪的潮流没能赶上，这波不能掉队。至于为啥选择了Rust，一来是用来代替C++，毕竟C++太难，从应用场景来看，Go对标的的是Java，而Java我觉得还好。二来是因为Mozilla情怀。</p></li></ul><p>以前我也在不断寻找一门契合自己的编程语言，最后发现每种都有这样那样的缺点，但是不能掩盖他们的光芒。果然这个世界上只有两种语言，被人骂的和没人用的。</p><p><br></p><p>我是真的有点学不动了，除了纸质书，还有电子的。</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/ebook.png!sy" alt=""></p><p>最后我打算再看一下<a href="https://www.rust-lang.org/zh-CN/" target="_blank" rel="noopener">Rust</a>，我就真的不展开了，太累了。</p><p>即使Rust的学习曲线陡峭，我也希望在这里竖一块里程碑。我想我过多的涉猎不同的方向，却没有在一个方向上足够深入，实在可惜。</p><p>开了一个新坑，算法一直以来都很头疼，如果这个计划半途而废也不奇怪，<strong>但我希望对于计算机、对于编程更多一点兴趣，而不是饭碗。</strong></p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/algorithm.JPG!sy" width="480"></p><p>很可能我将要转行了，如果真是那样，那么Rust也算是一个很好的纪念，以后可能只有Python能常伴左右。</p><p>也许我的编程之路到此为止了，总结一点经验就是，<strong>三分钟热度要不得，坚持难能可贵，深度比广度重要</strong>。不管怎么样，学无止境。💻</p><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/program/book2.JPG!sy" width="480"></p><blockquote><p><em>人生苦短，我用Python。</em></p></blockquote><p><br><br> </p>]]></content>
     
     <summary type="html">
     
@@ -307,19 +307,19 @@
     
       <category term="人生" scheme="https://blog.ykqmain.com/tags/%E4%BA%BA%E7%94%9F/"/>
     
+      <category term="随笔" scheme="https://blog.ykqmain.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
+    
       <category term="北京" scheme="https://blog.ykqmain.com/tags/%E5%8C%97%E4%BA%AC/"/>
     
       <category term="漂泊" scheme="https://blog.ykqmain.com/tags/%E6%BC%82%E6%B3%8A/"/>
     
       <category term="生活" scheme="https://blog.ykqmain.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="随笔" scheme="https://blog.ykqmain.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
       <category term="日记" scheme="https://blog.ykqmain.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="记录" scheme="https://blog.ykqmain.com/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-      <category term="感想" scheme="https://blog.ykqmain.com/tags/%E6%84%9F%E6%83%B3/"/>
     
   </entry>
   
@@ -1057,9 +1057,9 @@
     
       <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
-      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
-    
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
       <category term="PHP" scheme="https://blog.ykqmain.com/tags/PHP/"/>
     
@@ -1216,9 +1216,9 @@
     
       <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
-      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
-    
       <category term="数据库" scheme="https://blog.ykqmain.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="MySQL" scheme="https://blog.ykqmain.com/tags/MySQL/"/>
     
   </entry>
   
@@ -1477,13 +1477,13 @@
     
       <category term="文章" scheme="https://blog.ykqmain.com/tags/%E6%96%87%E7%AB%A0/"/>
     
+      <category term="无聊" scheme="https://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
+    
       <category term="诗歌" scheme="https://blog.ykqmain.com/tags/%E8%AF%97%E6%AD%8C/"/>
     
       <category term="诗词" scheme="https://blog.ykqmain.com/tags/%E8%AF%97%E8%AF%8D/"/>
     
       <category term="高中" scheme="https://blog.ykqmain.com/tags/%E9%AB%98%E4%B8%AD/"/>
-    
-      <category term="无聊" scheme="https://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
     
   </entry>
   
@@ -1513,11 +1513,11 @@
     
       <category term="文章" scheme="https://blog.ykqmain.com/tags/%E6%96%87%E7%AB%A0/"/>
     
-      <category term="无聊" scheme="https://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
-    
       <category term="散文" scheme="https://blog.ykqmain.com/tags/%E6%95%A3%E6%96%87/"/>
     
       <category term="初中" scheme="https://blog.ykqmain.com/tags/%E5%88%9D%E4%B8%AD/"/>
+    
+      <category term="无聊" scheme="https://blog.ykqmain.com/tags/%E6%97%A0%E8%81%8A/"/>
     
   </entry>
   
