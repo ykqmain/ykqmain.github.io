@@ -32,7 +32,7 @@
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/iOS1.PNG">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/iOS2.PNG">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/iOS3.PNG">
-<meta property="og:updated_time" content="2020-04-26T06:15:04.989Z">
+<meta property="og:updated_time" content="2020-04-28T08:35:13.277Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利器">
 <meta name="twitter:description" content="今天看到一个有意思的项目 利器社群计划 ，借此机会，我也分享一下自己使用的一些小工具…… Update: 2020-04 介绍昵称 秋风木叶，或 Yang。🤓 你都在使用哪些硬件？ iPhone 6s Plus (Nana) MacBook Pro (Retina, 13-inch, Early 2015) (Anna)  软件呢？我喜欢精简，系统自带的软件足够好则优先使用；有免费开源的优先使用">
@@ -302,26 +302,25 @@
 <li><p><a href="https://brew.sh" target="_blank" rel="noopener"><strong>Homebrew</strong></a> (<code>/usr/local/Cellar/</code>)</p>
 <ul>
 <li><a href="https://www.python.org" target="_blank" rel="noopener"><strong>Python3</strong></a><ul>
+<li><code>pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code></li>
+<li><code>pip3 install &#39;python-language-server[all]&#39;</code></li>
 <li><code>pip3 install requests</code></li>
-<li><code>pip3 install bs4</code></li>
-<li><code>pip3 install mysqlclient</code> (先安装MySQL)</li>
-<li><code>pip3 install you-get</code></li>
-<li><code>pip3 install Django</code></li>
-<li><code>pip3 install scrapy</code></li>
-<li><code>pip3 install openpyxl</code></li>
-<li><code>pip3 install xlutils</code></li>
-<li><code>pip3 install pandas</code></li>
-<li><code>pip3 install matplotlib</code></li>
-<li><code>pip3 install pygame</code></li>
-<li><code>pip3 install flake8</code></li>
-<li><code>pip3 install --upgrade --pre CodeIntel</code></li>
+<li><code>bs4</code></li>
+<li><code>you-get</code></li>
+<li><code>mysqlclient</code> (先安装MySQL)</li>
+<li><code>django</code></li>
+<li><code>scrapy</code></li>
+<li><code>openpyxl</code></li>
+<li><code>pandas</code></li>
+<li><code>xlutils</code></li>
+<li><code>matplotlib</code></li>
+<li><code>pygame</code></li>
 </ul>
 </li>
-<li><a href="https://www.rust-lang.org" target="_blank" rel="noopener"><strong>Rust</strong></a></li>
 <li><a href="https://www.gnu.org/software/wget" target="_blank" rel="noopener">wget</a></li>
 <li><a href="https://tldr.sh" target="_blank" rel="noopener">tldr</a></li>
 <li><a href="http://mama.indstate.edu/users/ice/tree" target="_blank" rel="noopener">tree</a></li>
-<li><a href="https://httpie.org" target="_blank" rel="noopener">HTTPie</a></li>
+<li><a href="https://httpie.org" target="_blank" rel="noopener">httpie</a></li>
 <li><a href="https://ffmpeg.org" target="_blank" rel="noopener">ffmpeg</a> (<a href="https://blog.ykqmain.com/ffmpeg" target="_blank">FFmpeg笔记</a>)<ul>
 <li><code>brew tap homebrew-ffmpeg/ffmpeg</code></li>
 <li><code>brew install homebrew-ffmpeg/ffmpeg/ffmpeg</code></li>
@@ -345,7 +344,7 @@
 </li>
 </ul>
 </li>
-<li><p>情怀 <a href="https://www.mozilla.org/en-US/firefox/all/#product-desktop-release" target="_blank" rel="noopener">Firefox Developer Edition</a></p>
+<li><p>情怀 <a href="https://www.mozilla.org/en-US/firefox/all/#product-desktop-release" target="_blank" rel="noopener">Firefox</a></p>
 <ul>
 <li><a href="https://github.com/gorhill/uBlock" target="_blank" rel="noopener">uBlock Origin</a></li>
 </ul>
@@ -359,47 +358,53 @@
 </li>
 <li><p>编辑器:</p>
 <ul>
-<li><p><a href="https://www.vim.org" target="_blank" rel="noopener">Vim</a> (备用)<br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/vim.png!sy" alt=""></p>
+<li><p><a href="https://www.vim.org" target="_blank" rel="noopener">Vim</a><br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/vim.png!sy" alt=""></p>
 </li>
 <li><p><a href="https://www.sublimetext.com" target="_blank" rel="noopener"><strong>Sublime Text</strong></a> (主要)<br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/sublime.png!sy" alt=""></p>
 <ul>
 <li><em>Package Control</em> (../Installed Packages/)</li>
 <li><em>Plugin</em> (./Packages/)<ul>
-<li>FileIcons</li>
+<li>A File Icon</li>
 <li>BracketHighlighter</li>
-<li>SideBarEnhancements</li>
-<li>PackageResourceViewer (修改Sublime默认包资源)</li>
 <li>Emmet</li>
-<li>SublimeCodeIntel</li>
-<li>SublimeLinter<ul>
-<li>SublimeLinter-flake8<br><br></li>
-</ul>
-</li>
+<li>LSP</li>
+<li>Package Control</li>
+<li>PackageResourceViewer (修改Sublime默认包资源)</li>
+<li>SideBarEnhancements<br><br></li>
 </ul>
 </li>
 <li>字体 <a href="https://github.com/adobe-fonts/source-code-pro" target="_blank" rel="noopener"><strong>SourceCodePro-Regular 14</strong></a></li>
 <li>主题 <strong>Mariana</strong><br><br></li>
 </ul>
 </li>
-<li><em>为什么不是Atom或者VSCode？</em> 曾经非常喜欢Atom，然而兜兜转转，还是回到了Sublime。我认为编辑器和IDE应该分工明确，一个快而准，一个大而全，各司其职。对于一个编辑器，快是非常重要的点，基于Electron构建的软件，速度和性能可能不足。当然对于其他类型的软件我还是很喜欢的，比如<code>Postman</code>和<code>draw.io</code>。<br><br></li>
+<li><a href="https://code.visualstudio.com" target="_blank" rel="noopener"><strong>Visual Studio Code</strong></a> (加插件打造IDE，穷人最好的选择)<ul>
+<li><em>Plugin</em><ul>
+<li>Chinese (Simplified) Language Pack</li>
+<li>Mariana Pro<br><br></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p>IDE:</p>
 <ul>
 <li>Xcode [App Store]</li>
-<li><a href="https://www.eclipse.org/downloads/packages/" target="_blank" rel="noopener"><strong>Eclipse</strong></a><br><br></li>
-<li><em>为什么不是IntelliJ IDEA？</em> 凭心而论，Java的复杂和啰嗦，基本上可以说是必须IDE的帮助了。其他的语言还能用编辑器撸一撸，Java不行。<br>至于为什么选择了Eclipse，首先Eclipse就像老朋友，就在那里不离不弃，有感情了；<br>然后Oracle将Java EE移交给Eclipse基金会，Java主要用的就是Java EE，IDEA社区版不能开发Java EE；<br>最后IDEA旗舰版太贵了，即使IDEA有某些优惠，即使还有某些破解，对我而言能不用破解版尽量不用，而且以我的水平，Eclipse和IDEA的差距不值每年1000多块钱。<br>可能我不太适合程序员吧，因为我是个念旧的人，思念的念。<br>(说了这么半天，大概就一个字，穷。)<br><br></li>
+<li><a href="https://www.jetbrains.com/idea/" target="_blank" rel="noopener">IntelliJ IDEA</a><br><br></li>
 </ul>
 </li>
+</ol>
+<p><br></p>
+<ol start="5">
 <li><p>Developer Tools:</p>
 <ul>
-<li><a href="https://devdocs.io" target="_blank" rel="noopener">DevDocs</a> (在线文档) [Web]</li>
+<li><a href="https://postwoman.io/cn/" target="_blank" rel="noopener">Postwoman</a> (REST API) [Web]</li>
 <li><a href="https://dbeaver.io" target="_blank" rel="noopener">DBeaver</a> (数据库)</li>
 <li><a href="https://www.sourcetreeapp.com" target="_blank" rel="noopener">Sourcetree</a> (Git)</li>
 <li><a href="https://cyberduck.io" target="_blank" rel="noopener">Cyberduck</a> (FTP)</li>
-<li><a href="https://www.getpostman.com" target="_blank" rel="noopener">Postman</a> (REST API)</li>
 <li><a href="https://www.wireshark.org" target="_blank" rel="noopener">Wireshark</a> (网络分析)</li>
-<li><a href="https://www.docker.com" target="_blank" rel="noopener">Docker</a> (应用容器)<br><br></li>
+<li><a href="https://www.docker.com" target="_blank" rel="noopener">Docker</a> (应用容器)</li>
+<li><a href="https://devdocs.io" target="_blank" rel="noopener">DevDocs</a> (在线文档) [Web]<br><br></li>
 </ul>
 </li>
 <li><p>笔记:</p>
