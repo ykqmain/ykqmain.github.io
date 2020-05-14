@@ -31,7 +31,7 @@
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/iOS1.PNG">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/iOS2.PNG">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/iOS3.PNG">
-<meta property="og:updated_time" content="2020-05-14T06:43:01.166Z">
+<meta property="og:updated_time" content="2020-05-14T06:50:34.441Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利器">
 <meta name="twitter:description" content="今天看到一个有意思的项目 利器社群计划 ，借此机会，我也分享一下自己使用的一些小工具…… Update: 2020-05 介绍昵称 秋风木叶，或 Yang。🤓 你都在使用哪些硬件？ iPhone 6s Plus (Nana) MacBook Pro (Retina, 13-inch, Early 2015) (Anna)  软件呢？我喜欢精简，系统自带的软件足够好则优先使用；有免费开源的优先使用">
@@ -330,15 +330,17 @@
 </li>
 <li><a href="https://www.rust-lang.org/zh-CN/" target="_blank" rel="noopener">Rust</a></li>
 <li><a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html" target="_blank" rel="noopener">JDK 1.8</a></li>
-<li><p><a href="https://dev.mysql.com/downloads/mysql" target="_blank" rel="noopener">MySQL 5.7</a></p>
-<ul>
+<li><a href="https://dev.mysql.com/downloads/mysql" target="_blank" rel="noopener">MySQL 5.7</a><ul>
 <li><code>/private/etc/my.cnf</code></li>
-<li><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br><span class="line"><span class="keyword">set</span> <span class="keyword">password</span> <span class="keyword">for</span> root@localhost = <span class="keyword">password</span>(<span class="string">''</span>);</span><br><span class="line"><span class="keyword">show</span> <span class="keyword">variables</span> <span class="keyword">like</span> <span class="string">'%char%'</span>;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">USER</span> <span class="string">'yang'</span>@<span class="string">'%'</span> <span class="keyword">IDENTIFIED</span> <span class="keyword">BY</span> <span class="string">''</span>;</span><br><span class="line"><span class="keyword">GRANT</span> ALL <span class="keyword">ON</span> *.* <span class="keyword">TO</span> <span class="string">'yang'</span>@<span class="string">'%'</span>;</span><br><span class="line"><span class="keyword">SHOW</span> <span class="keyword">GRANTS</span> <span class="keyword">FOR</span> <span class="string">'yang'</span>@<span class="string">'%'</span>;</span><br></pre></td></tr></table></figure>
-</li>
+<li><code>mysql -u root -p</code></li>
+<li><code>set password for root@localhost = password(&#39;&#39;);</code></li>
+<li><code>show variables like &#39;%char%&#39;;</code></li>
+<li><code>CREATE USER &#39;yang&#39;@&#39;%&#39; IDENTIFIED BY &#39;&#39;;</code></li>
+<li><code>GRANT ALL ON *.* TO &#39;yang&#39;@&#39;%&#39;;</code></li>
+<li><code>SHOW GRANTS FOR &#39;yang&#39;@&#39;%&#39;;</code></li>
 </ul>
 </li>
-<li><p><a href="https://maven.apache.org/download.cgi" target="_blank" rel="noopener">Maven</a></p>
-<ul>
+<li><a href="https://maven.apache.org/download.cgi" target="_blank" rel="noopener">Maven</a><ul>
 <li><code>/usr/local/apache-maven/conf/settings.xml</code></li>
 </ul>
 </li>
