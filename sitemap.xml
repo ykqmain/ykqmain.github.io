@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/excel/</loc>
+    
+    <lastmod>2020-07-02T10:42:28.782Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
     
-    <lastmod>2020-07-01T14:39:37.878Z</lastmod>
+    <lastmod>2020-07-02T10:41:46.949Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>https://blog.ykqmain.com/time/</loc>
     
     <lastmod>2020-06-22T13:11:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/excel/</loc>
-    
-    <lastmod>2020-06-04T12:38:10.000Z</lastmod>
     
   </url>
   
