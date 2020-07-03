@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2020-07-02T14:11:17.461Z</lastmod>
+    <lastmod>2020-07-03T00:29:26.737Z</lastmod>
     <data>
         <display>
         <title>利器</title>
@@ -660,11 +660,11 @@
         
         <tag>Linux</tag>
          
-        <tag>Web</tag>
-         
         <tag>Flask</tag>
          
         <tag>Python</tag>
+         
+        <tag>Web</tag>
          
         <tag>http</tag>
          
@@ -778,9 +778,9 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
         <tag>Apache</tag>
+         
+        <tag>Mac</tag>
          
         <tag>服务器</tag>
          
