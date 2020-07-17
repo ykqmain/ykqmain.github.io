@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2020-07-13T08:37:33.151Z</lastmod>
+    <lastmod>2020-07-17T02:42:57.656Z</lastmod>
     <data>
         <display>
         <title>利器</title>
@@ -24,6 +24,36 @@
         <tag>Software</tag>
          
         <tag>APP</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.ykqmain.com/apple/</loc>
+    <lastmod>2020-07-16T06:53:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>Apple相关</title>
+        <pubTime>2016-09-03T16:00:00.000Z</pubTime>
+        
+        <tag>Apple</tag>
+         
+        <tag>Mac</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>OS X</tag>
+         
+        <tag>iPhone</tag>
+         
+        <tag>iOS</tag>
          
          
            
@@ -253,36 +283,6 @@
         <tag>Nginx</tag>
          
         <tag>Git</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/apple/</loc>
-    <lastmod>2020-04-10T07:55:59.000Z</lastmod>
-    <data>
-        <display>
-        <title>Apple相关</title>
-        <pubTime>2016-09-03T16:00:00.000Z</pubTime>
-        
-        <tag>Apple</tag>
-         
-        <tag>Mac</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>OS X</tag>
-         
-        <tag>iPhone</tag>
-         
-        <tag>iOS</tag>
          
          
            
@@ -752,9 +752,9 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
-        <tag>Apache</tag>
-         
         <tag>Mac</tag>
+         
+        <tag>Apache</tag>
          
         <tag>服务器</tag>
          
