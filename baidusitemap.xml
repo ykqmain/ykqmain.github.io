@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2020-07-18T10:56:20.695Z</lastmod>
+    <lastmod>2020-07-18T12:09:32.638Z</lastmod>
     <data>
         <display>
         <title>利器</title>
@@ -87,36 +87,6 @@
            
              
               <breadCrumb title="编程" url="https://blog.ykqmain.com/categories/%E7%BC%96%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/rssjs/</loc>
-    <lastmod>2020-06-27T09:42:42.000Z</lastmod>
-    <data>
-        <display>
-        <title>RSS的互联网精神</title>
-        <pubTime>2020-03-09T16:00:00.000Z</pubTime>
-        
-        <tag>软件</tag>
-         
-        <tag>RSS</tag>
-         
-        <tag>互联网</tag>
-         
-        <tag>工具</tag>
-         
-        <tag>Software</tag>
-         
-        <tag>APP</tag>
-         
-         
-           
-             
-              <breadCrumb title="网络" url="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
           
         </display>
     </data>
@@ -754,9 +724,9 @@
         
         <tag>Apache</tag>
          
-        <tag>服务器</tag>
-         
         <tag>Mac</tag>
+         
+        <tag>服务器</tag>
          
         <tag>Web</tag>
          
