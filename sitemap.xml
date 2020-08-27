@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ykqmain.com/nginx/</loc>
+    
+    <lastmod>2020-08-27T10:52:37.569Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/mamp/</loc>
+    
+    <lastmod>2020-08-27T10:52:33.972Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/hadoop/</loc>
+    
+    <lastmod>2020-08-27T10:52:29.036Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/kafka/</loc>
+    
+    <lastmod>2020-08-27T10:52:25.900Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/hexo/</loc>
+    
+    <lastmod>2020-08-27T10:48:52.715Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/xue/</loc>
     
     <lastmod>2020-08-27T10:38:40.394Z</lastmod>
@@ -68,13 +103,6 @@
     <loc>https://blog.ykqmain.com/program/</loc>
     
     <lastmod>2020-04-24T13:28:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/hexo/</loc>
-    
-    <lastmod>2020-04-10T08:19:21.000Z</lastmod>
     
   </url>
   
@@ -163,13 +191,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/beipiao/</loc>
-    
-    <lastmod>2020-04-10T07:11:41.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.ykqmain.com/mysql/</loc>
     
     <lastmod>2020-04-10T07:10:16.000Z</lastmod>
@@ -184,30 +205,9 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/kafka/</loc>
-    
-    <lastmod>2020-04-10T07:08:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.ykqmain.com/clouddisk/</loc>
     
     <lastmod>2020-04-10T07:08:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/hadoop/</loc>
-    
-    <lastmod>2020-04-10T07:08:24.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/mamp/</loc>
-    
-    <lastmod>2020-04-10T07:08:10.000Z</lastmod>
     
   </url>
   
@@ -222,13 +222,6 @@
     <loc>https://blog.ykqmain.com/nasm/</loc>
     
     <lastmod>2020-04-10T07:07:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/nginx/</loc>
-    
-    <lastmod>2020-04-10T07:05:42.000Z</lastmod>
     
   </url>
   

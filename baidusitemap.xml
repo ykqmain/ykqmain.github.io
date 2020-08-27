@@ -4,6 +4,150 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/nginx/</loc>
+    <lastmod>2020-08-27T10:52:37.569Z</lastmod>
+    <data>
+        <display>
+        <title>Nginx安装</title>
+        <pubTime>2016-06-07T16:00:00.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>服务器</tag>
+         
+        <tag>Nginx</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.ykqmain.com/mamp/</loc>
+    <lastmod>2020-08-27T10:52:33.972Z</lastmod>
+    <data>
+        <display>
+        <title>Mac的Apache+MySQL+PHP配置</title>
+        <pubTime>2016-10-09T16:00:00.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+        <tag>Apache</tag>
+         
+        <tag>服务器</tag>
+         
+        <tag>Web</tag>
+         
+        <tag>数据库</tag>
+         
+        <tag>MySQL</tag>
+         
+        <tag>PHP</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.ykqmain.com/hadoop/</loc>
+    <lastmod>2020-08-27T10:52:29.036Z</lastmod>
+    <data>
+        <display>
+        <title>Hadoop完全分布式搭建</title>
+        <pubTime>2017-06-26T16:00:00.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>大数据</tag>
+         
+        <tag>Hadoop</tag>
+         
+        <tag>CentOS</tag>
+         
+        <tag>Java</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.ykqmain.com/kafka/</loc>
+    <lastmod>2020-08-27T10:52:25.900Z</lastmod>
+    <data>
+        <display>
+        <title>Apache Kafka安装</title>
+        <pubTime>2019-07-17T16:00:00.000Z</pubTime>
+        
+        <tag>Apache</tag>
+         
+        <tag>Kafka</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>日志</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>ELK</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.ykqmain.com/hexo/</loc>
+    <lastmod>2020-08-27T10:48:52.715Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo搭建博客</title>
+        <pubTime>2015-11-28T16:00:00.000Z</pubTime>
+        
+        <tag>Web</tag>
+         
+        <tag>Blog</tag>
+         
+        <tag>Hexo</tag>
+         
+        <tag>GitHub</tag>
+         
+        <tag>Markdown</tag>
+         
+        <tag>精神家园</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/xue/</loc>
     <lastmod>2020-08-27T10:38:40.394Z</lastmod>
     <data>
@@ -311,36 +455,6 @@
     
     
   <url>
-    <loc>https://blog.ykqmain.com/hexo/</loc>
-    <lastmod>2020-04-10T08:19:21.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo搭建博客</title>
-        <pubTime>2015-11-28T16:00:00.000Z</pubTime>
-        
-        <tag>Web</tag>
-         
-        <tag>Blog</tag>
-         
-        <tag>Hexo</tag>
-         
-        <tag>GitHub</tag>
-         
-        <tag>Markdown</tag>
-         
-        <tag>精神家园</tag>
-         
-         
-           
-             
-              <breadCrumb title="网络" url="https://blog.ykqmain.com/categories/%E7%BD%91%E7%BB%9C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://blog.ykqmain.com/future/</loc>
     <lastmod>2020-04-10T08:15:38.000Z</lastmod>
     <data>
@@ -404,13 +518,13 @@
         <title>Debian从0到0.5</title>
         <pubTime>2019-04-17T16:00:00.000Z</pubTime>
         
+        <tag>Apache</tag>
+         
         <tag>Linux</tag>
          
         <tag>Debian</tag>
          
         <tag>服务器</tag>
-         
-        <tag>Apache</tag>
          
         <tag>Nginx</tag>
          
@@ -697,42 +811,6 @@
 
     
   <url>
-    <loc>https://blog.ykqmain.com/beipiao/</loc>
-    <lastmod>2020-04-10T07:11:41.000Z</lastmod>
-    <data>
-        <display>
-        <title>北漂日记（多图预警）</title>
-        <pubTime>2019-10-14T16:00:00.000Z</pubTime>
-        
-        <tag>回忆</tag>
-         
-        <tag>人生</tag>
-         
-        <tag>随笔</tag>
-         
-        <tag>感想</tag>
-         
-        <tag>北京</tag>
-         
-        <tag>漂泊</tag>
-         
-        <tag>生活</tag>
-         
-        <tag>日记</tag>
-         
-        <tag>记录</tag>
-         
-         
-           
-             
-              <breadCrumb title="生活" url="https://blog.ykqmain.com/categories/%E7%94%9F%E6%B4%BB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://blog.ykqmain.com/mysql/</loc>
     <lastmod>2020-04-10T07:10:16.000Z</lastmod>
     <data>
@@ -742,9 +820,9 @@
         
         <tag>Mac</tag>
          
-        <tag>MySQL</tag>
-         
         <tag>数据库</tag>
+         
+        <tag>MySQL</tag>
          
          
            
@@ -787,36 +865,6 @@
 
     
   <url>
-    <loc>https://blog.ykqmain.com/kafka/</loc>
-    <lastmod>2020-04-10T07:08:51.000Z</lastmod>
-    <data>
-        <display>
-        <title>Apache Kafka安装</title>
-        <pubTime>2019-07-17T16:00:00.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Apache</tag>
-         
-        <tag>Kafka</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>日志</tag>
-         
-        <tag>ELK</tag>
-         
-         
-           
-             
-              <breadCrumb title="运维" url="https://blog.ykqmain.com/categories/%E8%BF%90%E7%BB%B4/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://blog.ykqmain.com/clouddisk/</loc>
     <lastmod>2020-04-10T07:08:46.000Z</lastmod>
     <data>
@@ -849,66 +897,6 @@
 
     
   <url>
-    <loc>https://blog.ykqmain.com/hadoop/</loc>
-    <lastmod>2020-04-10T07:08:24.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hadoop完全分布式搭建</title>
-        <pubTime>2017-06-26T16:00:00.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>大数据</tag>
-         
-        <tag>Hadoop</tag>
-         
-        <tag>CentOS</tag>
-         
-        <tag>Java</tag>
-         
-         
-           
-             
-              <breadCrumb title="运维" url="https://blog.ykqmain.com/categories/%E8%BF%90%E7%BB%B4/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/mamp/</loc>
-    <lastmod>2020-04-10T07:08:10.000Z</lastmod>
-    <data>
-        <display>
-        <title>Mac的Apache+MySQL+PHP配置</title>
-        <pubTime>2016-10-09T16:00:00.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-        <tag>服务器</tag>
-         
-        <tag>Apache</tag>
-         
-        <tag>Web</tag>
-         
-        <tag>MySQL</tag>
-         
-        <tag>数据库</tag>
-         
-        <tag>PHP</tag>
-         
-         
-           
-             
-              <breadCrumb title="运维" url="https://blog.ykqmain.com/categories/%E8%BF%90%E7%BB%B4/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://blog.ykqmain.com/hello/</loc>
     <lastmod>2020-04-10T07:07:58.000Z</lastmod>
     <data>
@@ -916,11 +904,11 @@
         <title>第一个网页</title>
         <pubTime>2015-11-20T16:00:00.000Z</pubTime>
         
+        <tag>Apache</tag>
+         
         <tag>Linux</tag>
          
         <tag>服务器</tag>
-         
-        <tag>Apache</tag>
          
         <tag>Web</tag>
          
@@ -952,30 +940,6 @@
            
              
               <breadCrumb title="编程" url="https://blog.ykqmain.com/categories/%E7%BC%96%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/nginx/</loc>
-    <lastmod>2020-04-10T07:05:42.000Z</lastmod>
-    <data>
-        <display>
-        <title>Nginx安装</title>
-        <pubTime>2016-06-07T16:00:00.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>服务器</tag>
-         
-        <tag>Nginx</tag>
-         
-         
-           
-             
-              <breadCrumb title="运维" url="https://blog.ykqmain.com/categories/%E8%BF%90%E7%BB%B4/"/>
           
         </display>
     </data>
