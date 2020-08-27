@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/xue/</loc>
-    <lastmod>2020-08-27T07:29:43.610Z</lastmod>
+    <lastmod>2020-08-27T09:14:07.401Z</lastmod>
     <data>
         <display>
         <title>学不可以已</title>
@@ -404,13 +404,13 @@
         <title>Debian从0到0.5</title>
         <pubTime>2019-04-17T16:00:00.000Z</pubTime>
         
+        <tag>Apache</tag>
+         
         <tag>Linux</tag>
          
         <tag>Debian</tag>
          
         <tag>服务器</tag>
-         
-        <tag>Apache</tag>
          
         <tag>Nginx</tag>
          
@@ -794,8 +794,6 @@
         <title>Apache Kafka安装</title>
         <pubTime>2019-07-17T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>Apache</tag>
          
         <tag>Kafka</tag>
@@ -803,6 +801,8 @@
         <tag>分布式</tag>
          
         <tag>日志</tag>
+         
+        <tag>Linux</tag>
          
         <tag>ELK</tag>
          
@@ -884,11 +884,11 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
+        <tag>Apache</tag>
+         
         <tag>Mac</tag>
          
         <tag>服务器</tag>
-         
-        <tag>Apache</tag>
          
         <tag>Web</tag>
          
@@ -916,11 +916,11 @@
         <title>第一个网页</title>
         <pubTime>2015-11-20T16:00:00.000Z</pubTime>
         
+        <tag>Apache</tag>
+         
         <tag>Linux</tag>
          
         <tag>服务器</tag>
-         
-        <tag>Apache</tag>
          
         <tag>Web</tag>
          
