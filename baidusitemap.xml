@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/time/</loc>
+    <lastmod>2020-10-10T02:42:53.216Z</lastmod>
+    <data>
+        <display>
+        <title>TimeLine</title>
+        <pubTime>2015-07-05T16:00:00.000Z</pubTime>
+        
+        <tag>回忆</tag>
+         
+        <tag>Blog</tag>
+         
+        <tag>童年</tag>
+         
+        <tag>少年</tag>
+         
+        <tag>青年</tag>
+         
+        <tag>人生</tag>
+         
+         
+           
+             
+              <breadCrumb title="其他" url="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
     <lastmod>2020-10-02T11:27:14.656Z</lastmod>
     <data>
@@ -393,36 +423,6 @@
            
              
               <breadCrumb title="编程" url="https://blog.ykqmain.com/categories/%E7%BC%96%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/time/</loc>
-    <lastmod>2020-06-22T13:11:42.000Z</lastmod>
-    <data>
-        <display>
-        <title>TimeLine</title>
-        <pubTime>2015-07-05T16:00:00.000Z</pubTime>
-        
-        <tag>回忆</tag>
-         
-        <tag>Blog</tag>
-         
-        <tag>童年</tag>
-         
-        <tag>少年</tag>
-         
-        <tag>青年</tag>
-         
-        <tag>人生</tag>
-         
-         
-           
-             
-              <breadCrumb title="其他" url="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
           
         </display>
     </data>
