@@ -73,15 +73,15 @@
         <title>利器</title>
         <pubTime>2016-01-03T16:00:00.000Z</pubTime>
         
+        <tag>工具</tag>
+         
+        <tag>软件</tag>
+         
         <tag>Apple</tag>
          
         <tag>Mac</tag>
          
         <tag>macOS</tag>
-         
-        <tag>工具</tag>
-         
-        <tag>软件</tag>
          
         <tag>Software</tag>
          
@@ -97,62 +97,6 @@
     </url>
 
     
-  <url>
-    <loc>https://blog.ykqmain.com/apple/</loc>
-    <lastmod>2020-07-16T06:53:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>Apple相关</title>
-        <pubTime>2016-09-03T16:00:00.000Z</pubTime>
-        
-        <tag>Apple</tag>
-         
-        <tag>Mac</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>OS X</tag>
-         
-        <tag>iPhone</tag>
-         
-        <tag>iOS</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>https://blog.ykqmain.com/hello/</loc>
-    <lastmod>2020-04-10T07:07:58.000Z</lastmod>
-    <data>
-        <display>
-        <title>第一个网页</title>
-        <pubTime>2015-11-20T16:00:00.000Z</pubTime>
-        
-        <tag>Web</tag>
-         
-        <tag>Linux</tag>
-         
-        <tag>Apache</tag>
-         
-        <tag>服务器</tag>
-         
-         
-           
-             
-              <breadCrumb title="编程" url="https://blog.ykqmain.com/categories/%E7%BC%96%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
     
     
