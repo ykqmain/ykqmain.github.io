@@ -4,6 +4,38 @@
 
     
   <url>
+    <loc>https://blog.ykqmain.com/twgx/</loc>
+    <lastmod>2020-10-25T07:17:34.607Z</lastmod>
+    <data>
+        <display>
+        <title>滕王阁序</title>
+        <pubTime>2020-10-23T16:00:00.000Z</pubTime>
+        
+        <tag>经典</tag>
+         
+        <tag>唐朝</tag>
+         
+        <tag>辞赋</tag>
+         
+        <tag>骈文</tag>
+         
+        <tag>抒情</tag>
+         
+        <tag>怀古</tag>
+         
+        <tag>励志</tag>
+         
+         
+           
+             
+              <breadCrumb title="其他" url="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.ykqmain.com/xue/</loc>
     <lastmod>2020-10-25T06:30:45.424Z</lastmod>
     <data>
@@ -177,9 +209,9 @@
         <title>Mac的Apache+MySQL+PHP配置</title>
         <pubTime>2016-10-09T16:00:00.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
         <tag>Apache</tag>
+         
+        <tag>Mac</tag>
          
         <tag>服务器</tag>
          
@@ -1096,40 +1128,6 @@
            
              
               <breadCrumb title="旅行" url="https://blog.ykqmain.com/categories/%E6%97%85%E8%A1%8C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.ykqmain.com/twgx/</loc>
-    <lastmod>2020-03-02T14:50:19.000Z</lastmod>
-    <data>
-        <display>
-        <title>滕王阁序</title>
-        <pubTime>2015-12-19T16:00:00.000Z</pubTime>
-        
-        <tag>经典</tag>
-         
-        <tag>唐朝</tag>
-         
-        <tag>辞赋</tag>
-         
-        <tag>骈文</tag>
-         
-        <tag>美景</tag>
-         
-        <tag>抒情</tag>
-         
-        <tag>怀古</tag>
-         
-        <tag>励志</tag>
-         
-         
-           
-             
-              <breadCrumb title="其他" url="https://blog.ykqmain.com/categories/%E5%85%B6%E4%BB%96/"/>
           
         </display>
     </data>
