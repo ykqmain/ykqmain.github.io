@@ -27,7 +27,7 @@
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/Terminal.png!sy">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/Sublime.png!sy">
 <meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/GP-1163.JPG">
-<meta property="og:updated_time" content="2021-04-13T12:56:37.184Z">
+<meta property="og:updated_time" content="2021-04-13T13:24:38.424Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利器">
 <meta name="twitter:description" content="今天看到一个有意思的项目 利器社群计划 ，借此机会，我也分享一下自己使用的一些小工具…… Update: 2021-04 介绍昵称 秋风木叶，或 Yang。🤓 你都在使用哪些硬件？ MacBook Pro (13-inch, M1, 2020) (16+256) [Anna] iPhone 12 [Nana]  软件呢？我喜欢精简，系统自带的软件足够好则优先使用；有免费开源的优先使用；最后才是买">
@@ -242,7 +242,8 @@
 <p><strong>macOS 11 (Big Sur)</strong></p>
 <p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/macOS11.png!sy" alt=""></p>
 <ol>
-<li><p>神器：<strong>终端</strong> (Terminal.app)<br> <img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/Terminal.png!sy" alt=""></p>
+<li><p>神器：<strong>终端</strong> (Terminal.app)</p>
+<p> <img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/Terminal.png!sy" alt=""></p>
 <ul>
 <li><p><em>为什么不是<a href="https://www.iterm2.com" target="_blank" rel="noopener">iTerm2</a>？</em> iTerm2目前唯一的问题就是不能识别macOS的替身文件夹，需要用<code>ln</code>命令代替，除此之外比自带的终端好用。至于为什么不选择它，即使我很怀念iTerm2的选中复制右键粘贴功能，但我确实不需要那么多的功能。</p>
 </li>
@@ -250,11 +251,10 @@
 </li>
 <li><p>终端代理</p>
 <ul>
-<li><code>export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890</code></li>
+<li><code>export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890</code><br><br></li>
 </ul>
 </li>
-<li><p><a href="http://ohmyz.sh" target="_blank" rel="noopener"><strong>oh-my-zsh</strong></a></p>
-<ul>
+<li><a href="http://ohmyz.sh" target="_blank" rel="noopener"><strong>oh-my-zsh</strong></a><ul>
 <li><a href="https://github.com/zsh-users/zsh-syntax-highlighting" target="_blank" rel="noopener">zsh-syntax-highlighting</a><ul>
 <li><code>git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting</code></li>
 </ul>
@@ -269,13 +269,12 @@
 </li>
 <li>权限问题<ul>
 <li><code>chmod 755 /usr/local/share/zsh</code></li>
-<li><code>chmod 755 /usr/local/share/zsh/site-functions</code></li>
+<li><code>chmod 755 /usr/local/share/zsh/site-functions</code><br><br></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p><a href="https://brew.sh" target="_blank" rel="noopener"><strong>Homebrew</strong></a> (<code>/opt/homebrew</code>)</p>
-<ul>
+<li><a href="https://brew.sh" target="_blank" rel="noopener"><strong>Homebrew</strong></a> (<code>/opt/homebrew</code>)<ul>
 <li><a href="https://www.gnu.org/software/wget" target="_blank" rel="noopener">wget</a></li>
 <li><a href="http://mama.indstate.edu/users/ice/tree" target="_blank" rel="noopener">tree</a></li>
 <li><a href="https://tldr.sh" target="_blank" rel="noopener">tldr</a><ul>
@@ -283,11 +282,10 @@
 </ul>
 </li>
 <li><a href="https://ffmpeg.org" target="_blank" rel="noopener">ffmpeg</a></li>
-<li><a href="https://you-get.org" target="_blank" rel="noopener">you-get</a></li>
+<li><a href="https://you-get.org" target="_blank" rel="noopener">you-get</a><br><br></li>
 </ul>
 </li>
-<li><p><a href="https://www.python.org" target="_blank" rel="noopener"><strong>Python</strong></a></p>
-<ul>
+<li><a href="https://www.python.org" target="_blank" rel="noopener"><strong>Python</strong></a><ul>
 <li>缓存目录 <code>~/Library/Caches/pip</code></li>
 <li><code>pip3 config set global.index-url https://pypi.doubanio.com/simple</code><ul>
 <li>requests</li>
@@ -300,31 +298,27 @@
 <li>Django</li>
 <li>Flask</li>
 <li>fastapi</li>
-<li>uvicorn</li>
+<li>uvicorn<br><br></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">Node.js</a></p>
-<ul>
+<li><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">Node.js</a><ul>
 <li><code>sudo chown -R $(whoami) /usr/local/lib/node_modules</code></li>
 <li><code>npm config set registry https://registry.npm.taobao.org</code><ul>
 <li><code>npm install n -g</code></li>
 <li><code>npm install hexo-cli -g</code></li>
-<li><code>npm list -g --depth 0</code></li>
+<li><code>npm list -g --depth 0</code><br><br></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p><a href="https://adoptopenjdk.net" target="_blank" rel="noopener">AdoptOpenJDK</a></p>
-</li>
-<li><p><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">MySQL</a></p>
-<ul>
+<li><a href="https://adoptopenjdk.net" target="_blank" rel="noopener">AdoptOpenJDK</a></li>
+<li><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">MySQL</a><ul>
 <li><code>/private/etc/my.cnf</code></li>
 </ul>
 </li>
-<li><p><a href="https://www.rust-lang.org/zh-CN/" target="_blank" rel="noopener"><del>Rust</del></a> (从入门到放弃)<br><br></p>
-</li>
+<li><a href="https://www.rust-lang.org/zh-CN/" target="_blank" rel="noopener"><del>Rust</del></a> (从入门到放弃)<br><br></li>
 </ul>
 </li>
 <li><p>浏览器</p>
@@ -349,19 +343,17 @@
 <ul>
 <li><p><a href="https://www.sublimetext.com" target="_blank" rel="noopener"><strong>Sublime Text</strong></a><br>  <img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/liqi/Sublime.png!sy" alt=""></p>
 <ul>
-<li><p><strong><em>Plugins</em></strong> (<code>~/Library/Application Support/Sublime Text/Packages</code>)</p>
-<ul>
+<li><strong><em>Plugins</em></strong> (<code>~/Library/Application Support/Sublime Text/Packages</code>)<ul>
 <li>BracketHighlighter</li>
 <li>Color Highlight</li>
 <li>Emmet</li>
 <li>FileIcons</li>
 <li><em>Package Control</em></li>
 <li>PackageResourceViewer</li>
-<li>SideBarEnhancements</li>
+<li>SideBarEnhancements<br><br></li>
 </ul>
 </li>
-<li><p>字体 <a href="https://github.com/adobe-fonts/source-code-pro" target="_blank" rel="noopener"><strong>SourceCodePro-Regular 14</strong></a></p>
-</li>
+<li>字体 <a href="https://github.com/adobe-fonts/source-code-pro" target="_blank" rel="noopener"><strong>SourceCodePro-Regular 14</strong></a></li>
 <li>主题 <strong>Mariana</strong></li>
 </ul>
 </li>
