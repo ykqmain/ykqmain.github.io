@@ -4,22 +4,22 @@
 
     
   <url>
-    <loc>https://blog.ykqmain.com/linux/</loc>
-    <lastmod>2021-04-20T13:27:07.557Z</lastmod>
+    <loc>https://blog.ykqmain.com/CS/</loc>
+    <lastmod>2021-04-20T14:23:49.827Z</lastmod>
     <data>
         <display>
-        <title>Debian</title>
-        <pubTime>2019-04-17T16:00:00.000Z</pubTime>
+        <title>计算机之路</title>
+        <pubTime>2021-04-19T16:00:00.000Z</pubTime>
         
-        <tag>Linux</tag>
+        <tag>计算机</tag>
          
-        <tag>Debian</tag>
+        <tag>编程</tag>
          
-        <tag>服务器</tag>
+        <tag>回忆</tag>
          
-        <tag>Apache</tag>
+        <tag>Blog</tag>
          
-        <tag>Nginx</tag>
+        <tag>TimeLine</tag>
          
          
            
@@ -33,7 +33,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2021-04-20T12:33:41.818Z</lastmod>
+    <lastmod>2021-04-20T14:16:28.987Z</lastmod>
     <data>
         <display>
         <title>利器</title>
@@ -52,6 +52,34 @@
         <tag>iOS</tag>
          
         <tag>APP</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.ykqmain.com/linux/</loc>
+    <lastmod>2021-04-20T13:27:07.557Z</lastmod>
+    <data>
+        <display>
+        <title>Debian</title>
+        <pubTime>2019-04-17T16:00:00.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Debian</tag>
+         
+        <tag>服务器</tag>
+         
+        <tag>Apache</tag>
+         
+        <tag>Nginx</tag>
          
          
            
