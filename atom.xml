@@ -50,4 +50,38 @@
     
   </entry>
   
+  <entry>
+    <title>第一个网页</title>
+    <link href="https://blog.ykqmain.com/hello/"/>
+    <id>https://blog.ykqmain.com/hello/</id>
+    <published>2015-11-24T16:00:00.000Z</published>
+    <updated>2021-04-20T12:30:05.315Z</updated>
+    
+    <content type="html"><![CDATA[<p>假设已经拥有了一台服务器（<strong>系统为CentOS 6</strong>），需要知道 IP、端口（SSH Port）、密码。</p><ul><li>打开<code>终端</code>，登录服务器：<code>ssh -p 端口 root@IP</code></li></ul><ul><li>输入密码</li></ul><a id="more"></a><p><br></p><h2 id="安装Apache"><a href="#安装Apache" class="headerlink" title="安装Apache"></a>安装Apache</h2><ol><li><p>安装方式<br>CentOS安装Apache服务可以有两种方式，一种是用yum安装，一种是从官网下载源代码进行安装。这里使用yum安装。</p></li><li><p>输入<code>sudo yum install httpd -y</code><br>（采用该方式进行安装配置文件的默认路径为：<code>/etc/httpd/conf/httpd.conf</code>）</p></li><li><p>编辑配置文件，输入<code>vi /etc/httpd/conf/httpd.conf</code></p></li><li><p>找到如下内容<code>#ServerName www.example.com:80</code>，改为<code>ServerName localhost:80</code></p></li><li><p>重启一下Apache，<code>service httpd restart</code>即可。</p><p>常见Apache操作：</p><ul><li><code>service httpd start</code> 启动</li><li><code>service httpd stop</code> 停止</li><li><code>service httpd restart</code> 重启</li><li><code>service httpd status</code>  状态</li></ul></li><li><p>测试是否安装成功，在本地的浏览器中输入<code>http://IP</code> ，如果出现 <code>Apache 2 Test Page powered by CentOS</code>，说明成功。</p><p>如果出现错误，那就可能是iptables的问题：</p><p>编辑 iptables配置，<code>vi /etc/sysconfig/iptables</code> ，</p><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-A INPUT -m <span class="keyword">state</span> --state NEW -m tcp -p tcp --dport <span class="number">80</span> -j ACCEPT</span><br><span class="line">-A INPUT -m <span class="keyword">state</span> --state NEW -m tcp -p tcp --dport <span class="number">443</span> -j ACCEPT</span><br></pre></td></tr></table></figure><p>然后重启iptables、Apache。</p><p>常见iptables操作：</p><ul><li><code>service iptables status</code> 查看当前规则</li><li><code>service iptables restart</code> 重启</li><li><code>service iptables stop</code> 禁用</li></ul></li></ol><p><strong>最后设置Apache开机自启 <code>chkconfig iptables on</code></strong></p><p>//参考：<a href="http://www.linuxidc.com/Linux/2014-01/95256.htm" target="_blank" rel="noopener">CentOS Apache服务器安装与配置</a><br><br></p><h2 id="安装MySQL"><a href="#安装MySQL" class="headerlink" title="安装MySQL"></a>安装MySQL</h2><ol><li><p>安装方式<br>仍然是通过yum安装，查看版本信息<code>yum list | grep mysql</code> ，安装<code>yum install -y mysql-server mysql mysql-deve</code> ，查看安装好的版本<code>rpm -qi mysql-server</code> 。</p></li><li><p>通过<code>service mysqld start</code> 命令启动mysql服务。</p></li><li><p>第一次会提示很多信息，重启mysql <code>service mysqld restart</code></p></li><li><p><strong>最后设置MySQL开机自启 <code>chkconfig mysqld on</code></strong><br>（配置文件在 <code>/etc/my.cnf</code>）<br><br></p></li></ol><hr><p><br></p><p>回到本地，编辑或创建一个名为 <code>index.html</code> 的文件，这个HTML文件就是首页。HTML中的多媒体的路径要用<strong>服务器上的相对路径</strong>或者<strong>外链</strong>。</p><p><strong>将这个<code>index.html</code>送到服务器上的<code>/var/www/html</code>目录下即可</strong>，在本地和服务器传文件有很多方法，比如：scp、ftp、sftp…</p><ul><li>scp的方法：<code>scp -P 端口 本地文件路径 root@IP:服务器路径</code></li></ul><p>在浏览器输入服务器IP或者域名就可以看到最新成果。<br><br></p><p><strong>Enjoy it!</strong></p><p><br><br></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;假设已经拥有了一台服务器（&lt;strong&gt;系统为CentOS 6&lt;/strong&gt;），需要知道 IP、端口（SSH Port）、密码。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;打开&lt;code&gt;终端&lt;/code&gt;，登录服务器：&lt;code&gt;ssh -p 端口 root@IP&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;输入密码&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="计算机" scheme="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+      <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
+    
+      <category term="Linux" scheme="https://blog.ykqmain.com/tags/Linux/"/>
+    
+      <category term="Apache" scheme="https://blog.ykqmain.com/tags/Apache/"/>
+    
+      <category term="服务器" scheme="https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
 </feed>
