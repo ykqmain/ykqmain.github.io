@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 
 
-  <html class="dark page-post">
+  <html class="dark page-categoriesWeb">
 
 
 <head>
   <meta charset="utf-8">
   
-  <title>第一个网页 | iAnna</title>
+  <title>Category: Web | iAnna</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="Linux,服务器,Apache,Web," />
+    <meta name="keywords" content="iAnna" />
   
 
-  <meta name="description" content="假设已经拥有了一台服务器（系统为CentOS 6），需要知道 IP、端口（SSH Port）、密码。  打开终端，登录服务器：ssh -p 端口 root@IP   输入密码">
-<meta name="keywords" content="Linux,服务器,Apache,Web">
-<meta property="og:type" content="article">
-<meta property="og:title" content="第一个网页">
-<meta property="og:url" content="https://blog.ykqmain.com/hello/index.html">
+  <meta name="description" content="理工通以自足，文史晓以怡情。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="iAnna">
+<meta property="og:url" content="https://blog.ykqmain.com/categories/Web/index.html">
 <meta property="og:site_name" content="iAnna">
-<meta property="og:description" content="假设已经拥有了一台服务器（系统为CentOS 6），需要知道 IP、端口（SSH Port）、密码。  打开终端，登录服务器：ssh -p 端口 root@IP   输入密码">
+<meta property="og:description" content="理工通以自足，文史晓以怡情。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2021-04-20T15:45:12.831Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="第一个网页">
-<meta name="twitter:description" content="假设已经拥有了一台服务器（系统为CentOS 6），需要知道 IP、端口（SSH Port）、密码。  打开终端，登录服务器：ssh -p 端口 root@IP   输入密码">
+<meta name="twitter:title" content="iAnna">
+<meta name="twitter:description" content="理工通以自足，文史晓以怡情。">
 
   
 
@@ -87,8 +85,17 @@
     <span id="toolbox-mobile" class="toolbox-mobile">地图</span>
   
 
-  <div class="post-header CENTER">
-   
+  <div class="content content-category">
+  <div class="page-header">
+
+  
+    <div class="breadcrumb">
+      <div class="location">分类</div>
+      <i class="icon-location"></i>
+    </div>
+  
+
+  
   <div class="toolbox">
     <a class="toolbox-entry" href="/">
       <span class="toolbox-entry-text">地图</span>
@@ -178,142 +185,116 @@
   </div>
 
 
+
+  <div class="box-blog-info">
+    <a class="avatar" href="/">
+      <img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/main/avatar.png" alt="" />
+    </a>
+    <div class="info">
+      <h3 class="name" style="font-family: Lobster-Regular">
+        iAnna
+      </h3>
+      <div class="slogan">
+        天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。
+      </div>
+    </div>
+  </div>
+
 </div>
 
-
-
-
-<div class="content content-post CENTER">
-   <article id="post-第一个网页" class="article article-type-post" itemprop="blogPost">
-  <header class="article-header">
-    <h1 class="post-title">第一个网页</h1>
-
-    <div class="article-meta">
-      <span>
-        <i class="icon-calendar"></i>
-        <span>2015.11.25</span>
-      </span>
-
-      
-        <span class="article-author">
-          <i class="icon-user"></i>
-          <span>秋风木叶</span>
-        </span>
-      
-
-      
-  <span class="article-category">
-    <i class="icon-list"></i>
-    <a class="article-category-link" href="/categories/Web/">Web</a>
-  </span>
-
-
-
-      
-
-      
-      <i class="fa fa-eye"></i> 
-        <span id="busuanzi_container_page_pv">
-           &nbsp热度 <span id="busuanzi_value_page_pv">
-           <i class="fa fa-spinner fa-spin"></i></span>℃
-        </span>
-      
-      
-    </div>
-  </header>
-
-  <div class="article-content">
+  <section class="category-box">
+  <div class="category-title">分类</div>
+  <div class="category-list">
     
-      <p>假设已经拥有了一台服务器（<strong>系统为CentOS 6</strong>），需要知道 IP、端口（SSH Port）、密码。</p>
-<ul>
-<li>打开<code>终端</code>，登录服务器：<code>ssh -p 端口 root@IP</code></li>
-</ul>
-<ul>
-<li>输入密码</li>
-</ul>
-<a id="more"></a>
-<p><br></p>
-<h2 id="安装Apache"><a href="#安装Apache" class="headerlink" title="安装Apache"></a>安装Apache</h2><ol>
-<li><p>安装方式<br>CentOS安装Apache服务可以有两种方式，一种是用yum安装，一种是从官网下载源代码进行安装。这里使用yum安装。</p>
-</li>
-<li><p>输入<code>sudo yum install httpd -y</code><br>（采用该方式进行安装配置文件的默认路径为：<code>/etc/httpd/conf/httpd.conf</code>）</p>
-</li>
-<li><p>编辑配置文件，输入<code>vi /etc/httpd/conf/httpd.conf</code></p>
-</li>
-<li><p>找到如下内容<code>#ServerName www.example.com:80</code>，改为<code>ServerName localhost:80</code></p>
-</li>
-<li><p>重启一下Apache，<code>service httpd restart</code>即可。</p>
-<p>常见Apache操作：</p>
-<ul>
-<li><code>service httpd start</code> 启动</li>
-<li><code>service httpd stop</code> 停止</li>
-<li><code>service httpd restart</code> 重启</li>
-<li><code>service httpd status</code>  状态</li>
-</ul>
-</li>
-<li><p>测试是否安装成功，在本地的浏览器中输入<code>http://IP</code> ，如果出现 <code>Apache 2 Test Page powered by CentOS</code>，说明成功。</p>
-<p>如果出现错误，那就可能是iptables的问题：</p>
-<p>编辑 iptables配置，<code>vi /etc/sysconfig/iptables</code> ，</p>
-<figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-A INPUT -m <span class="keyword">state</span> --state NEW -m tcp -p tcp --dport <span class="number">80</span> -j ACCEPT</span><br><span class="line">-A INPUT -m <span class="keyword">state</span> --state NEW -m tcp -p tcp --dport <span class="number">443</span> -j ACCEPT</span><br></pre></td></tr></table></figure>
-<p>然后重启iptables、Apache。</p>
-<p>常见iptables操作：</p>
-<ul>
-<li><code>service iptables status</code> 查看当前规则</li>
-<li><code>service iptables restart</code> 重启</li>
-<li><code>service iptables stop</code> 禁用</li>
-</ul>
-</li>
-</ol>
-<p><strong>最后设置Apache开机自启 <code>chkconfig iptables on</code></strong></p>
-<p>//参考：<a href="http://www.linuxidc.com/Linux/2014-01/95256.htm" target="_blank" rel="noopener">CentOS Apache服务器安装与配置</a><br><br></p>
-<h2 id="安装MySQL"><a href="#安装MySQL" class="headerlink" title="安装MySQL"></a>安装MySQL</h2><ol>
-<li><p>安装方式<br>仍然是通过yum安装，查看版本信息<code>yum list | grep mysql</code> ，安装<code>yum install -y mysql-server mysql mysql-deve</code> ，查看安装好的版本<code>rpm -qi mysql-server</code> 。</p>
-</li>
-<li><p>通过<code>service mysqld start</code> 命令启动mysql服务。</p>
-</li>
-<li><p>第一次会提示很多信息，重启mysql <code>service mysqld restart</code></p>
-</li>
-<li><p><strong>最后设置MySQL开机自启 <code>chkconfig mysqld on</code></strong><br>（配置文件在 <code>/etc/my.cnf</code>）<br><br></p>
-</li>
-</ol>
-<hr>
-<p><br></p>
-<p>回到本地，编辑或创建一个名为 <code>index.html</code> 的文件，这个HTML文件就是首页。HTML中的多媒体的路径要用<strong>服务器上的相对路径</strong>或者<strong>外链</strong>。</p>
-<p><strong>将这个<code>index.html</code>送到服务器上的<code>/var/www/html</code>目录下即可</strong>，在本地和服务器传文件有很多方法，比如：scp、ftp、sftp…</p>
-<ul>
-<li>scp的方法：<code>scp -P 端口 本地文件路径 root@IP:服务器路径</code></li>
-</ul>
-<p>在浏览器输入服务器IP或者域名就可以看到最新成果。<br><br></p>
-<p><strong>Enjoy it!</strong></p>
-<p><br><br></p>
-
+      <a class="category-item" href="#Web">
+        <span class="category-name">Web</span>
+        <span class="category-size">( 1 )</span>
+      </a>
+    
+      <a class="category-item" href="#文章">
+        <span class="category-name">文章</span>
+        <span class="category-size">( 1 )</span>
+      </a>
+    
+      <a class="category-item" href="#计算机">
+        <span class="category-name">计算机</span>
+        <span class="category-size">( 2 )</span>
+      </a>
     
   </div>
+</section>
 
-</article>
+  <ul class="list-post"><li id="Web" class="item-category-name item-title item-title-0">
+  <!--
+    <a href="" class="text-year">
+   -->
+    Web
+    <span class="category-count">( 1 )</span>
+  <!--
+  </a>
+   -->
+</li>
+<li class="item-post item">
+  <span class="post-date">11-25</span>
+
+  
+  <a class="post-title" href="/hello/" rel="noopener noreferrer" target="_blank">第一个网页</a>
 
 
-   
+</li>
+<li id="文章" class="item-category-name item-title item-title-1">
+  <!--
+    <a href="" class="text-year">
+   -->
+    文章
+    <span class="category-count">( 1 )</span>
+  <!--
+  </a>
+   -->
+</li>
+<li class="item-post item">
+  <span class="post-date">04-20</span>
 
-   
-  <div class="box-prev-next clearfix">
-    <a class="hide pull-left" href="/">
-        <i class="icon icon-angle-left"></i>
-    </a>
-    <a class="show pull-right" href="/liqi/">
-        <i class="icon icon-angle-right"></i>
-    </a>
-  </div>
+  
+  <a class="post-title" href="/CS/" rel="noopener noreferrer" target="_blank">计算机之路</a>
 
 
+</li>
+<li id="计算机" class="item-category-name item-title item-title-2">
+  <!--
+    <a href="" class="text-year">
+   -->
+    计算机
+    <span class="category-count">( 2 )</span>
+  <!--
+  </a>
+   -->
+</li>
+<li class="item-post item">
+  <span class="post-date">04-18</span>
+
+  
+  <a class="post-title" href="/linux/" rel="noopener noreferrer" target="_blank">Debian</a>
 
 
+</li>
+<li class="item-post item">
+  <span class="post-date">01-04</span>
+
+  
+  <a class="post-title" href="/liqi/" rel="noopener noreferrer" target="_blank">利器</a>
+
+
+</li>
+</ul>
 </div>
 
 
   <a id="backTop" class="back-top">
     <i class="icon-angle-up"></i>
   </a>
+
+
 
 
 
@@ -412,24 +393,6 @@
 </div>
 
 
-
-  
-      <div class="fexo-comments comments-post">
-    
-
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-
-  </div>
 
   
 
