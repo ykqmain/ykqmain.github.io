@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/CS/</loc>
-    <lastmod>2021-04-20T15:21:05.948Z</lastmod>
+    <lastmod>2021-04-20T15:46:33.965Z</lastmod>
     <data>
         <display>
         <title>计算机之路</title>
@@ -24,6 +24,34 @@
          
            
              
+              <breadCrumb title="文章" url="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.ykqmain.com/linux/</loc>
+    <lastmod>2021-04-20T15:46:14.775Z</lastmod>
+    <data>
+        <display>
+        <title>Debian</title>
+        <pubTime>2019-04-17T16:00:00.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Debian</tag>
+         
+        <tag>服务器</tag>
+         
+        <tag>Apache</tag>
+         
+        <tag>Nginx</tag>
+         
+         
+           
+             
               <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
           
         </display>
@@ -33,7 +61,7 @@
     
   <url>
     <loc>https://blog.ykqmain.com/liqi/</loc>
-    <lastmod>2021-04-20T14:16:28.987Z</lastmod>
+    <lastmod>2021-04-20T15:45:18.712Z</lastmod>
     <data>
         <display>
         <title>利器</title>
@@ -64,53 +92,25 @@
 
     
   <url>
-    <loc>https://blog.ykqmain.com/linux/</loc>
-    <lastmod>2021-04-20T13:27:07.557Z</lastmod>
-    <data>
-        <display>
-        <title>Debian</title>
-        <pubTime>2019-04-17T16:00:00.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Apache</tag>
-         
-        <tag>服务器</tag>
-         
-        <tag>Debian</tag>
-         
-        <tag>Nginx</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://blog.ykqmain.com/hello/</loc>
-    <lastmod>2021-04-20T12:30:05.315Z</lastmod>
+    <lastmod>2021-04-20T15:45:12.831Z</lastmod>
     <data>
         <display>
         <title>第一个网页</title>
         <pubTime>2015-11-24T16:00:00.000Z</pubTime>
         
-        <tag>Web</tag>
-         
         <tag>Linux</tag>
+         
+        <tag>服务器</tag>
          
         <tag>Apache</tag>
          
-        <tag>服务器</tag>
+        <tag>Web</tag>
          
          
            
              
-              <breadCrumb title="计算机" url="https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+              <breadCrumb title="Web" url="https://blog.ykqmain.com/categories/Web/"/>
           
         </display>
     </data>
