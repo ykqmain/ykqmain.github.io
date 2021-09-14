@@ -15,18 +15,18 @@
     <meta name="keywords" content="Linux,Debian,服务器,Apache,Nginx," />
   
 
-  <meta name="description" content="大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次趁阿里云优惠尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么开始？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellXftp服务器：">
+  <meta name="description" content="大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次趁阿里云优惠尝试一下Debian练练手，记录折腾过程。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellXftp服务器：Debian 9.8 x64  登录ssh user@IP -p port  版本和">
 <meta name="keywords" content="Linux,Debian,服务器,Apache,Nginx">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Debian">
 <meta property="og:url" content="https://blog.ykqmain.com/linux/index.html">
 <meta property="og:site_name" content="iAnna">
-<meta property="og:description" content="大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次趁阿里云优惠尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么开始？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellXftp服务器：">
+<meta property="og:description" content="大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次趁阿里云优惠尝试一下Debian练练手，记录折腾过程。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellXftp服务器：Debian 9.8 x64  登录ssh user@IP -p port  版本和">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2021-04-20T15:46:14.000Z">
+<meta property="og:updated_time" content="2021-09-14T05:53:24.945Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Debian">
-<meta name="twitter:description" content="大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次趁阿里云优惠尝试一下Debian练练手。 拿到一个新的Linux机器，应该怎么开始？本文想从头记录Debian的折腾过程， 生命在于折腾。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellXftp服务器：">
+<meta name="twitter:description" content="大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次趁阿里云优惠尝试一下Debian练练手，记录折腾过程。 1234567891011本机：macOS 10.14.4终端.appCyberduckWindows 10XshellXftp服务器：Debian 9.8 x64  登录ssh user@IP -p port  版本和">
 
   
 
@@ -224,9 +224,7 @@
 
   <div class="article-content">
     
-      <p>大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次趁阿里云优惠尝试一下Debian练练手。</p>
-<p>拿到一个新的Linux机器，应该怎么开始？本文想从头记录<a href="https://www.debian.org" target="_blank" rel="noopener">Debian</a>的折腾过程，</p>
-<p>生命在于折腾。</p>
+      <p>大一的时候折腾过Windows和Ubuntu桌面版双系统，后来换了Mac，接触的Linux服务器一直是CentOS，所以这次趁阿里云优惠尝试一下<a href="https://www.debian.org" target="_blank" rel="noopener">Debian</a>练练手，记录折腾过程。</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">本机：</span><br><span class="line"><span class="selector-tag">macOS</span> 10<span class="selector-class">.14</span><span class="selector-class">.4</span></span><br><span class="line">终端<span class="selector-class">.app</span></span><br><span class="line"><span class="selector-tag">Cyberduck</span></span><br><span class="line"></span><br><span class="line"><span class="selector-tag">Windows</span> 10</span><br><span class="line"><span class="selector-tag">Xshell</span></span><br><span class="line"><span class="selector-tag">Xftp</span></span><br><span class="line"></span><br><span class="line">服务器：</span><br><span class="line"><span class="selector-tag">Debian</span> 9<span class="selector-class">.8</span> <span class="selector-tag">x64</span></span><br></pre></td></tr></table></figure>
 <p><br></p>
 <h2 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h2><p><code>ssh user@IP -p port</code></p>
@@ -433,7 +431,7 @@
 </ol>
 <p>与阿里云安全组规则对应，我开启了<code>22/tcp 1024/tcp 1126/tcp</code>四个端口，每次配置之后，运行<code>firewall-cmd --reload</code> 重新加载FirewallD使其生效。</p>
 <p><br></p>
-<h2 id="Systemd"><a href="#Systemd" class="headerlink" title="Systemd"></a>Systemd</h2><p>不知道从何时开始，发现Systemd真的很方便用于系统服务管理。</p>
+<h2 id="Systemd"><a href="#Systemd" class="headerlink" title="Systemd"></a>Systemd</h2><p>Systemd很方便用于系统服务管理。</p>
 <ol>
 <li><p>systemctl</p>
 <p> <code>systemctl</code>是Systemd的主命令，用于管理系统。</p>
@@ -559,10 +557,13 @@
 <p> <strong>注：</strong> perl运行准备</p>
 <ul>
 <li><code>echo &quot;export LC_ALL=C&quot; &gt;&gt; /root/.bashrc</code></li>
-<li><code>source /root/.bashrc</code></li>
+<li><code>source /root/.bashrc</code><br><br></li>
 </ul>
 </li>
 </ol>
+<blockquote>
+<p>生命在于折腾。</p>
+</blockquote>
 <p><br><br></p>
 
     
