@@ -101,14 +101,14 @@
 
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/Linux/</loc>
+    <loc>https://blog.ykqmain.com/tags/Web/</loc>
     <lastmod>2022-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/Debian/</loc>
+    <loc>https://blog.ykqmain.com/tags/Linux/</loc>
     <lastmod>2022-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -122,21 +122,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/Nginx/</loc>
-    <lastmod>2022-01-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2022-01-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/Web/</loc>
     <lastmod>2022-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -164,28 +150,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <loc>https://blog.ykqmain.com/tags/%E5%8A%9E%E5%85%AC/</loc>
     <lastmod>2022-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2022-01-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/</loc>
-    <lastmod>2022-01-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/TimeLine/</loc>
+    <loc>https://blog.ykqmain.com/tags/%E5%A8%B1%E4%B9%90/</loc>
     <lastmod>2022-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -228,6 +200,48 @@
   
   <url>
     <loc>https://blog.ykqmain.com/tags/APP/</loc>
+    <lastmod>2022-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <lastmod>2022-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2022-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/</loc>
+    <lastmod>2022-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/TimeLine/</loc>
+    <lastmod>2022-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/Debian/</loc>
+    <lastmod>2022-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/Nginx/</loc>
     <lastmod>2022-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
