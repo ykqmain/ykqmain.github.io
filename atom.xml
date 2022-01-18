@@ -40,13 +40,13 @@
     <category term="生活" scheme="https://blog.ykqmain.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-    <category term="编程" scheme="https://blog.ykqmain.com/tags/%E7%BC%96%E7%A8%8B/"/>
-    
-    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
-    
     <category term="博客" scheme="https://blog.ykqmain.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="2021" scheme="https://blog.ykqmain.com/tags/2021/"/>
+    
+    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+    
+    <category term="编程" scheme="https://blog.ykqmain.com/tags/%E7%BC%96%E7%A8%8B/"/>
     
     <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
     
@@ -79,11 +79,11 @@
     <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-    <category term="计算机" scheme="https://blog.ykqmain.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
     <category term="编程" scheme="https://blog.ykqmain.com/tags/%E7%BC%96%E7%A8%8B/"/>
     
-    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+    <category term="计算机" scheme="https://blog.ykqmain.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     <category term="TimeLine" scheme="https://blog.ykqmain.com/tags/TimeLine/"/>
     
@@ -117,9 +117,9 @@
     
     <category term="工具" scheme="https://blog.ykqmain.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="SoftWare" scheme="https://blog.ykqmain.com/tags/SoftWare/"/>
-    
     <category term="Windows" scheme="https://blog.ykqmain.com/tags/Windows/"/>
+    
+    <category term="SoftWare" scheme="https://blog.ykqmain.com/tags/SoftWare/"/>
     
     <category term="办公" scheme="https://blog.ykqmain.com/tags/%E5%8A%9E%E5%85%AC/"/>
     
@@ -183,13 +183,13 @@
     
     <category term="工具" scheme="https://blog.ykqmain.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
+    <category term="SoftWare" scheme="https://blog.ykqmain.com/tags/SoftWare/"/>
+    
     <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
     
     <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
     <category term="macOS" scheme="https://blog.ykqmain.com/tags/macOS/"/>
-    
-    <category term="SoftWare" scheme="https://blog.ykqmain.com/tags/SoftWare/"/>
     
     <category term="iPhone" scheme="https://blog.ykqmain.com/tags/iPhone/"/>
     
