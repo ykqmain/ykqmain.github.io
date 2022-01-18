@@ -175,6 +175,27 @@
   </url>
   
   <url>
+    <loc>https://blog.ykqmain.com/tags/Windows/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E5%8A%9E%E5%85%AC/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E5%A8%B1%E4%B9%90/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/tags/Linux/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -260,27 +281,6 @@
   
   <url>
     <loc>https://blog.ykqmain.com/tags/TimeLine/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/Windows/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E5%8A%9E%E5%85%AC/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E5%A8%B1%E4%B9%90/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
