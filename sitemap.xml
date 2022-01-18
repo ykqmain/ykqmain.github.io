@@ -110,35 +110,77 @@
 
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/Linux/</loc>
+    <loc>https://blog.ykqmain.com/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/Debian/</loc>
+    <loc>https://blog.ykqmain.com/tags/Windows/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/Apache/</loc>
+    <loc>https://blog.ykqmain.com/tags/SoftWare/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/Nginx/</loc>
+    <loc>https://blog.ykqmain.com/tags/%E5%8A%9E%E5%85%AC/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>https://blog.ykqmain.com/tags/%E5%A8%B1%E4%B9%90/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/Apple/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/Mac/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/macOS/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/iPhone/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/iOS/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/APP/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -180,77 +222,42 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://blog.ykqmain.com/tags/Web/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/Apple/</loc>
+    <loc>https://blog.ykqmain.com/tags/Linux/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/Mac/</loc>
+    <loc>https://blog.ykqmain.com/tags/Apache/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/macOS/</loc>
+    <loc>https://blog.ykqmain.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/SoftWare/</loc>
+    <loc>https://blog.ykqmain.com/tags/Debian/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/iPhone/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/iOS/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/APP/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/Windows/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E5%8A%9E%E5%85%AC/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E5%A8%B1%E4%B9%90/</loc>
+    <loc>https://blog.ykqmain.com/tags/Nginx/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -265,13 +272,6 @@
   
   <url>
     <loc>https://blog.ykqmain.com/tags/TimeLine/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/Web/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
