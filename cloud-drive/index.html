@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+
+
+  <html class="light page-post">
+
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>基于Hadoop的简单云盘 | iAnna</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="Linux,大数据,Hadoop,CentOS,Java,Tomcat,Eclipse," />
+  
+
+  <meta name="description" content="首先完成 hadoop完全分布式搭建 开发环境： 123456本机 macOS 10.12.5虚拟机 CentOS 6.9  ×3Hadoop 2.7.3JDK 1.8Tomcat 8.5.16IDE Eclipse Java EE IDE for Web Developers, Oxygen Release (4.7.0)   安装Tomcat下载Tomcat，我选择8.5.16的.tar.gz">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基于Hadoop的简单云盘">
+<meta property="og:url" content="https://blog.ykqmain.com/cloud-drive/index.html">
+<meta property="og:site_name" content="iAnna">
+<meta property="og:description" content="首先完成 hadoop完全分布式搭建 开发环境： 123456本机 macOS 10.12.5虚拟机 CentOS 6.9  ×3Hadoop 2.7.3JDK 1.8Tomcat 8.5.16IDE Eclipse Java EE IDE for Web Developers, Oxygen Release (4.7.0)   安装Tomcat下载Tomcat，我选择8.5.16的.tar.gz">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/1.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/2.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/3.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/4.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/5.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/6.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/7.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/8.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/9.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/10.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/11.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/12.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/13.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/14.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/15.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/16.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/17.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/18.png!xsy">
+<meta property="og:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/19.png!sy">
+<meta property="article:published_time" content="2017-07-01T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-01-19T15:35:18.205Z">
+<meta property="article:author" content="秋风木叶">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="大数据">
+<meta property="article:tag" content="Hadoop">
+<meta property="article:tag" content="CentOS">
+<meta property="article:tag" content="Java">
+<meta property="article:tag" content="Tomcat">
+<meta property="article:tag" content="Eclipse">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/1.png!xsy">
+
+  
+
+  
+    <link rel="icon" href="/favicon.ico">
+  
+
+  <link href="/css/styles.css?v=c114cbeddx" rel="stylesheet">
+
+
+  
+    
+<link rel="stylesheet" href="/css/personal-style.css">
+
+  
+
+  
+
+  
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?8b353d5983c1b9b0e49c36001b251d6f";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+	(function(){
+	    var bp = document.createElement('script');
+	    var curProtocol = window.location.protocol.split(':')[0];
+	    if (curProtocol === 'https') {
+	        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+	    }
+	    else {
+	        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	    }
+	    var s = document.getElementsByTagName("script")[0];
+	    s.parentNode.insertBefore(bp, s);
+	})();
+  </script>
+
+
+
+  
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+
+<meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="iAnna" type="application/atom+xml">
+</head>
+
+<body>
+
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">地图</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">地图</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/archives/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/category/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            分类
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/tag/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            标签
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/link/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            友链
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/about/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            关于
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/search/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            搜索
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="ROUND_RECT"
+            href="/atom.xml"
+            rel="noopener noreferrer"
+            target="_blank"
+            >
+            RSS
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-基于Hadoop的简单云盘" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">基于Hadoop的简单云盘</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2017.07.02</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>秋风木叶</span>
+        </span>
+      
+
+      
+  <span class="article-category">
+    <i class="icon-list"></i>
+    <a class="article-category-link" href="/categories/%E7%BC%96%E7%A8%8B/">编程</a>
+  </span>
+
+
+
+      
+
+      
+      <i class="fa fa-eye"></i> 
+        <span id="busuanzi_container_page_pv">
+           &nbsp热度 <span id="busuanzi_value_page_pv">
+           <i class="fa fa-spinner fa-spin"></i></span>℃
+        </span>
+      
+      
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <p><strong>首先完成 <a href="http://blog.ykqmain.com/hadoop/" target="\_blank">hadoop完全分布式搭建</a></strong></p>
+<p>开发环境：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">本机 macOS 10.12.5</span><br><span class="line">虚拟机 CentOS 6.9  ×3</span><br><span class="line">Hadoop 2.7.3</span><br><span class="line">JDK 1.8</span><br><span class="line">Tomcat 8.5.16</span><br><span class="line">IDE Eclipse Java EE IDE for Web Developers, Oxygen Release (4.7.0)</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="安装Tomcat"><a href="#安装Tomcat" class="headerlink" title="安装Tomcat"></a>安装Tomcat</h2><p>下载<a target="_blank" rel="noopener" href="http://tomcat.apache.org/">Tomcat</a>，我选择8.5.16的<code>.tar.gz</code>文件，解压并改名，最终路径为<code>/usr/local/tomcat</code></p>
+<p>授予权限，<code>sudo chmod 755 /usr/local/tomcat/bin/*.sh</code></p>
+<p>运行</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/local/tomcat/bin</span><br><span class="line">./startup.sh</span><br></pre></td></tr></table></figure>
+
+<p>在浏览器输入<code>localhost:8080</code>即可访问，关闭在终端输入<code>./shutdown.sh</code>。</p>
+<br>
+
+
+<h2 id="Eclipse配置Tomcat"><a href="#Eclipse配置Tomcat" class="headerlink" title="Eclipse配置Tomcat"></a>Eclipse配置Tomcat</h2><ol>
+<li><p>打开设置，<code>Server</code> - <code>Runtime Environments</code></p>
+</li>
+<li><p>右侧<code>Add</code>，选择对应Tomcat版本，next</p>
+</li>
+<li><p>路径填写Tomcat安装路径，我这里为<code>/usr/local/tomcat</code>，并选择JRE</p>
+</li>
+<li><p>Finish</p>
+</li>
+<li><p>点击IDE下方<code>Servers</code>，<code>create a new server</code>, next</p>
+</li>
+<li><p>Finish</p>
+</li>
+<li><p>双击创建的服务，Deploy path 填写Tomcat安装路径，即<code>/usr/local/tomcat</code>，关闭保存</p>
+</li>
+</ol>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/1.png!xsy"></p>
+<br>
+
+
+<h2 id="Eclipse创建Dynamic-Web-Project"><a href="#Eclipse创建Dynamic-Web-Project" class="headerlink" title="Eclipse创建Dynamic Web Project"></a>Eclipse创建Dynamic Web Project</h2><ol>
+<li><p><code>File</code>-<code>New</code>-<code>Other</code>-<code>Web </code>-<code>Dynamic Web Project</code><br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/2.png!xsy"></p>
+<br></li>
+<li><p>如图所示填写，创建一个名为TomcatTest的项目，之后一路next<br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/3.png!xsy"></p>
+<br></li>
+<li><p>选择下方服务，右键，选择<code>Add and Remove</code>，将左侧的<code>TomcatTest</code>添加到右边，完成。</p>
+</li>
+<li><p>在<code>WebContent</code>目录下新建<code>index.html</code>文件，写入<br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/4.png!xsy"></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>Tomcat<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span>&gt;</span>Test<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>右键下方服务，<code>Start</code><br><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/5.png!xsy"></p>
+<br></li>
+<li><p>在浏览器输入<code>localhost:8080/TomcatTest/index.html</code>访问。</p>
+<p> 本地tomcat测试成功</p>
+</li>
+</ol>
+<br>
+
+
+<h2 id="启动hadoop"><a href="#启动hadoop" class="headerlink" title="启动hadoop"></a>启动hadoop</h2><h3 id="1-启动3个虚拟机，"><a href="#1-启动3个虚拟机，" class="headerlink" title="1.启动3个虚拟机，"></a>1.启动3个虚拟机，</h3><p><strong><em>Update: 2017-9</em></strong></p>
+<p><strong>事实证明，人确实容易犯懒，拖到现在😅。一旦放下等以后再整理，会花更多的时间和精力。</strong><br><br></p>
+<h3 id="2-启动Hadoop"><a href="#2-启动Hadoop" class="headerlink" title="2.启动Hadoop"></a>2.启动Hadoop</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/hadoop/sbin</span><br><span class="line">./start-dfs.sh</span><br><span class="line">./start-yarn.sh</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/6.png!xsy"></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/7.png!xsy"></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/8.png!xsy"></p>
+<p><strong>50070端口：</strong></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/9.png!xsy"></p>
+<p><br><br></p>
+<h2 id="在Eclipse里创建新项目"><a href="#在Eclipse里创建新项目" class="headerlink" title="在Eclipse里创建新项目"></a>在Eclipse里创建新项目</h2><h3 id="1-主页及子版块页面，结构类似，其框架及部分代码如下图"><a href="#1-主页及子版块页面，结构类似，其框架及部分代码如下图" class="headerlink" title="1.主页及子版块页面，结构类似，其框架及部分代码如下图"></a>1.主页及子版块页面，结构类似，其框架及部分代码如下图</h3><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/10.png!xsy"></p>
+<p><code>core-site.xml</code>和<code>hdfs-site.xml</code>为hadoop配置文件，复制到项目下。<br><br></p>
+<h3 id="2-相关代码如下"><a href="#2-相关代码如下" class="headerlink" title="2.相关代码如下"></a>2.相关代码如下</h3><ul>
+<li>FileInfo.java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.wh.entity;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FileInfo</span> </span>&#123;</span><br><span class="line"> </span><br><span class="line">	<span class="keyword">private</span> String fileName;</span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">double</span> fileSize;</span><br><span class="line">	<span class="keyword">private</span> String createDate;</span><br><span class="line">	 </span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">FileInfo</span><span class="params">()</span> </span>&#123;&#125;</span><br><span class="line">	 </span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">FileInfo</span><span class="params">(String fileName, <span class="keyword">double</span> fileSize, String createDate)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">this</span>.fileName = fileName;</span><br><span class="line">		<span class="keyword">this</span>.fileSize = fileSize;</span><br><span class="line">		<span class="keyword">this</span>.createDate = createDate;</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">	<span class="function"><span class="keyword">public</span> String <span class="title">getFileName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> fileName;</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setFileName</span><span class="params">(String fileName)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">this</span>.fileName = fileName;</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">double</span> <span class="title">getFileSize</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> fileSize;</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setFileSize</span><span class="params">(<span class="keyword">double</span> fileSize)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">this</span>.fileSize = fileSize;</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">	<span class="function"><span class="keyword">public</span> String <span class="title">getCreateDate</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> createDate;</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setCreateDate</span><span class="params">(String createDate)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">this</span>.createDate = createDate;</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<br>
+
+<ul>
+<li>UserServlet.java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.wh.servlet;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> javax.servlet.ServletException;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServlet;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletRequest;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletResponse;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> org.apache.hadoop.fs.FileStatus;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> com.wh.entity.FileInfo;</span><br><span class="line"><span class="keyword">import</span> com.wh.util.HDFSUtil;</span><br><span class="line"> </span><br><span class="line"><span class="meta">@WebServlet(&quot;/userServlet&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">UserServlet</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"> </span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doGet</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span></span></span><br><span class="line"><span class="function">            <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span></span></span><br><span class="line"><span class="function">            <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="comment">//获取浏览器提交的数据</span></span><br><span class="line">        String userName = request.getParameter(<span class="string">&quot;userName&quot;</span>);</span><br><span class="line">        String userPassword = request.getParameter(<span class="string">&quot;userPassword&quot;</span>);</span><br><span class="line">        </span><br><span class="line">        <span class="comment">//把提交的数据与数据库中的用户信息进行</span></span><br><span class="line">        <span class="keyword">if</span>(<span class="string">&quot;admin&quot;</span>.equals(userName) &amp;&amp; <span class="string">&quot;123456&quot;</span>.equals(userPassword)) &#123;</span><br><span class="line">            </span><br><span class="line">            FileStatus[] files = HDFSUtil.listFile();</span><br><span class="line">            List&lt;FileInfo&gt; listFile = <span class="keyword">new</span> ArrayList&lt;FileInfo&gt;();</span><br><span class="line">            <span class="keyword">for</span>(FileStatus fs : files) &#123;</span><br><span class="line">                FileInfo file = <span class="keyword">new</span> FileInfo(fs.getPath().getName(), fs.getLen(), <span class="string">&quot;2017-07-01&quot;</span>);</span><br><span class="line">                listFile.add(file);</span><br><span class="line">            &#125;</span><br><span class="line">            request.setAttribute(<span class="string">&quot;fileInfos&quot;</span>, listFile);            </span><br><span class="line">            </span><br><span class="line">            request.getRequestDispatcher(<span class="string">&quot;main.jsp&quot;</span>).forward(request, response);</span><br><span class="line">            </span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            request.getRequestDispatcher(<span class="string">&quot;failure.html&quot;</span>).forward(request, response);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<br>
+
+<ul>
+<li>FileUploadServlet.java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.wh.servlet;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> java.io.File;</span><br><span class="line"><span class="keyword">import</span> java.io.FileOutputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"><span class="keyword">import</span> java.io.InputStream;</span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> javax.servlet.ServletException;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.annotation.MultipartConfig;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServlet;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletRequest;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletResponse;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.Part;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> org.apache.hadoop.fs.FileStatus;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> com.wh.entity.FileInfo;</span><br><span class="line"><span class="keyword">import</span> com.wh.util.HDFSUtil;</span><br><span class="line"> </span><br><span class="line"><span class="meta">@WebServlet(&quot;/fileUploadServlet&quot;)</span></span><br><span class="line"><span class="meta">@MultipartConfig</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FileUploadServlet</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"> </span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doGet</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span></span></span><br><span class="line"><span class="function">            <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">     </span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span></span></span><br><span class="line"><span class="function">            <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="comment">//设置中文编码</span></span><br><span class="line">        request.setCharacterEncoding(<span class="string">&quot;utf-8&quot;</span>);</span><br><span class="line">        <span class="comment">//获取客户端提交的文件</span></span><br><span class="line">        Part part = request.getPart(<span class="string">&quot;file&quot;</span>);</span><br><span class="line">        <span class="comment">//获取客户端提交的文件名</span></span><br><span class="line">        System.out.println(part.getSubmittedFileName());</span><br><span class="line">        <span class="comment">//=========================文件上传==================================</span></span><br><span class="line">        InputStream in = part.getInputStream();</span><br><span class="line">        HDFSUtil.uploadFile(in, part.getSubmittedFileName());</span><br><span class="line">        <span class="comment">//=========================文件列表==============================</span></span><br><span class="line">        FileStatus[] files = HDFSUtil.listFile();</span><br><span class="line">        List&lt;FileInfo&gt; listFile = <span class="keyword">new</span> ArrayList&lt;FileInfo&gt;();</span><br><span class="line">        <span class="keyword">for</span>(FileStatus fs : files) &#123;</span><br><span class="line">            FileInfo file = <span class="keyword">new</span> FileInfo(fs.getPath().getName(), fs.getLen(), <span class="string">&quot;2017-07-01&quot;</span>);</span><br><span class="line">            listFile.add(file);</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        request.setAttribute(<span class="string">&quot;fileInfos&quot;</span>, listFile);</span><br><span class="line">        <span class="comment">//页面跳转</span></span><br><span class="line">        request.getRequestDispatcher(<span class="string">&quot;main.jsp&quot;</span>).forward(request, response);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<br>
+
+<ul>
+<li>FileDownloadServlet.java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.wh.servlet;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> java.io.File;</span><br><span class="line"><span class="keyword">import</span> java.io.FileInputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.FileOutputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"><span class="keyword">import</span> java.io.OutputStream;</span><br><span class="line"><span class="keyword">import</span> java.net.URLEncoder;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> javax.servlet.ServletException;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServlet;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletRequest;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletResponse;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> com.wh.util.HDFSUtil;</span><br><span class="line"> </span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 文件下载</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Administrator</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@WebServlet(&quot;/fileDownLoadServlet&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FileDownloadServlet</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"> </span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doGet</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span></span></span><br><span class="line"><span class="function">            <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        request.setCharacterEncoding(<span class="string">&quot;UTF-8&quot;</span>);</span><br><span class="line">        response.setCharacterEncoding(<span class="string">&quot;UTF-8&quot;</span>);</span><br><span class="line">        </span><br><span class="line">        String fileName = request.getParameter(<span class="string">&quot;fileName&quot;</span>); </span><br><span class="line">        <span class="comment">//解决中文乱码</span></span><br><span class="line">        response.setHeader(<span class="string">&quot;Content-Disposition&quot;</span>, <span class="string">&quot;attachment;filename=&quot;</span> </span><br><span class="line">                    + <span class="keyword">new</span> String(fileName.getBytes(<span class="string">&quot;GB18030&quot;</span>),<span class="string">&quot;ISO8859-1&quot;</span>));</span><br><span class="line">        </span><br><span class="line">        OutputStream out = response.getOutputStream();</span><br><span class="line">        <span class="comment">//文件下载</span></span><br><span class="line">        HDFSUtil.downLoadFile(fileName, out);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span></span></span><br><span class="line"><span class="function">            <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<br>
+
+<ul>
+<li>FileDeleteServlet.java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.wh.servlet;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> java.io.File;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> java.io.FileInputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.FileOutputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"><span class="keyword">import</span> java.io.InputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.OutputStream;</span><br><span class="line"><span class="keyword">import</span> java.net.URLEncoder;</span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> javax.servlet.ServletException;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServlet;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletRequest;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletResponse;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.Part;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> org.apache.hadoop.fs.FileStatus;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> com.wh.entity.FileInfo;</span><br><span class="line"><span class="keyword">import</span> com.wh.util.HDFSUtil;</span><br><span class="line"> </span><br><span class="line"><span class="meta">@WebServlet(&quot;/fileDeleteServlet&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FileDeleteServlet</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doGet</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span></span></span><br><span class="line"><span class="function">			<span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">		request.setCharacterEncoding(<span class="string">&quot;UTF-8&quot;</span>);</span><br><span class="line">		response.setCharacterEncoding(<span class="string">&quot;UTF-8&quot;</span>);</span><br><span class="line">		</span><br><span class="line">		String fileName = request.getParameter(<span class="string">&quot;fileName&quot;</span>);</span><br><span class="line">		</span><br><span class="line">		HDFSUtil.deleteFile(fileName);</span><br><span class="line">		doPost(request, response);</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">	 </span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span></span></span><br><span class="line"><span class="function">			<span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">		FileStatus[] files = HDFSUtil.listFile();</span><br><span class="line">	    List&lt;FileInfo&gt; listFile = <span class="keyword">new</span> ArrayList&lt;FileInfo&gt;();</span><br><span class="line">	    <span class="keyword">for</span>(FileStatus fs : files) &#123;</span><br><span class="line">	    	FileInfo file = <span class="keyword">new</span> FileInfo(fs.getPath().getName(), fs.getLen(), <span class="string">&quot;2017-07-01&quot;</span>);</span><br><span class="line">	    	listFile.add(file);</span><br><span class="line">	    &#125;</span><br><span class="line">	    </span><br><span class="line">	    request.setAttribute(<span class="string">&quot;fileInfos&quot;</span>, listFile);</span><br><span class="line">		request.getRequestDispatcher(<span class="string">&quot;main.jsp&quot;</span>).forward(request, response);</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<br>
+
+<ul>
+<li>HDFSUtil.java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.wh.util;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> java.io.FileOutputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"><span class="keyword">import</span> java.io.InputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.OutputStream;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> org.apache.hadoop.conf.Configuration;</span><br><span class="line"><span class="keyword">import</span> org.apache.hadoop.fs.FSDataInputStream;</span><br><span class="line"><span class="keyword">import</span> org.apache.hadoop.fs.FSDataOutputStream;</span><br><span class="line"><span class="keyword">import</span> org.apache.hadoop.fs.FileStatus;</span><br><span class="line"><span class="keyword">import</span> org.apache.hadoop.fs.FileSystem;</span><br><span class="line"><span class="keyword">import</span> org.apache.hadoop.fs.Path;</span><br><span class="line"><span class="keyword">import</span> org.apache.hadoop.io.IOUtils;</span><br><span class="line"> </span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * HDFS工具类</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Administrator</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HDFSUtil</span> </span>&#123;</span><br><span class="line"> </span><br><span class="line">	<span class="comment">// 加载HDFS配置文件</span></span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">static</span> Configuration conf = <span class="keyword">new</span> Configuration();</span><br><span class="line"> </span><br><span class="line">	<span class="comment">// 上传</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">uploadFile</span><span class="params">(InputStream in, String fileName)</span></span></span><br><span class="line"><span class="function">			<span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">		FileSystem hdfs = FileSystem.get(conf);</span><br><span class="line">		<span class="comment">// 设置要上传文件的路径</span></span><br><span class="line">		Path uploadPath = <span class="keyword">new</span> Path(<span class="string">&quot;/user/hadoop/&quot;</span> + fileName);</span><br><span class="line">		<span class="comment">// 进行文件上传</span></span><br><span class="line">		FSDataOutputStream out = hdfs.create(uploadPath);</span><br><span class="line">		<span class="comment">// 开始进行文件上传</span></span><br><span class="line">		IOUtils.copyBytes(in, out, conf);</span><br><span class="line">		<span class="comment">// 关闭</span></span><br><span class="line">		IOUtils.closeStream(in);</span><br><span class="line">		IOUtils.closeStream(out);</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">	<span class="comment">// 下载</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">downLoadFile</span><span class="params">(String fileName, OutputStream out)</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">		FileSystem hdfs = FileSystem.get(conf);</span><br><span class="line">		<span class="comment">// 定位要访问的文件</span></span><br><span class="line">		Path remoteFile = <span class="keyword">new</span> Path(<span class="string">&quot;/user/hadoop/&quot;</span> + fileName);</span><br><span class="line">		<span class="comment">// 与定位文件连接输入流管道</span></span><br><span class="line">		FSDataInputStream in = hdfs.open(remoteFile);</span><br><span class="line">		<span class="comment">// 进行文件下载</span></span><br><span class="line">		IOUtils.copyBytes(in, out, conf);</span><br><span class="line">		<span class="comment">// 关闭流</span></span><br><span class="line">		IOUtils.closeStream(in);</span><br><span class="line">		IOUtils.closeStream(out);</span><br><span class="line">	&#125;</span><br><span class="line">	 </span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">deleteFile</span><span class="params">(String fileName)</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">		FileSystem hdfs = FileSystem.get(conf);</span><br><span class="line">		Path remoteFile = <span class="keyword">new</span> Path(<span class="string">&quot;/user/hadoop/&quot;</span> + fileName);</span><br><span class="line">		hdfs.delete(remoteFile,<span class="keyword">false</span>);</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">// 文件列表展示</span></span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">static</span> FileStatus[] listFile() <span class="keyword">throws</span> IOException &#123;</span><br><span class="line">		FileSystem hdfs = FileSystem.get(conf);</span><br><span class="line">		<span class="comment">// 查看hdfs中某个文件目录</span></span><br><span class="line">		Path remotePath = <span class="keyword">new</span> Path(<span class="string">&quot;/user/hadoop/&quot;</span>);</span><br><span class="line">		<span class="comment">// 获取目录下的文件列表</span></span><br><span class="line">		FileStatus[] files = hdfs.listStatus(remotePath);</span><br><span class="line"></span><br><span class="line">		<span class="keyword">return</span> files;</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">	<span class="comment">// 删除</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">deleteFile</span><span class="params">()</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">		FileSystem hdfs = FileSystem.get(conf);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<br>
+
+<ul>
+<li>login.html</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>用户登录<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h2</span>&gt;</span>欢迎登录XX系统<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- action配置请求的服务器地址 --&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- method表示HTTP请求的方式 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;userServlet&quot;</span> <span class="attr">method</span>=<span class="string">&quot;post&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;userName&quot;</span>&gt;</span>用户名:<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">id</span>=<span class="string">&quot;userName&quot;</span> <span class="attr">name</span>=<span class="string">&quot;userName&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;请输入用户名&quot;</span>/&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">            </span><br><span class="line">            <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;userPassword&quot;</span>&gt;</span>密<span class="symbol">&amp;nbsp;</span><span class="symbol">&amp;nbsp;</span><span class="symbol">&amp;nbsp;</span>码:<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">id</span>=<span class="string">&quot;userPassword&quot;</span> <span class="attr">name</span>=<span class="string">&quot;userPassword&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;请输入密码&quot;</span> /&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">            </span><br><span class="line">            <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;submit&quot;</span> <span class="attr">value</span>=<span class="string">&quot;登录&quot;</span> /&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<br>
+
+<ul>
+<li>failure.html</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>登录失败<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">用户名或密码错误，请<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;login.html&quot;</span>&gt;</span>重新登录<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<br>
+
+<ul>
+<li>main.jsp</li>
+</ul>
+<figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">&lt;%@ page language=<span class="string">&quot;java&quot;</span> contentType=<span class="string">&quot;text/html; charset=UTF-8&quot;</span> pageEncoding=<span class="string">&quot;UTF-8&quot;</span>%&gt;</span><br><span class="line">&lt;%@ taglib uri=<span class="string">&quot;http://java.sun.com/jsp/jstl/core&quot;</span> prefix=<span class="string">&quot;c&quot;</span> %&gt;</span><br><span class="line">&lt;!DOCTYPE html PUBLIC <span class="string">&quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;</span> <span class="string">&quot;http://www.w3.org/TR/html4/loose.dtd&quot;</span>&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta http-equiv=<span class="string">&quot;Content-Type&quot;</span> content=<span class="string">&quot;text/html; charset=UTF-8&quot;</span>&gt;</span><br><span class="line">&lt;title&gt;Insert title here&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">	&lt;center&gt;</span><br><span class="line">		&lt;table&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;th&gt;文件名&lt;/th&gt;</span><br><span class="line">				&lt;th&gt;文件大小&lt;/th&gt;</span><br><span class="line">				&lt;th&gt;创建时间&lt;/th&gt;</span><br><span class="line">				&lt;th&gt;操作&lt;/th&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">			&lt;c:forEach <span class="keyword">var</span>=<span class="string">&quot;file&quot;</span> items=<span class="string">&quot;$&#123;fileInfos&#125;&quot;</span>&gt;</span><br><span class="line">				&lt;tr&gt;</span><br><span class="line">					&lt;td&gt;$&#123;file.fileName&#125;&lt;/td&gt;</span><br><span class="line">					&lt;td&gt;$&#123;file.fileSize&#125;&lt;/td&gt;</span><br><span class="line">					&lt;td&gt;$&#123;file.createDate&#125;&lt;/td&gt;</span><br><span class="line">					&lt;td&gt;&lt;a href=<span class="string">&quot;fileDownLoadServlet?fileName=$&#123;file.fileName&#125;&quot;</span>&gt;下载&lt;/a&gt;|&lt;a href=<span class="string">&quot;fileDeleteServlet?fileName=$&#123;file.fileName&#125;&quot;</span>&gt;删除&lt;/a&gt;&lt;/td&gt;</span><br><span class="line">				&lt;/tr&gt;		</span><br><span class="line">			&lt;/c:forEach&gt;	</span><br><span class="line">		&lt;/table&gt;</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">		&lt;!-- application/x-www-form-urlencoded --&gt;</span><br><span class="line">		&lt;form action=<span class="string">&quot;fileUploadServlet&quot;</span> method=<span class="string">&quot;post&quot;</span> enctype=<span class="string">&quot;multipart/form-data&quot;</span>&gt;</span><br><span class="line">			&lt;p&gt;</span><br><span class="line">				&lt;label <span class="keyword">for</span>=<span class="string">&quot;file&quot;</span>&gt;上传文件:&lt;/label&gt;</span><br><span class="line">				&lt;input type=<span class="string">&quot;file&quot;</span> id=<span class="string">&quot;file&quot;</span>  name=<span class="string">&quot;file&quot;</span>/&gt;</span><br><span class="line">			&lt;/p&gt;</span><br><span class="line">			</span><br><span class="line">			&lt;p&gt;</span><br><span class="line">				&lt;input type=<span class="string">&quot;submit&quot;</span> value=<span class="string">&quot;上传文件&quot;</span> /&gt;</span><br><span class="line">			&lt;/p&gt;</span><br><span class="line">		&lt;/form&gt;</span><br><span class="line">	&lt;/center&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<br>
+
+<h3 id="3-相关库"><a href="#3-相关库" class="headerlink" title="3.相关库"></a>3.相关库</h3><p><code>~/file/WebContent/WEB-INF/lib</code></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/11.png!xsy"></p>
+<p>注意从Tomcat中复制<code>servlet-api.jar</code>文件到<code>lib</code>中<br><br></p>
+<h3 id="4-相关界面"><a href="#4-相关界面" class="headerlink" title="4.相关界面"></a>4.相关界面</h3><ul>
+<li><strong>登录</strong></li>
+</ul>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/12.png!xsy"></p>
+<ul>
+<li><strong>操作</strong></li>
+</ul>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/13.png!xsy"></p>
+<ul>
+<li><strong>上传</strong></li>
+</ul>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/14.png!xsy"></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/15.png!xsy"></p>
+<ul>
+<li><strong>下载</strong></li>
+</ul>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/16.png!xsy"></p>
+<ul>
+<li><strong>删除</strong></li>
+</ul>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/17.png!xsy"></p>
+<p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/18.png!xsy"></p>
+<p><br><br></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><img src="https://ianna.oss-cn-hangzhou.aliyuncs.com/cloud-drive/19.png!sy"></p>
+<p>在项目制作过程中思路很重要，制作初期不能太纠结于个别效果，先按流程搭建好开发环境。</p>
+<p>化繁为简，用最简单的方法，制作出理想的效果，实现全部的基础功能，实用第一，尽量美化。</p>
+<p><strong>拖了这么久，总算是基本完成了。</strong></p>
+<p><br><br></p>
+
+    
+  </div>
+
+</article>
+
+
+   
+
+   
+  <div class="box-prev-next clearfix">
+    <a class="show pull-left" href="/hadoop/">
+        <i class="icon icon-angle-left"></i>
+    </a>
+    <a class="show pull-right" href="/flask/">
+        <i class="icon icon-angle-right"></i>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">关闭</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/archives/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/category/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              分类
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/tag/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              标签
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/link/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              友链
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/about/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              关于
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/search/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              搜索
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="ROUND_RECT"
+              href="/atom.xml"
+              rel="noopener noreferrer"
+              target="_blank"
+              >
+              RSS
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-post">
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235683', function() {
+      // load success
+    });
+  }
+</script>
+
+</body>
+</html>
