@@ -42,13 +42,13 @@
     
     <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
     
-    <category term="编程" scheme="https://blog.ykqmain.com/tags/%E7%BC%96%E7%A8%8B/"/>
-    
-    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
-    
     <category term="博客" scheme="https://blog.ykqmain.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="2021" scheme="https://blog.ykqmain.com/tags/2021/"/>
+    
+    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+    
+    <category term="编程" scheme="https://blog.ykqmain.com/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
@@ -79,11 +79,11 @@
     <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
-    <category term="计算机" scheme="https://blog.ykqmain.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
     <category term="编程" scheme="https://blog.ykqmain.com/tags/%E7%BC%96%E7%A8%8B/"/>
     
-    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+    <category term="计算机" scheme="https://blog.ykqmain.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     <category term="TimeLine" scheme="https://blog.ykqmain.com/tags/TimeLine/"/>
     
@@ -214,9 +214,9 @@
     <category term="编程" scheme="https://blog.ykqmain.com/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-    <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
-    
     <category term="Python" scheme="https://blog.ykqmain.com/tags/Python/"/>
+    
+    <category term="Web" scheme="https://blog.ykqmain.com/tags/Web/"/>
     
     <category term="Flask" scheme="https://blog.ykqmain.com/tags/Flask/"/>
     
