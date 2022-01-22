@@ -117,9 +117,9 @@
     
     <category term="工具" scheme="https://blog.ykqmain.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="SoftWare" scheme="https://blog.ykqmain.com/tags/SoftWare/"/>
-    
     <category term="Windows" scheme="https://blog.ykqmain.com/tags/Windows/"/>
+    
+    <category term="SoftWare" scheme="https://blog.ykqmain.com/tags/SoftWare/"/>
     
     <category term="办公" scheme="https://blog.ykqmain.com/tags/%E5%8A%9E%E5%85%AC/"/>
     
@@ -158,6 +158,34 @@
     <category term="openpyxl" scheme="https://blog.ykqmain.com/tags/openpyxl/"/>
     
     <category term="pandas" scheme="https://blog.ykqmain.com/tags/pandas/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《自私的基因》</title>
+    <link href="https://blog.ykqmain.com/the-extended-selfish-gene/"/>
+    <id>https://blog.ykqmain.com/the-extended-selfish-gene/</id>
+    <published>2020-02-11T16:00:00.000Z</published>
+    <updated>2022-01-22T10:30:39.410Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://book.douban.com/subject/30290031/">《自私的基因》</a>([英]Richard Dawkins)<br><a href="https://book.douban.com/subject/30290031/"><img src="https://img2.doubanio.com/view/subject/l/public/s32512753.jpg" alt="自私的基因"></a></p><p>翻译的书总给人一种“啰嗦”的感觉，本书也未能幸免，但确实是值得一看，特别是第12章的精彩，好人有好报。</p><blockquote><p>比起傻瓜（那些无私奉献却遭遇剥削的个体）和骗子（那些互相无情剥削而共同毁灭的个体），斤斤计较者在种群中占优势，因为它们可以将更多基因传递给后代。</p><p>…………</p><p>一个关于共享、互助、合作的故事。它们昭示这一个善良的思想：即使我们都由自私的基因掌舵，好人终有好报。</p></blockquote><p>至于什么是好人，本书也给出了答案，也是我从本书受益的一点，善良、宽容、不嫉妒，以及「以直报怨」。</p><p>“以牙还牙，以眼还眼”也成为博弈论的一种策略，这种策略简单且能非常有效，被认为是解决囚徒困境的最佳策略。</p><p><br><br></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/30290031/&quot;&gt;《自私的基因》&lt;/a&gt;([英]Richard Dawkins)&lt;br&gt;&lt;a href=&quot;https://book.douban.com/subject/30290031/</summary>
+      
+    
+    
+    
+    <category term="读书" scheme="https://blog.ykqmain.com/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+    <category term="生命" scheme="https://blog.ykqmain.com/tags/%E7%94%9F%E5%91%BD/"/>
+    
+    <category term="基因" scheme="https://blog.ykqmain.com/tags/%E5%9F%BA%E5%9B%A0/"/>
+    
+    <category term="社会" scheme="https://blog.ykqmain.com/tags/%E7%A4%BE%E4%BC%9A/"/>
     
   </entry>
   
@@ -254,13 +282,13 @@
     
     <category term="Hadoop" scheme="https://blog.ykqmain.com/tags/Hadoop/"/>
     
-    <category term="Tomcat" scheme="https://blog.ykqmain.com/tags/Tomcat/"/>
+    <category term="CentOS" scheme="https://blog.ykqmain.com/tags/CentOS/"/>
     
     <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
-    <category term="Eclipse" scheme="https://blog.ykqmain.com/tags/Eclipse/"/>
+    <category term="Tomcat" scheme="https://blog.ykqmain.com/tags/Tomcat/"/>
     
-    <category term="CentOS" scheme="https://blog.ykqmain.com/tags/CentOS/"/>
+    <category term="Eclipse" scheme="https://blog.ykqmain.com/tags/Eclipse/"/>
     
   </entry>
   
@@ -291,9 +319,9 @@
     
     <category term="Hadoop" scheme="https://blog.ykqmain.com/tags/Hadoop/"/>
     
-    <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
-    
     <category term="CentOS" scheme="https://blog.ykqmain.com/tags/CentOS/"/>
+    
+    <category term="Java" scheme="https://blog.ykqmain.com/tags/Java/"/>
     
   </entry>
   
@@ -381,13 +409,13 @@
     
     <category term="工具" scheme="https://blog.ykqmain.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
+    <category term="SoftWare" scheme="https://blog.ykqmain.com/tags/SoftWare/"/>
+    
     <category term="Apple" scheme="https://blog.ykqmain.com/tags/Apple/"/>
     
     <category term="Mac" scheme="https://blog.ykqmain.com/tags/Mac/"/>
     
     <category term="macOS" scheme="https://blog.ykqmain.com/tags/macOS/"/>
-    
-    <category term="SoftWare" scheme="https://blog.ykqmain.com/tags/SoftWare/"/>
     
     <category term="iPhone" scheme="https://blog.ykqmain.com/tags/iPhone/"/>
     
