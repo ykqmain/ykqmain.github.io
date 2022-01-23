@@ -218,7 +218,7 @@
     
       <a class="category-item" href="#文章">
         <span class="category-name">文章</span>
-        <span class="category-size">( 3 )</span>
+        <span class="category-size">( 4 )</span>
       </a>
     
       <a class="category-item" href="#生活">
@@ -283,7 +283,7 @@
     <a href="" class="text-year">
    -->
     文章
-    <span class="category-count">( 3 )</span>
+    <span class="category-count">( 4 )</span>
   <!--
   </a>
    -->
@@ -293,6 +293,14 @@
 
   
   <a class="post-title" href="/cs/" rel="noopener noreferrer" target="_blank">计算机之路</a>
+
+
+</li>
+<li class="item-post item">
+  <span class="post-date">03-05</span>
+
+  
+  <a class="post-title" href="/moe/" rel="noopener noreferrer" target="_blank">蓦然回首——我已经不“萌”了</a>
 
 
 </li>
@@ -636,5 +644,20 @@
   }
 </script>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
