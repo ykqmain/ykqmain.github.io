@@ -15,15 +15,15 @@
     <meta name="keywords" content="Web,Linux,Apache,服务器," />
   
 
-  <meta name="description" content="已拥有一台服务器，系统为 CentOS 6。  打开终端，登录服务器：ssh -p 端口 root@IP 输入密码">
+  <meta name="description" content="服务器系统为CentOS 6  打开终端，登录服务器：ssh -p 端口 root@IP 输入密码，回车">
 <meta property="og:type" content="article">
 <meta property="og:title" content="第一个网页">
 <meta property="og:url" content="https://blog.ykqmain.com/hello/index.html">
 <meta property="og:site_name" content="iAnna">
-<meta property="og:description" content="已拥有一台服务器，系统为 CentOS 6。  打开终端，登录服务器：ssh -p 端口 root@IP 输入密码">
+<meta property="og:description" content="服务器系统为CentOS 6  打开终端，登录服务器：ssh -p 端口 root@IP 输入密码，回车">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2015-11-24T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-01-23T11:48:24.498Z">
+<meta property="article:modified_time" content="2022-01-24T13:26:59.253Z">
 <meta property="article:author" content="秋风木叶">
 <meta property="article:tag" content="Web">
 <meta property="article:tag" content="Linux">
@@ -230,10 +230,10 @@
 
   <div class="article-content">
     
-      <p>已拥有一台服务器，系统为 CentOS 6。</p>
+      <p>服务器系统为<code>CentOS 6</code></p>
 <ul>
 <li>打开<code>终端</code>，登录服务器：<code>ssh -p 端口 root@IP</code></li>
-<li>输入密码</li>
+<li>输入<code>密码</code>，回车</li>
 </ul>
 <span id="more"></span>
 
@@ -259,7 +259,7 @@
 </li>
 <li><p>测试是否安装成功，在本地的浏览器中输入<code>http://IP</code> ，如果出现 <code>Apache 2 Test Page powered by CentOS</code>，说明成功。</p>
 <p>如果出现错误，那就可能是iptables的问题：</p>
-<p>编辑 iptables配置，<code>vi /etc/sysconfig/iptables</code> ，</p>
+<p>编辑 iptables配置，<code>vi /etc/sysconfig/iptables</code>：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-A INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT</span><br><span class="line">-A INPUT -m state --state NEW -m tcp -p tcp --dport 443 -j ACCEPT</span><br></pre></td></tr></table></figure>
 
 <p>然后重启iptables、Apache。</p>
@@ -274,19 +274,21 @@
 <p><strong>最后设置Apache开机自启 <code>chkconfig iptables on </code></strong></p>
 <p>//参考：<a target="_blank" rel="noopener" href="http://www.linuxidc.com/Linux/2014-01/95256.htm">CentOS Apache服务器安装与配置</a><br><br></p>
 <h2 id="安装MySQL"><a href="#安装MySQL" class="headerlink" title="安装MySQL"></a>安装MySQL</h2><ol>
-<li><p>安装方式<br>仍然是通过yum安装，查看版本信息<code>yum list | grep mysql</code> ，安装<code>yum install -y mysql-server mysql mysql-deve</code> ，查看安装好的版本<code>rpm -qi mysql-server</code> 。</p>
+<li><p>安装方式<br>仍然是通过yum安装，查看版本信息<code>yum list | grep mysql</code> ，安装<code>yum install -y mysql-server mysql mysql-deve</code> ，查看安装好的版本<code>rpm -qi mysql-server</code></p>
 </li>
-<li><p>通过<code>service mysqld start</code> 命令启动mysql服务。</p>
+<li><p>通过<code>service mysqld start</code>命令启动mysql服务</p>
 </li>
 <li><p>第一次会提示很多信息，重启mysql <code>service mysqld restart</code></p>
 </li>
 <li><p><strong>最后设置MySQL开机自启 <code>chkconfig mysqld on</code></strong><br>（配置文件在 <code>/etc/my.cnf</code>）</p>
-<br></li>
+</li>
 </ol>
+<br>
+
 <hr>
 <br>
 
-<p>回到本地，编辑或创建一个名为 <code>index.html</code> 的文件，这个HTML文件就是首页。HTML中的多媒体的路径要用<strong>服务器上的相对路径</strong>或者<strong>外链</strong>。</p>
+<p>回到本地，编辑或创建一个名为<code>index.html</code>的文件，这个HTML文件就是首页。HTML中的多媒体的路径要用<strong>服务器上的相对路径</strong>或者<strong>外链</strong>。</p>
 <p><strong>将这个<code>index.html</code>送到服务器上的<code>/var/www/html</code>目录下即可</strong>，在本地和服务器传文件有很多方法，比如：scp、ftp、sftp…</p>
 <ul>
 <li>scp的方法：<code>scp -P 端口 本地文件路径 root@IP:服务器路径</code></li>
@@ -471,20 +473,5 @@
   }
 </script>
 
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
