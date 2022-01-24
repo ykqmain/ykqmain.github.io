@@ -154,34 +154,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/</loc>
-    <lastmod>2022-01-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E4%B8%96%E7%95%8C/</loc>
-    <lastmod>2022-01-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E7%BE%8E%E5%A5%BD/</loc>
-    <lastmod>2022-01-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E5%90%91%E5%BE%80/</loc>
-    <lastmod>2022-01-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ykqmain.com/tags/Apple/</loc>
     <lastmod>2022-01-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -218,6 +190,48 @@
   
   <url>
     <loc>https://blog.ykqmain.com/tags/APP/</loc>
+    <lastmod>2022-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/</loc>
+    <lastmod>2022-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E4%B8%96%E7%95%8C/</loc>
+    <lastmod>2022-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E7%BE%8E%E5%A5%BD/</loc>
+    <lastmod>2022-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E5%90%91%E5%BE%80/</loc>
+    <lastmod>2022-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E5%BF%AB%E4%B9%90/</loc>
+    <lastmod>2022-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E6%80%9D%E5%8F%98/</loc>
     <lastmod>2022-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -272,20 +286,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E5%BF%AB%E4%B9%90/</loc>
-    <lastmod>2022-01-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E6%80%9D%E5%8F%98/</loc>
-    <lastmod>2022-01-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -303,14 +303,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://blog.ykqmain.com/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2022-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2022-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
