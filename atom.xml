@@ -65,11 +65,11 @@
     <category term="文章" scheme="https://blog.ykqmain.com/categories/%E6%96%87%E7%AB%A0/"/>
     
     
+    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
+    
     <category term="计算机" scheme="https://blog.ykqmain.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     <category term="编程" scheme="https://blog.ykqmain.com/tags/%E7%BC%96%E7%A8%8B/"/>
-    
-    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
   </entry>
   
@@ -194,8 +194,6 @@
     <category term="动画" scheme="https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/"/>
     
     
-    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
-    
     <category term="动画" scheme="https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/"/>
     
     <category term="网球王子" scheme="https://blog.ykqmain.com/tags/%E7%BD%91%E7%90%83%E7%8E%8B%E5%AD%90/"/>
@@ -203,6 +201,8 @@
     <category term="热血" scheme="https://blog.ykqmain.com/tags/%E7%83%AD%E8%A1%80/"/>
     
     <category term="青春" scheme="https://blog.ykqmain.com/tags/%E9%9D%92%E6%98%A5/"/>
+    
+    <category term="回忆" scheme="https://blog.ykqmain.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
   </entry>
   
