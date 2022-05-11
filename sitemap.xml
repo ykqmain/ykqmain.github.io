@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.ykqmain.com/gongyuan/</loc>
+    <loc>https://blog.ykqmain.com/tool/</loc>
     
     <lastmod>2022-05-11</lastmod>
     
@@ -12,15 +12,6 @@
   
   <url>
     <loc>https://blog.ykqmain.com/game/</loc>
-    
-    <lastmod>2022-05-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tool/</loc>
     
     <lastmod>2022-05-11</lastmod>
     
@@ -147,76 +138,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/tags/%E6%98%A5%E5%A4%A9/</loc>
-    <lastmod>2022-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E7%A6%BB%E5%88%AB/</loc>
-    <lastmod>2022-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/Developer/</loc>
-    <lastmod>2022-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/Apple/</loc>
-    <lastmod>2022-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/Mac/</loc>
-    <lastmod>2022-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/macOS/</loc>
-    <lastmod>2022-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/SoftWare/</loc>
-    <lastmod>2022-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/iPhone/</loc>
-    <lastmod>2022-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/iOS/</loc>
-    <lastmod>2022-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/APP/</loc>
-    <lastmod>2022-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/</loc>
     <lastmod>2022-05-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -314,6 +235,62 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://blog.ykqmain.com/tags/Developer/</loc>
+    <lastmod>2022-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/Apple/</loc>
+    <lastmod>2022-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/Mac/</loc>
+    <lastmod>2022-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/macOS/</loc>
+    <lastmod>2022-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/SoftWare/</loc>
+    <lastmod>2022-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/iPhone/</loc>
+    <lastmod>2022-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/iOS/</loc>
+    <lastmod>2022-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/APP/</loc>
+    <lastmod>2022-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -324,14 +301,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <loc>https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/</loc>
     <lastmod>2022-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/</loc>
+    <loc>https://blog.ykqmain.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
     <lastmod>2022-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
