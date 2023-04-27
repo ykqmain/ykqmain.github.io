@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.ykqmain.com/pengyou1/</loc>
+    <loc>https://blog.ykqmain.com/liqi/</loc>
     
-    <lastmod>2023-01-27</lastmod>
+    <lastmod>2023-04-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/liqi/</loc>
+    <loc>https://blog.ykqmain.com/pengyou1/</loc>
     
-    <lastmod>2022-10-18</lastmod>
+    <lastmod>2023-01-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -108,6 +108,34 @@
   </url>
   
   <url>
+    <loc>https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/</loc>
+    <lastmod>2023-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E7%BE%8E%E5%A5%BD/</loc>
+    <lastmod>2023-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E5%90%91%E5%BE%80/</loc>
+    <lastmod>2023-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ykqmain.com/tags/%E6%A2%A6%E6%83%B3/</loc>
+    <lastmod>2023-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ykqmain.com/tags/%E7%AB%A5%E5%B9%B4/</loc>
     <lastmod>2023-04-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -170,34 +198,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E5%8A%A8%E7%94%BB/</loc>
-    <lastmod>2023-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E7%BE%8E%E5%A5%BD/</loc>
-    <lastmod>2023-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E5%90%91%E5%BE%80/</loc>
-    <lastmod>2023-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ykqmain.com/tags/%E6%A2%A6%E6%83%B3/</loc>
-    <lastmod>2023-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -208,14 +208,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/</loc>
     <lastmod>2023-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ykqmain.com/categories/%E5%8A%A8%E7%94%BB/</loc>
+    <loc>https://blog.ykqmain.com/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2023-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
