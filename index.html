@@ -1,54 +1,422 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iAnna</title>
-    <style>
-        /* 页面基础样式 */
-        body {
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            /* 使用flex布局实现居中 */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f0f0f0;
-            overflow: hidden; /* 禁止页面滚动 */
-            padding: 20px; /* 页面边缘留一定空间 */
-            box-sizing: border-box; /* 确保padding不会导致页面溢出 */
-        }
-
-        /* 图片容器样式 */
-        .image-container {
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            max-width: 100%;
-            max-height: 100%;
-            box-sizing: border-box; /* 确保padding包含在容器尺寸内 */
-        }
-
-        /* 图片响应式处理 */
-        .centered-image {
-            display: block; /* 确保图片作为块级元素处理 */
-            max-width: 100%;  /* 不超过容器宽度（含内边距） */
-            max-height: calc(100vh - 80px); /* 考虑页面和容器的内边距 */
-            width: auto;
-            height: auto;
-            object-fit: contain;
-            border-radius: 4px;
-        }
-    </style>
+    <meta name="description" content="理工通以自足，文史晓以怡情。">
+    <link href="favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="./css/style.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
 </head>
 <body>
-    <div class="image-container">
-        <!-- 外链图片，保持居中显示 -->
-        <img src="./Pix/bg.png"
-             alt="iAnna"
-             class="centered-image">
-    </div>
+    <header>
+        <img alt="avatar" class="avatar" src="./Pix/main.png"/>
+    <h1>Yang</h1>
+    <p class="muted">天高地迥，觉宇宙之无穷；<span class="break"></span>兴尽悲来，识盈虚之有数。</p>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>关于我</h2>
+            <p>常用ID <strong>「秋风木叶」</strong>，取自《楚辞&middot;九歌&middot;湘夫人》：</p>
+            <blockquote><p>袅袅兮秋风，洞庭波兮木叶下。</p></blockquote>
+            <p>🤓也用<code>Yang</code>这个昵称。</p>
+            <p>
+                📚业余中国古代史、🌏爱好地理，<br/>
+                💻CS专业、📺梦想做动画、🎮人生游戏玩家，<br/>📆时代观察员、📝生活记录者；
+            </p>
+        </section>
+
+        <section class="projects-section">
+            <h2>作品集</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <div class="project-title">
+                        <a href="https://github.com/ykqmain/WoYouYiGePengYou" rel="noopener noreferrer" target="_blank">
+                            《我有一个朋友》
+                        </a>
+                    </div>
+                    <div class="project-desc">
+                        在从幼稚走向成熟的二十多年，占据主要篇幅的是校园，我把这段人生的记录叫做《我有一个朋友》。以当下的眼光和见识，记录我的「学生时代」及其延伸的那些人、那些事。
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">
+                        <a href="https://github.com/ykqmain/Config" rel="noopener noreferrer" target="_blank">
+                            利器
+                        </a>
+                    </div>
+                    <div class="project-desc">
+                        Configurations of the Setup I use &amp; recommend.
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">
+                        <a href="https://www.bilibili.com/video/BV1Bs411D7TA/" rel="noopener noreferrer" target="_blank">
+                            【未闻花名】secret base~你给我的所有~(混合版)
+                        </a>
+                    </div>
+                    <div class="project-desc">
+                        心血来潮，一气呵成，新人Pr渣制作。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline-section">
+            <h2>时间线</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        1996.07
+                    </div>
+                    <div class="timeline-content">
+                        出生于中国&middot;湖北。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        20世纪末～2008（童年时代）
+                    </div>
+                    <div class="timeline-content">
+                        留守儿童，小镇长大。<br>
+                        童年动画群星璀璨，数不胜数，动画爱好者；<br>
+                        《红色警戒2》打开了我计算机的大门。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2008～2011（少年时代，初中）
+                    </div>
+                    <div class="timeline-content">
+                        《网球王子》，少年的开端、青春的代名词；<br>
+                        春秋战国、诸子百家，历史爱好者；<br>
+                        家里拥有了第一台电脑（联想），折腾各种邮箱，第一次接触C语言；<br>
+                        <a href="https://github.com/ykqmain/WoYouYiGePengYou" rel="noopener noreferrer" target="_blank">桃文</a>，一个梦。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2011～2014（少年时代，高中）
+                    </div>
+                    <div class="timeline-content">
+                        深入接触《史记》、《孟子》，喜欢古诗文。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2014.1.1
+                    </div>
+                    <div class="timeline-content">
+                        「只是在我心中还有一方净土，即使在别人眼里寸草不生，却始终一尘不染。」
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2014.3.21
+                    </div>
+                    <div class="timeline-content">
+                        又见春分，桃花文艺，三周年。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2014.4.1
+                    </div>
+                    <div class="timeline-content">
+                        小学是一个班的小学，初中是一群人的初中，高中是几个人的高中…………<br>
+                        我想，大学应该是一个人的大学。<br>
+                        谁走进我的生命，由命运决定，谁停留在我的生命中，由我自己决定。<br>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2014.4.5
+                    </div>
+                    <div class="timeline-content">
+                        「所以隐忍苟活，幽于粪土之中而不辞者，恨私心有所不尽，鄙陋没世，而文采不表于后世也。」<br>
+                        惟愿留下一部传世之作，让它在未来的某一天被后人欣赏，然后再梦游来天上与孤独的我谈心吧，也不枉此生了。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2014.6.30
+                    </div>
+                    <div class="timeline-content">
+                        《未闻花名》，少年的句号。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        青年时代（2014～）
+                    </div>
+                    <div class="timeline-content">
+                        总有一天，你回过头来看看，你就会发现，你的每个经历、每次错误、每次失败，都帮助你走向了<br>
+                        ——你应该成为的那个人。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2014.7.10
+                    </div>
+                    <div class="timeline-content">
+                        第一台笔记本电脑（联想），取名“Anna”。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2015.2.5
+                    </div>
+                    <div class="timeline-content">
+                         「这条说说来自Anna上的Linux Ubuntu的Firefox……」<br>
+                         初次接触Linux，折腾Ubuntu，浏览器全面转向Firefox，遇到韦诺之战(The Battle for Wesnoth)。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2015.2.11
+                    </div>
+                    <div class="timeline-content">
+                        拿到C1驾照。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2015.3.5
+                    </div>
+                    <div class="timeline-content">
+                        第一部Apple设备，iPhone 6，取名“Nana”。<br>
+                        开启Apple之门。启用iCloud照片，以图片记录生活，时间线清晰。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2015.5.11
+                    </div>
+                    <div class="timeline-content">
+                        上传到B站的第一个视频，【未闻花名】secret base~你给我的所有~(混合版)。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2015.7.6
+                    </div>
+                    <div class="timeline-content">
+                        启用新头像
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2015.8.16
+                    </div>
+                    <div class="timeline-content">
+                        第一台MacBook Pro (Retina, 13-inch, Early 2015)，仍叫“Anna”，自此Anna成了我的电脑专属称呼。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2015.11.21
+                    </div>
+                    <div class="timeline-content">
+                        写第一个网页 <s><code>ianna.xyz</code></s>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2015.11.25
+                    </div>
+                    <div class="timeline-content">
+                        萌生写博客的想法，立即动手用WordPress搭建第一个博客 <s><code>blog.ianna.xyz</code></s>，<br>
+                        取名「iAnna」，源自我的电脑名字Anna。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2015.11.29
+                    </div>
+                    <div class="timeline-content">
+                        废寝忘食折腾了几天WordPress，觉得应该专注内容，又了解到Hexo，于是把博客迁移到Hexo。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2015.12.20
+                    </div>
+                    <div class="timeline-content">
+                        购买新域名 <s><code>ykqmain.com</code></s>，稳定下来，正式开启博客记录之旅。<br>
+                        启用域名邮箱 <s><code>i@ykqmain.com</code></s>。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2016.11.26
+                    </div>
+                    <div class="timeline-content">
+                        婧玉
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2018.6.30
+                    </div>
+                    <div class="timeline-content">
+                        大学毕业
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2019.2.16
+                    </div>
+                    <div class="timeline-content">
+                        北漂。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2019.3.18
+                    </div>
+                    <div class="timeline-content">
+                        第一份正式工作，第一天上班。<br>
+                        印象最深刻的，不是工作的内容，而是每天单程90分钟的通勤，1小时地铁、30分钟步行。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2019.5.26
+                    </div>
+                    <div class="timeline-content">
+                        开始点外卖的生活，因为每天食物实在是太单一了。<br>
+                        一个人躺着，看着窗外下午的阳光。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2019.7.17
+                    </div>
+                    <div class="timeline-content">
+                        多次深思熟虑，在租房的导火索下，提出辞职。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2019.10.10
+                    </div>
+                    <div class="timeline-content">
+                        在北京上班的最后一天。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2019.10.14
+                    </div>
+                    <div class="timeline-content">
+                        「江畔何人初见月？江月何年初照人？人生代代无穷已，江月年年望相似。」
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2020.1.23
+                    </div>
+                    <div class="timeline-content">
+                        COVID-19。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2021.1.8
+                    </div>
+                    <div class="timeline-content">
+                        新工作。
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        @Now
+                    </div>
+                    <div class="timeline-content">
+                        To be continued...<br>
+                        <mark><em><strong>Update: 2025.09</strong></em></mark>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="photo-section">
+          <!-- <h2>照片墙</h2> -->
+          <div class="photo-wrapper">
+            <img src="./Pix/bg.png" alt="我的照片">
+          </div>
+        </section>
+
+        <section class="contact-section">
+            <h2>联系我</h2>
+            <nav class="social-icons">
+                <a aria-label="邮箱" href="mailto:i@ykqmain.net" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
+                <a aria-label="Bilibili" href="https://space.bilibili.com/7216933" target="_blank" rel="noopener noreferrer"><i class="fab fa-bilibili"></i></a>
+                <a aria-label="抖音" href="https://v.douyin.com/ifcVCneL/" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+                <!-- 小红书 -->
+                <a aria-label="小红书" href="https://www.xiaohongshu.com/user/profile/63f491d3000000000f011645" target="_blank" rel="noopener noreferrer"><svg fill="currentColor" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Xiaohongshu</title><path d="M22.405 9.879c.002.016.01.02.07.019h.725a.797.797 0 0 0 .78-.972.794.794 0 0 0-.884-.618.795.795 0 0 0-.692.794c0 .101-.002.666.001.777zm-11.509 4.808c-.203.001-1.353.004-1.685.003a2.528 2.528 0 0 1-.766-.126.025.025 0 0 0-.03.014L7.7 16.127a.025.025 0 0 0 .01.032c.111.06.336.124.495.124.66.01 1.32.002 1.981 0 .01 0 .02-.006.023-.015l.712-1.545a.025.025 0 0 0-.024-.036zM.477 9.91c-.071 0-.076.002-.076.01a.834.834 0 0 0-.01.08c-.027.397-.038.495-.234 3.06-.012.24-.034.389-.135.607-.026.057-.033.042.003.112.046.092.681 1.523.787 1.74.008.015.011.02.017.02.008 0 .033-.026.047-.044.147-.187.268-.391.371-.606.306-.635.44-1.325.486-1.706.014-.11.021-.22.03-.33l.204-2.616.022-.293c.003-.029 0-.033-.03-.034zm7.203 3.757a1.427 1.427 0 0 1-.135-.607c-.004-.084-.031-.39-.235-3.06a.443.443 0 0 0-.01-.082c-.004-.011-.052-.008-.076-.008h-1.48c-.03.001-.034.005-.03.034l.021.293c.076.982.153 1.964.233 2.946.05.4.186 1.085.487 1.706.103.215.223.419.37.606.015.018.037.051.048.049.02-.003.742-1.642.804-1.765.036-.07.03-.055.003-.112zm3.861-.913h-.872a.126.126 0 0 1-.116-.178l1.178-2.625a.025.025 0 0 0-.023-.035l-1.318-.003a.148.148 0 0 1-.135-.21l.876-1.954a.025.025 0 0 0-.023-.035h-1.56c-.01 0-.02.006-.024.015l-.926 2.068c-.085.169-.314.634-.399.938a.534.534 0 0 0-.02.191.46.46 0 0 0 .23.378.981.981 0 0 0 .46.119h.59c.041 0-.688 1.482-.834 1.972a.53.53 0 0 0-.023.172.465.465 0 0 0 .23.398c.15.092.342.12.475.12l1.66-.001c.01 0 .02-.006.023-.015l.575-1.28a.025.025 0 0 0-.024-.035zm-6.93-4.937H3.1a.032.032 0 0 0-.034.033c0 1.048-.01 2.795-.01 6.829 0 .288-.269.262-.28.262h-.74c-.04.001-.044.004-.04.047.001.037.465 1.064.555 1.263.01.02.03.033.051.033.157.003.767.009.938-.014.153-.02.3-.06.438-.132.3-.156.49-.419.595-.765.052-.172.075-.353.075-.533.002-2.33 0-4.66-.007-6.991a.032.032 0 0 0-.032-.032zm11.784 6.896c0-.014-.01-.021-.024-.022h-1.465c-.048-.001-.049-.002-.05-.049v-4.66c0-.072-.005-.07.07-.07h.863c.08 0 .075.004.075-.074V8.393c0-.082.006-.076-.08-.076h-3.5c-.064 0-.075-.006-.075.073v1.445c0 .083-.006.077.08.077h.854c.075 0 .07-.004.07.07v4.624c0 .095.008.084-.085.084-.37 0-1.11-.002-1.304 0-.048.001-.06.03-.06.03l-.697 1.519s-.014.025-.008.036c.006.01.013.008.058.008 1.748.003 3.495.002 5.243.002.03-.001.034-.006.035-.033v-1.539zm4.177-3.43c0 .013-.007.023-.02.024-.346.006-.692.004-1.037.004-.014-.002-.022-.01-.022-.024-.005-.434-.007-.869-.01-1.303 0-.072-.006-.071.07-.07l.733-.003c.041 0 .081.002.12.015.093.025.16.107.165.204.006.431.002 1.153.001 1.153zm2.67.244a1.953 1.953 0 0 0-.883-.222h-.18c-.04-.001-.04-.003-.042-.04V10.21c0-.132-.007-.263-.025-.394a1.823 1.823 0 0 0-.153-.53 1.533 1.533 0 0 0-.677-.71 2.167 2.167 0 0 0-1-.258c-.153-.003-.567 0-.72 0-.07 0-.068.004-.068-.065V7.76c0-.031-.01-.041-.046-.039H17.93s-.016 0-.023.007c-.006.006-.008.012-.008.023v.546c-.008.036-.057.015-.082.022h-.95c-.022.002-.028.008-.03.032v1.481c0 .09-.004.082.082.082h.913c.082 0 .072.128.072.128V11.19s.003.117-.06.117h-1.482c-.068 0-.06.082-.06.082v1.445s-.01.068.064.068h1.457c.082 0 .076-.006.076.079v3.225c0 .088-.007.081.082.081h1.43c.09 0 .082.007.082-.08v-3.27c0-.029.006-.035.033-.035l2.323-.003c.098 0 .191.02.28.061a.46.46 0 0 1 .274.407c.008.395.003.79.003 1.185 0 .259-.107.367-.33.367h-1.218c-.023.002-.029.008-.028.033.184.437.374.871.57 1.303a.045.045 0 0 0 .04.026c.17.005.34.002.51.003.15-.002.517.004.666-.01a2.03 2.03 0 0 0 .408-.075c.59-.18.975-.698.976-1.313v-1.981c0-.128-.01-.254-.034-.38 0 .078-.029-.641-.724-.998z"></path></svg></a>
+                <!-- 豆瓣 -->
+                <a aria-label="豆瓣" href="https://www.douban.com/people/288645443/" target="_blank" rel="noopener noreferrer"><svg fill="currentColor" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Douban</title><path d="M.51 3.06h22.98V.755H.51V3.06Zm20.976 2.537v9.608h-2.137l-1.669 5.76H24v2.28H0v-2.28h6.32l-1.67-5.76H2.515V5.597h18.972Zm-5.066 9.608H7.58l1.67 5.76h5.501l1.67-5.76ZM18.367 7.9H5.634v5.025h12.733V7.9Z"></path></svg></a>
+                <a aria-label="GitHub" href="https://github.com/ykqmain" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a aria-label="Twitter" href="https://twitter.com/ykqmain" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a aria-label="Discord" href="https://discord.com" target="_blank" rel="noopener noreferrer" class="discord" data-username="qiufengmuye"><i class="fab fa-discord"></i></a>
+                <a aria-label="Steam" href="https://store.steampowered.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-steam"></i></a>
+            </nav>
+        </section>
+    </main>
+
+    <footer>
+        ©<span id="year"></span> <a href="https://ykqmain.net">ykqmain</a> All rights reserved. | <a href="#top" class="back-to-top">↑ Top</a>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // PC 悬停显示，手机点击显示
+        document.querySelectorAll('a.discord').forEach(el => {
+            el.addEventListener('click', e => {
+                if (window.innerWidth < 768) { // 手机端
+                    e.preventDefault();          // 阻止直接跳转 Discord 官网
+                    el.classList.toggle('show-tooltip');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
