@@ -1,286 +1,358 @@
 /* ========== 全局变量 ========== */
 :root {
-  --bg: #fff;
-  --text: #111;
-  --muted: #555;
-  --link: #0366d6;
-  --border: #ddd;
-  --icon-bg: #f0f0f0;
-  --small-text: 0.9rem;
+    --bg: #fff;
+    --text: #111;
+    --muted: #555;
+    --link: #0366d6;
+    --border: #ddd;
+    --icon-bg: #f0f0f0;
+    --small-text: 0.9rem;
 }
+
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #111;
-    --text: #eee;
-    --muted: #aaa;
-    --link: #4ea1f3;
-    --border: #444;
-    --icon-bg: #222;
-  }
+    :root {
+        --bg: #111;
+        --text: #eee;
+        --muted: #aaa;
+        --link: #4ea1f3;
+        --border: #444;
+        --icon-bg: #222;
+    }
 }
 
 
 /* ========== 基础排版 ========== */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  line-height: 1.6;
-  padding: 2rem;
-  max-width: 720px;
-  margin-inline: auto;
-  text-align: center;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 2rem;
+    max-width: 720px;
+    margin-inline: auto;
+    text-align: center;
 }
 
 h1 {
-  font-size: 1.9rem;
-  margin: 0.5rem 0;
+    font-size: 1.9rem;
+    margin: 0.5rem 0;
 }
 
 section h2 {
-  font-size: 1.2rem;
-  margin: 2rem 0 0.6rem;
-  text-align: left;
+    font-size: 1.2rem;
+    margin: 2rem 0 0.6rem;
+    text-align: left;
 }
 
 a {
-  color: var(--link);
-  text-decoration: none;
+    color: var(--link);
+    text-decoration: none;
 }
+
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .muted {
-  color: var(--muted);
-  font-size: var(--small-text);
+    color: var(--muted);
+    font-size: var(--small-text);
 }
 
 footer {
-  margin-top: 3rem;
-  padding: 1rem 0 0 0;   /* 上 右 下 左 */
-  font-size: 0.85rem;
-  color: var(--muted);
-  text-align: center;
-  border-top: 1px solid var(--border);
+    margin-top: 3rem;
+    padding: 1rem 0 0 0;
+    /* 上 右 下 左 */
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-align: center;
+    border-top: 1px solid var(--border);
 }
 
 /*平滑滚动*/
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* 响应式换行：电脑一行，手机分两行 */
 .break {
-  display: none;
+    display: none;
 }
 
 @media (max-width: 768px) {
-  .break {
-    display: block; /* 分号后换行 */
-  }
+    .break {
+        display: block;
+        /* 分号后换行 */
+    }
 }
 
 
 /* ========== 头像 ========== */
 .avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-  border: 2px solid var(--border);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 2px solid var(--border);
 }
 
 
 /* ========== 模块标题配色 (Apple 风格) ========== */
 .about {
-  text-align: left;
+    text-align: left;
 }
-.about h2 { color: #FF3B30; }
-.projects-section h2 { color: #FF9500; }
-.timeline-section h2 { color: #34C759; }
-.contact-section h2 { color: #AF52DE; }
-.photo-section h2 { color: #FF2D55;}
+
+.about h2 {
+    color: #FF3B30;
+}
+
+.projects-section h2 {
+    color: #FF9500;
+}
+
+.timeline-section h2 {
+    color: #34C759;
+}
+
+.contact-section h2 {
+    color: #AF52DE;
+}
+
+.photo-section h2 {
+    color: #FF2D55;
+}
 
 
 /* ========== 作品集 ========== */
 .projects {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-  text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    text-align: left;
 }
+
 .project-card {
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 1rem;
-  transition: border-color 0.3s;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: border-color 0.3s;
 }
+
 .project-card:hover {
-  border-color: var(--link);
+    border-color: var(--link);
 }
+
 .project-title {
-  font-weight: bold;
-  margin-bottom: 0.3rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
 }
+
 .project-desc {
-  color: var(--muted);
-  font-size: var(--small-text);
-  margin-bottom: 0.5rem;
+    color: var(--muted);
+    font-size: var(--small-text);
+    margin-bottom: 0.5rem;
 }
 
 
 /* ========== 时间线 ========== */
 .timeline {
-  text-align: left;
-  border-left: 2px solid var(--border);
-  margin: 1.5rem 0;
-  padding-left: 1rem;
-  position: relative;
+    text-align: left;
+    border-left: 2px solid var(--border);
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    position: relative;
 }
+
 .timeline-item {
-  margin-bottom: 1.2rem;
-  position: relative;
+    margin-bottom: 1.2rem;
+    position: relative;
 }
+
 .timeline-item::before {
-  content: "";
-  position: absolute;
-  left: -1.1rem;
-  top: 0.4em;
-  width: 10px;
-  height: 10px;
-  background: var(--link);
-  border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: -1.1rem;
+    top: 0.4em;
+    width: 10px;
+    height: 10px;
+    background: var(--link);
+    border-radius: 50%;
 }
+
 .timeline-date {
-  font-weight: bold;
-  color: var(--text);
+    font-weight: bold;
+    color: var(--text);
 }
+
 .timeline-content {
-  margin-top: 0.3rem;
-  color: var(--muted);
+    margin-top: 0.3rem;
+    color: var(--muted);
 }
 
 
 /* ========== 照片墙 ========== */
 .photo-wrapper {
-  text-align: left;
-  margin-top: 1em;
+    text-align: left;
+    margin-top: 1em;
 }
 
 /* 默认（手机端） */
 .photo-wrapper img {
-  max-width: 300px;
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* 桌面端（屏幕宽度 ≥ 768px 时） */
 @media (min-width: 768px) {
-  .photo-wrapper img {
-    max-width: 480px;
-  }
+    .photo-wrapper img {
+        max-width: 480px;
+    }
 }
 
 /* 大屏幕（宽度 ≥ 1200px 时） */
 @media (min-width: 1200px) {
-  .photo-wrapper img {
-    max-width: 600px;
-  }
+    .photo-wrapper img {
+        max-width: 600px;
+    }
 }
 
 
 /* ========== 社交图标 ========== */
 nav.social-icons {
-  margin-top: 1rem;
-  display: flex;
-  gap: 0.6rem;
-  justify-content: center;
-  flex-wrap: wrap;
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.6rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 nav.social-icons a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: var(--icon-bg);
-  color: var(--text);
-  font-size: 16px;
-  transition: background 0.3s, color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--icon-bg);
+    color: var(--text);
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
 }
+
 nav.social-icons a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 nav.social-icons svg {
-  width: 16px;
-  height: 16px;
-  fill: currentColor;
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
 }
 
 /* 品牌 Hover 色 */
-nav.social-icons a[aria-label="邮箱"]:hover { background: #2DB200; color: #fff; } /* 网易126绿 */
-nav.social-icons a[aria-label="Bilibili"]:hover { background: #00A1D6; color: #fff; }
-nav.social-icons a[aria-label="抖音"]:hover { background: #000; color: #FE2C55; }
-nav.social-icons a[aria-label="TikTok"]:hover { background: linear-gradient(135deg, #25F4EE, #FE2C55); color: #fff; }
-nav.social-icons a[aria-label="小红书"]:hover { background: #fe2c55; color: #fff; }
-nav.social-icons a[aria-label="豆瓣"]:hover   { background: #007722; color: #fff; }
-nav.social-icons a[aria-label="GitHub"]:hover { background: #333; color: #fff; }
-nav.social-icons a[aria-label="Twitter"]:hover{ background: #1DA1F2; color: #fff; }
-nav.social-icons a[aria-label="Discord"]:hover { background: #5865F2; color: #fff; }
-nav.social-icons a[aria-label="Steam"]:hover { background: #171A21; color: #fff; }
+nav.social-icons a[aria-label="邮箱"]:hover {
+    background: #2DB200;
+    color: #fff;
+}
+
+/* 网易126绿 */
+nav.social-icons a[aria-label="Bilibili"]:hover {
+    background: #00A1D6;
+    color: #fff;
+}
+
+nav.social-icons a[aria-label="抖音"]:hover {
+    background: #000;
+    color: #FE2C55;
+}
+
+nav.social-icons a[aria-label="TikTok"]:hover {
+    background: linear-gradient(135deg, #25F4EE, #FE2C55);
+    color: #fff;
+}
+
+nav.social-icons a[aria-label="小红书"]:hover {
+    background: #fe2c55;
+    color: #fff;
+}
+
+nav.social-icons a[aria-label="豆瓣"]:hover {
+    background: #007722;
+    color: #fff;
+}
+
+nav.social-icons a[aria-label="GitHub"]:hover {
+    background: #333;
+    color: #fff;
+}
+
+nav.social-icons a[aria-label="Twitter"]:hover {
+    background: #1DA1F2;
+    color: #fff;
+}
+
+nav.social-icons a[aria-label="Discord"]:hover {
+    background: #5865F2;
+    color: #fff;
+}
+
+nav.social-icons a[aria-label="Steam"]:hover {
+    background: #171A21;
+    color: #fff;
+}
 
 /* Discord 浮框样式 */
 nav.social-icons a.discord {
-  position: relative;
+    position: relative;
 }
 
 nav.social-icons a.discord::after {
-  content: attr(data-username);
-  position: absolute;
-  bottom: 120%;               /* 浮框显示在图标上方 */
-  left: 50%;
-  transform: translateX(-50%);
-  background: #5865F2;        /* Discord 官方色 */
-  color: #fff;
-  padding: 4px 8px;
-  border-radius: 6px;
-  white-space: nowrap;
-  font-size: 0.8rem;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s;
-  z-index: 10;
+    content: attr(data-username);
+    position: absolute;
+    bottom: 120%;
+    /* 浮框显示在图标上方 */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #5865F2;
+    /* Discord 官方色 */
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: 10;
 }
 
 /* PC 悬停显示 */
 nav.social-icons a.discord:hover::after {
-  opacity: 1;
+    opacity: 1;
 }
 
 /* 手机点击显示 */
 nav.social-icons a.discord.show-tooltip::after {
-  opacity: 1;
+    opacity: 1;
 }
 
 
 /* ========== Markdown 风格增强 (GitHub 风格) ========== */
 code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 85%;
-  background-color: rgba(175, 184, 193, 0.2);
-  border-radius: 6px;
-  padding: 0.2em 0.4em;
-}
-blockquote {
-  margin: 0.5em 0;
-  padding-left: 1em;
-  color: #57606a;
-  border-left: 0.25em solid #d0d7de;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 85%;
+    background-color: rgba(175, 184, 193, 0.2);
+    border-radius: 6px;
+    padding: 0.2em 0.4em;
 }
 
+blockquote {
+    margin: 0.5em 0;
+    padding-left: 1em;
+    color: #57606a;
+    border-left: 0.25em solid #d0d7de;
+}
