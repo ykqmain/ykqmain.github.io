@@ -255,18 +255,23 @@ nav.social-icons svg {
 
 /* 品牌 Hover 色 */
 nav.social-icons a[aria-label="邮箱"]:hover {
+    /* 网易126绿 */
     background: #2DB200;
     color: #fff;
 }
 
-/* 网易126绿 */
+nav.social-icons a[aria-label="GitHub"]:hover {
+    background: #181717;
+    color: #fff;
+}
+
 nav.social-icons a[aria-label="Bilibili"]:hover {
     background: #00A1D6;
     color: #fff;
 }
 
 nav.social-icons a[aria-label="抖音"]:hover {
-    background: #000;
+    background: #000000;
     color: #FE2C55;
 }
 
@@ -276,17 +281,12 @@ nav.social-icons a[aria-label="TikTok"]:hover {
 }
 
 nav.social-icons a[aria-label="小红书"]:hover {
-    background: #fe2c55;
+    background: #FF2442;
     color: #fff;
 }
 
 nav.social-icons a[aria-label="豆瓣"]:hover {
-    background: #007722;
-    color: #fff;
-}
-
-nav.social-icons a[aria-label="GitHub"]:hover {
-    background: #333;
+    background: #2D963D;
     color: #fff;
 }
 
@@ -301,7 +301,12 @@ nav.social-icons a[aria-label="Discord"]:hover {
 }
 
 nav.social-icons a[aria-label="Steam"]:hover {
-    background: #171A21;
+    background: #000000;
+    color: #fff;
+}
+
+nav.social-icons a[aria-label="Epic"]:hover {
+    background: #313131;
     color: #fff;
 }
 
