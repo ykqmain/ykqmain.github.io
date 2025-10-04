@@ -8,12 +8,22 @@ function updateYear() {
 
 // 动态加载「今日诗词」SDK
 function loadJinrishici() {
+    const el = document.getElementById('jinrishici-sentence');
     const script = document.createElement('script');
     script.src = 'https://sdk.jinrishici.com/v2/browser/jinrishici.js';
     script.charset = 'utf-8';
-    script.onload = () => {
-        console.log('今日诗词 SDK 已加载');
-        // SDK 会自动将诗词填充到 #jinrishici-sentence
+    // SDK 会自动将诗词填充到 #jinrishici-sentence
+    script.onload = () => console.log('今日诗词 SDK 已加载');
+    // Safari 会拦截 “Cloudflare Analytics” 脚本
+    script.onerror = () => {
+        console.warn('Safari 可能拦截了 SDK，尝试使用 API 方式。');
+        fetch('https://v2.jinrishici.com/one.json')
+            .then(res => res.json())
+            .then(data => {
+                const el = document.getElementById('jinrishici-sentence');
+                if (el && data?.data?.content) el.textContent = data.data.content;
+            })
+            .catch(err => console.error('API 请求失败:', err));
     };
     document.head.appendChild(script);
 }
