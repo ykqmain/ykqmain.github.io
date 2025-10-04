@@ -6,6 +6,18 @@ function updateYear() {
     if (el) el.textContent = new Date().getFullYear();
 }
 
+// 动态加载「今日诗词」SDK
+function loadJinrishici() {
+    const script = document.createElement('script');
+    script.src = 'https://sdk.jinrishici.com/v2/browser/jinrishici.js';
+    script.charset = 'utf-8';
+    script.onload = () => {
+        console.log('今日诗词 SDK 已加载');
+        // SDK 会自动将诗词填充到 #jinrishici-sentence
+    };
+    document.head.appendChild(script);
+}
+
 // PC 悬停显示，手机点击显示
 function setupDiscordTooltips() {
     const discordLinks = document.querySelectorAll('a.discord');
@@ -23,6 +35,7 @@ function setupDiscordTooltips() {
 
 function init() {
     updateYear();
+    loadJinrishici();
     setupDiscordTooltips();
 }
 
