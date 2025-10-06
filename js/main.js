@@ -94,6 +94,5 @@ function init() {
     setupDiscordTooltips();
 }
 
-// document.addEventListener("DOMContentLoaded", init);
 // ES Module 默认延迟执行，DOM 已就绪
 init();
