@@ -1,13 +1,6 @@
 // main.js (作为 ES Module 使用)
 
-// 更新日期
-function updateYear() {
-    const el = document.getElementById('year');
-    if (el) el.textContent = new Date().getFullYear();
-}
-
-
-// 动态加载「今日诗词」SDK
+// 动态加载「今日诗词」SDK（含 Safari fallback）
 function isSafari() {
     const ua = navigator.userAgent;
     return /Safari/.test(ua) && !/Chrome|Chromium|Edg/.test(ua);
@@ -46,22 +39,37 @@ function loadJinrishici() {
     const el = document.getElementById('jinrishici-sentence');
     if (!el) return;
 
-    if (isSafari()) {
-        console.log('检测到 Safari，使用 API 方式加载诗词');
-        loadJinrishiciAPI(el);
-        return;
-    }
-
-    // 非 Safari，尝试加载 SDK
     const script = document.createElement('script');
     script.src = 'https://sdk.jinrishici.com/v2/browser/jinrishici.js';
     script.charset = 'utf-8';
-    script.onload = () => console.log('今日诗词 SDK 已加载');
+    script.onload = () => {
+        console.log('今日诗词 SDK 已加载');
+    };
     script.onerror = () => {
-        console.warn('SDK 加载失败，使用 API 方式');
+        console.warn('SDK 加载失败，使用 API fallback');
         loadJinrishiciAPI(el);
     };
+
+    // Safari 的 Cloudflare 拦截概率高，延迟一点加载或直接预判
+    if (isSafari()) {
+        console.log('检测到 Safari，尝试 SDK，如失败将自动 fallback');
+        // Safari 可额外设定超时 fallback（避免加载卡住）
+        setTimeout(() => {
+            if (!el.textContent || el.textContent.includes('加载')) {
+                console.warn('Safari 超时，使用 API fallback');
+                loadJinrishiciAPI(el);
+            }
+        }, 1500);
+    }
+
     document.head.appendChild(script);
+}
+
+
+// 更新日期
+function updateYear() {
+    const el = document.getElementById('year');
+    if (el) el.textContent = new Date().getFullYear();
 }
 
 
