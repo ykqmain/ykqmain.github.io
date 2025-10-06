@@ -1,6 +1,5 @@
 // main.js (作为 ES Module 使用)
 
-
 // PC 悬停显示，手机点击显示
 function setupDiscordTooltips() {
     const discordLinks = document.querySelectorAll('a.discord');
@@ -15,7 +14,6 @@ function setupDiscordTooltips() {
         });
     });
 }
-
 
 // 动态加载「今日诗词」SDK
 function loadJinrishici() {
@@ -36,14 +34,11 @@ function loadJinrishici() {
     document.head.appendChild(script);
 }
 
-
 // 更新日期
 function updateYear() {
     const el = document.getElementById('year');
     if (el) el.textContent = new Date().getFullYear();
 }
-
-
 
 function init() {
     setupDiscordTooltips();
