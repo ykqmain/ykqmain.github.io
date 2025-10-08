@@ -305,11 +305,6 @@ nav.social-icons a[aria-label="Steam"]:hover {
     color: #fff;
 }
 
-nav.social-icons a[aria-label="Epic"]:hover {
-    background: #313131;
-    color: #fff;
-}
-
 /* Discord 浮框样式 */
 nav.social-icons a.discord {
     position: relative;
