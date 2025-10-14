@@ -256,7 +256,7 @@ nav.social-icons svg {
 /* 品牌 Hover 色 */
 nav.social-icons a[aria-label="邮箱"]:hover {
     /* 网易126绿 */
-    background: #2DB200;
+    background: #1F7E3E;
     color: #fff;
 }
 
