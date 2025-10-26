@@ -260,11 +260,6 @@ nav.social-icons a[aria-label="邮箱"]:hover {
     color: #fff;
 }
 
-nav.social-icons a[aria-label="GitHub"]:hover {
-    background: #181717;
-    color: #fff;
-}
-
 nav.social-icons a[aria-label="Bilibili"]:hover {
     background: #00A1D6;
     color: #fff;
@@ -287,6 +282,11 @@ nav.social-icons a[aria-label="小红书"]:hover {
 
 nav.social-icons a[aria-label="豆瓣"]:hover {
     background: #2D963D;
+    color: #fff;
+}
+
+nav.social-icons a[aria-label="GitHub"]:hover {
+    background: #181717;
     color: #fff;
 }
 
