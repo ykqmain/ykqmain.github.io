@@ -1,6 +1,28 @@
 // main.js (作为 ES Module 使用)
 
 // PC 悬停显示，手机点击显示/隐藏
+function setupEmailTooltips() {
+    const emailLinks = document.querySelectorAll('a.email-tooltip');
+    if (!emailLinks || emailLinks.length === 0) return;
+
+    emailLinks.forEach(el => {
+        el.addEventListener('click', e => {
+            if (window.innerWidth < 768) { // 手机端
+                e.preventDefault();
+                el.classList.toggle('show-tooltip');
+
+                const handleClickOutside = evt => {
+                    if (!el.contains(evt.target)) {
+                        el.classList.remove('show-tooltip');
+                        document.removeEventListener('click', handleClickOutside);
+                    }
+                };
+                document.addEventListener('click', handleClickOutside);
+            }
+        });
+    });
+}
+
 function setupDiscordTooltips() {
     const discordLinks = document.querySelectorAll('a.discord');
     if (!discordLinks || discordLinks.length === 0) return;
@@ -50,6 +72,7 @@ function updateYear() {
 }
 
 function init() {
+    setupEmailTooltips();
     setupDiscordTooltips();
     loadJinrishici();
     updateYear();

@@ -267,6 +267,39 @@ nav.social-icons a[aria-label="邮箱"]:hover {
     color: #fff;
 }
 
+/* 邮箱浮框样式 */
+nav.social-icons a.email-tooltip {
+    position: relative;
+}
+
+nav.social-icons a.email-tooltip::after {
+    content: attr(data-username);
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1F7E3E; /* 邮箱专属颜色 */
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: 10;
+}
+
+/* PC 悬停显示 */
+nav.social-icons a.email-tooltip:hover::after {
+    opacity: 1;
+}
+
+/* 手机点击显示 */
+nav.social-icons a.email-tooltip.show-tooltip::after {
+    opacity: 1;
+}
+
 nav.social-icons a[aria-label="Bilibili"]:hover {
     background: #00A1D6;
     color: #fff;
