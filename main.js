@@ -1,15 +1,24 @@
 // main.js (作为 ES Module 使用)
 
-// PC 悬停显示，手机点击显示
+// PC 悬停显示，手机点击显示/隐藏
 function setupDiscordTooltips() {
     const discordLinks = document.querySelectorAll('a.discord');
     if (!discordLinks || discordLinks.length === 0) return;
 
     discordLinks.forEach(el => {
         el.addEventListener('click', e => {
-            if (window.innerWidth < 768) { // 手机端行为
+            if (window.innerWidth < 768) { // 手机端
                 e.preventDefault();
                 el.classList.toggle('show-tooltip');
+
+                // 点击其他地方关闭浮框
+                const handleClickOutside = evt => {
+                    if (!el.contains(evt.target)) {
+                        el.classList.remove('show-tooltip');
+                        document.removeEventListener('click', handleClickOutside);
+                    }
+                };
+                document.addEventListener('click', handleClickOutside);
             }
         });
     });
