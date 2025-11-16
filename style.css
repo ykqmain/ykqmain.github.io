@@ -262,7 +262,7 @@ nav.social-icons svg {
 
 /* 品牌 Hover 色 */
 nav.social-icons a[aria-label="邮箱"]:hover {
-    /* 网易126绿 */
+    /* 邮箱专属颜色 */
     background: #1F7E3E;
     color: #fff;
 }
@@ -279,7 +279,6 @@ nav.social-icons a.email-tooltip::after {
     left: 50%;
     transform: translateX(-50%);
     background: #1F7E3E;
-    /* 邮箱专属颜色 */
     color: #fff;
     padding: 4px 8px;
     border-radius: 6px;
