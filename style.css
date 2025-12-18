@@ -300,6 +300,46 @@ nav.social-icons a.email-tooltip.show-tooltip::after {
     opacity: 1;
 }
 
+nav.social-icons a[aria-label="Discord"]:hover {
+    background: #5865F2;
+    color: #fff;
+}
+
+/* Discord 浮框样式 */
+nav.social-icons a.discord {
+    position: relative;
+}
+
+nav.social-icons a.discord::after {
+    content: attr(data-username);
+    position: absolute;
+    bottom: 120%;
+    /* 浮框显示在图标上方 */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #5865F2;
+    /* Discord 官方色 */
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: 10;
+}
+
+/* PC 悬停显示 */
+nav.social-icons a.discord:hover::after {
+    opacity: 1;
+}
+
+/* 手机点击显示 */
+nav.social-icons a.discord.show-tooltip::after {
+    opacity: 1;
+}
+
 nav.social-icons a[aria-label="GitHub"]:hover {
     background: #181717;
     color: #fff;
@@ -340,49 +380,14 @@ nav.social-icons a[aria-label="YouTube"]:hover {
     color: #fff;
 }
 
-nav.social-icons a[aria-label="Discord"]:hover {
-    background: #5865F2;
-    color: #fff;
-}
-
 nav.social-icons a[aria-label="Steam"]:hover {
     background: #000000;
     color: #fff;
 }
 
-/* Discord 浮框样式 */
-nav.social-icons a.discord {
-    position: relative;
-}
-
-nav.social-icons a.discord::after {
-    content: attr(data-username);
-    position: absolute;
-    bottom: 120%;
-    /* 浮框显示在图标上方 */
-    left: 50%;
-    transform: translateX(-50%);
-    background: #5865F2;
-    /* Discord 官方色 */
+nav.social-icons a[aria-label="Epic"]:hover {
+    background: #313131;
     color: #fff;
-    padding: 4px 8px;
-    border-radius: 6px;
-    white-space: nowrap;
-    font-size: 0.8rem;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s;
-    z-index: 10;
-}
-
-/* PC 悬停显示 */
-nav.social-icons a.discord:hover::after {
-    opacity: 1;
-}
-
-/* 手机点击显示 */
-nav.social-icons a.discord.show-tooltip::after {
-    opacity: 1;
 }
 
 
