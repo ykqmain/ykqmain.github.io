@@ -312,11 +312,6 @@ nav.social-icons a[aria-label="Bilibili"]:hover {
 
 nav.social-icons a[aria-label="抖音"]:hover {
     background: #000000;
-    color: #FE2C55;
-}
-
-nav.social-icons a[aria-label="TikTok"]:hover {
-    background: linear-gradient(135deg, #25F4EE, #FE2C55);
     color: #fff;
 }
 
@@ -342,11 +337,6 @@ nav.social-icons a[aria-label="YouTube"]:hover {
 
 nav.social-icons a[aria-label="Discord"]:hover {
     background: #5865F2;
-    color: #fff;
-}
-
-nav.social-icons a[aria-label="Steam"]:hover {
-    background: #000000;
     color: #fff;
 }
 
@@ -383,6 +373,11 @@ nav.social-icons a.discord:hover::after {
 /* 手机点击显示 */
 nav.social-icons a.discord.show-tooltip::after {
     opacity: 1;
+}
+
+nav.social-icons a[aria-label="Steam"]:hover {
+    background: #000000;
+    color: #fff;
 }
 
 
