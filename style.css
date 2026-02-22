@@ -380,6 +380,11 @@ nav.social-icons a[aria-label="Steam"]:hover {
     color: #fff;
 }
 
+nav.social-icons a[aria-label="Epic"]:hover {
+    background: #313131;
+    color: #fff;
+}
+
 
 /* ========== Markdown 风格增强 (GitHub 风格) ========== */
 code {
