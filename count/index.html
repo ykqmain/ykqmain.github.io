@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count – 字数统计</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://ykqmain.net/favicon.ico" type="image/x-icon">
+
+    <style>
+        :root {
+            --bg: #f2f2f7;
+            --card: rgba(255, 255, 255, 0.9);
+            --text: #000;
+            --sub: #6e6e73;
+            --separator: rgba(60, 60, 67, 0.18);
+            --accent: #007aff;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #000;
+                --card: rgba(28, 28, 30, 0.9);
+                --text: #fff;
+                --sub: #98989d;
+                --separator: rgba(84, 84, 88, 0.65);
+                --accent: #0a84ff;
+            }
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .button {
+            font-size: 15px;
+            padding: 8px 16px;
+            border-radius: 999px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.08s ease, opacity 0.15s ease;
+            color: #fff;
+        }
+
+        .button:active {
+            transform: scale(0.96);
+            opacity: 0.85;
+        }
+
+        .button.primary {
+            background: var(--accent);
+        }
+
+        .button.secondary-btn {
+            margin: 16px;
+            width: calc(100% - 32px);
+            background: var(--accent);
+        }
+
+        .button.danger {
+            background: #555;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+        }
+
+        .inner {
+            padding: 16px 18px;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 220px;
+            font-size: 17px;
+            line-height: 1.6;
+            border: none;
+            outline: none;
+            resize: vertical;
+            background: transparent;
+            color: var(--text);
+            padding: 0;
+        }
+
+        .stats .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 14px 18px;
+            font-size: 16px;
+        }
+
+        .stats .row:not(:last-child) {
+            border-bottom: 0.5px solid var(--separator);
+        }
+
+        .label {
+            color: var(--sub);
+        }
+
+        .value {
+            font-weight: 500;
+        }
+
+        .footer {
+            margin-top: 18px;
+            font-size: 13px;
+            color: var(--sub);
+            text-align: center;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.75);
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 20px;
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+
+        .toast.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>字数统计</h1>
+            <button class="button danger" onclick="clearText()">清空</button>
+        </div>
+
+        <!-- 文本输入 -->
+        <div class="card">
+            <div class="inner">
+                <textarea id="text" placeholder="输入或粘贴文本…"></textarea>
+            </div>
+        </div>
+
+        <!-- 统计区域 -->
+        <div class="card stats" style="margin-top:20px;" id="stats"></div>
+
+        <button class="button secondary-btn" onclick="copyStats(currentStatsText,'已复制统计结果')">一键复制统计结果</button>
+
+        <div class="footer">
+            本地统计 · UTF-8精确 · 支持Emoji · 自动深浅主题
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+        const textarea = document.getElementById('text');
+        const stats = document.getElementById('stats');
+        const toast = document.getElementById('toast');
+
+        textarea.value = "";
+        let currentStatsText = "";
+
+        function updateStats() {
+            const text = textarea.value;
+            const characters = Array.from(text).length;
+            const chinese = (text.match(/\p{Script=Han}/gu) || []).length;
+            const letters = (text.match(/[a-zA-Z]/g) || []).length;
+            const numbers = (text.match(/[0-9]/g) || []).length;
+            const punctuation = (text.match(/\p{P}/gu) || []).length;
+            const spaces = (text.match(/\s/g) || []).length;
+            const words = (text.match(/\b[a-zA-Z]+\b/g) || []).length;
+            const lines = text ? text.split(/\r?\n/).length : 0;
+            const utf8Bytes = new TextEncoder().encode(text).length;
+
+            currentStatsText =
+                `字符数：${characters}
+中文字数：${chinese}
+英文字母：${letters}
+英文单词：${words}
+数字：${numbers}
+标点：${punctuation}
+空格：${spaces}
+行数：${lines}
+UTF-8字节数：${utf8Bytes}`;
+
+            stats.innerHTML = currentStatsText.split("\n").map(line => {
+                const parts = line.split("：");
+                return `<div class="row"><span class="label">${parts[0]}</span><span class="value">${parts[1]}</span></div>`;
+            }).join("");
+        }
+
+        function showToast(message, duration = 1500) {
+            toast.textContent = message;
+            toast.classList.add("show");
+            setTimeout(() => toast.classList.remove("show"), duration);
+        }
+
+        // 清空按钮
+        function clearText() {
+            textarea.value = "";
+            updateStats();
+            showToast("已清空文本");
+        }
+
+        // 复制按钮
+        function copyStats(textToCopy, message = "已复制到剪贴板") {
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                showToast(message);
+            });
+        }
+
+        textarea.addEventListener("input", updateStats);
+        updateStats();
+    </script>
+
+</body>
+
+</html>
