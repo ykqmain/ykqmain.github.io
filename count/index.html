@@ -194,26 +194,47 @@
 
         function updateStats() {
             const text = textarea.value;
+
             const characters = Array.from(text).length;
+            const utf8Bytes = new TextEncoder().encode(text).length;
+
             const chinese = (text.match(/\p{Script=Han}/gu) || []).length;
+            const words = (text.match(/\b[a-zA-Z]+\b/g) || []).length;
+
             const letters = (text.match(/[a-zA-Z]/g) || []).length;
             const numbers = (text.match(/[0-9]/g) || []).length;
             const punctuation = (text.match(/\p{P}/gu) || []).length;
+
             const spaces = (text.match(/\s/g) || []).length;
-            const words = (text.match(/\b[a-zA-Z]+\b/g) || []).length;
             const lines = text ? text.split(/\r?\n/).length : 0;
-            const utf8Bytes = new TextEncoder().encode(text).length;
+
+            // 连续换行视作分隔，忽略空白段落
+            const paragraphs = textarea.value
+                .split(/\n+/)
+                .filter(p => p.trim())
+                .length;
+
+            // 中文字符
+            const chineseChars = (text.match(/[\u3000-\u303F\uFF00-\uFFEF\u4E00-\u9FFF]/g) || []).length;
+            // 非中文单词
+            const nonChineseWords = (text
+                .replace(/[\u3000-\u303F\uFF00-\uFFEF\u4E00-\u9FFF]/g, ' ')
+                .match(/\S+/g) || []).length;
+            // WPS字数
+            const wpsCount = chineseChars + nonChineseWords;
 
             currentStatsText =
                 `字符数：${characters}
-中文字数：${chinese}
-英文字母：${letters}
-英文单词：${words}
+UTF-8：${utf8Bytes}
+汉字：${chinese}
+英文：${words}
+字母：${letters}
 数字：${numbers}
 标点：${punctuation}
 空格：${spaces}
 行数：${lines}
-UTF-8字节数：${utf8Bytes}`;
+段落（Beta）：${paragraphs}
+WPS字数（Beta）：${wpsCount}`;
 
             stats.innerHTML = currentStatsText.split("\n").map(line => {
                 const parts = line.split("：");
